@@ -426,6 +426,27 @@ def detect_cuts(fr, fps):
         local = float(np.median(nb)) if len(nb) else 0.0
         if d[i] >= floor and d[i] >= 2.2 * max(local, 1.0) and d[i] == d[max(0, i - 2):i + 3].max():
             cuts.append(i + 1)
+    # second signal: colour-distribution jump. A pan or a walk moves pixels but keeps the colour histogram; a cut swaps it.
+    # Catches cuts inside fast motion, where the pixel-change spike is not 2.2x its busy neighbourhood (selftest: pan -> cut).
+    if fr.ndim == 4 and len(fr) > 2:
+        q = (fr[..., 0] // 64).astype(np.int32) * 16 + (fr[..., 1] // 64) * 4 + (fr[..., 2] // 64)
+        hist = np.stack([np.bincount(f.ravel(), minlength=64) for f in q]).astype(np.float32)
+        hist /= hist.sum(1, keepdims=True)
+        hd = 0.5 * np.abs(np.diff(hist, axis=0)).sum(1)                    # total-variation distance 0..1 between frames
+        for i in range(len(hd)):
+            lo, hi = max(0, i - w), min(len(hd), i + w + 1)
+            nb = np.delete(hd[lo:hi], i - lo)
+            local = float(np.median(nb)) if len(nb) else 0.0
+            if hd[i] >= 0.35 and hd[i] >= 3.0 * max(local, 0.02) and hd[i] == hd[max(0, i - 2):i + 3].max() and d[i] >= 0.5 * floor:
+                # a cut joins colour states; a zoom/fractal/strobe keeps changing on both sides
+                A, B = hist[max(0, i - 3):i + 1], hist[i + 1:i + 5]
+                if len(A) >= 2 and len(B) >= 2:
+                    between = 0.5 * np.abs(A.mean(0) - B.mean(0)).sum()
+                    # one stable side is enough (a cut INTO a moving shot); both sides churning = zoom/fractal, not a cut
+                    within = min(0.5 * np.abs(np.diff(A, axis=0)).sum(1).mean(), 0.5 * np.abs(np.diff(B, axis=0)).sum(1).mean())
+                    if between < 0.3 or between < 2.5 * within: continue
+                cuts.append(i + 1)
+        cuts = sorted(set(cuts))
     minimal = max(2, int(0.25 * fps)); out = []
     for c in cuts:
         if not out or c - out[-1] >= minimal: out.append(c)
@@ -542,8 +563,18 @@ def analyze_file(path, lang, want_tr):
         b0, b1 = float(bright[max(0, c - 4):c].mean()) if c > 0 else 0, float(bright[c:c + 4].mean()) if c < len(bright) else 0
         flash = float(bright[max(0, c - 3):c + 4].max() - min(b0, b1)) if len(bright) else 0
         kind = "hard cut" if wdt <= 2 else ("flash" if flash > 0.3 else "blur/whip/zoom")
+        # same framing on both sides = a jump cut / AI-generation seam inside one take, not a new shot
+        pre, post = g[max(0, c - 3):c].mean(0), g[c:c + 3].mean(0)
+        if len(g[max(0, c - 3):c]) and len(g[c:c + 3]):
+            a_, b_ = pre[::4, ::4], post[::4, ::4]
+            a_, b_ = (a_ - a_.mean()) / (a_.std() + 1e-6), (b_ - b_.mean()) / (b_.std() + 1e-6)
+            same = float((a_ * b_).mean())
+            if kind != "flash" and same >= 0.7: kind = "jump/seam (same framing)"
         trans.append({"t": round(c / fps, 2), "kind": kind, "width_frames": wdt})
     tmix = dict(Counter(t["kind"] for t in trans))
+    # takes = what the viewer reads as one shot (jump cuts / generation seams merged); edit points = every cut
+    tb = [0.0] + [t["t"] for t in trans if not t["kind"].startswith("jump")] + [pr["duration"]]
+    takes = [round(tb[i + 1] - tb[i], 2) for i in range(len(tb) - 1)]
     # time series in 3 s windows (curves, not just averages)
     win = 3.0; series = []
     for k in range(int(pr["duration"] // win) + 1):
@@ -555,6 +586,7 @@ def analyze_file(path, lang, want_tr):
           "series_3s": series, **{k: pr[k] for k in ("duration", "width", "height", "fps")},
           "aspect": round(pr["width"] / pr["height"], 3), "duration_s": round(pr["duration"], 2), "cuts": len(cuts),
           "cuts_per_min": round(len(cuts) / pr["duration"] * 60, 1), "shot_len_median_s": round(statistics.median(lens), 2), "shot_len_mean_s": round(statistics.mean(lens), 2),
+          "takes": len(takes), "take_len_median_s": round(statistics.median(takes), 2), "take_len_mean_s": round(statistics.mean(takes), 2), "seams": sum(1 for t in trans if t["kind"].startswith("jump")),
           "shot_len_p10_s": round(float(np.percentile(lens, 10)), 2), "shot_len_p90_s": round(float(np.percentile(lens, 90)), 2), "cut_threshold": round(thr, 1), "roi_yxyx": list(roi) if roi else None, "roi_note": "measurements use only the changing region of the frame" if roi else "full frame",
           "palette": pal, "brightness_mean": round(float(bright.mean()), 3), "dark_frame_ratio": round(float((bright < 0.25).mean()), 3), "light_frame_ratio": round(float((bright > 0.7).mean()), 3),
           "motion_mean": round(float(motion.mean()), 4), "motion_p90": round(float(np.percentile(motion, 90)), 4)}
@@ -568,6 +600,7 @@ def analyze_file(path, lang, want_tr):
     lang_short = "tr" if lg == "tr" else "en"
     plan = []
     if words:
+        fp["words"] = [[round(w["t"], 2), w["w"]] for w in words] if words and "w" in words[0] else [[round(t, 2), w] for t, w in ws]
         fp["transcript_lang"] = lg; fp["wpm_overall"] = round(len(words) / max(1, words[-1]["end"] - words[0]["t"]) * 60)
         chunks = chunk_words(words, hard=[s["start"] for s in shots if s["start"] > 0 and False])
         plan = plan_scenes(make_items(chunks, pr["duration"], None), pr["duration"], lang_short, None, shots)
@@ -600,6 +633,7 @@ def analyze_file(path, lang, want_tr):
     L = [f"# Reference analysis (FILE) - {os.path.basename(path)}", "", "## Measured",
          f"- {fp['width']}x{fp['height']} @ {fp['fps']} fps, {mmss(fp['duration_s'])}; analysed region: {fp['roi_note']} {fp['roi_yxyx'] or ''}",
          f"- Cuts: {fp['cuts']} ({fp['cuts_per_min']}/min); shot length median {fp['shot_len_median_s']} s, mean {fp['shot_len_mean_s']} s, p10 {fp['shot_len_p10_s']} s, p90 {fp['shot_len_p90_s']} s",
+         f"- Takes (framing changes; {fp['seams']} jump cuts / generation seams merged): {fp['takes']}, median {fp['take_len_median_s']} s, mean {fp['take_len_mean_s']} s",
          f"- Palette (k-means over all frames): {', '.join(f'{h} ({w:.0%})' for h, w in pal)}",
          f"- Brightness mean {fp['brightness_mean']}; dark frames {fp['dark_frame_ratio']:.0%}, light frames {fp['light_frame_ratio']:.0%}", f"- Motion energy mean {fp['motion_mean']}, p90 {fp['motion_p90']}"]
     if fp.get("loudness"): L.append(f"- Loudness {fp['loudness']['lufs']} LUFS, true peak {fp['loudness']['true_peak_db']} dBFS, LRA {fp['loudness']['lra']}")

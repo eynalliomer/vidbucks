@@ -10,6 +10,8 @@ description: Entry point of Vidbucks. Use whenever the user wants to make, plan,
 3. Work in progress? `core/videos/*/STATUS.md`. Resume instead of restarting.
 4. **Any reference or style wish (link, mp4, screenshots, "like this", a promo/short/reel)** -> skill **`vidbucks-reference-to-video`**. Do not ask the user for reference images, photos or analysis; ask only user-owned decisions.
 5. **A long explainer / stickman / doodle video** -> long-form route (CLAUDE.md section 5): Decision Card -> `vidbucks-script` -> voice -> `vidbucks-longform-build` (+ `vidbucks-stickman-engine`) -> `vidbucks-qa-revise`.
+5b. **A historical / character POV vlog made with an AI video model (Flow, Veo, Omni)** -> skill **`vidbucks-historical-pov`** (format, script engine, character lock, prompt blocks, Flow costs and failure rules).
+5c. **Before delivering anything** -> `python core/tools/quality_gate.py <video>` must PASS (skill `vidbucks-qa-revise`: words check before generating, the gate after, the jury with every draft).
 6. **A channel to learn from** -> `vidbucks-channel-study`. **Published numbers to judge** -> `vidbucks-metrics`. **Feedback on a built video** -> `vidbucks-qa-revise` (revision protocol).
 7. After every step update the video's `STATUS.md`; append decisions to `DECISIONS.md`.
 8. End every deliverable with an honest note: what was verified (numbers, stills, scores) and what was not (you cannot hear audio).
