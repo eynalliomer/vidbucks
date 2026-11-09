@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vidbucks Flow Bridge</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#dedbd3;--acc:#1f6f5c;--accink:#fff;--warn:#b4531a;--bad:#b3261e;--ok:#1f7a3f;--code:#f0eee9}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--card:#1f1f1c;--ink:#ecebe6;--mute:#9a988f;--line:#34332e;--acc:#4fb39a;--accink:#0b1f1a;--warn:#e0884f;--bad:#f08c84;--ok:#66c58a;--code:#262521}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:5}
+h1{font-size:17px;margin:0}
+.chip{display:inline-flex;gap:6px;align-items:center;padding:4px 10px;border-radius:99px;border:1px solid var(--line);font-size:13px;color:var(--mute)}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--bad);display:inline-block}
+.chip.on i{background:var(--ok)}
+main{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:16px;padding:16px 20px;max-width:1400px;margin:0 auto}
+@media (max-width:900px){main{grid-template-columns:1fr;padding:12px 16px}}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+h2{font-size:14px;margin:0 0 10px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}
+label{display:block;font-size:13px;color:var(--mute);margin:8px 0 3px}
+input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:7px 9px}
+textarea{min-height:90px;resize:vertical}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px}
+button.pri{background:var(--acc);color:var(--accink);border-color:var(--acc);font-weight:600}
+button.bad{color:var(--bad)}
+button:disabled{opacity:.5;cursor:not-allowed}
+.card{border:1px solid var(--line);border-radius:10px;padding:10px;margin-top:10px;background:var(--bg)}
+.card .top{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:4px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tag{padding:3px 9px;border-radius:99px;border:1px solid var(--line);font-size:12px;cursor:pointer;color:var(--mute)}
+.tag.sel{background:var(--acc);color:var(--accink);border-color:var(--acc)}
+.est{display:flex;flex-wrap:wrap;gap:16px;font-size:14px}
+.est b{font-size:18px}
+pre{background:var(--code);border-radius:8px;padding:10px;margin:8px 0 0;max-height:340px;overflow:auto;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word}
+video{width:100%;border-radius:10px;background:#000;margin-top:8px}
+.note{font-size:12px;color:var(--mute);margin-top:6px}
+.warn{color:var(--warn)}
+.err{color:var(--bad)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Vidbucks Flow Bridge</h1>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <span class="chip" id="chipExt"><i></i><span id="extTxt">eklenti bekleniyor…</span></span>
+    <span class="chip" id="chipRun" style="display:none">çalışıyor</span>
+  </div>
+</header>
+<main>
+<div>
+  <section>
+    <h2>Brief</h2>
+    <div class="row">
+      <div><label>Kayıtlı brief</label><select id="briefList"></select></div>
+      <div style="align-self:end"><button id="btnLoad">Aç</button> <button id="btnNew">Yeni</button></div>
+    </div>
+    <div class="row">
+      <div><label>Ad</label><input id="name" placeholder="my-video"></div>
+      <div><label>Model</label><select id="model"></select></div>
+      <div><label>Çözünürlük</label><select id="quality"></select></div>
+      <div><label>En-boy</label><select id="aspect"><option>16:9</option><option>9:16</option></select></div>
+      <div><label>Varsayılan süre (sn)</label><select id="duration"></select></div>
+    </div>
+    <label>Flow proje adresi (boşsa açık sekmedeki proje)</label>
+    <input id="project" placeholder="https://flow.google.com/project/…">
+    <label>Sabit stil bloğu (her sahnenin başına eklenir: kıyafetler, mekân, ışık, “kamera/tripod/yazı yok”)</label>
+    <textarea id="lock"></textarea>
+  </section>
+
+  <section>
+    <h2>Claude ile taslak <span class="note">(token kullanır, claude girişi gerekir)</span></h2>
+    <label>Konu / hikâye</label>
+    <textarea id="topic" style="min-height:60px" placeholder="Örn: iki komşu, bozuk bir asansör ve ‘beş dakika’ şakası"></textarea>
+    <div class="row">
+      <div><label>Sahne sayısı</label><input id="dScenes" type="number" min="1" max="30" value="6"></div>
+      <div><label>Sahne süresi (sn)</label><select id="dDur"><option>4</option><option>6</option><option>8</option><option selected>10</option></select></div>
+      <div><label>Diyalog dili</label><input id="dLang" value="Turkish"></div>
+    </div>
+    <div class="actions"><button id="btnDraft">Taslağı yaz</button><span class="note" id="draftNote"></span></div>
+  </section>
+
+  <section>
+    <h2>Karakterler <span class="note">(Flow’da bir kez üretilir, sonra isimle referans verilir)</span></h2>
+    <div id="chars"></div>
+    <div class="actions"><button id="btnAddChar">+ Karakter</button></div>
+  </section>
+
+  <section>
+    <h2>Sahneler</h2>
+    <div id="scenes"></div>
+    <div class="actions"><button id="btnAddScene">+ Sahne</button></div>
+  </section>
+</div>
+
+<div>
+  <section>
+    <h2>Tahmin</h2>
+    <div class="est"><div>Süre<br><b id="estSec">0</b> sn</div><div>Kredi<br><b id="estCred">0</b></div><div>Sahne<br><b id="estSc">0</b></div></div>
+    <div class="note">Fiyat tablosu Flow ajanının verdiği cevaptır; sadece 360p/10 sn = 7 kredi gerçek çalışmada doğrulandı. Gerçek fiyat Flow’un onay sorusunda çıkar ve bütçeyi aşarsa betik onaylamaz.</div>
+    <div id="estWarn" class="note warn"></div>
+  </section>
+
+  <section>
+    <h2>Çalıştır</h2>
+    <label>Kredi bütçesi (üst sınır)</label>
+    <input id="budget" type="number" min="0" value="0">
+    <div class="actions">
+      <button id="btnSave">Kaydet</button>
+      <button id="btnPlan">Planı göster</button>
+      <button id="btnRun" class="pri">Başlat</button>
+      <button id="btnStop" class="bad" disabled>Durdur</button>
+    </div>
+    <div class="note">Başlatmadan önce Flow proje sekmesi açık olmalı ve çalışırken o sekmede elle işlem yapma. Hazır klipleri olan sahneler atlanır; yeniden üretmek için sahnedeki kutuyu işaretle.</div>
+    <div id="runErr" class="note err"></div>
+    <pre id="log">Henüz çalışma yok.</pre>
+  </section>
+
+  <section id="resSec" style="display:none">
+    <h2>Sonuç</h2>
+    <video id="player" controls playsinline></video>
+    <div class="note" id="outPath"></div>
+  </section>
+</div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+let MODELS = {}, brief = blank(), since = 0;
+
+function blank(){return {name:'', model:'omni-flash', quality:'360p', aspect:'16:9', duration:10, lufs:-16, lock:'', characters:[], scenes:[{id:1, prompt:''}]};}
+const api = (p, body) => fetch(p, body ? {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)} : {}).then(r => r.json());
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function fillSelect(el, opts, val){ el.innerHTML = opts.map(o => `<option value="${o.v}">${o.t}</option>`).join(''); el.value = val; }
+function modelDurations(){ return MODELS[brief.model]?.durations || [10]; }
+function sceneDur(sc){ return sc.duration ?? brief.duration ?? modelDurations().slice(-1)[0]; }
+
+function render(){
+  $('name').value = brief.name || ''; $('project').value = brief.project || ''; $('lock').value = brief.lock || '';
+  fillSelect($('model'), Object.entries(MODELS).map(([k,v]) => ({v:k, t:v.label})), brief.model);
+  const m = MODELS[brief.model] || {qualities:['360p'], durations:[10]};
+  fillSelect($('quality'), m.qualities.map(q => ({v:q,t:q})), m.qualities.includes(brief.quality) ? brief.quality : m.qualities[0]);
+  brief.quality = $('quality').value;
+  fillSelect($('duration'), m.durations.map(d => ({v:d,t:d})), m.durations.includes(+brief.duration) ? +brief.duration : m.durations[m.durations.length-1]);
+  brief.duration = +$('duration').value; $('aspect').value = brief.aspect || '16:9';
+  $('chars').innerHTML = brief.characters.map((c,i) => `<div class="card"><div class="top"><input data-ci="${i}" data-f="name" value="${esc(c.name)}" placeholder="İSİM (örn. CHIDI)" style="max-width:220px"><button class="bad" data-delc="${i}">Sil</button></div><textarea data-ci="${i}" data-f="description" placeholder="Fotogerçekçi karakter referansı: yaş, ten, saç, TEK sabit kıyafet, gri stüdyo fonu, boydan ve yakın plan, logo/yazı yok">${esc(c.description)}</textarea></div>`).join('') || '<div class="note">Karakter yok: sahneler sadece metinle tarif edilir (tutarlılık düşer).</div>';
+  const names = brief.characters.map(c => c.name).filter(Boolean);
+  $('scenes').innerHTML = brief.scenes.map((s,i) => {
+    const sel = s.refs ?? names;
+    return `<div class="card"><div class="top"><b>Sahne ${s.id}</b><span><label style="display:inline;margin-right:8px"><input type="checkbox" data-redo="${s.id}" style="width:auto"> yeniden üret</label><button class="bad" data-dels="${i}">Sil</button></span></div>
+    <div class="row"><div><label>Süre (sn)</label><select data-si="${i}" data-f="duration">${modelDurations().map(d => `<option ${d==sceneDur(s)?'selected':''}>${d}</option>`).join('')}</select></div></div>
+    <label>Prompt (zaman dilimleri + tırnak içinde diyalog; toplam süreye uysun)</label>
+    <textarea data-si="${i}" data-f="prompt" style="min-height:120px">${esc(s.prompt)}</textarea>
+    <div class="tags">${names.map(n => `<span class="tag ${sel.includes(n)?'sel':''}" data-ref="${i}" data-n="${esc(n)}">${esc(n)}</span>`).join('')}</div></div>`;
+  }).join('');
+  estimate();
+}
+
+function estimate(){
+  const m = MODELS[brief.model]; if(!m) return;
+  let sec = 0, cred = 0, bad = [];
+  for(const s of brief.scenes){ const d = +sceneDur(s); sec += d; const c = m.cost[brief.quality]?.[d]; if(c == null) bad.push(`Sahne ${s.id}: ${m.label} ${brief.quality} ${d} sn desteklenmiyor`); else cred += c; }
+  $('estSec').textContent = sec; $('estCred').textContent = cred; $('estSc').textContent = brief.scenes.length;
+  $('estWarn').textContent = bad.join(' · ');
+  if(!+$('budget').value || $('budget').dataset.auto === '1'){ $('budget').value = Math.ceil(cred * 1.15); $('budget').dataset.auto = '1'; }
+}
+
+function readTop(){
+  brief.name = $('name').value.trim(); brief.project = $('project').value.trim() || undefined; brief.lock = $('lock').value;
+  brief.model = $('model').value; brief.quality = $('quality').value; brief.aspect = $('aspect').value; brief.duration = +$('duration').value;
+}
+function payload(){
+  readTop(); const b = JSON.parse(JSON.stringify(brief));
+  b.characters = b.characters.filter(c => c.name && c.description);
+  b.refs = b.characters.map(c => c.name);
+  b.scenes.forEach(s => { if(s.duration == null || +s.duration === +b.duration) delete s.duration; else s.duration = +s.duration; if(s.refs && s.refs.length === b.refs.length) delete s.refs; });
+  if(!b.project) delete b.project;
+  return b;
+}
+
+document.addEventListener('input', e => {
+  const t = e.target;
+  if(t.dataset.ci != null) brief.characters[+t.dataset.ci][t.dataset.f] = t.value;
+  else if(t.dataset.si != null){ const s = brief.scenes[+t.dataset.si]; s[t.dataset.f] = t.dataset.f === 'duration' ? +t.value : t.value; if(t.dataset.f === 'duration') estimate(); }
+  else if(t.id === 'budget') t.dataset.auto = '0';
+});
+document.addEventListener('change', e => {
+  const t = e.target;
+  if(['model','quality','aspect','duration'].includes(t.id)){ readTop(); if(t.id==='model'){ brief.scenes.forEach(s => delete s.duration);} render(); }
+});
+document.addEventListener('click', e => {
+  const t = e.target;
+  if(t.dataset.delc != null){ brief.characters.splice(+t.dataset.delc,1); render(); }
+  if(t.dataset.dels != null){ brief.scenes.splice(+t.dataset.dels,1); render(); }
+  if(t.dataset.ref != null){ const s = brief.scenes[+t.dataset.ref]; const names = brief.characters.map(c=>c.name).filter(Boolean); s.refs = (s.refs ?? names).slice(); const n = t.dataset.n; s.refs = s.refs.includes(n) ? s.refs.filter(x=>x!==n) : [...s.refs, n]; render(); }
+});
+$('btnAddChar').onclick = () => { brief.characters.push({name:'', description:''}); render(); };
+$('btnAddScene').onclick = () => { readTop(); brief.scenes.push({id: Math.max(0, ...brief.scenes.map(s=>s.id)) + 1, prompt:''}); render(); };
+$('btnNew').onclick = () => { brief = blank(); render(); };
+$('btnLoad').onclick = async () => { const n = $('briefList').value; if(!n) return; brief = await api('/api/brief?name=' + encodeURIComponent(n)); brief.characters ||= []; brief.scenes ||= []; brief.model ||= 'omni-flash'; brief.aspect ||= '16:9'; $('budget').dataset.auto='1'; render(); };
+$('btnSave').onclick = async () => { const r = await api('/api/save', {brief: payload()}); $('runErr').textContent = r.ok ? '' : r.error; if(r.ok) loadList(r.name); };
+$('btnPlan').onclick = async () => { const r = await api('/api/plan', {brief: payload()}); $('log').textContent = r.ok ? r.text : 'HATA: ' + r.error; };
+$('btnRun').onclick = async () => {
+  const only = [...document.querySelectorAll('[data-redo]:checked')].map(c => +c.dataset.redo);
+  $('runErr').textContent = ''; since = 0; $('log').textContent = '';
+  const r = await api('/api/run', {brief: payload(), max_credits: +$('budget').value, only});
+  if(!r.ok){ $('runErr').textContent = r.error; $('log').textContent = ''; }
+};
+$('btnStop').onclick = () => api('/api/stop', {});
+$('btnDraft').onclick = async () => {
+  $('draftNote').textContent = 'Claude yazıyor…'; $('btnDraft').disabled = true;
+  const r = await api('/api/draft', {topic: $('topic').value, scenes: +$('dScenes').value, duration: +$('dDur').value, language: $('dLang').value});
+  $('btnDraft').disabled = false;
+  if(r.ok){ brief = Object.assign(blank(), r.brief); brief.characters ||= []; brief.scenes ||= []; $('budget').dataset.auto='1'; render(); $('draftNote').textContent = 'Taslak hazır: kontrol edip düzenle.'; }
+  else $('draftNote').textContent = 'Hata: ' + r.error;
+};
+
+async function loadList(select){ const l = await api('/api/briefs'); $('briefList').innerHTML = l.map(n => `<option>${esc(n)}</option>`).join(''); if(select) $('briefList').value = select; }
+
+async function poll(){
+  try{
+    const s = await api('/api/state?since=' + since);
+    $('chipExt').classList.toggle('on', s.connected);
+    $('extTxt').textContent = !s.connected ? 'eklenti bağlı değil (Flow sekmesini aç, eklentiyi yenile)' : (s.tab?.ok ? `bağlı · Flow ${s.tab.lang} · ${/\/project\//.test(s.tab.url) ? 'proje açık' : 'proje aç'}` : 'bağlı · Flow sekmesi yanıt vermiyor');
+    $('chipRun').style.display = s.running ? '' : 'none';
+    $('btnRun').disabled = s.running; $('btnStop').disabled = !s.running;
+    if(s.log.length){ const el = $('log'); if(since === 0) el.textContent = ''; el.textContent += s.log.join('\n') + '\n'; el.scrollTop = el.scrollHeight; since = s.next; }
+    if(s.result){ $('resSec').style.display = ''; const u = s.result; if($('player').dataset.u !== u){ $('player').src = u; $('player').dataset.u = u; } $('outPath').textContent = 'Klasör: ' + s.outdir + '/' + (brief.name || ''); }
+    if(s.error) $('runErr').textContent = s.error;
+  }catch(e){ $('extTxt').textContent = 'arayüz sunucusuna ulaşılamıyor'; }
+}
+
+(async () => { MODELS = await api('/api/models'); await loadList(); render(); poll(); setInterval(poll, 2000); })();
+</script>
+</body>
+</html>

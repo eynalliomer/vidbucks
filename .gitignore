@@ -19,3 +19,24 @@ core/data/
 knowledge/references/
 core/videos/*/takes/
 core/videos/_*/
+
+# renders, downloads and working media inside video folders (sources and notes are kept)
+core/videos/**/*.mp4
+core/videos/**/*.mov
+core/videos/**/*.wav
+core/videos/**/*.mp3
+core/videos/**/*.zip
+core/videos/**/raw/
+core/videos/**/frames/
+core/videos/**/*.qa/
+core/videos/**/rea/
+# flow-bridge: personal config, run state, test helpers, briefs (only the example is shared)
+flow-bridge/config.yaml
+flow-bridge/.flow_block
+flow-bridge/qa_test.py
+flow-bridge/dbg.py
+flow-bridge/briefs/*
+!flow-bridge/briefs/example.yaml
+# old copies and build artefacts
+flow-bridge 2/
+*.zip

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Vidbucks Flow Bridge",
+  "version": "0.1.0",
+  "description": "Drives Google Flow from a local Python job queue (your own account and credits). No third-party servers.",
+  "permissions": ["downloads", "webRequest", "tabs", "storage", "alarms", "debugger"],
+  "host_permissions": [
+    "*://flow.google.com/*",
+    "*://flow-content.google/*",
+    "http://127.0.0.1:8765/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["*://flow.google.com/*"],
+      "js": ["selectors.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_title": "Vidbucks Flow Bridge" }
+}

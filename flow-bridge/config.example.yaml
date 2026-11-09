@@ -1,0 +1,4 @@
+# Copy to config.yaml and edit. Every key is optional.
+downloads_dir: ~/Downloads      # Chrome's download folder (Flow saves the 720p file here)
+output_dir: ./out               # finished videos go to <output_dir>/<brief name>/<brief name>.mp4
+credits_per_scene: 7            # only used for the --plan estimate; Flow shows the real price at approval time

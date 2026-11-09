@@ -1,0 +1,23 @@
+name: example-ama
+project: new
+batch: 1
+mode: standard      # Flow's own generation box (no agent); download_every: 5 downloads finished clips in groups
+model: omni-flash
+quality: 360p
+aspect: "16:9"
+duration: 10
+lufs: -16
+refs: [AMA]
+characters:
+  - name: AMA
+    description: "Photorealistic character reference. A Ghanaian woman in her late 20s, medium-brown skin, braided hair tied back, bright green headwrap, white linen shirt, round glasses. Neutral light grey studio background, soft even light, full-body three-quarter view and head-and-shoulders close-up. No logos, no text."
+lock: |
+  Photorealistic short comedy. AMA (as the reference): late 20s, braids tied back, green headwrap, white linen shirt, round glasses. Locked framing, hard cuts, soft daylight, 16:9. No camera, tripod, crew or equipment visible. Audio: clear spoken dialogue with room tone only; no music, no laugh track, no subtitles, no on-screen text.
+qa:
+  retries: 1
+  checks: "a visible camera or tripod, burned-in text or captions, AMA not wearing a green headwrap and white shirt"
+  fix: "no camera, tripod, crew or equipment visible; no text or captions."
+scenes:
+  - id: 1
+    prompt: |
+      Scene 1 of 1, a sunny market stall. 0-4s: medium shot, AMA holds up a mango and says: "This mango is perfect." 4-8s: close-up AMA bites it and her face twists: "Almost perfect." 8-10s: wide shot, AMA puts the mango back on the pile and walks away with a straight face.
