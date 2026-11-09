@@ -2,24 +2,24 @@
 
 # Vidbucks
 
-**Show it a video you love. Get an original one in that style.**
+**Show it a video you love. Get an original one in that style, and the numbers that prove it.**
 
-Reference-to-video for AI coding agents: Vidbucks measures a reference (a link, a file, or just a description), works out what kind of video it is, builds an original video in that style with your own content using Remotion, then measures the result against the reference and refines it until it matches.
+Reference-to-video for AI coding agents: Vidbucks measures a reference (a link, a file, or just a description), verifies the measurement shot by shot, works out what kind of video it is, builds an original video in that style with your own content (Remotion, HyperFrames, or AI video models such as Google Flow), then runs every result through measured quality gates and refines it until it matches.
 
-[Quick start](#quick-start) · [What it does](#what-it-does) · [Commands](#commands) · [Skills](#skills) · [How it works](#how-the-loop-works) · [Voice engines](#voice-and-audio) · [Ownership & licence](#ownership-and-licence)
+[Quick start](#quick-start) · [What it does](#what-it-does) · [Quality gates](#quality-gates) · [AI video models](#ai-video-models-flow-bridge) · [Skills](#skills) · [How it works](#how-the-loop-works) · [Voice engines](#voice-and-audio) · [Ownership & licence](#ownership-and-licence)
 
 </div>
 
 ---
 
 ```
- REFERENCE        MEASURE         LOOK           PLAN           BUILD          VERIFY          DELIVER
- ┌────────┐     ┌────────┐     ┌────────┐     ┌────────┐     ┌────────┐     ┌────────┐     ┌────────┐
- │ link / │ ──▶ │ cuts   │ ──▶ │ type + │ ──▶ │ scenes │ ──▶ │ Remotion│ ──▶ │ score +│ ──▶ │ files +│
- │ file / │     │ palette│     │ devices│     │ assets │     │ templates│    │ side-  │     │ credits│
- │ brief  │     │ tempo  │     │ route  │     │ voice  │     │ or code │     │ by-side│     │ + notes│
- └────────┘     └────────┘     └────────┘     └────────┘     └────────┘     └───┬────┘     └────────┘
-                                                                                 └── fix and repeat (about 4 loops)
+ REFERENCE      MEASURE        REVIEW         PLAN           BUILD          GATE           VERIFY         DELIVER
+ ┌────────┐   ┌────────┐    ┌────────┐    ┌────────┐    ┌─────────┐    ┌────────┐    ┌────────┐    ┌────────┐
+ │ link / │──▶│ cuts   │──▶ │ shot by│──▶ │ script │──▶ │ Remotion│──▶ │ hook   │──▶ │ score +│──▶ │ files +│
+ │ file / │   │ takes  │    │ shot,  │    │ words  │    │ or AI   │    │ life   │    │ side-  │    │ credits│
+ │ brief  │   │ tempo  │    │evidence│    │ check  │    │ video   │    │ text   │    │ by-side│    │ + jury │
+ └────────┘   └────────┘    └────────┘    └────────┘    └─────────┘    └───┬────┘    └───┬────┘    └────────┘
+                                                                           └── fix and repeat ┘
 ```
 
 ## What it does
@@ -27,11 +27,15 @@ Reference-to-video for AI coding agents: Vidbucks measures a reference (a link, 
 You give Vidbucks a **reference** and say **what you want to say**. It does the rest and only asks the things that are yours to decide (language, topic and claims, money, accounts, publishing).
 
 - **Measures instead of guessing:** cuts per minute, shot lengths, palette, brightness, motion, transitions (hard cut / flash / blur-whip-zoom), loudness, tempo, sound hits, time curves, captions, channel context. Works on a video **file** (full measurement) or on a **link** (public metadata, captions, thumbnail + a visual pass in the browser; nothing is downloaded).
+- **Verifies its own measurement:** a shot-by-shot review where the agent is the vision model (shot type, size, camera, method, action, the prompt that would remake it) with required evidence, a coverage rule and contradiction checks against the measured camera. It separates real shot changes from jump cuts and AI-generation seams, so you get both the edit rhythm and how long a take is held, plus the screen-time mix (e.g. selfie 79 % / third-person 9 % / B-roll 11 %).
+- **Proves its analysers are right:** a self-test builds a video with known answers (cuts, a seam, BPM, loudness, a pan, burned-in text) and scores every analyser against them before you trust it on a real reference.
 - **Classifies the video type** and picks the route: kinetic typography, object-metaphor / editorial, minimal icon story, particle / 3D look, product or UI promo, motion-design, stickman long-form, maps, character animation, filmed real-world (with honest limits).
 - **Gathers its own assets:** visual research in the browser, licence-clean media with credits (Wikimedia, Openverse, Pexels, Pixabay), transparent cut-outs without any ML model, procedural art.
 - **Builds with the renderer you choose:** Remotion (four config-driven templates), HyperFrames, or your own tool; the templates (`IconStory`, `ObjectStory`, `KineticType`, `ParticleBloom`) or new code; 9:16 and 16:9 from one composition.
 - **Voice and sound:** open-source voice engines (Kokoro, Piper, Chatterbox, OmniVoice) + Whisper word timing; a mood-track generator at an exact BPM so big moments land on the beat; licence-free built-in sound library.
+- **Gates every output:** a measured quality gate (picture vs sound, hook, still share, repeats, dead air, burned-in text via OCR, loudness, script adherence, the user's brief) blocks delivery on a FAIL; a words check catches clichés, machine-written lines and prompts that video models refuse or caption; a six-question jury gives an anchored score and at most three fixes.
 - **Verifies the match:** `--compare` score table + `--sidebyside` image against the reference, fix rows mapped to concrete actions, repeated until it matches or returns diminish. Delivers with the real scores and what could *not* be verified.
+- **Works with AI video models:** the historical / character POV-vlog route (format measured on a top channel, script engine, character lock, nameless prompts, continuity by extending clips, cost and failure rules) and **flow-bridge**, a Chrome extension + Python bridge that drives Google Flow with each user's own account and assembles the clips.
 - **Installs itself:** the setup skill finds what is missing on your machine, installs it step by step, proves it with a voice test and a smoke test, then tells you **"ready - send your reference video"**.
 
 ## Quick start
@@ -66,6 +70,25 @@ Requirements: Node 20+, ffmpeg, Python 3.10-3.12. A GPU is optional. See [docs/g
 
 In a clone the commands are project commands named `/vidbucks-setup`, `/vidbucks-make`, ...; installed as a plugin they are `/vidbucks:setup`, ... CLI equivalents: `node bin/vidbucks.mjs <setup|status|doctor|smoke|analyze>` (or `npm link` to get `vidbucks`).
 
+## Quality gates
+
+| Tool | When | What it measures (FAIL blocks delivery) |
+|---|---|---|
+| `core/tools/words_check.py` | before narrating or generating | dashes read as noise, clichés and machine-written tells (TR/EN), scenes > 40 words; `--prompts`: real-person / IP names that video models refuse, prompts that invite on-screen text, a missing no-text guard |
+| `core/tools/quality_gate.py` | after every render or clip assembly | picture shorter than sound, hook motion in 0-2 s, near-still share and static shots, same framing back to back, one-frame pops, black/frozen stretches, silences, burned-in text (Apple Vision OCR on macOS, tesseract elsewhere), loudness and true peak, resolution, every script line spoken as written (Whisper), the user's brief (length, aspect, still share, required lines), rhythm against a reference |
+| `core/tools/shot_review.py` | after measuring a reference | builds per-shot sheets with the measured camera and the spoken words; `check` refuses missing evidence, unknown values and < 80 % coverage; `apply` writes the verified screen-time mix, takes, hook and the prompt formula per shot type |
+| `core/tools/analysis_selftest.py` | after installing and after changing an analyser | cuts, seam vs shot change, BPM, LUFS, pan/still camera, OCR, false alarms (9/9 on our machine) |
+| the jury (`vidbucks-qa-revise`) | with every draft | hook, hero moment, generic frame, weakest 5 s, sound on the big cuts, words; an anchored score (5 student … 9 award) and at most three fixes |
+
+```bash
+python core/tools/quality_gate.py out/video.mp4 --script script.txt --speech --brief brief.json
+# GATE PASS  fail=0 warn=1  shots=14 still=0.27 hook=6.4 lufs=-16.4
+```
+
+## AI video models (flow-bridge)
+
+`flow-bridge/` turns a written brief into clips with **your own** Google Flow account and credits, then downloads and assembles them (ffmpeg, -16 LUFS). No third-party server, no API key; the agent only writes the brief. Standard (agent-off) mode with a price check before every send, grouped downloads, recovery of undownloaded clips, and a stop with a cool-down at Flow's first "unusual activity" warning. The skill `vidbucks-historical-pov` holds the format, prompt blocks, Flow costs and failure rules learned in real runs. Setup and limits (in Turkish): [flow-bridge/README.md](flow-bridge/README.md).
+
 ## Templates
 
 <p align="center"><img src="docs/assets/templates.png" alt="The four Vidbucks templates: IconStory, ObjectStory, KineticType, ParticleBloom (placeholder content)" width="860"></p>
@@ -77,7 +100,7 @@ In a clone the commands are project commands named `/vidbucks-setup`, `/vidbucks
 | **IconStory** | minimal Shorts: one ball, thin lines, tiny serif captions typed with a voice, an icon per phrase | phrases + icon timeline |
 | **ParticleBloom** | "3D scroll site" loops: a word of particles dissolves into ropes and a glowing bloom | one word + palette |
 
-Everything else is built with the same discipline from scratch: the templates are starting points, not limits. See [docs/templates.md](docs/templates.md) and [examples/worked-examples.md](examples/worked-examples.md).
+Also registered: promo compositions built on the same discipline (`AiAgents`, `HoloPromo` / `DolarPromo`, `DollarLira`, `LaptopGlass`, `JericoLaptop`, `JericoCinematic` in 4K). Everything else is built with the same discipline from scratch: the templates are starting points, not limits. See [docs/templates.md](docs/templates.md) and [examples/worked-examples.md](examples/worked-examples.md).
 
 ## Bring your own renderer and voice
 
@@ -106,17 +129,18 @@ Details, limits and what was tested: [docs/integrations.md](docs/integrations.md
 | `vidbucks-script` | Retention-first narration script with a linter | writing a long-form script |
 | `vidbucks-longform-build` | Script to scenes to render to packaging (doodle / stickman engine) | a 3-10 minute explainer |
 | `vidbucks-stickman-engine` | Reference for the JSON scene engine | editing `scenes.json` |
-| `vidbucks-qa-revise` | QA gates and the revision protocol | feedback on a built video |
+| `vidbucks-historical-pov` | Historical / character POV vlogs with AI video models: measured format, script engine, character lock, prompt blocks, Flow costs and failure rules | "a sultan's vlog", "like the Tudor channel" |
+| `vidbucks-qa-revise` | Words check, quality gate, the jury and the revision protocol | before delivery, feedback on a built video |
 | `vidbucks-metrics` | Reads YouTube Studio numbers and recommends ONE action | "why is it not growing" |
 
 Agent personas: [`reference-analyst`](agents/reference-analyst.md), [`fidelity-reviewer`](agents/fidelity-reviewer.md). Checklists: [`references/`](references).
 
 ## How the loop works
 
-1. **Measure** the reference (`core/tools/analyze_reference.py`) -> `knowledge/references/<slug>/` with `report.md`, `fingerprint.json`, `style_spec.json`, `scene_plan.md`, `sheet.png`.
-2. **Look** at the contact sheet and frames; name the type and devices; choose the route.
+1. **Measure** the reference (`core/tools/analyze_reference.py`) -> `knowledge/references/<slug>/` with `report.md`, `fingerprint.json` (cuts, takes and seams, transcript words), `style_spec.json`, `scene_plan.md`, `sheet.png`.
+2. **Review shot by shot** (`core/tools/shot_review.py build / check / apply`): evidence for every shot, then the verified screen-time mix and the prompt formula; name the type and devices; choose the route.
 3. **Plan** scenes for *your* content; **collect** licensed assets; **build** from a template or new code; add voice and a beat-matched track.
-4. **Verify**: measure the render, `--compare` against the reference, `--sidebyside`, and look. Fix rows -> actions (slow the easing, change the tempo, move hits onto transitions, match loudness...).
+4. **Gate and verify**: `quality_gate.py` on the render (a FAIL blocks delivery), measure it, `--compare` against the reference, `--sidebyside`, and look; offer the jury. Fix rows -> actions (slow the easing, change the tempo, move hits onto transitions, match loudness...).
 5. **Deliver** with the score table, credit lines and an honest note about what was and was not verified.
 
 A clean score never replaces looking, and a photographic reference caps what code can reach (a filmed room, a real face): Vidbucks says so instead of pretending.
@@ -140,7 +164,9 @@ vidbucks/
 ├── core/              # Remotion project: engine, templates, tools
 │   ├── src/templates/ #   IconStory, ObjectStory, KineticType, ParticleBloom
 │   ├── src/engine/    #   doodle/stickman engine + character, meme and map kits
-│   └── tools/         #   analyze_reference, cutout, vo_words, make_pulse_track, doctor, smoke ...
+│   └── tools/         #   analyze_reference, shot_review, quality_gate, words_check, analysis_selftest,
+│                      #   cutout, vo_words, make_pulse_track, doctor, smoke ...
+├── flow-bridge/       # Chrome extension + Python bridge for Google Flow (your own account)
 ├── scripts/           # setup, status, release
 ├── bin/vidbucks.mjs   # CLI
 ├── .claude-plugin/    # plugin + marketplace manifests
@@ -151,6 +177,8 @@ vidbucks/
 
 - **Measure, don't guess.** Every number is tagged measured or inferred.
 - **Look before you ship.** Side-by-side with the reference, every time.
+- **Gate before you ship.** No delivery without a passing quality gate; analysers are self-tested.
+- **Form, never copy.** A reference gives rhythm, structure and look; ideas, lines, characters and shots are new.
 - **Autonomy with boundaries.** The assistant never asks for references, photos or analysis; it asks only what is yours to decide.
 - **Honest limits.** No claim of hearing audio, no invented statistics, no pretending code can match a photograph.
 - **Clean licences.** No downloading of others' videos, credits for every licensed asset, no private people's faces.
@@ -160,6 +188,10 @@ vidbucks/
 Vidbucks is created, owned and maintained by **The Vidbucks Authors**. The name "Vidbucks", the project identity and all original code, documentation, skills, templates and tools in this repository are © 2026 The Vidbucks Authors and released under the [MIT License](LICENSE).
 
 Vidbucks builds on third-party software that keeps its own licences (Remotion, ffmpeg, Python libraries, voice engines and models, fonts): see [NOTICE](NOTICE). **Remotion has its own licence** - it is free for individuals and small teams and requires a company license for larger companies: check [remotion.dev/license](https://www.remotion.dev/license) before commercial use. The Remotion agent skills are not bundled; the setup skill installs them from their official source.
+
+## Acknowledgements
+
+Some of the discipline in the quality layer follows ideas from two open projects, re-implemented in our own code (no files copied): **cinecode** by Sarp Yıldız (MIT; hook rule, "every beat changes something", the jury, words check, form-not-copy) and **rea-video** (Apache-2.0; shot-level production-method review with the agent as the vision model).
 
 ## Contributing
 

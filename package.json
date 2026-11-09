@@ -1,7 +1,7 @@
 {
   "name": "vidbucks",
-  "version": "2.0.0",
-  "description": "Reference-to-video studio for AI coding agents: measure a reference, build an original video in its style with Remotion, verify the match.",
+  "version": "2.1.0",
+  "description": "Reference-to-video studio for AI coding agents: measure and verify a reference shot by shot, build an original video in its style (Remotion, HyperFrames or AI video models), and gate every output with measured quality checks.",
   "license": "MIT",
   "author": "The Vidbucks Authors",
   "homepage": "https://github.com/eynalliomer/vidbucks",

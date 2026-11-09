@@ -1,1 +1,1 @@
-vidbucks package 2.0 (reference-to-video edition)
+vidbucks package 2.1 (reference-to-video edition, discipline layer)

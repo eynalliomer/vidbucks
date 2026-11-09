@@ -1,7 +1,7 @@
 {
   "name": "vidbucks",
-  "version": "2.0.0",
-  "description": "Reference-to-video studio: give it a reference (link, file or brief) and it builds an original video in that style with Remotion, then measures and refines the match.",
+  "version": "2.1.0",
+  "description": "Reference-to-video studio for AI coding agents: measure and verify a reference shot by shot, build an original video in its style (Remotion, HyperFrames or AI video models), and gate every output with measured quality checks.",
   "author": { "name": "The Vidbucks Authors", "url": "https://github.com/vidbucks" },
   "homepage": "https://github.com/eynalliomer/vidbucks",
   "repository": "https://github.com/eynalliomer/vidbucks",
