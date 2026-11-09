@@ -9,7 +9,7 @@ Same metric for all: mean absolute frame difference every 0.25 s on a ~36x64 gre
 | Hard cuts | 4 in 125 s (takes of 20, 52, 19, 7, 27 s) | 9 in 80 s | 7 in 63 s (every 8 s) |
 | Format | 9:16 phone | 16:9 | 16:9 |
 | Brightness range | 72-139 (flat daylight phone look) | cinematic | cinematic |
-rea-video on v2 (no vision model): 11 shots, confidence 0.42, called 25 % "live action" -> low value without a VLM key.
+An automatic shot classifier without a vision model on v2: 11 shots, confidence 0.42, called 25 % "live action" -> low value; review the shots yourself.
 
 Conclusion: motion is now on par. The remaining gap is CUT RHYTHM (Tudor holds one continuous phone take for 20-50 s and changes view by moving the phone, not by cutting) and FORMAT/LOOK (vertical, flat phone colour, not cinematic).
 

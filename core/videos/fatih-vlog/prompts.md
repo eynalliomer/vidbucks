@@ -1,12 +1,12 @@
-# Fatih Sultan Mehmet Vlog - 1 min demo, built on the rea-video breakdown of "The Spanish Armada Invasion"
+# Fatih Sultan Mehmet Vlog - 1 min demo, built on our shot review of "The Spanish Armada Invasion"
 
-## What rea-video + visual review found (Armada, 10:51, 48 shots)
+## What the shot review found (Armada, 10:51, 48 shots)
 - 99 % AI video. Screen time: queen talking selfie 79 %, third-person (servant / observer) 9 %, B-roll without the queen 11 %, title card 1 %.
 - Average shot 13.6 s, 4.3 cuts/min. Talking takes 20-30 s, held in the same framing (several generations joined by start frame). B-roll 1-15 s.
 - Framing: extreme close-up 65 %, close-up 16 %. Camera fixed 58 %, moving 38 % (slow push-in / walk). Her hand or arm is visible at the frame edge in the selfies.
 - Opening: 29 s extreme close-up of her face (eyes fill the frame) as the hook -> 6 s fast montage (food, servant) -> channel title card at 35 s -> walking selfie.
 - Light: three-quarter key from a window or candles, warm, natural grade. Audio: voice + many small sound effects, no music bed.
-- rea-video's remake plan: one generation per shot, first frame of each unit matched to the previous one (same as Flow "Kareler" with the last frame).
+- Remake plan: one generation per shot, first frame of each unit matched to the previous one (same as Flow "Kareler" with the last frame).
 
 ## Prompt formula (reverse-engineered)
 SELFIE: smartphone front-camera selfie vlog, [CHARACTER LOCK], holding the phone at arm's length, hand at the frame edge, slight wide-angle distortion, [LOCATION], [LIGHT], speaks to camera deadpan with pauses: "[LINE]". Photorealistic, no text.

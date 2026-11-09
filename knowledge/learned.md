@@ -145,7 +145,7 @@ No downloading other channels' videos, no Google Images scraping, only CC0/CC BY
 - On that page at the time: the Erasio extension (injects "Temiz videoyu Erasio ile kaydet" buttons into every tile), the Flow Bridge extension (debugger attached), Claude in Chrome, plus my in-page JS (file-input capture, fetch of video URLs that failed CORS, canvas reads).
 - How it is handled now: stop at the first flag, no retries; before a run, disable every extension that injects into flow.google.com (Erasio, VEO3 automation, etc.) and do not run page JS (fetch/canvas/prototype patches) in the Flow tab. Tell partners to check their extension list first.
 
-## 2026-11-10 - Discipline layer (ideas from cinecode MIT and rea-video Apache-2.0, our own code)
+## 2026-11-10 - Discipline layer
 - New tools: words_check.py, quality_gate.py (+ ocr_mac.swift), shot_review.py, analysis_selftest.py; skill vidbucks-historical-pov; jury + gates in vidbucks-qa-revise; review loop + "form, never copy" in vidbucks-reference-to-video.
 - The selftest found a real analyser miss: a cut right after a fast pan was not detected (pixel-change spike drowned in motion). Fixed with a colour-distribution jump signal that needs at least one stable side (a zoom/fractal churning on both sides is not a cut). Selftest 8/8.
 - quality_gate on old deliveries: Yavuz v1 (sent to the user) had the picture stop at 8 s while sound ran 80 s (same concat bug as v2); the gate now FAILs that. Fatih final passes text OCR after delogo; its ECU open fails the hook rule (2.4 < 5).

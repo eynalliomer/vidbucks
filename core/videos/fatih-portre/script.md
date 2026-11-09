@@ -1,5 +1,5 @@
 # Portremi Yaptırıyorum, 1480 (Fatih Sultan Mehmet Vlog) - 1 min
-Format from the rea-video breakdown of the Tudor "Armada" video: talking selfie ~75 %, third-person ~12 %, B-roll ~13 %; cold open in extreme close-up; long takes continued by extending the previous clip.
+Format from our shot review of the Tudor "Armada" video: talking selfie ~75 %, third-person ~12 %, B-roll ~13 %; cold open in extreme close-up; long takes continued by extending the previous clip.
 16:9, Omni 1.1 Flash, 360p, 8 x 8 s = 48 credits.
 
 History: Gentile Bellini was sent by Venice and worked in Istanbul 1479-1481; his portrait of Mehmed II is dated 25 Nov 1480 and hangs in the National Gallery, London (arch frame, crowns). Mehmed was 48, with a famous aquiline nose; he suffered from gout. Grapes, page, "three months" are comic licence.
