@@ -189,10 +189,6 @@ Vidbucks is created, owned and maintained by **The Vidbucks Authors**. The name 
 
 Vidbucks builds on third-party software that keeps its own licences (Remotion, ffmpeg, Python libraries, voice engines and models, fonts): see [NOTICE](NOTICE). **Remotion has its own licence** - it is free for individuals and small teams and requires a company license for larger companies: check [remotion.dev/license](https://www.remotion.dev/license) before commercial use. The Remotion agent skills are not bundled; the setup skill installs them from their official source.
 
-## Acknowledgements
-
-Some of the discipline in the quality layer follows ideas from two open projects, re-implemented in our own code (no files copied): **cinecode** by Sarp Yıldız (MIT; hook rule, "every beat changes something", the jury, words check, form-not-copy) and **rea-video** (Apache-2.0; shot-level production-method review with the agent as the vision model).
-
 ## Contributing
 
 Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Security reports: [SECURITY.md](SECURITY.md).

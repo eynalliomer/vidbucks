@@ -9,7 +9,6 @@
 - New skill `vidbucks-historical-pov` (character POV vlogs with AI video models: measured format, script engine, character lock, prompt blocks, Flow costs and failure rules); jury and gates added to `vidbucks-qa-revise`; "form, never copy" in the reference skill.
 - `flow-bridge/`: Chrome extension + Python bridge for Google Flow with the user's own account; assembly fixed to use video-stream durations (the picture no longer drops after the second clip).
 - Extra promo compositions registered (AiAgents, HoloPromo, DollarLira, LaptopGlass, Jerico).
-- Ideas from cinecode (MIT) and rea-video (Apache-2.0) re-implemented in our own code; no files copied.
 
 ## 2.0.0 - Vidbucks
 - Pluggable stack: renderer registry (Remotion, HyperFrames with a tested round trip, custom tools), `config` command, renderer-aware doctor and smoke test, `--engine custom --tts-cmd` for any voice (also in `vo_words.py`).

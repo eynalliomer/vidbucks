@@ -26,9 +26,3 @@ are synthesised on the user's machine (no samples) and belong to whoever generat
 REFERENCE VIDEOS
 Vidbucks analyses public metadata/captions and measures files the user supplies; it does not download or redistribute other
 people's videos. The user is responsible for the rights to any file they provide.
-
-IDEAS ADAPTED (no code copied)
-The quality layer re-implements, in its own code and words, methods described by cinecode (Sarp Yıldız, MIT licence: hook rule,
-"every beat changes something", the jury, words check, form-not-copy) and rea-video (Apache-2.0 licence: shot-level
-production-method review with the agent as the vision model). rea-video can optionally be installed next to Vidbucks
-(../tools/rea-video) for AI-vs-filmed forensics; it is not bundled.
