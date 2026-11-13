@@ -1,0 +1,54 @@
+{
+ "slug": "batarya",
+ "topic": "Elektrikli araç bataryası",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir elektrikli aracın kalbi tabanında saklı.",
+  "Binlerce küçük hücre tek bir paket oluşturur.",
+  "Soğutma sistemi her hücreyi aynı sıcaklıkta tutar.",
+  "Yeni nesil paketler on beş dakikada yüzde seksen dolabiliyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "dark-keynote",
+   "ok": [
+    "blueprint",
+    "hologram-hud"
+   ],
+   "why": "a product technology: keynote"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "collage"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  }
+ ]
+}

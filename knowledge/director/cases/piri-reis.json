@@ -1,0 +1,148 @@
+{
+ "slug": "piri-reis",
+ "topic": "Piri Reis haritası (1513)",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz yirmi dokuz. İstanbul, Topkapı Sarayı.",
+  "Saray müzeye dönüşürken, kütüphanede katlanmış bir deri bulunur.",
+  "Üzerinde, dört yüz yıllık bir dünya haritası vardır.",
+  "Dört yüz on altı yıl önce, Gelibolu'da bir denizci kalemi eline alır.",
+  "Adı Piri Reis. Amcası, ünlü kaptan Kemal Reis.",
+  "Gençliği, amcasının gemilerinde, Akdeniz'de geçer.",
+  "Haritayı bin beş yüz on üç yılında, ceylan derisine çizer.",
+  "Kenarına, yaklaşık yirmi eski haritayı birleştirdiğini yazar.",
+  "Bunlardan biri, bugün kayıp olan bir Kolomb haritasıdır.",
+  "Haritada İspanya, Afrika kıyısı ve Güney Amerika görünür.",
+  "Sekiz yıl sonra denizciler için bir kitap yazar: Kitab-ı Bahriye.",
+  "Akdeniz'in koyları ve limanları, tek tek çizilidir.",
+  "Bugün haritanın yalnızca üçte biri elimizde.",
+  "Gerisi hâlâ kayıp.",
+  "Ve o deri, hâlâ Topkapı Sarayı'nda saklanıyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "newsreel",
+   "ok": [],
+   "why": "1929 is the newsreel era: the discovery is told like a period news film"
+  },
+  {
+   "lines": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "style": "engraving",
+   "ok": [],
+   "why": "back to 1513: the world of printed charts, sepia and engraved type"
+  },
+  {
+   "lines": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "style": "halftone-dossier",
+   "ok": [],
+   "why": "the lost Columbus map turns it into an investigation: dossier print, stamps, highlights"
+  },
+  {
+   "lines": [
+    13,
+    14,
+    15
+   ],
+   "style": "newsreel",
+   "ok": [],
+   "why": "back to the present the film opened in: the same newsreel closes the circle"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "split",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "timeline",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  },
+  {
+   "best": "number",
+   "ok": []
+  },
+  {
+   "best": "collage",
+   "ok": []
+  },
+  {
+   "best": "stamp",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  },
+  {
+   "best": "document",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "ratio",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "split",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "The Imperial Gate of Topkapı Palace in a flickering newsreel frame, the date 1929 stamped above the crowd",
+  "Library shelves of Ottoman manuscripts inside the palace, where a folded skin waits between the books",
+  "The Piri Reis map itself fills the frame, then the camera dives to its painted ships and compass rose",
+  "A timeline jumps back from 1929 to 1513 and lands on Gelibolu, where a sailor picks up his pen",
+  "Kemal Reis's flagship Göke in an Ottoman miniature, the ship the young Piri sailed under his uncle",
+  "A route draws across the Mediterranean from Gelibolu past Rhodes and Crete to the Strait of Gibraltar",
+  "The year 1513 counts up over the cracked gazelle-skin texture of the original chart",
+  "Two older charts of the kind he names as sources fan onto the desk: al-Idrisi's world map and the Portuguese Cantino planisphere",
+  "A portrait of Christopher Columbus receives a red LOST stamp, because his map that Piri copied is gone",
+  "Spain, the African coast and the bulge of South America light up one by one on a map of the Atlantic",
+  "A page of the Kitab-ı Bahriye with a harbour chart, a highlight sweeping across its handwritten title",
+  "The camera follows a coastline drawn in the book, every bay and harbour named in red ink",
+  "Only the left third of the world map survives: the surviving fragment lights up, the missing two thirds stay grey",
+  "The torn right edge of the parchment where the rest of the world once continued, in a slow push",
+  "The palace on the Bosphorus at dusk: the skin is still kept here, almost a century after it was found"
+ ],
+ "approved": true
+}

@@ -1,0 +1,386 @@
+{
+ "duration": 33.14,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Bir arı kovanının içine bakın: her yer altıgen.",
+   "start": 0.4,
+   "end": 2.94,
+   "words": [
+    [
+     "Bir",
+     0.4,
+     0.62
+    ],
+    [
+     "arı",
+     0.62,
+     0.9
+    ],
+    [
+     "kovanının",
+     0.9,
+     1.4
+    ],
+    [
+     "içine",
+     1.4,
+     1.74
+    ],
+    [
+     "bakın",
+     1.74,
+     2.1
+    ],
+    [
+     "her",
+     2.1,
+     2.38
+    ],
+    [
+     "yer",
+     2.38,
+     2.56
+    ],
+    [
+     "altı",
+     2.56,
+     2.94
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Peki neden kare ya da daire değil?",
+   "start": 2.94,
+   "end": 4.84,
+   "words": [
+    [
+     "yerp.",
+     2.94,
+     3.82
+    ],
+    [
+     "Peki",
+     3.88,
+     4.14
+    ],
+    [
+     "neden",
+     4.14,
+     4.4
+    ],
+    [
+     "kare",
+     4.4,
+     4.84
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Daireler yan yana gelince aralarında boşluk kalır.",
+   "start": 4.84,
+   "end": 7.46,
+   "words": [
+    [
+     "ya",
+     4.84,
+     5.04
+    ],
+    [
+     "da",
+     5.04,
+     5.22
+    ],
+    [
+     "daire",
+     5.22,
+     5.52
+    ],
+    [
+     "değil?",
+     5.52,
+     5.8
+    ],
+    [
+     "Daireler",
+     6.66,
+     7.26
+    ],
+    [
+     "yan",
+     7.26,
+     7.46
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Kareler boşluk bırakmaz, ama altıgen aynı alanı en kısa duvarla çevirir.",
+   "start": 7.46,
+   "end": 12.72,
+   "words": [
+    [
+     "yana",
+     7.46,
+     7.7
+    ],
+    [
+     "gelince",
+     7.7,
+     8.14
+    ],
+    [
+     "aralarında",
+     8.14,
+     8.7
+    ],
+    [
+     "boşluk",
+     8.7,
+     9.18
+    ],
+    [
+     "kalır.",
+     9.18,
+     9.5
+    ],
+    [
+     "Kareler",
+     10.14,
+     10.64
+    ],
+    [
+     "boşluk",
+     10.64,
+     11.14
+    ],
+    [
+     "bırakmaz",
+     11.14,
+     11.68
+    ],
+    [
+     "ama",
+     11.68,
+     12.04
+    ],
+    [
+     "altıgen",
+     12.04,
+     12.54
+    ],
+    [
+     "aynı",
+     12.54,
+     12.72
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Bu da daha az bal mumu demek.",
+   "start": 12.72,
+   "end": 14.54,
+   "words": [
+    [
+     "alanı",
+     12.72,
+     13.12
+    ],
+    [
+     "en",
+     13.12,
+     13.32
+    ],
+    [
+     "kısa",
+     13.32,
+     13.6
+    ],
+    [
+     "duvarla",
+     13.6,
+     14.08
+    ],
+    [
+     "çevirir.",
+     14.08,
+     14.54
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Matematikçi Thomas Hales bunu bin dokuz yüz doksan dokuzda kanıtladı.",
+   "start": 15.3,
+   "end": 16.38,
+   "words": [
+    [
+     "Bu",
+     15.3,
+     15.54
+    ],
+    [
+     "da",
+     15.54,
+     15.68
+    ],
+    [
+     "daha",
+     15.68,
+     15.88
+    ],
+    [
+     "azbal",
+     15.88,
+     16.38
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Bazı araştırmalara göre ısınan mum, hücreleri kendiliğinden bu şekle iter.",
+   "start": 16.38,
+   "end": 19.74,
+   "words": [
+    [
+     "mumu",
+     16.38,
+     16.7
+    ],
+    [
+     "demek.",
+     16.7,
+     16.86
+    ],
+    [
+     "Matematikçi",
+     17.84,
+     18.6
+    ],
+    [
+     "Thomas",
+     18.6,
+     18.86
+    ],
+    [
+     "Hales",
+     18.86,
+     19.4
+    ],
+    [
+     "bunu",
+     19.4,
+     19.74
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Doğa, en az malzemeyle en çok alanı seçer.",
+   "start": 19.74,
+   "end": 31.64,
+   "words": [
+    [
+     "1999'da",
+     19.74,
+     21.44
+    ],
+    [
+     "kanıtladı.",
+     21.44,
+     22.02
+    ],
+    [
+     "Bazı",
+     22.86,
+     23.24
+    ],
+    [
+     "araştırmalara",
+     23.24,
+     24.04
+    ],
+    [
+     "görevısından",
+     24.04,
+     24.68
+    ],
+    [
+     "mum,",
+     24.68,
+     24.96
+    ],
+    [
+     "hücreleri",
+     25.2,
+     25.72
+    ],
+    [
+     "kendiliğinden",
+     25.72,
+     26.52
+    ],
+    [
+     "bu",
+     26.52,
+     26.76
+    ],
+    [
+     "şekli",
+     26.76,
+     27.16
+    ],
+    [
+     "iter.",
+     27.16,
+     27.5
+    ],
+    [
+     "Doğa",
+     28.94,
+     29.38
+    ],
+    [
+     "en",
+     29.38,
+     29.54
+    ],
+    [
+     "az",
+     29.54,
+     29.76
+    ],
+    [
+     "malzemeyle",
+     29.76,
+     30.48
+    ],
+    [
+     "en",
+     30.48,
+     30.66
+    ],
+    [
+     "çok",
+     30.66,
+     30.84
+    ],
+    [
+     "alanı",
+     30.84,
+     31.2
+    ],
+    [
+     "seçer.",
+     31.2,
+     31.64
+    ]
+   ]
+  }
+ ]
+}

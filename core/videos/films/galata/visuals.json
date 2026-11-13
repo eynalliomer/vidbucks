@@ -1,0 +1,339 @@
+{
+ "public_dir": "films/galata",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "engraving",
+   "why": "the medieval tower: studied like an old print, a rostrum camera over paper",
+   "direction": {
+    "camera": "rostrum",
+    "enter": "unfold",
+    "frame": "print",
+    "caption": "lower",
+    "fonts": {
+     "display": "playfair",
+     "text": "serif"
+    },
+    "sound": "paper"
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    4,
+    5,
+    6
+   ],
+   "style": "halftone-dossier",
+   "why": "Ottoman centuries as a case file: finds dropped on a board, a typed legend, fires and quakes pinned together",
+   "direction": {
+    "camera": "handheld",
+    "enter": "drop",
+    "frame": "polaroid",
+    "caption": "typewriter",
+    "fonts": {
+     "display": "elite",
+     "text": "courier"
+    },
+    "sound": "thriller"
+   },
+   "transition": {
+    "kind": "dip",
+    "dur": 0.6
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    7,
+    8
+   ],
+   "style": "silkscreen-poster",
+   "why": "back to today: a loud poster, the number and the view",
+   "direction": {
+    "camera": "drift",
+    "enter": "mask",
+    "frame": "bleed",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "staat",
+     "text": "oswald"
+    },
+    "sound": "poster"
+   },
+   "transition": {
+    "kind": "push",
+    "dur": 0.5
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "bigword",
+   "idea": "Seven hundred years stamped across the skyline with the tower behind",
+   "media": {
+    "queries": [
+     "Galata Tower Istanbul skyline",
+     "Galata Tower from Golden Horn"
+    ],
+    "n": 3
+   },
+   "data": {
+    "words": [
+     "700",
+     "yıl"
+    ],
+    "hot": 0,
+    "from": [
+     0.3,
+     0.62,
+     1.1
+    ],
+    "to": [
+     0.27,
+     0.6,
+     1.4
+    ]
+   },
+   "picked": {
+    "src": "films/galata/L01.jpg",
+    "aspect": 0.9524,
+    "title": "Galata Tower from the Golden Horn.JPG",
+    "creator": "Khateeb88",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_from_the_Golden_Horn.JPG",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed",
+    "camera": "kenburns",
+    "enter": "develop"
+   }
+  },
+  {
+   "line": 2,
+   "shot": "timeline",
+   "idea": "A timeline whose playhead stops on 1348, the Genoese year",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "years": [
+     1348,
+     1453,
+     1632,
+     2025
+    ],
+    "current": 1348,
+    "labels": [
+     "Ceneviz",
+     "Fetih",
+     "Hezarfen",
+     "Bugün"
+    ],
+    "axis": "x"
+   }
+  },
+  {
+   "line": 3,
+   "shot": "detail",
+   "idea": "The old panorama; the camera dives to the tower and an arrow names it the Tower of Christ",
+   "media": {
+    "queries": [
+     "Galata engraving 16th century",
+     "Constantinople Galata old print"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.38,
+     0.05,
+     0.56,
+     0.5
+    ],
+    "label": "İsa Kulesi",
+    "mark": "arrow"
+   },
+   "picked": {
+    "src": "films/galata/L03.jpg",
+    "aspect": 1.3751,
+    "title": "Galata Bridge, Constantinople LCCN2016820955.jpg",
+    "creator": "National Photo Company Collection",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Galata_Bridge,_Constantinople_LCCN2016820955.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "photo",
+   "idea": "A polaroid of the tower's gallery dropped on the file: the fire watch",
+   "media": {
+    "queries": [
+     "Galata Tower historic photograph",
+     "Galata tower 19th century photo"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "yangın gözcüsü"
+   },
+   "picked": {
+    "src": "films/galata/L04.jpg",
+    "aspect": 0.5626,
+    "title": "Galata Tower - Turkey - Istanbul City - Tourist attractions - Monument 03.jpg",
+    "creator": "Mostafameraji",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_-_Turkey_-_Istanbul_City_-_Tourist_attractions_-_Monument_03.jpg",
+    "source": "wikimedia",
+    "attribution": true,
+    "label": "yangın gözcüsü"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "typed",
+   "idea": "The legend typed on a file card, marked as a tale and credited to the traveller who told it",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "paper": "index",
+    "heading": "Rivayet · Evliya Çelebi aktarır",
+    "date": "17. yüzyıl"
+   }
+  },
+  {
+   "line": 6,
+   "shot": "board",
+   "idea": "A cork board: the tower's damaged and rebuilt states pinned and joined by a red string",
+   "media": {
+    "queries": [
+     "Galata Tower 1900",
+     "Galata Tower old postcard"
+    ],
+    "n": 3
+   },
+   "picked": {
+    "src": "films/galata/L06.jpg",
+    "aspect": 1.4556,
+    "title": "Галатская башня в лунном свете.jpg",
+    "creator": "Ivan Aivazovsky",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%B0%D0%BB%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%D0%B2_%D0%BB%D1%83%D0%BD%D0%BD%D0%BE%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D0%B5.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "extra": [
+    {
+     "src": "films/galata/L06x1.jpg",
+     "aspect": 0.727,
+     "title": "La tour de Galata à Constantinople - btv1b69336955.jpg",
+     "creator": "Agence Rol. Agence photographique (commanditaire)",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:La_tour_de_Galata_%C3%A0_Constantinople_-_btv1b69336955.jpg",
+     "source": "wikimedia",
+     "attribution": false
+    },
+    {
+     "src": "films/galata/L03.jpg",
+     "aspect": 1.3751,
+     "title": "Galata Bridge, Constantinople LCCN2016820955.jpg",
+     "creator": "National Photo Company Collection",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Galata_Bridge,_Constantinople_LCCN2016820955.jpg",
+     "source": "wikimedia",
+     "attribution": false
+    },
+    {
+     "src": "films/galata/L04.jpg",
+     "aspect": 0.5626,
+     "title": "Galata Tower - Turkey - Istanbul City - Tourist attractions - Monument 03.jpg",
+     "creator": "Mostafameraji",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_-_Turkey_-_Istanbul_City_-_Tourist_attractions_-_Monument_03.jpg",
+     "source": "wikimedia",
+     "attribution": true,
+     "label": "yangın gözcüsü"
+    }
+   ],
+   "data": {
+    "surface": "cork",
+    "notes": [
+     "yangın",
+     "deprem",
+     "yeniden"
+    ]
+   }
+  },
+  {
+   "line": 7,
+   "shot": "number",
+   "idea": "Sixty-seven metres rolling up like an odometer over the tower",
+   "media": {
+    "queries": [
+     "Galata Tower close up stone"
+    ],
+    "n": 3
+   },
+   "data": {
+    "value": 67,
+    "suffix": " m",
+    "unit": "yükseklik",
+    "mode": "odometer"
+   },
+   "picked": {
+    "src": "films/galata/L04.jpg",
+    "aspect": 0.5626,
+    "title": "Galata Tower - Turkey - Istanbul City - Tourist attractions - Monument 03.jpg",
+    "creator": "Mostafameraji",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_-_Turkey_-_Istanbul_City_-_Tourist_attractions_-_Monument_03.jpg",
+    "source": "wikimedia",
+    "attribution": true,
+    "label": "yangın gözcüsü"
+   }
+  },
+  {
+   "line": 8,
+   "shot": "photo",
+   "idea": "The view from the windows across the water, drifting, the last words huge",
+   "media": {
+    "queries": [
+     "view from Galata Tower Golden Horn",
+     "Golden Horn from Galata Tower"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom"
+   },
+   "picked": {
+    "src": "films/galata/L08.jpg",
+    "aspect": 1.1073,
+    "title": "View of Topkapı Palace from the Galata Tower, Istanbul, Turkey 001.jpg",
+    "creator": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Topkap%C4%B1_Palace_from_the_Galata_Tower,_Istanbul,_Turkey_001.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  }
+ ],
+ "sound": {
+  "mood": "calm",
+  "bpm": 74
+ }
+}

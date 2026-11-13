@@ -1,0 +1,215 @@
+{
+ "duration": 18.897,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Bileğinizdeki saat artık sizi dinliyor.",
+   "start": 0.4,
+   "end": 2.66,
+   "words": [
+    [
+     "Bileğinizdeki",
+     0.4,
+     1.18
+    ],
+    [
+     "saat",
+     1.18,
+     1.46
+    ],
+    [
+     "artık",
+     1.46,
+     1.92
+    ],
+    [
+     "sizi",
+     1.92,
+     2.14
+    ],
+    [
+     "dinliyor.",
+     2.14,
+     2.66
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Nova S, yedi gün süren pille geliyor.",
+   "start": 3.44,
+   "end": 5.68,
+   "words": [
+    [
+     "Novasay",
+     3.44,
+     4.12
+    ],
+    [
+     "7",
+     4.12,
+     4.36
+    ],
+    [
+     "gün",
+     4.36,
+     4.56
+    ],
+    [
+     "süren",
+     4.56,
+     4.96
+    ],
+    [
+     "pilli",
+     4.96,
+     5.3
+    ],
+    [
+     "geliyor.",
+     5.3,
+     5.68
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Kalp ritmi, uyku ve oksijen tek ekranda.",
+   "start": 6.44,
+   "end": 8.38,
+   "words": [
+    [
+     "Kalp",
+     6.44,
+     6.84
+    ],
+    [
+     "vettimi",
+     6.84,
+     7.2
+    ],
+    [
+     "uyku",
+     7.2,
+     7.66
+    ],
+    [
+     "ve",
+     7.66,
+     7.78
+    ],
+    [
+     "oksijen",
+     7.78,
+     8.38
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Kasası yalnızca otuz iki gram.",
+   "start": 8.38,
+   "end": 11.4,
+   "words": [
+    [
+     "tek",
+     8.38,
+     8.54
+    ],
+    [
+     "ekranda.",
+     8.54,
+     9.18
+    ],
+    [
+     "Kasası",
+     9.88,
+     10.38
+    ],
+    [
+     "yalnızca",
+     10.38,
+     10.96
+    ],
+    [
+     "32",
+     10.96,
+     11.4
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Üç renk: gece, kum ve okyanus.",
+   "start": 11.4,
+   "end": 14.22,
+   "words": [
+    [
+     "gram.",
+     11.4,
+     11.92
+    ],
+    [
+     "3",
+     12.76,
+     12.96
+    ],
+    [
+     "renk,",
+     12.96,
+     13.42
+    ],
+    [
+     "gece",
+     13.46,
+     13.72
+    ],
+    [
+     "kum",
+     13.72,
+     14.08
+    ],
+    [
+     "ve",
+     14.08,
+     14.22
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Ön siparişler bugün başlıyor.",
+   "start": 14.22,
+   "end": 17.42,
+   "words": [
+    [
+     "okyanus.",
+     14.22,
+     14.82
+    ],
+    [
+     "Ön",
+     15.62,
+     15.84
+    ],
+    [
+     "siparişler",
+     15.84,
+     16.56
+    ],
+    [
+     "bugün",
+     16.56,
+     16.86
+    ],
+    [
+     "başlıyor.",
+     16.86,
+     17.42
+    ]
+   ]
+  }
+ ]
+}

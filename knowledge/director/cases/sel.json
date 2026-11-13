@@ -1,0 +1,54 @@
+{
+ "slug": "sel",
+ "topic": "Sel uyarısı",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Son dakika: bölgede kuvvetli yağış bekleniyor.",
+  "Dere yataklarından ve alt geçitlerden uzak durun.",
+  "Araçla suya girmeyin; otuz santim su bir arabayı sürükleyebilir.",
+  "Resmi uyarıları takip edin."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "caption-news",
+   "ok": [
+    "news-package",
+    "pictogram-motion"
+   ],
+   "why": "an emergency bulletin"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "stamp"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  }
+ ]
+}

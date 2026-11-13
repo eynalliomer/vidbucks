@@ -1,0 +1,54 @@
+[
+{
+"kind": "chime",
+"t": 0.25,
+"gain": 0.3
+},
+{
+"kind": "whoosh",
+"t": 4.45,
+"gain": 0.4
+},
+{
+"kind": "projector",
+"t": 6.41,
+"gain": 0.5,
+"dur": 0.9
+},
+{
+"kind": "shutter",
+"t": 6.71,
+"gain": 0.4
+},
+{
+"kind": "ticks",
+"t": 9.47,
+"gain": 0.35
+},
+{
+"kind": "shutter",
+"t": 17.05,
+"gain": 0.4
+},
+{
+"kind": "paper",
+"t": 18.67,
+"gain": 0.5
+},
+{
+"kind": "blipup",
+"t": 21.45,
+"gain": 0.5,
+"dur": 0.9
+},
+{
+"kind": "blip",
+"t": 21.75,
+"gain": 0.35
+},
+{
+"kind": "blip",
+"t": 23.97,
+"gain": 0.35
+}
+]

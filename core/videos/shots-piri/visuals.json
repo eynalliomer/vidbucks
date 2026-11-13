@@ -1,0 +1,526 @@
+{
+ "public_dir": "shots/piri",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "newsreel",
+   "why": "1929 is the newsreel era: the discovery is told like a period news film"
+  },
+  {
+   "id": "A2",
+   "lines": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "style": "engraving",
+   "why": "back to 1513: the world of printed charts, sepia and engraved type",
+   "transition": {
+    "kind": "iris",
+    "dur": 0.7
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "style": "halftone-dossier",
+   "why": "the lost Columbus map turns it into an investigation: dossier print, stamps, highlights",
+   "transition": {
+    "kind": "knife",
+    "dur": 0.45
+   }
+  },
+  {
+   "id": "A4",
+   "lines": [
+    13,
+    14,
+    15
+   ],
+   "style": "newsreel",
+   "why": "back to the present the film opened in: the same newsreel closes the circle",
+   "transition": {
+    "kind": "iris",
+    "dur": 0.7
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "The Imperial Gate of Topkapı Palace in a flickering newsreel frame, the date 1929 stamped above the crowd",
+   "media": {
+    "queries": [
+     "Topkapi Palace Imperial Gate",
+     "Topkapi Palace gate historical photograph"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "İstanbul · 1929",
+    "text": "bottom",
+    "from": [
+     0.5,
+     0.45,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.55,
+     1.0
+    ]
+   },
+   "picked": {
+    "src": "shots/piri/L01.jpg",
+    "aspect": 1.7978,
+    "title": "Topkapı saray girişi-İstanbul - panoramio.jpg",
+    "creator": "HALUK COMERTEL",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Topkap%C4%B1_saray_giri%C5%9Fi-%C4%B0stanbul_-_panoramio.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 2,
+   "shot": "split",
+   "idea": "Library shelves of Ottoman manuscripts inside the palace, where a folded skin waits between the books",
+   "media": {
+    "queries": [
+     "Topkapi Palace library",
+     "Library of Ahmed III Topkapi",
+     "Ottoman manuscripts library shelves"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "Kütüphane",
+    "photo_side": "right",
+    "from": [
+     0.4,
+     0.5,
+     1.05
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.18
+    ]
+   },
+   "picked": {
+    "src": "shots/piri/L02.jpg",
+    "aspect": 1.0563,
+    "title": "Ahmed III library interior Topkapi March pano.jpg",
+    "creator": "Gryffindor",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ahmed_III_library_interior_Topkapi_March_pano.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 3,
+   "shot": "detail",
+   "idea": "The Piri Reis map itself fills the frame, then the camera dives to its painted ships and compass rose",
+   "media": {
+    "queries": [
+     "Piri reis world map 01",
+     "Piri Reis map 1513"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.35,
+     0.42,
+     0.75,
+     0.72
+    ],
+    "dive_at": 0.9,
+    "label": "1513"
+   },
+   "picked": {
+    "src": "shots/piri/L03.jpg",
+    "aspect": 0.7739,
+    "title": "Piri Reis world map for annotations.png",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Piri_Reis_world_map_for_annotations.png",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 4,
+   "shot": "timeline",
+   "idea": "A timeline jumps back from 1929 to 1513 and lands on Gelibolu, where a sailor picks up his pen",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "years": [
+     1513,
+     1521,
+     1929
+    ],
+    "current": 1513,
+    "labels": [
+     "Gelibolu",
+     "Kitab-ı Bahriye",
+     "Topkapı"
+    ]
+   }
+  },
+  {
+   "line": 5,
+   "shot": "photo",
+   "idea": "Kemal Reis's flagship Göke in an Ottoman miniature, the ship the young Piri sailed under his uncle",
+   "media": {
+    "queries": [
+     "Göke 1495 flagship of Kemal Reis",
+     "Kemal Reis Göke ship"
+    ],
+    "n": 3,
+    "min_width": 400
+   },
+   "data": {
+    "kicker": "Piri Reis · Kemal Reis",
+    "text": "left",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.4,
+     1.2
+    ],
+    "size": 64
+   },
+   "picked": {
+    "src": "shots/piri/L05.jpg",
+    "aspect": 0.8617,
+    "title": "Göke (1495) the flagship of Kemal Reis.jpg",
+    "creator": "unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6ke_(1495)_the_flagship_of_Kemal_Reis.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 6,
+   "shot": "map",
+   "idea": "A route draws across the Mediterranean from Gelibolu past Rhodes and Crete to the Strait of Gibraltar",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "med",
+    "stops": [
+     "Gelibolu",
+     "Rodos",
+     "Girit",
+     "Cezayir",
+     "Cebelitarık"
+    ],
+    "zoom": 0.42,
+    "highlight": []
+   }
+  },
+  {
+   "line": 7,
+   "shot": "number",
+   "idea": "The year 1513 counts up over the cracked gazelle-skin texture of the original chart",
+   "media": {
+    "queries": [
+     "Piri reis world map 01 detail"
+    ],
+    "n": 3
+   },
+   "data": {
+    "value": 1513,
+    "unit": "ceylan derisi",
+    "decimals": 0
+   },
+   "picked": {
+    "src": "shots/piri/L07.jpg",
+    "aspect": 0.8438,
+    "title": "Piri reis world map 01.jpg",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 8,
+   "shot": "collage",
+   "idea": "Two older charts of the kind he names as sources fan onto the desk: al-Idrisi's world map and the Portuguese Cantino planisphere",
+   "media": {
+    "queries": [
+     "Ptolemy world map Ulm 1482",
+     "Cantino planisphere 1502",
+     "Al-Idrisi Tabula Rogeriana"
+    ],
+    "n": 3
+   },
+   "picked": {
+    "src": "shots/piri/L08.jpg",
+    "aspect": 2.1818,
+    "title": "TabulaRogeriana upside-down.jpg",
+    "creator": "TabulaRogeriana.jpg: Al-Idrisi (original map), Konrad Miller (current map) *derivative work: PHGCOM (talk) (rotation)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:TabulaRogeriana_upside-down.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "extra": [
+    {
+     "src": "shots/piri/L08x1.jpg",
+     "aspect": 2.131,
+     "title": "CantinoPlanisphere.png",
+     "creator": "Unknown authorUnknown author",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:CantinoPlanisphere.png",
+     "source": "wikimedia",
+     "attribution": false
+    }
+   ]
+  },
+  {
+   "line": 9,
+   "shot": "stamp",
+   "idea": "A portrait of Christopher Columbus receives a red LOST stamp, because his map that Piri copied is gone",
+   "media": {
+    "queries": [
+     "Christopher Columbus portrait Sebastiano del Piombo",
+     "Christopher Columbus portrait painting"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "KAYIP",
+    "x": 0.5,
+    "y": 0.45,
+    "from": [
+     0.5,
+     0.22,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.2,
+     1.12
+    ]
+   },
+   "picked": {
+    "src": "shots/piri/L09.jpg",
+    "aspect": 0.8198,
+    "title": "CristobalColon.jpg",
+    "creator": "Sebastiano del Piombo",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:CristobalColon.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 10,
+   "shot": "map",
+   "idea": "Spain, the African coast and the bulge of South America light up one by one on a map of the Atlantic",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "atl",
+    "stops": [
+     "İspanya",
+     "Afrika kıyısı",
+     "Güney Amerika"
+    ],
+    "zoom": 0.15,
+    "highlight": [
+     "Spain",
+     "Portugal",
+     "Senegal",
+     "Mauritania",
+     "Brazil"
+    ]
+   }
+  },
+  {
+   "line": 11,
+   "shot": "document",
+   "idea": "A page of the Kitab-ı Bahriye with a harbour chart, a highlight sweeping across its handwritten title",
+   "media": {
+    "queries": [
+     "Piri Reis Walters W658",
+     "Kitab-i Bahriye Walters Art Museum",
+     "Piri Reis map of the coastline Walters"
+    ],
+    "n": 3,
+    "min_width": 700
+   },
+   "data": {
+    "region": [
+     0.12,
+     0.3,
+     0.88,
+     0.62
+    ]
+   },
+   "picked": {
+    "src": "shots/piri/L11.jpg",
+    "aspect": 0.6756,
+    "title": "Ottoman Manuscript Atlas, by Piri Reis (W658 000251).jpg",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ottoman_Manuscript_Atlas,_by_Piri_Reis_(W658_000251).jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 12,
+   "shot": "detail",
+   "idea": "The camera follows a coastline drawn in the book, every bay and harbour named in red ink",
+   "media": {
+    "queries": [
+     "Piri Reis map of Europe and the Mediterranean Sea"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.45,
+     0.45,
+     0.8,
+     0.75
+    ],
+    "dive_at": 0.4,
+    "label": "Akdeniz"
+   },
+   "picked": {
+    "src": "shots/piri/L12.jpg",
+    "aspect": 1.4545,
+    "title": "Piri Reis map of Europe and the Mediterranean Sea.jpg",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Piri_Reis_map_of_Europe_and_the_Mediterranean_Sea.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 13,
+   "shot": "ratio",
+   "idea": "Only the left third of the world map survives: the surviving fragment lights up, the missing two thirds stay grey",
+   "media": {
+    "queries": [
+     "Piri reis world map 01"
+    ],
+    "n": 3
+   },
+   "data": {
+    "fraction": 0.33,
+    "label": "1/3"
+   },
+   "picked": {
+    "src": "shots/piri/L13.jpg",
+    "aspect": 0.75,
+    "title": "Piri reis world map 01.jpg",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 14,
+   "shot": "photo",
+   "idea": "The torn right edge of the parchment where the rest of the world once continued, in a slow push",
+   "media": {
+    "queries": [
+     "Piri reis world map 01"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom",
+    "from": [
+     0.85,
+     0.5,
+     1.4
+    ],
+    "to": [
+     0.95,
+     0.5,
+     1.7
+    ]
+   },
+   "picked": {
+    "src": "shots/piri/L14.jpg",
+    "aspect": 0.5192,
+    "title": "Piri reis world map 01.jpg",
+    "creator": "Piri Reis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 15,
+   "shot": "split",
+   "idea": "The palace on the Bosphorus at dusk: the skin is still kept here, almost a century after it was found",
+   "media": {
+    "queries": [
+     "Topkapi Palace from Bosphorus",
+     "Topkapi Palace aerial view"
+    ],
+    "n": 3
+   },
+   "data": {
+    "photo_side": "left",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "kicker": "Bugün"
+   },
+   "picked": {
+    "src": "shots/piri/L15.jpg",
+    "aspect": 1.3333,
+    "title": "Topkapi Palace Bosphorus.JPG",
+    "creator": "Gryffindor",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Topkapi_Palace_Bosphorus.JPG",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  }
+ ]
+}

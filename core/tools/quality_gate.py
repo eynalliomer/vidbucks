@@ -32,6 +32,15 @@ import analyze_reference as AR  # probe, read_frames, detect_cuts, loudness, whi
 
 STEP = 0.25        # seconds between "life" samples (calibrated on our renders and on the Tudor reference)
 STILL = 5.0        # mean abs grey difference (0..255, 64x36) under which a 0.25 s step counts as still
+# Format profiles: what "alive" means differs by format. vlog = AI/filmed footage (the defaults); board = one camera over a
+# designed wall (cinematic board films); motion = Swiss/kinetic/graphic design on a mostly still page; layers = agent-authored
+# vector scenes with bounded local motion. Text on screen is part of board/motion/layers films, so it is reported as INFO.
+PROFILES = {
+    "vlog":   {"still_fail": 0.75, "still_warn": 0.50, "hook": STILL, "static_s": 3.0, "text": "FAIL"},
+    "board":  {"still_fail": 0.92, "still_warn": 0.75, "hook": 1.5, "static_s": 5.0, "text": "INFO"},
+    "motion": {"still_fail": 0.99, "still_warn": 0.93, "hook": 0.0, "static_s": 8.0, "text": "INFO"},
+    "layers": {"still_fail": 0.99, "still_warn": 0.93, "hook": 0.5, "static_s": 6.0, "text": "INFO"},
+}
 TARGET_LUFS, LUFS_TOL, MAX_TP = -16.0, 1.5, -1.0
 
 def run(cmd, timeout=600):
@@ -106,8 +115,24 @@ def burned_text(path, dur, every=1.0):
     return spans, "Apple Vision" if exe else "tesseract"
 
 # ------------------------------------------------------------------ script vs speech
+_TRW = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
+_TRT = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
+NUM_LANG = ""        # set from --lang: "tr" spells digits out so "1898'de" matches "bin sekiz yüz doksan sekizde"
+
+def tr_spell(n):
+    if n == 0: return "sıfır"
+    out = []
+    if n >= 1000: out += ([] if n // 1000 == 1 else tr_spell(n // 1000).split()) + ["bin"]; n %= 1000
+    if n >= 100: out += ([] if n // 100 == 1 else [_TRW[n // 100]]) + ["yüz"]; n %= 100
+    if n >= 10: out.append(_TRT[n // 10]); n %= 10
+    if n: out.append(_TRW[n])
+    return " ".join(out)
+
 def norm(s):
     s = s.replace("I", "ı").replace("İ", "i").lower()
+    if NUM_LANG == "tr":
+        s = re.sub(r"(\d)[.,](\d{3})\b", r"\1\2", s)
+        s = re.sub(r"(\d+)['’]?", lambda m: tr_spell(int(m.group(1))) if len(m.group(1)) <= 7 else m.group(1), s)
     return re.sub(r"[^\wçğıöşü ]", " ", s).split()
 
 def script_lines(path):
@@ -142,6 +167,7 @@ def script_match(lines, words):
 
 # ------------------------------------------------------------------ gate
 def gate(path, a):
+    global NUM_LANG; NUM_LANG = (a.lang or "")[:2]
     R = {"file": path, "checks": [], "human_must_check": ["voice tone and timing (the gate cannot hear)", "lip sync on talking shots", "does each joke land (watch, do not read)", "character consistency between shots (face, costume)"]}
     def add(sev, check, msg, fix="", t=None):
         R["checks"].append({"severity": sev, "check": check, "t": t, "msg": msg, "fix": fix})
@@ -161,10 +187,11 @@ def gate(path, a):
         hook = float(d[: int(2 / STEP)].mean()) if len(d) >= int(2 / STEP) else float(d.mean())
         R["hook"] = round(hook, 1)
         b0 = float(g[: int(1 / STEP)].mean())
-        if hook < STILL: add("FAIL", "hook", f"first 2 s barely move (change {hook:.1f} < {STILL})", "open on an action: the subject does something on frame 1, the camera moves with it", 0)
+        PR = PROFILES[getattr(a, "profile", "vlog")]
+        if hook < PR["hook"]: add("FAIL", "hook", f"first 2 s barely move (change {hook:.1f} < {PR['hook']}, profile {getattr(a, "profile", "vlog")})", "open on an action: the subject does something on frame 1, the camera moves with it", 0)
         if b0 < 18: add("WARN", "hook", "opens dark/black", "no fade from black; start on the picture", 0)
-        if still > 0.75: add("FAIL", "life", f"{still:.0%} of the video is near-still", "give every shot an action and camera life (walk, turn, reveal); reference Tudor Short = 36 %")
-        elif still > 0.5: add("WARN", "life", f"{still:.0%} of the video is near-still", "add movement or cut the held moments")
+        if still > PR["still_fail"]: add("FAIL", "life", f"{still:.0%} of the video is near-still (profile {getattr(a, "profile", "vlog")})", "give every shot an action and camera life (walk, turn, reveal); reference Tudor Short = 36 %")
+        elif still > PR["still_warn"]: add("WARN", "life", f"{still:.0%} of the video is near-still", "add movement or cut the held moments")
     fr, fps = AR.read_frames(path, fps=15 if dur < 240 else 8)        # same settings as analyze_reference: both tools must count the same cuts
     cuts, cd, _ = AR.detect_cuts(fr, fps)
     bounds = [0.0] + [c / fps for c in cuts] + [dur]
@@ -178,7 +205,7 @@ def gate(path, a):
         seg = gf[i0:i1]
         ch = float(np.abs(np.diff(seg, axis=0)).mean()) if len(seg) > 1 else 0
         span = float(np.abs(seg[-1] - seg[0]).mean()) if len(seg) > 1 else 0
-        if e - s >= 3 and ch < 1.2 and span < 6: statics.append((s, e))
+        if e - s >= PROFILES[getattr(a, "profile", "vlog")]["static_s"] and ch < 1.2 and span < 6: statics.append((s, e))
         m = seg[len(seg) // 2] if len(seg) else None
         mids.append(None if m is None else (m - m.mean()) / (m.std() + 1e-6))
     for s, e in statics:
@@ -219,7 +246,7 @@ def gate(path, a):
         else:
             R["burned_text"] = spans
             for s in spans:
-                add("FAIL" if not a.allow_text else "INFO", "text", f"text in the picture {tc(s['start'])}-{tc(s['end'])}: \"{s['text']}\"", "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'", s["start"])
+                add("INFO" if (a.allow_text or PROFILES[getattr(a, "profile", "vlog")]["text"] == "INFO") else "FAIL", "text", f"text in the picture {tc(s['start'])}-{tc(s['end'])}: \"{s['text']}\"", "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'", s["start"])
     # speech vs script
     words = []
     if a.speech or a.script:
@@ -291,6 +318,7 @@ def main():
     ap.add_argument("--brief"); ap.add_argument("--ref"); ap.add_argument("--lang", default=""); ap.add_argument("--lufs", type=float, default=TARGET_LUFS)
     ap.add_argument("--no-ocr", action="store_true"); ap.add_argument("--allow-text", action="store_true", help="on-screen text is intended (captions, titles): report it as INFO")
     ap.add_argument("--json")
+    ap.add_argument("--profile", default="vlog", choices=list(PROFILES), help="format profile: vlog (AI/filmed), board, motion, layers")
     a = ap.parse_args()
     R = gate(a.video, a)
     out = a.out or os.path.splitext(a.video)[0] + ".qa"

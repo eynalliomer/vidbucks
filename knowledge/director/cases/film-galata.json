@@ -1,0 +1,92 @@
+{
+ "slug": "film-galata",
+ "topic": "galata",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İstanbul'un siluetinde yedi yüz yıllık bir kule durur.",
+  "Galata Kulesi, bin üç yüz kırk sekizde Cenevizliler tarafından tamamlandı.",
+  "Adı o zamanlar İsa Kulesi'ydi.",
+  "Osmanlı döneminde yangın gözetleme kulesi oldu.",
+  "Rivayete göre on yedinci yüzyılda Hezarfen Ahmet Çelebi buradan Üsküdar'a uçtu.",
+  "Kule, yüzyıllar içinde yangın ve depremlerden sonra yeniden yapıldı.",
+  "Bugün yaklaşık altmış yedi metre yüksekliğiyle şehrin simgelerinden biri.",
+  "Ve hâlâ, Haliç'e yukarıdan bakan aynı pencereler orada."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "engraving",
+   "ok": [],
+   "why": "the medieval tower: studied like an old print, a rostrum camera over paper"
+  },
+  {
+   "lines": [
+    4,
+    5,
+    6
+   ],
+   "style": "halftone-dossier",
+   "ok": [],
+   "why": "Ottoman centuries as a case file: finds dropped on a board, a typed legend, fires and quakes pinned together"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "silkscreen-poster",
+   "ok": [],
+   "why": "back to today: a loud poster, the number and the view"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "timeline",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "typed",
+   "ok": []
+  },
+  {
+   "best": "board",
+   "ok": []
+  },
+  {
+   "best": "number",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "Seven hundred years stamped across the skyline with the tower behind",
+  "A timeline whose playhead stops on 1348, the Genoese year",
+  "The old panorama; the camera dives to the tower and an arrow names it the Tower of Christ",
+  "A polaroid of the tower's gallery dropped on the file: the fire watch",
+  "The legend typed on a file card, marked as a tale and credited to the traveller who told it",
+  "A cork board: the tower's damaged and rebuilt states pinned and joined by a red string",
+  "Sixty-seven metres rolling up like an odometer over the tower",
+  "The view from the windows across the water, drifting, the last words huge"
+ ],
+ "approved": true
+}

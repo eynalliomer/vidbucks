@@ -1,0 +1,1010 @@
+{
+ "file": "out/films/deprem.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": null,
+   "msg": "85% of the video is near-still",
+   "fix": "add movement or cut the held moments"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 16.266667,
+   "msg": "frozen picture 0:16.3-0:17.9 (1.6 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "dead air",
+   "t": 26.530313,
+   "msg": "silence 0:26.5-0:27.7 (1.2 s)",
+   "fix": "fill with a line, ambience or a cut; dead air loses viewers"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:03.5: \"HAZIRLIK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:03.5: \"DEPREM ANI SANİYELERDİR; HAZIRLIK İSE BUGÜN YAPILIR.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:03.5: \"BUGÜN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"ÇANTANIZDA EN AZ ÜÇ GÜNLÜK SU OLSUN.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"sU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"SU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"3/3GÜN SU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"sU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"3/ 3GÜN SU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"• BOZULMAYAN YİYECEK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"• EL FENERi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:10.5: \"BOZULMAYAN YİYECEKLER VE BİR EL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"FENER\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:10.5: \"J BOZULMAYAN YİYECEK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:10.5: \"D EL FENERi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"FENERi.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:13.5: \"DÜDÜK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"BİR DÜDÜK:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"BİR DÜDÜK: SESİNİZ YETMEDİĞİNDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"BİR DÜDÜK: SESİNİZ YETMEDİĞİNDE SİZİ O DUYURUR.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:18.5: \"İLK YARDIM SETİ VE DÜZENLİ KULLANDIĞINIZ İLAÇLAR.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"IERCREDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"VENDREDIJ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:16.5: \"SAMEDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:16.5: \"DIMANCHE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"lÉRCREDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"VENDREDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"JEUDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"VENDREDIJ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"SAMED!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"PIMANCHE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"AERCREDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"IERCREDI]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"VENDREDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"SAMEDI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"DIMANCHE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:21.5: \"KİMLİK FOTOKOPİLERİ VE BİRAZ NAKİT.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"kimLİk\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"FOTOKOPiLERi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"kimLiK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"FOTOKOPİLERi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"BİRAZ NAKiT\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:27.5: \"BULUŞMA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:27.5: \"NOKTASI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:27.5: \"iii\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:27.5: \"TOPLANMA ALANI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:27.5: \"ÇANTAYI KAPININ YANINDA TUTUN, AİLECE BULUŞMA NOKTANIZI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"BElirleYiN.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:25.5: \"BELIRLEYIN.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:27.5: \"BELirLeYiN.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 3.2,
+   "msg": "line not spoken as written (71% match): \"Çantanızda en az üç günlük su olsun.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 27.733,
+  "video": 27.733,
+  "audio": 27.733,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 4.2,
+  "still_share": 0.85
+ },
+ "hook": 4.7,
+ "shots": 14,
+ "cuts_per_min": 30.3,
+ "silences": [
+  [
+   26.5,
+   27.7
+  ]
+ ],
+ "longest_silence": 1.2,
+ "loudness": {
+  "lufs": -15.9,
+  "true_peak_db": -2.0,
+  "lra": 2.7
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "HAZIRLIK",
+   "start": 0.5,
+   "end": 3.5,
+   "box": [
+    0.0,
+    0.51,
+    0.54,
+    0.17
+   ]
+  },
+  {
+   "text": "DEPREM ANI SANİYELERDİR; HAZIRLIK İSE BUGÜN YAPILIR.",
+   "start": 0.5,
+   "end": 3.5,
+   "box": [
+    0.03,
+    0.04,
+    0.76,
+    0.05
+   ]
+  },
+  {
+   "text": "BUGÜN",
+   "start": 2.5,
+   "end": 3.5,
+   "box": [
+    0.04,
+    0.33,
+    0.37,
+    0.19
+   ]
+  },
+  {
+   "text": "ÇANTANIZDA EN AZ ÜÇ GÜNLÜK SU OLSUN.",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.06,
+    0.06,
+    0.5,
+    0.05
+   ]
+  },
+  {
+   "text": "sU",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.07,
+    0.86,
+    0.05,
+    0.05
+   ]
+  },
+  {
+   "text": "SU",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.07,
+    0.86,
+    0.05,
+    0.05
+   ]
+  },
+  {
+   "text": "3/3GÜN SU",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.38,
+    0.19,
+    0.24,
+    0.08
+   ]
+  },
+  {
+   "text": "sU",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.07,
+    0.86,
+    0.05,
+    0.05
+   ]
+  },
+  {
+   "text": "3/ 3GÜN SU",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.38,
+    0.18,
+    0.24,
+    0.08
+   ]
+  },
+  {
+   "text": "• BOZULMAYAN YİYECEK",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.07,
+    0.72,
+    0.51,
+    0.08
+   ]
+  },
+  {
+   "text": "• EL FENERi",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.05,
+    0.59,
+    0.26,
+    0.07
+   ]
+  },
+  {
+   "text": "BOZULMAYAN YİYECEKLER VE BİR EL",
+   "start": 8.5,
+   "end": 10.5,
+   "box": [
+    0.07,
+    0.13,
+    0.43,
+    0.05
+   ]
+  },
+  {
+   "text": "FENER",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.08,
+    0.08,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "J BOZULMAYAN YİYECEK",
+   "start": 9.5,
+   "end": 10.5,
+   "box": [
+    0.07,
+    0.72,
+    0.51,
+    0.07
+   ]
+  },
+  {
+   "text": "D EL FENERi",
+   "start": 9.5,
+   "end": 10.5,
+   "box": [
+    0.07,
+    0.59,
+    0.26,
+    0.08
+   ]
+  },
+  {
+   "text": "FENERi.",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.07,
+    0.07,
+    0.1,
+    0.05
+   ]
+  },
+  {
+   "text": "DÜDÜK",
+   "start": 11.5,
+   "end": 13.5,
+   "box": [
+    0.28,
+    0.49,
+    0.44,
+    0.22
+   ]
+  },
+  {
+   "text": "BİR DÜDÜK:",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.21,
+    0.31,
+    0.13,
+    0.05
+   ]
+  },
+  {
+   "text": "BİR DÜDÜK: SESİNİZ YETMEDİĞİNDE",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.21,
+    0.31,
+    0.39,
+    0.04
+   ]
+  },
+  {
+   "text": "BİR DÜDÜK: SESİNİZ YETMEDİĞİNDE SİZİ O DUYURUR.",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.2,
+    0.3,
+    0.59,
+    0.05
+   ]
+  },
+  {
+   "text": "İLK YARDIM SETİ VE DÜZENLİ KULLANDIĞINIZ İLAÇLAR.",
+   "start": 14.5,
+   "end": 18.5,
+   "box": [
+    0.06,
+    0.07,
+    0.64,
+    0.05
+   ]
+  },
+  {
+   "text": "IERCREDI",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.83,
+    0.62,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "VENDREDIJ",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.59,
+    0.56,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "SAMEDI",
+   "start": 15.5,
+   "end": 16.5,
+   "box": [
+    0.59,
+    0.5,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "DIMANCHE",
+   "start": 15.5,
+   "end": 16.5,
+   "box": [
+    0.59,
+    0.44,
+    0.07,
+    0.04
+   ]
+  },
+  {
+   "text": "lÉRCREDI",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.83,
+    0.62,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "VENDREDI",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.59,
+    0.56,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "JEUDI",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.6,
+    0.62,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "VENDREDIJ",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.59,
+    0.56,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "SAMED!",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.59,
+    0.5,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "PIMANCHE",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.59,
+    0.44,
+    0.07,
+    0.04
+   ]
+  },
+  {
+   "text": "AERCREDI",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.83,
+    0.62,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "IERCREDI]",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.83,
+    0.62,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "VENDREDI",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.59,
+    0.56,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "SAMEDI",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.59,
+    0.5,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "DIMANCHE",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.59,
+    0.44,
+    0.07,
+    0.04
+   ]
+  },
+  {
+   "text": "KİMLİK FOTOKOPİLERİ VE BİRAZ NAKİT.",
+   "start": 19.5,
+   "end": 21.5,
+   "box": [
+    0.06,
+    0.07,
+    0.46,
+    0.05
+   ]
+  },
+  {
+   "text": "kimLİk",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.71,
+    0.76,
+    0.09,
+    0.04
+   ]
+  },
+  {
+   "text": "FOTOKOPiLERi",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.71,
+    0.71,
+    0.18,
+    0.04
+   ]
+  },
+  {
+   "text": "kimLiK",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.71,
+    0.76,
+    0.09,
+    0.05
+   ]
+  },
+  {
+   "text": "FOTOKOPİLERi",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.71,
+    0.71,
+    0.18,
+    0.05
+   ]
+  },
+  {
+   "text": "BİRAZ NAKiT",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.71,
+    0.48,
+    0.16,
+    0.05
+   ]
+  },
+  {
+   "text": "BULUŞMA",
+   "start": 22.5,
+   "end": 27.5,
+   "box": [
+    0.06,
+    0.88,
+    0.07,
+    0.02
+   ]
+  },
+  {
+   "text": "NOKTASI",
+   "start": 22.5,
+   "end": 27.5,
+   "box": [
+    0.13,
+    0.88,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "iii",
+   "start": 22.5,
+   "end": 27.5,
+   "box": [
+    0.43,
+    0.6,
+    0.14,
+    0.19
+   ]
+  },
+  {
+   "text": "TOPLANMA ALANI",
+   "start": 22.5,
+   "end": 27.5,
+   "box": [
+    0.38,
+    0.53,
+    0.24,
+    0.06
+   ]
+  },
+  {
+   "text": "ÇANTAYI KAPININ YANINDA TUTUN, AİLECE BULUŞMA NOKTANIZI",
+   "start": 22.5,
+   "end": 27.5,
+   "box": [
+    0.05,
+    0.1,
+    0.76,
+    0.05
+   ]
+  },
+  {
+   "text": "BElirleYiN.",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.06,
+    0.06,
+    0.15,
+    0.04
+   ]
+  },
+  {
+   "text": "BELIRLEYIN.",
+   "start": 23.5,
+   "end": 25.5,
+   "box": [
+    0.06,
+    0.06,
+    0.14,
+    0.04
+   ]
+  },
+  {
+   "text": "BELirLeYiN.",
+   "start": 26.5,
+   "end": 27.5,
+   "box": [
+    0.06,
+    0.05,
+    0.15,
+    0.05
+   ]
+  }
+ ],
+ "speech_words": 46,
+ "speech_coverage": 0.93,
+ "script": [
+  {
+   "line": "Deprem anı saniyelerdir; hazırlık ise bugün yapılır.",
+   "score": 0.86,
+   "t": 0.9
+  },
+  {
+   "line": "Çantanızda en az üç günlük su olsun.",
+   "score": 0.71,
+   "t": 3.2
+  },
+  {
+   "line": "Bozulmayan yiyecekler ve bir el feneri.",
+   "score": 1.0,
+   "t": 7.6
+  },
+  {
+   "line": "Bir düdük: sesiniz yetmediğinde sizi o duyurur.",
+   "score": 1.0,
+   "t": 11.0
+  },
+  {
+   "line": "İlk yardım seti ve düzenli kullandığınız ilaçlar.",
+   "score": 1.0,
+   "t": 14.4
+  },
+  {
+   "line": "Kimlik fotokopileri ve biraz nakit.",
+   "score": 0.8,
+   "t": 19.6
+  },
+  {
+   "line": "Çantayı kapının yanında tutun, ailece buluşma noktanızı belirleyin.",
+   "score": 1.0,
+   "t": 22.1
+  }
+ ],
+ "script_adherence": 0.86
+}

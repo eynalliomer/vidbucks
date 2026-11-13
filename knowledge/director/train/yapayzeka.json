@@ -1,0 +1,71 @@
+{
+ "slug": "yapayzeka",
+ "topic": "Yapay zekâ nasıl öğrenir?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir makine, kediyi kediden nasıl ayırır?",
+  "Milyonlarca örnek görür.",
+  "Her hatada içindeki sayıları biraz düzeltir.",
+  "Sonunda örüntüyü, bize anlatamadığı bir dille öğrenir.",
+  "Buna derin öğrenme diyoruz."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1
+   ],
+   "style": "text-flash-cuts",
+   "ok": [
+    "flat-space-explainer"
+   ],
+   "why": "a punchy question hook"
+  },
+  {
+   "lines": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "style": "circuit-board",
+   "ok": [
+    "blueprint",
+    "hologram-hud"
+   ],
+   "why": "inside the machine: circuits"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "number"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "number"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

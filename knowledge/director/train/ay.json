@@ -1,0 +1,54 @@
+{
+ "slug": "ay",
+ "topic": "Ay'a ilk adım",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz altmış dokuz, Temmuz.",
+  "Apollo on bir, dört gün süren bir yolculuktan sonra Ay'a iniyor.",
+  "Neil Armstrong merdivenden iniyor.",
+  "Altı yüz milyon kişi aynı anda izliyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "silkscreen-poster",
+   "ok": [
+    "pop-art",
+    "newsreel"
+   ],
+   "why": "space-age optimism: a poster"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

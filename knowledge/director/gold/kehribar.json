@@ -1,0 +1,101 @@
+{
+ "slug": "kehribar",
+ "topic": "Kayıp Kehribar Oda",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz kırk bir. Bir saray odası parça parça sökülüyor.",
+  "Duvarları tamamen kehribardan: Kehribar Oda.",
+  "On sekizinci yüzyılda Prusya kralı onu Rus Çarı Büyük Petro'ya hediye etmişti.",
+  "İkinci Dünya Savaşı'nda Alman askerleri odayı Königsberg'e taşıdı.",
+  "Bin dokuz yüz kırk beşten sonra iz kayboldu.",
+  "Bugün sarayda gördüğünüz oda, sonradan yapılmış bir kopya.",
+  "Orijinali hâlâ kayıp."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "spy-titles",
+   "ok": [
+    "halftone-dossier",
+    "newsreel"
+   ],
+   "why": "mystery hook: a title-sequence tease"
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5
+   ],
+   "style": "newsreel",
+   "ok": [
+    "engraving",
+    "silent-film"
+   ],
+   "why": "the history up to 1945: period news film"
+  },
+  {
+   "lines": [
+    6,
+    7
+   ],
+   "style": "halftone-dossier",
+   "ok": [
+    "spy-titles",
+    "caption-news"
+   ],
+   "why": "the open case: an investigation dossier"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "stamp"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "photo",
+    "timeline"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "photo",
+    "split"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "title",
+    "photo"
+   ]
+  }
+ ]
+}

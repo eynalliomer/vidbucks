@@ -1,0 +1,222 @@
+{
+ "public_dir": "films/kedi",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "silent-film",
+   "why": "one slapstick day: a silent comedy with jump-cut punch-ins, an iris and big intertitles",
+   "direction": {
+    "camera": "punch",
+    "enter": "projector",
+    "frame": "bleed",
+    "caption": "subtitle",
+    "fonts": {
+     "display": "deco",
+     "text": "serif"
+    },
+    "texture": "film"
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "Dawn: the cat by the table edge, the camera jumping closer three times",
+   "media": {
+    "queries": [
+     "cat pushing glass off table",
+     "cat on table glass"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "06:00",
+    "from": [
+     0.25,
+     0.3,
+     1.0
+    ],
+    "to": [
+     0.22,
+     0.28,
+     1.7
+    ]
+   },
+   "picked": {
+    "src": "films/kedi/L01.jpg",
+    "aspect": 1.3333,
+    "title": "Cat on Glass Table 1 2016-05-21.jpg",
+    "creator": "FASTILY",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cat_on_Glass_Table_1_2016-05-21.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 2,
+   "shot": "detail",
+   "idea": "The bowl: an arrow accuses the bare patch in the middle",
+   "media": {
+    "queries": [
+     "cat food bowl",
+     "cat bowl kibble"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.2,
+     0.55,
+     0.5,
+     0.95
+    ],
+    "label": "boş!",
+    "mark": "arrow"
+   },
+   "picked": {
+    "src": "films/kedi/L02.jpg",
+    "aspect": 1.5,
+    "title": "A cat pauses over a bowl of food, 2011.jpg",
+    "creator": "Linda Hosek",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:A_cat_pauses_over_a_bowl_of_food,_2011.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 3,
+   "shot": "photo",
+   "idea": "Noon seen through a silent-film iris: one square of sun, fully occupied",
+   "media": {
+    "queries": [
+     "cat sleeping in sunbeam",
+     "cat sunlight floor"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "öğlen"
+   },
+   "picked": {
+    "src": "films/kedi/L03.jpg",
+    "aspect": 1.5094,
+    "title": "Cat in a sunny patch (Unsplash).jpg",
+    "creator": "Evan Qu wenhong",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cat_in_a_sunny_patch_(Unsplash).jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "direction": {
+    "frame": "circle",
+    "enter": "mask",
+    "camera": "kenburns"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "compare",
+   "idea": "Two framed prints and a VS badge: the costly bed against the cardboard box",
+   "media": {
+    "queries": [
+     "cat bed",
+     "cat in cardboard box"
+    ],
+    "n": 3
+   },
+   "data": {
+    "left_label": "pahalı yatak",
+    "right_label": "kutu"
+   },
+   "picked": {
+    "src": "films/kedi/L04.jpg",
+    "aspect": 1.5335,
+    "title": "Larry the cat sitting on a bed (DSC 0010).jpg",
+    "creator": "Trougnouf (Benoit Brummer)",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_sitting_on_a_bed_(DSC_0010).jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "extra": [
+    {
+     "src": "films/kedi/L04x1.jpg",
+     "aspect": 1.3333,
+     "title": "2020-10-06 18 08 14 A Calico cat in a box in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+     "creator": "Famartin",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:2020-10-06_18_08_14_A_Calico_cat_in_a_box_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+     "source": "wikimedia",
+     "attribution": true
+    }
+   ],
+   "direction": {
+    "frame": "polaroid",
+    "enter": "drop",
+    "camera": "locked"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "bigword",
+   "idea": "An intertitle that shouts the hour and the race",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "words": [
+     "Gece",
+     "03:00",
+     "yarış!"
+    ],
+    "hot": 1
+   }
+  },
+  {
+   "line": 6,
+   "shot": "stamp",
+   "idea": "The innocent face in a film-strip frame; AGAIN is stamped on it",
+   "media": {
+    "queries": [
+     "cat innocent look",
+     "cat staring"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "yine",
+    "y": 0.4
+   },
+   "picked": {
+    "src": "films/kedi/L06.jpg",
+    "aspect": 1.3035,
+    "title": "Trained Killer? (8651232971).jpg",
+    "creator": "Peter Trimming from Croydon, England",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trained_Killer%3F_(8651232971).jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "strip",
+    "camera": "handheld"
+   }
+  }
+ ],
+ "sound": {
+  "palette": "comedy",
+  "mood": "bright",
+  "bpm": 118
+ }
+}

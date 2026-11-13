@@ -1,0 +1,54 @@
+{
+ "slug": "kapadokya",
+ "topic": "Kapadokya'da sabah",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Gün doğmadan Göreme'de yüzlerce balon ısınıyor.",
+  "Peri bacaları, milyonlarca yıllık volkanik külden oyuldu.",
+  "Rüzgâr izin verirse balonlar vadilerin üstünde süzülür.",
+  "Ve güneş, taşları pembeye boyar."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "silkscreen-poster",
+   "ok": [
+    "risograph",
+    "transit-map"
+   ],
+   "why": "travel and landscape: a travel poster"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  }
+ ]
+}

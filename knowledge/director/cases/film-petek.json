@@ -1,0 +1,92 @@
+{
+ "slug": "film-petek",
+ "topic": "petek",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir arı kovanının içine bakın: her yer altıgen.",
+  "Peki neden kare ya da daire değil?",
+  "Daireler yan yana gelince aralarında boşluk kalır.",
+  "Kareler boşluk bırakmaz, ama altıgen aynı alanı en kısa duvarla çevirir.",
+  "Bu da daha az bal mumu demek.",
+  "Matematikçi Thomas Hales bunu bin dokuz yüz doksan dokuzda kanıtladı.",
+  "Bazı araştırmalara göre ısınan mum, hücreleri kendiliğinden bu şekle iter.",
+  "Doğa, en az malzemeyle en çok alanı seçer."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "flat-space-explainer",
+   "ok": [],
+   "why": "the hook: a look inside the hive, then the question in two big words"
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "blueprint",
+   "ok": [],
+   "why": "the proof: geometry plates, pictures seen through hexagons, a rostrum camera, notes in the margin"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "risograph",
+   "ok": [],
+   "why": "back to the bees: warm ink, torn prints, a hand-held look"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "compare",
+   "ok": []
+  },
+  {
+   "best": "bars",
+   "ok": []
+  },
+  {
+   "best": "ratio",
+   "ok": []
+  },
+  {
+   "best": "typed",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "Bees on comb, the camera pushing into the cells",
+  "The question as a card: why, then hexagon with its question mark in the accent colour",
+  "Circles and hexagons side by side, each seen through a hexagon",
+  "Wall length needed to enclose the same area: triangle, square, hexagon (geometry)",
+  "The saving as a ring: less wax",
+  "The proof noted on an index card with its year",
+  "Warm wax; an arrow where the cells pull themselves into shape",
+  "A wild hive in a torn print; the last line huge"
+ ],
+ "approved": true
+}

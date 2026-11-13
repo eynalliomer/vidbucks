@@ -100,7 +100,7 @@ python core/tools/quality_gate.py out/video.mp4 --script script.txt --speech --b
 | **IconStory** | minimal Shorts: one ball, thin lines, tiny serif captions typed with a voice, an icon per phrase | phrases + icon timeline |
 | **ParticleBloom** | "3D scroll site" loops: a word of particles dissolves into ropes and a glowing bloom | one word + palette |
 
-Also registered: promo compositions built on the same discipline (`AiAgents`, `HoloPromo` / `DolarPromo`, `DollarLira`, `LaptopGlass`, `JericoLaptop`, `JericoCinematic` in 4K). Everything else is built with the same discipline from scratch: the templates are starting points, not limits. See [docs/templates.md](docs/templates.md) and [examples/worked-examples.md](examples/worked-examples.md).
+Kits (see [docs/kits.md](docs/kits.md)): `Tpl-BoardFilm` (one camera over a designed wall: prints, documents, stamps, counters, maps, routes), `Tpl-LayerScene` (agent-authored vector scenes with a strict motion and caption contract), `Tpl-SwissDance` (grid typography on the beat). The style library in `third_party/lemo-opuscar/` (98 style prompts by Lemomo, CC BY-NC 4.0, see its README) routes each style to a kit. Also registered: promo compositions built on the same discipline (`AiAgents`, `HoloPromo` / `DolarPromo`, `DollarLira`, `LaptopGlass`, `JericoLaptop`, `JericoCinematic` in 4K). Everything else is built with the same discipline from scratch: the templates are starting points, not limits. See [docs/templates.md](docs/templates.md) and [examples/worked-examples.md](examples/worked-examples.md).
 
 ## Bring your own renderer and voice
 
@@ -129,6 +129,7 @@ Details, limits and what was tested: [docs/integrations.md](docs/integrations.md
 | `vidbucks-script` | Retention-first narration script with a linter | writing a long-form script |
 | `vidbucks-longform-build` | Script to scenes to render to packaging (doodle / stickman engine) | a 3-10 minute explainer |
 | `vidbucks-stickman-engine` | Reference for the JSON scene engine | editing `scenes.json` |
+| `vidbucks-style-library` | Films in one or many of 104 catalogued styles: a style director reads the topic and every line and decides how many styles the film needs and which one each segment gets; kits BoardFilm, TypeCards, LayerScene, Swiss render them in one timeline | "a neon-sign film about…", "cork-board documentary", "in the ukiyo-e style" |
 | `vidbucks-historical-pov` | Historical / character POV vlogs with AI video models: measured format, script engine, character lock, prompt blocks, Flow costs and failure rules | "a sultan's vlog", "like the Tudor channel" |
 | `vidbucks-qa-revise` | Words check, quality gate, the jury and the revision protocol | before delivery, feedback on a built video |
 | `vidbucks-metrics` | Reads YouTube Studio numbers and recommends ONE action | "why is it not growing" |

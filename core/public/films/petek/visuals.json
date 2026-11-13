@@ -1,0 +1,306 @@
+{
+ "public_dir": "films/petek",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2
+   ],
+   "style": "flat-space-explainer",
+   "why": "the hook: a look inside the hive, then the question in two big words",
+   "direction": {
+    "camera": "kenburns",
+    "enter": "mask",
+    "frame": "bleed",
+    "caption": "karaoke",
+    "fonts": {
+     "display": "rubik",
+     "text": "grotesk"
+    },
+    "sound": "soft"
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "blueprint",
+   "why": "the proof: geometry plates, pictures seen through hexagons, a rostrum camera, notes in the margin",
+   "direction": {
+    "camera": "rostrum",
+    "enter": "blinds",
+    "frame": "hex",
+    "caption": "margin",
+    "fonts": {
+     "display": "syne",
+     "text": "grotesk"
+    },
+    "sound": "paper"
+   },
+   "transition": {
+    "kind": "wipe",
+    "dur": 0.5
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    7,
+    8
+   ],
+   "style": "risograph",
+   "why": "back to the bees: warm ink, torn prints, a hand-held look",
+   "direction": {
+    "camera": "handheld",
+    "enter": "tear",
+    "frame": "torn",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "fraunces",
+     "text": "grotesk"
+    },
+    "sound": "soft"
+   },
+   "transition": {
+    "kind": "push",
+    "dur": 0.5
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "Bees on comb, the camera pushing into the cells",
+   "media": {
+    "queries": [
+     "honeycomb bees frame close up",
+     "honey bees on comb macro"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.45,
+     1.3
+    ]
+   },
+   "picked": {
+    "src": "films/petek/L01.jpg",
+    "aspect": 1.6194,
+    "title": "Comb Through The Comb (42318182).jpeg",
+    "creator": "Faldrian",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comb_Through_The_Comb_(42318182).jpeg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 2,
+   "shot": "bigword",
+   "idea": "The question as a card: why, then hexagon with its question mark in the accent colour",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "words": [
+     "Neden",
+     "altıgen?"
+    ],
+    "hot": 1
+   }
+  },
+  {
+   "line": 3,
+   "shot": "compare",
+   "idea": "Circles and hexagons side by side, each seen through a hexagon",
+   "media": {
+    "queries": [
+     "circle packing hexagonal",
+     "close packing of equal circles diagram"
+    ],
+    "n": 3
+   },
+   "data": {
+    "left_label": "daire",
+    "right_label": "altıgen"
+   },
+   "picked": {
+    "src": "films/petek/L03.jpg",
+    "aspect": 1.5047,
+    "title": "Oaxaca de Juárez, 25.jpg",
+    "creator": "LBM1948",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oaxaca_de_Ju%C3%A1rez,_25.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "extra": [
+    {
+     "src": "films/petek/L03x1.jpg",
+     "aspect": 1.0,
+     "title": "Circle Packing of Uniform 7 Krotenheerdt 2 Tiling.png",
+     "creator": "Harry Princeton",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Circle_Packing_of_Uniform_7_Krotenheerdt_2_Tiling.png",
+     "source": "wikimedia",
+     "attribution": true
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "shot": "bars",
+   "idea": "Wall length needed to enclose the same area: triangle, square, hexagon (geometry)",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "items": [
+     {
+      "label": "üçgen",
+      "value": 4.56
+     },
+     {
+      "label": "kare",
+      "value": 4.0
+     },
+     {
+      "label": "altıgen",
+      "value": 3.72
+     }
+    ],
+    "decimals": 2,
+    "highlight": 2,
+    "heading": "Aynı alan için duvar uzunluğu"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "ratio",
+   "idea": "The saving as a ring: less wax",
+   "media": {
+    "queries": [
+     "beeswax comb"
+    ],
+    "n": 3
+   },
+   "data": {
+    "fraction": 0.93,
+    "label": "daha az mum"
+   },
+   "picked": {
+    "src": "films/petek/L05.jpg",
+    "aspect": 1.5,
+    "title": "Mittelwand 15a.jpg",
+    "creator": "Waugsberg",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mittelwand_15a.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 6,
+   "shot": "typed",
+   "idea": "The proof noted on an index card with its year",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "paper": "index",
+    "heading": "Kanıt · Thomas Hales",
+    "date": "1999"
+   }
+  },
+  {
+   "line": 7,
+   "shot": "detail",
+   "idea": "Warm wax; an arrow where the cells pull themselves into shape",
+   "media": {
+    "queries": [
+     "new honeycomb cells building bees",
+     "bees building comb"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.1,
+     0.35,
+     0.5,
+     0.75
+    ],
+    "label": "ısınan mum",
+    "mark": "arrow"
+   },
+   "picked": {
+    "src": "films/petek/L07.jpg",
+    "aspect": 1.5,
+    "title": "Bee comb at our home.jpg",
+    "creator": "Oshadhi Jayasena",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bee_comb_at_our_home.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 8,
+   "shot": "photo",
+   "idea": "A wild hive in a torn print; the last line huge",
+   "media": {
+    "queries": [
+     "wild honeycomb tree",
+     "wild bee nest honeycomb"
+    ],
+    "n": 3
+   },
+   "data": {
+    "from": [
+     0.5,
+     0.5,
+     1.05
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.25
+    ]
+   },
+   "picked": {
+    "src": "films/petek/L08.jpg",
+    "aspect": 1.5035,
+    "title": "Carly-Art - Wild bee hive (by-sa).jpg",
+    "creator": "Carly &amp; Art",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carly-Art_-_Wild_bee_hive_(by-sa).jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  }
+ ],
+ "sound": {
+  "mood": "calm",
+  "bpm": 90
+ }
+}

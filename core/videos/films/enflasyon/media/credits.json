@@ -1,0 +1,46 @@
+[
+ {
+  "line": 1,
+  "src": "films/enflasyon/L01.jpg",
+  "aspect": 1.3333,
+  "title": "Covid - P1630413.jpg",
+  "creator": "citytransportinfo",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Covid_-_P1630413.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 5,
+  "src": "films/enflasyon/L05.jpg",
+  "aspect": 1.3333,
+  "title": "Euro coins in wallet.jpg",
+  "creator": "Santeri Viinamäki",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Euro_coins_in_wallet.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/enflasyon/L06.jpg",
+  "aspect": 1.4988,
+  "title": "European Central Bank - building under construction - Frankfurt - Germany - 14.jpg",
+  "creator": "Norbert Nagel",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:European_Central_Bank_-_building_under_construction_-_Frankfurt_-_Germany_-_14.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 7,
+  "src": "films/enflasyon/L07.jpg",
+  "aspect": 0.75,
+  "title": "Grocery Store Receipt in Vienna.jpg",
+  "creator": "Grandmaster Huon",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Grocery_Store_Receipt_in_Vienna.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ }
+]

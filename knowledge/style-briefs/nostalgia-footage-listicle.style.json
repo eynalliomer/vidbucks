@@ -1,0 +1,23 @@
+{
+  "source": "a US nostalgia listicle channel (name omitted), its newest hit video",
+  "analysed_by": "analyze_reference.py --link (4 videos) + Browser-pane frame sheets (view only) + thumbnails",
+  "palette": [
+    { "role": "footage", "hex": "#7A5A3C", "note": "warm, slightly faded period footage" },
+    { "role": "ground", "hex": "#141414", "note": "dark grid-paper ground behind 4:3 insets" },
+    { "role": "tag", "hex": "#C8202C", "note": "red chapter pill, white caps" },
+    { "role": "number", "hex": "#7BE07B", "note": "price/year pops, green with dark outline" },
+    { "role": "thumb-accent", "hex": "#FFC928", "note": "one yellow word on the thumbnail plate" }
+  ],
+  "palette_note": "visual guesses from screenshots except the thumbnail k-means (#312B2E, #BF946E, #945129)",
+  "fonts_guess": [
+    { "use": "chapter tag", "guess": "bold grotesk caps (Inter/Arial Black class)" },
+    { "use": "number pops", "guess": "rounded heavy sans" },
+    { "use": "thumbnail", "guess": "condensed heavy sans caps (Oswald/Anton class)" }
+  ],
+  "pace": { "avg_shot_sec": 3.5, "hook_shot_sec": 1.0, "cuts_per_min": 17, "length_band": "8-12 min", "note": "estimated from frame sampling" },
+  "devices": ["1-s hook montage", "price/year number pop", "chapter pill lower-left per item", "4:3 clip inset on dark grid paper", "channel bumper after the promise", "logo bug top-right", "comment pill mid-video", "subscribe animation in the outro", "period commercial as punchline (NOT transferable)"],
+  "title_skeleton": "{Decade} {Things|Products|Stores} We {verb phrase with one CAPS word}",
+  "thumbnail_recipe": "photoreal period scene, kid or parent reacting to one iconic object, warm 80s light; 3-4 words on a black plate bottom-centre, white condensed caps + one yellow word; round red badge top-left",
+  "audio": { "lufs": -16, "bpm": 0, "voice_over": true, "note": "loudness not measured (no file); music bed under voice, period clip audio as punchlines" },
+  "route": "ShotFilm with footage: `montage` hook, `photo` with video sources, `inset` frame on grid ground, line `tag` + `pops`; footage from tools/archive_clips.py (trusted licences only)"
+}

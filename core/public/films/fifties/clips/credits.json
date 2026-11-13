@@ -1,0 +1,101 @@
+[
+ {
+  "file": "public/films/fifties/clips/way170.mp4",
+  "title": "Way You Want It, The",
+  "year": null,
+  "creator": "Chevrolet Division, General Motors Corporation",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/way_you_want_it",
+  "in": 170.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/way220.mp4",
+  "title": "Way You Want It, The",
+  "year": null,
+  "creator": "Chevrolet Division, General Motors Corporation",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/way_you_want_it",
+  "in": 220.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/way045.mp4",
+  "title": "Way You Want It, The",
+  "year": null,
+  "creator": "Chevrolet Division, General Motors Corporation",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/way_you_want_it",
+  "in": 45.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/way195.mp4",
+  "title": "Way You Want It, The",
+  "year": null,
+  "creator": "Chevrolet Division, General Motors Corporation",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/way_you_want_it",
+  "in": 195.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/free805.mp4",
+  "title": "Freedom of the American Road (Part I)",
+  "year": null,
+  "creator": "MPO Productions, Inc.",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/Freedomo1955",
+  "in": 805.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/home385.mp4",
+  "title": "Our Home Town: Levittown, Pa.",
+  "year": null,
+  "creator": "Unknown",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/OurHomeT1954_2",
+  "in": 385.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/dyn620.mp4",
+  "title": "Dynamic American City, The (Part I)",
+  "year": null,
+  "creator": "Baskaw (Frederick J).",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/DynamicA1956",
+  "in": 620.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/dyn695.mp4",
+  "title": "Dynamic American City, The (Part I)",
+  "year": null,
+  "creator": "Baskaw (Frederick J).",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/DynamicA1956",
+  "in": 695.0,
+  "dur": 10.0
+ },
+ {
+  "file": "public/films/fifties/clips/dyn595.mp4",
+  "title": "Dynamic American City, The (Part I)",
+  "year": null,
+  "creator": "Baskaw (Frederick J).",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "source": "Internet Archive / prelinger",
+  "page": "https://archive.org/details/DynamicA1956",
+  "in": 595.0,
+  "dur": 10.0
+ }
+]

@@ -1,0 +1,71 @@
+{
+ "slug": "film-enflasyon",
+ "topic": "enflasyon",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.",
+  "Buna enflasyon diyoruz: fiyatların genel olarak artması.",
+  "Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar tırmanır.",
+  "Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.",
+  "Maaşlar aynı hızla artmazsa alım gücü düşer.",
+  "Merkez bankaları bu yüzden faizi bir fren gibi kullanır.",
+  "Sepetinize her baktığınızda aslında bir grafik görüyorsunuz."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "dataviz",
+   "ok": [],
+   "why": "one explanation in one voice: a locked camera, every line a different graphic that carries the fact"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "versus",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "steps",
+   "ok": []
+  },
+  {
+   "best": "bars",
+   "ok": []
+  },
+  {
+   "best": "gauge",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "document",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "The same hundred lira in two columns: last year a full basket, this year less",
+  "The word itself, huge, over a supermarket shelf",
+  "Cause and effect as three stations joined by a travelling line",
+  "Two bars: the basket at 100 and at 110 lira",
+  "A dial for purchasing power; the needle settles low",
+  "The central bank tower in a window card; the brake",
+  "A real receipt; a box closes around the totals: the graph in your hand"
+ ],
+ "approved": true
+}

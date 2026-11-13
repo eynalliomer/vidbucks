@@ -1,0 +1,321 @@
+{
+ "duration": 31.12,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "İki farklı bilim dalında Nobel kazanan ilk ve tek insan.",
+   "start": 0.4,
+   "end": 3.74,
+   "words": [
+    [
+     "İki",
+     0.4,
+     0.66
+    ],
+    [
+     "farkı,",
+     0.66,
+     1.2
+    ],
+    [
+     "bilim",
+     1.2,
+     1.44
+    ],
+    [
+     "dalında",
+     1.44,
+     1.76
+    ],
+    [
+     "Nobel",
+     1.76,
+     2.12
+    ],
+    [
+     "kazanan",
+     2.12,
+     2.62
+    ],
+    [
+     "ilk",
+     2.62,
+     2.98
+    ],
+    [
+     "ve",
+     2.98,
+     3.18
+    ],
+    [
+     "tek",
+     3.18,
+     3.44
+    ],
+    [
+     "insan.",
+     3.44,
+     3.74
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Varşova'da doğdu, okumak için Paris'e gitti.",
+   "start": 4.6,
+   "end": 6.86,
+   "words": [
+    [
+     "Başova'da",
+     4.6,
+     5.38
+    ],
+    [
+     "doğduğu",
+     5.38,
+     5.86
+    ],
+    [
+     "okumak",
+     5.86,
+     6.3
+    ],
+    [
+     "için",
+     6.3,
+     6.52
+    ],
+    [
+     "Paris",
+     6.52,
+     6.86
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Eşi Pierre ile birlikte radyoaktiviteyi araştırdı.",
+   "start": 6.86,
+   "end": 9.62,
+   "words": [
+    [
+     "'e",
+     6.86,
+     7.1
+    ],
+    [
+     "gitti.",
+     7.1,
+     7.3
+    ],
+    [
+     "Eşik",
+     8.26,
+     8.64
+    ],
+    [
+     "Yerre",
+     8.64,
+     9.04
+    ],
+    [
+     "ile",
+     9.04,
+     9.22
+    ],
+    [
+     "birlikte",
+     9.22,
+     9.62
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Bin sekiz yüz doksan sekizde polonyum ve radyumu keşfettiler.",
+   "start": 9.62,
+   "end": 15.9,
+   "words": [
+    [
+     "radyoaktiviteyi",
+     9.62,
+     10.66
+    ],
+    [
+     "araştırdı.",
+     10.66,
+     11.34
+    ],
+    [
+     "1898'de",
+     13.22,
+     14.0
+    ],
+    [
+     "Polonyum",
+     14.0,
+     14.58
+    ],
+    [
+     "ve",
+     14.58,
+     14.74
+    ],
+    [
+     "Radiumu",
+     14.74,
+     15.26
+    ],
+    [
+     "keşfettiler.",
+     15.26,
+     15.9
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Bin dokuz yüz üçte fizik Nobel'i geldi.",
+   "start": 17.2,
+   "end": 18.82,
+   "words": [
+    [
+     "1903'te",
+     17.2,
+     17.98
+    ],
+    [
+     "fizik",
+     17.98,
+     18.36
+    ],
+    [
+     "Nobel",
+     18.36,
+     18.64
+    ],
+    [
+     "'i",
+     18.64,
+     18.82
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Bin dokuz yüz on birde kimya Nobel'i.",
+   "start": 18.82,
+   "end": 21.9,
+   "words": [
+    [
+     "geldi.",
+     18.82,
+     19.02
+    ],
+    [
+     "1911'de",
+     20.52,
+     21.3
+    ],
+    [
+     "Kimya",
+     21.3,
+     21.62
+    ],
+    [
+     "Nobel",
+     21.62,
+     21.9
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Defterleri bugün hâlâ radyoaktif; okumak için koruyucu önlem gerekiyor.",
+   "start": 21.9,
+   "end": 24.12,
+   "words": [
+    [
+     "'i.",
+     21.9,
+     22.12
+    ],
+    [
+     "Deflerleri",
+     22.86,
+     23.54
+    ],
+    [
+     "bugün",
+     23.54,
+     23.76
+    ],
+    [
+     "hala",
+     23.76,
+     24.12
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Onun ışığı hâlâ sönmedi.",
+   "start": 24.12,
+   "end": 29.6,
+   "words": [
+    [
+     "radyoaktif,",
+     24.12,
+     24.94
+    ],
+    [
+     "okumak",
+     25.08,
+     25.48
+    ],
+    [
+     "için",
+     25.48,
+     25.72
+    ],
+    [
+     "koruyucu",
+     25.72,
+     26.26
+    ],
+    [
+     "önlem",
+     26.26,
+     26.62
+    ],
+    [
+     "gerekiyor.",
+     26.62,
+     27.24
+    ],
+    [
+     "Onun",
+     27.24,
+     28.36
+    ],
+    [
+     "şi",
+     28.36,
+     28.8
+    ],
+    [
+     "hala",
+     28.8,
+     29.12
+    ],
+    [
+     "sönmedi.",
+     29.12,
+     29.6
+    ]
+   ]
+  }
+ ]
+}

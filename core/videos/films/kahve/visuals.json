@@ -1,0 +1,222 @@
+{
+ "public_dir": "films/kahve",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "chalkboard",
+   "why": "one recipe told by hand: a hand-held camera, photos that develop like prints on the board, chalk writing",
+   "direction": {
+    "camera": "handheld",
+    "enter": "develop",
+    "frame": "print",
+    "caption": "lower",
+    "fonts": {
+     "display": "hand",
+     "text": "hand"
+    },
+    "sound": "classroom"
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "The cezve fills the frame, hand-held, developing out of white",
+   "media": {
+    "queries": [
+     "Turkish coffee cezve",
+     "cezve copper coffee pot"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   },
+   "picked": {
+    "src": "films/kahve/L01.jpg",
+    "aspect": 1.5,
+    "title": "Cezve coffee pot in a small coffee shop on the side of the road..jpg",
+    "creator": "Michael Plutchok",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cezve_coffee_pot_in_a_small_coffee_shop_on_the_side_of_the_road..jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 2,
+   "shot": "list",
+   "idea": "The measures chalked as two ticked lines",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "items": [
+     "1 tatlı kaşığı kahve",
+     "1 fincan soğuk su"
+    ],
+    "bullet": "check"
+   }
+  },
+  {
+   "line": 3,
+   "shot": "stamp",
+   "idea": "A taped print of sugar cubes; NOW is stamped on it",
+   "media": {
+    "queries": [
+     "sugar cubes spoon"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "ŞİMDİ"
+   },
+   "picked": {
+    "src": "films/kahve/L03.jpg",
+    "aspect": 1.3333,
+    "title": "Paper coffee cups and sugar cubes in cafeteria.jpg",
+    "creator": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paper_coffee_cups_and_sugar_cubes_in_cafeteria.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 4,
+   "shot": "gauge",
+   "idea": "A flame dial whose needle settles at low",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "value": 0.18,
+    "label": "kısık ateş",
+    "low": "kısık",
+    "high": "harlı"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "split",
+   "idea": "The pour on one side, the instruction chalked on the other",
+   "media": {
+    "queries": [
+     "Turkish coffee foam",
+     "Turkish coffee pouring cezve"
+    ],
+    "n": 3
+   },
+   "data": {
+    "photo_side": "left"
+   },
+   "picked": {
+    "src": "films/kahve/L05.jpg",
+    "aspect": 0.9871,
+    "title": "Bakırcezve-fincan.jpg",
+    "creator": "Eaeeae",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bak%C4%B1rcezve-fincan.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "polaroid",
+    "enter": "drop"
+   }
+  },
+  {
+   "line": 6,
+   "shot": "detail",
+   "idea": "The foam; an arrow points at it",
+   "media": {
+    "queries": [
+     "Turkish coffee cup foam top",
+     "Turkish coffee"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.15,
+     0.15,
+     0.75,
+     0.8
+    ],
+    "label": "köpük",
+    "mark": "arrow"
+   },
+   "picked": {
+    "src": "films/kahve/L06.jpg",
+    "aspect": 1.3333,
+    "title": "ONE MORE CUP OF COFFEE (VALLEY BELOW) (1264568795).jpg",
+    "creator": "Amy March from Ankara, Turkey",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ONE_MORE_CUP_OF_COFFEE_(VALLEY_BELOW)_(1264568795).jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 7,
+   "shot": "photo",
+   "idea": "The served tray as a polaroid with a handwritten wish",
+   "media": {
+    "queries": [
+     "Turkish coffee with water glass",
+     "Turkish coffee served tray"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "servis"
+   },
+   "picked": {
+    "src": "films/kahve/L07.jpg",
+    "aspect": 1.4601,
+    "title": "Turkish coffee in Istanbul.jpg",
+    "creator": "Tema",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_Istanbul.jpg",
+    "source": "wikimedia",
+    "attribution": true,
+    "label": "afiyet olsun"
+   },
+   "direction": {
+    "frame": "polaroid",
+    "enter": "drop",
+    "camera": "locked"
+   }
+  }
+ ],
+ "sound": {
+  "mood": "calm",
+  "bpm": 72
+ }
+}

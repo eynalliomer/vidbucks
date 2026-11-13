@@ -1,0 +1,792 @@
+{
+ "file": "out/films/kehribar.mp4",
+ "checks": [
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"BIN DOKUZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"BİN DOKUZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"1941\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"SARAY ODASI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:05.5: \"PARÇA SÖKÜLÜYOR.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"DUVARLARI TAMAMEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:09.5: \"KEHRIBAR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"DUVARLARI TAMAMEN KEHRIBARDAN;\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"KEHRIBAR ODA.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"ON SEKİZİNCİ YÜZYILDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"ON SEKİZİNCİ YÜZYILDA PRUSYA KRALI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"PETRO'YÄ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"ON SEKİZİNCİ YÜZYILDA PRUSYA KRALI ONU RUS ÇARI BÜYÜK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:14.5: \"İKİNCİ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"• SANKT PETERSBURG\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"İKİNCİ DÜNYA SAVAŞI'NDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"wäwinenrn\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"İKİNCİ DÜNYA SAVAŞI'NDA ALMAN ASKERLERİ ODAYI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"İKINCIDÜNYASAVAŞI'NDAALMANASKERLERODAYI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"KÖNİGSBERG'ETAŞIDI.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"BİN DO\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"BİN DOKUZ YÜZK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"BİN DOKUZ YÜZ KIRK BEŞTE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"BİN DOKUZ YÜZ KIRK BEŞTEN SONRA İ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"BİN DOKUZ YÜZ KIRK BEŞTEN SONRA İZ KAYBOLD|\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:27.5: \"1931\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"BU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:27.5: \"BUGÜN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:25.5: \"vS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:24.5: \"BUGÜN SARAYDA GÖRDÜ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 25.5,
+   "msg": "text in the picture 0:25.5-0:25.5: \"BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRA]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:27.5: \"vs\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRADAN YAPILMIŞ BİR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRADAN YAPILMIŞ BİR KOPYA.J\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"1941\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"ORİJİNALİ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:30.5: \"Königsberg\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"ORİJİNALİ HÂLÂ KAYIP.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"ORIJİNALI HÂLA KAYIP\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 23.5,
+   "msg": "line not spoken as written (62% match): \"Bin dokuz yüz kırk beşten sonra iz kayboldu.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": null,
+   "msg": "line not spoken as written (67% match): \"Orijinali hâlâ kayıp.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 30.533333,
+  "video": 30.533333,
+  "audio": 30.523,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 9.9,
+  "still_share": 0.69
+ },
+ "hook": 12.6,
+ "shots": 14,
+ "cuts_per_min": 25.5,
+ "silences": [],
+ "loudness": {
+  "lufs": -16.1,
+  "true_peak_db": -1.5,
+  "lra": 3.3
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "BIN DOKUZ",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    -0.0,
+    0.04,
+    0.25,
+    0.11
+   ]
+  },
+  {
+   "text": "BİN DOKUZ",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.05,
+    0.1,
+    0.23,
+    0.12
+   ]
+  },
+  {
+   "text": "1941",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.06,
+    0.88,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "SARAY ODASI",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.05,
+    0.05,
+    0.27,
+    0.14
+   ]
+  },
+  {
+   "text": "PARÇA SÖKÜLÜYOR.",
+   "start": 4.5,
+   "end": 5.5,
+   "box": [
+    0.05,
+    0.08,
+    0.41,
+    0.15
+   ]
+  },
+  {
+   "text": "DUVARLARI TAMAMEN",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.05,
+    0.09,
+    0.45,
+    0.1
+   ]
+  },
+  {
+   "text": "KEHRIBAR",
+   "start": 7.5,
+   "end": 9.5,
+   "box": [
+    0.62,
+    0.76,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "DUVARLARI TAMAMEN KEHRIBARDAN;",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.05,
+    0.09,
+    0.77,
+    0.13
+   ]
+  },
+  {
+   "text": "KEHRIBAR ODA.",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.05,
+    0.1,
+    0.32,
+    0.11
+   ]
+  },
+  {
+   "text": "ON SEKİZİNCİ YÜZYILDA",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.07,
+    0.13,
+    0.32,
+    0.04
+   ]
+  },
+  {
+   "text": "ON SEKİZİNCİ YÜZYILDA PRUSYA KRALI",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.07,
+    0.13,
+    0.51,
+    0.04
+   ]
+  },
+  {
+   "text": "PETRO'YÄ",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.05,
+    0.06,
+    0.16,
+    0.08
+   ]
+  },
+  {
+   "text": "ON SEKİZİNCİ YÜZYILDA PRUSYA KRALI ONU RUS ÇARI BÜYÜK",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.07,
+    0.12,
+    0.8,
+    0.05
+   ]
+  },
+  {
+   "text": "İKİNCİ",
+   "start": 13.5,
+   "end": 14.5,
+   "box": [
+    0.06,
+    0.12,
+    0.11,
+    0.06
+   ]
+  },
+  {
+   "text": "• SANKT PETERSBURG",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.66,
+    0.76,
+    0.23,
+    0.04
+   ]
+  },
+  {
+   "text": "İKİNCİ DÜNYA SAVAŞI'NDA",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.07,
+    0.12,
+    0.35,
+    0.05
+   ]
+  },
+  {
+   "text": "wäwinenrn",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.16,
+    0.18,
+    0.12,
+    0.03
+   ]
+  },
+  {
+   "text": "İKİNCİ DÜNYA SAVAŞI'NDA ALMAN ASKERLERİ ODAYI",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.07,
+    0.13,
+    0.69,
+    0.05
+   ]
+  },
+  {
+   "text": "İKINCIDÜNYASAVAŞI'NDAALMANASKERLERODAYI",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.06,
+    0.13,
+    0.69,
+    0.04
+   ]
+  },
+  {
+   "text": "KÖNİGSBERG'ETAŞIDI.",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.05,
+    0.08,
+    0.33,
+    0.06
+   ]
+  },
+  {
+   "text": "BİN DO",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.07,
+    0.08,
+    0.1,
+    0.05
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZK",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.07,
+    0.09,
+    0.22,
+    0.04
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZ KIRK BEŞTE",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.07,
+    0.08,
+    0.34,
+    0.05
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZ KIRK BEŞTEN SONRA İ",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.07,
+    0.08,
+    0.46,
+    0.04
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZ KIRK BEŞTEN SONRA İZ KAYBOLD|",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.07,
+    0.08,
+    0.59,
+    0.05
+   ]
+  },
+  {
+   "text": "1931",
+   "start": 23.5,
+   "end": 27.5,
+   "box": [
+    0.04,
+    0.9,
+    0.08,
+    0.05
+   ]
+  },
+  {
+   "text": "BU",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.47,
+    0.08,
+    0.04,
+    0.05
+   ]
+  },
+  {
+   "text": "BUGÜN",
+   "start": 24.5,
+   "end": 27.5,
+   "box": [
+    0.54,
+    0.9,
+    0.1,
+    0.06
+   ]
+  },
+  {
+   "text": "vS",
+   "start": 24.5,
+   "end": 25.5,
+   "box": [
+    0.49,
+    0.54,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "BUGÜN SARAYDA GÖRDÜ",
+   "start": 24.5,
+   "end": 24.5,
+   "box": [
+    0.36,
+    0.08,
+    0.28,
+    0.06
+   ]
+  },
+  {
+   "text": "BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRA]",
+   "start": 25.5,
+   "end": 25.5,
+   "box": [
+    0.25,
+    0.08,
+    0.5,
+    0.05
+   ]
+  },
+  {
+   "text": "vs",
+   "start": 26.5,
+   "end": 27.5,
+   "box": [
+    0.48,
+    0.54,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRADAN YAPILMIŞ BİR",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.14,
+    0.08,
+    0.71,
+    0.05
+   ]
+  },
+  {
+   "text": "BUGÜN SARAYDA GÖRDÜĞÜNÜZ ODA, SONRADAN YAPILMIŞ BİR KOPYA.J",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.09,
+    0.07,
+    0.81,
+    0.06
+   ]
+  },
+  {
+   "text": "1941",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.1,
+    0.43,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "ORİJİNALİ",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.07,
+    0.09,
+    0.13,
+    0.04
+   ]
+  },
+  {
+   "text": "Königsberg",
+   "start": 29.5,
+   "end": 30.5,
+   "box": [
+    0.33,
+    0.21,
+    0.09,
+    0.04
+   ]
+  },
+  {
+   "text": "ORİJİNALİ HÂLÂ KAYIP.",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.07,
+    0.08,
+    0.3,
+    0.05
+   ]
+  },
+  {
+   "text": "ORIJİNALI HÂLA KAYIP",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.07,
+    0.09,
+    0.28,
+    0.04
+   ]
+  }
+ ],
+ "speech_words": 47,
+ "speech_coverage": 0.83,
+ "script": [
+  {
+   "line": "Bin dokuz yüz kırk bir. Bir saray odası parça parça sökülüyor.",
+   "score": 1.0,
+   "t": 0.0
+  },
+  {
+   "line": "Duvarları tamamen kehribardan: Kehribar Oda.",
+   "score": 1.0,
+   "t": 8.3
+  },
+  {
+   "line": "On sekizinci yüzyılda Prusya kralı onu Rus Çarı Büyük Petro'ya hediye etmişti.",
+   "score": 0.77,
+   "t": 11.6
+  },
+  {
+   "line": "İkinci Dünya Savaşı'nda Alman askerleri odayı Königsberg'e taşıdı.",
+   "score": 0.8,
+   "t": 16.6
+  },
+  {
+   "line": "Bin dokuz yüz kırk beşten sonra iz kayboldu.",
+   "score": 0.62,
+   "t": 23.5
+  },
+  {
+   "line": "Bugün sarayda gördüğünüz oda, sonradan yapılmış bir kopya.",
+   "score": 0.88,
+   "t": 28.8
+  },
+  {
+   "line": "Orijinali hâlâ kayıp.",
+   "score": 0.67,
+   "t": null
+  }
+ ],
+ "script_adherence": 0.71
+}

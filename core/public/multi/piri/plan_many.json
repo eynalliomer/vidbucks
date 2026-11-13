@@ -1,0 +1,511 @@
+{
+ "duration": 63.232,
+ "styles_used": [
+  "archive-lighttable",
+  "caption-news",
+  "news-package",
+  "newsreel",
+  "risograph",
+  "satellite-briefing",
+  "visual-investigation"
+ ],
+ "switch_cost": 0.0,
+ "min_seg": 3.0,
+ "format": "auto",
+ "locked_style": null,
+ "segments": [
+  {
+   "id": "s01",
+   "lines": [
+    1
+   ],
+   "start": 0.0,
+   "end": 5.213,
+   "style": "newsreel",
+   "name": "1920s Newsreel",
+   "renderer": "type",
+   "preset": "newsreel",
+   "readiness": "native",
+   "transition": null,
+   "content": {
+    "number": 1.9,
+    "history": 1.5,
+    "year": 1.5,
+    "place": 1.2
+   },
+   "runners_up": [
+    "caption-news",
+    "archive-lighttable"
+   ],
+   "reason": "content number, history, year, place -> 1920s Newsreel (native)"
+  },
+  {
+   "id": "s02",
+   "lines": [
+    2
+   ],
+   "start": 5.213,
+   "end": 9.794,
+   "style": "archive-lighttable",
+   "name": "Archive Light Table",
+   "renderer": "board",
+   "preset": {
+    "look": "wall",
+    "grade": "bw"
+   },
+   "readiness": "native",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.25
+   },
+   "content": {
+    "history": 1.0,
+    "document": 1.0
+   },
+   "runners_up": [
+    "risograph",
+    "silkscreen-poster"
+   ],
+   "reason": "content history, document -> Archive Light Table (native)"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    3,
+    4
+   ],
+   "start": 9.794,
+   "end": 18.642,
+   "style": "caption-news",
+   "name": "Caption News",
+   "renderer": "type",
+   "preset": "caption-news",
+   "readiness": "native",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.25
+   },
+   "content": {
+    "number": 3.5,
+    "place": 2.2,
+    "document": 1.0,
+    "process": 1.0
+   },
+   "runners_up": [
+    "visual-investigation",
+    "swiss-motion"
+   ],
+   "reason": "content number, place, document, process -> Caption News (native)"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    5,
+    6
+   ],
+   "start": 18.642,
+   "end": 26.464,
+   "style": "news-package",
+   "name": "Broadcast News Package",
+   "renderer": "type",
+   "preset": "news-package",
+   "readiness": "native",
+   "transition": {
+    "kind": "cut"
+   },
+   "content": {
+    "person": 4.4,
+    "place": 2.2,
+    "map": 0.8
+   },
+   "runners_up": [
+    "visual-investigation",
+    "caption-news"
+   ],
+   "reason": "content person, place, map -> Broadcast News Package (native)"
+  },
+  {
+   "id": "s05",
+   "lines": [
+    7
+   ],
+   "start": 26.464,
+   "end": 31.018,
+   "style": "archive-lighttable",
+   "name": "Archive Light Table",
+   "renderer": "board",
+   "preset": {
+    "look": "wall",
+    "grade": "bw"
+   },
+   "readiness": "native",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.25
+   },
+   "content": {
+    "number": 2.5,
+    "document": 2.0,
+    "year": 1.5,
+    "list": 1.0
+   },
+   "runners_up": [
+    "caption-news",
+    "swiss-motion"
+   ],
+   "reason": "content number, document, year, list -> Archive Light Table (native)"
+  },
+  {
+   "id": "s06",
+   "lines": [
+    8
+   ],
+   "start": 31.018,
+   "end": 35.187,
+   "style": "caption-news",
+   "name": "Caption News",
+   "renderer": "type",
+   "preset": "caption-news",
+   "readiness": "native",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.25
+   },
+   "content": {
+    "number": 1.3,
+    "document": 1.0,
+    "quote": 1.0
+   },
+   "runners_up": [
+    "risograph",
+    "silkscreen-poster"
+   ],
+   "reason": "content number, document, quote -> Caption News (native)"
+  },
+  {
+   "id": "s07",
+   "lines": [
+    9,
+    10
+   ],
+   "start": 35.187,
+   "end": 43.76,
+   "style": "visual-investigation",
+   "name": "Visual Investigation",
+   "renderer": "board",
+   "preset": {
+    "look": "charcoal",
+    "grade": "natural"
+   },
+   "readiness": "native",
+   "transition": {
+    "kind": "cut"
+   },
+   "content": {
+    "document": 2.0,
+    "place": 1.2,
+    "closing": 1.0,
+    "emotion": 1.0
+   },
+   "runners_up": [
+    "archive-lighttable",
+    "news-package"
+   ],
+   "reason": "content document, place, closing, emotion -> Visual Investigation (native)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    11
+   ],
+   "start": 43.76,
+   "end": 48.299,
+   "style": "risograph",
+   "name": "Risograph Print",
+   "renderer": "type",
+   "preset": "risograph",
+   "readiness": "native",
+   "transition": {
+    "kind": "wipe",
+    "dur": 0.45
+   },
+   "content": {
+    "quote": 1.6,
+    "process": 1.0,
+    "nature": 1.0,
+    "document": 1.0
+   },
+   "runners_up": [
+    "silkscreen-poster",
+    "visual-investigation"
+   ],
+   "reason": "content quote, process, nature, document -> Risograph Print (native)"
+  },
+  {
+   "id": "s09",
+   "lines": [
+    12
+   ],
+   "start": 48.299,
+   "end": 51.911,
+   "style": "satellite-briefing",
+   "name": "Satellite Briefing",
+   "renderer": "board",
+   "preset": {
+    "look": "night",
+    "grade": "natural"
+   },
+   "readiness": "skin",
+   "transition": {
+    "kind": "wipe",
+    "dur": 0.45
+   },
+   "content": {
+    "place": 1.2,
+    "map": 0.8
+   },
+   "runners_up": [
+    "map-explainer",
+    "visual-investigation"
+   ],
+   "reason": "content place, map -> Satellite Briefing (skin)"
+  },
+  {
+   "id": "s10",
+   "lines": [
+    13
+   ],
+   "start": 51.911,
+   "end": 55.418,
+   "style": "caption-news",
+   "name": "Caption News",
+   "renderer": "type",
+   "preset": "caption-news",
+   "readiness": "native",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.25
+   },
+   "content": {
+    "number": 1.3,
+    "closing": 1.0,
+    "document": 1.0,
+    "emotion": 1.0
+   },
+   "runners_up": [
+    "visual-investigation",
+    "archive-lighttable"
+   ],
+   "reason": "content number, closing, document, emotion -> Caption News (native)"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    14,
+    15
+   ],
+   "start": 55.418,
+   "end": 63.232,
+   "style": "visual-investigation",
+   "name": "Visual Investigation",
+   "renderer": "board",
+   "preset": {
+    "look": "charcoal",
+    "grade": "natural"
+   },
+   "readiness": "native",
+   "transition": {
+    "kind": "cut"
+   },
+   "content": {
+    "closing": 3.0,
+    "place": 1.2,
+    "emotion": 1.0,
+    "mystery": 1.0
+   },
+   "runners_up": [
+    "archive-lighttable",
+    "news-package"
+   ],
+   "reason": "content closing, place, emotion, mystery -> Visual Investigation (native)"
+  }
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "start": 0.9,
+   "end": 5.013,
+   "text": "Bin dokuz yüz yirmi dokuz. İstanbul, Topkapı Sarayı.",
+   "features": {
+    "history": 1.5,
+    "year": 1.5,
+    "number": 1.9,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4,
+    "title": 0.8
+   }
+  },
+  {
+   "id": 2,
+   "start": 5.463,
+   "end": 9.594,
+   "text": "Saray müzeye dönüşürken, kütüphanede katlanmış bir deri bulunur.",
+   "features": {
+    "history": 1.0,
+    "document": 1.0
+   }
+  },
+  {
+   "id": 3,
+   "start": 10.044,
+   "end": 13.201,
+   "text": "Üzerinde, dört yüz yıllık bir dünya haritası vardır.",
+   "features": {
+    "document": 1.0,
+    "number": 1.6
+   }
+  },
+  {
+   "id": 4,
+   "start": 14.201,
+   "end": 18.442,
+   "text": "Dört yüz on altı yıl önce, Gelibolu'da bir denizci kalemi eline alır.",
+   "features": {
+    "process": 1.0,
+    "nature": 1.0,
+    "number": 1.9,
+    "place": 2.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 5,
+   "start": 18.892,
+   "end": 22.606,
+   "text": "Adı Piri Reis. Amcası, ünlü kaptan Kemal Reis.",
+   "features": {
+    "person": 3.4
+   }
+  },
+  {
+   "id": 6,
+   "start": 23.056,
+   "end": 26.264,
+   "text": "Gençliği, amcasının gemilerinde, Akdeniz'de geçer.",
+   "features": {
+    "person": 1.0,
+    "place": 2.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 7,
+   "start": 26.714,
+   "end": 30.268,
+   "text": "Haritayı bin beş yüz on üç yılında, ceylan derisine çizer.",
+   "features": {
+    "document": 2.0,
+    "list": 1.0,
+    "year": 1.5,
+    "history": 0.5,
+    "number": 2.5
+   }
+  },
+  {
+   "id": 8,
+   "start": 31.268,
+   "end": 34.987,
+   "text": "Kenarına, yaklaşık yirmi eski haritayı birleştirdiğini yazar.",
+   "features": {
+    "document": 1.0,
+    "quote": 1.0,
+    "number": 1.3
+   }
+  },
+  {
+   "id": 9,
+   "start": 35.437,
+   "end": 38.946,
+   "text": "Bunlardan biri, bugün kayıp olan bir Kolomb haritasıdır.",
+   "features": {
+    "closing": 1.0,
+    "emotion": 1.0,
+    "mystery": 1.0,
+    "document": 1.0
+   }
+  },
+  {
+   "id": 10,
+   "start": 39.396,
+   "end": 43.01,
+   "text": "Haritada İspanya, Afrika kıyısı ve Güney Amerika görünür.",
+   "features": {
+    "document": 1.0,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4
+   }
+  },
+  {
+   "id": 11,
+   "start": 44.01,
+   "end": 48.099,
+   "text": "Sekiz yıl sonra denizciler için bir kitap yazar: Kitab-ı Bahriye.",
+   "features": {
+    "process": 1.0,
+    "nature": 1.0,
+    "document": 1.0,
+    "quote": 1.6,
+    "person": 0.4
+   }
+  },
+  {
+   "id": 12,
+   "start": 48.549,
+   "end": 51.711,
+   "text": "Akdeniz'in koyları ve limanları, tek tek çizilidir.",
+   "features": {
+    "place": 1.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 13,
+   "start": 52.161,
+   "end": 55.218,
+   "text": "Bugün haritanın yalnızca üçte biri elimizde.",
+   "features": {
+    "closing": 1.0,
+    "document": 1.0,
+    "emotion": 1.0,
+    "number": 1.3
+   }
+  },
+  {
+   "id": 14,
+   "start": 55.668,
+   "end": 56.924,
+   "text": "Gerisi hâlâ kayıp.",
+   "features": {
+    "closing": 1.0,
+    "emotion": 1.0,
+    "mystery": 1.0
+   }
+  },
+  {
+   "id": 15,
+   "start": 57.374,
+   "end": 60.232,
+   "text": "Ve o deri, hâlâ Topkapı Sarayı'nda saklanıyor.",
+   "features": {
+    "document": 1.0,
+    "closing": 2.0,
+    "history": 1.0,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4
+   }
+  }
+ ]
+}

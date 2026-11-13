@@ -1,0 +1,73 @@
+{
+ "slug": "nova",
+ "topic": "Nova S akıllı saat lansmanı",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bileğinizdeki saat artık sizi dinliyor.",
+  "Nova S, yedi gün süren pille geliyor.",
+  "Kalp ritmi, uyku ve oksijen tek ekranda.",
+  "Kasası yalnızca otuz iki gram.",
+  "Üç renk: gece, kum ve okyanus.",
+  "Ön siparişler bugün başlıyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "dark-keynote",
+   "ok": [
+    "hologram-hud",
+    "swiss-motion"
+   ],
+   "why": "one product launch: one keynote look from start to end"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "split",
+    "collage"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "compare"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "list",
+    "compare"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "stamp",
+    "photo"
+   ]
+  }
+ ]
+}

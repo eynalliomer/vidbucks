@@ -1,0 +1,79 @@
+[
+ {
+  "line": 1,
+  "src": "films/kehribar/L01.jpg",
+  "aspect": 1.0625,
+  "title": "Catherine Palace interior - Amber Room (1).jpg",
+  "creator": "Branson DeCou",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_interior_-_Amber_Room_(1).jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 2,
+  "src": "films/kehribar/L02.jpg",
+  "aspect": 0.75,
+  "title": "8463. Amber room of the Catherine Palace.jpg",
+  "creator": "GAlexandrova",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:8463._Amber_room_of_the_Catherine_Palace.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 3,
+  "src": "films/kehribar/L03.jpg",
+  "aspect": 0.8955,
+  "title": "Pieter van der Werff - Portrait of Peter the Great - WGA25542.jpg",
+  "creator": "Pieter van der Werff",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pieter_van_der_Werff_-_Portrait_of_Peter_the_Great_-_WGA25542.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 5,
+  "src": "films/kehribar/L05.jpg",
+  "aspect": 1.3333,
+  "title": "WW2 Bunker Museum (Blindage Museum Музей Бункер Battle of Königsberg Museum) Kaliningrad, Russia 2017-10-29 - 42554751730.jpg",
+  "creator": "ftrc",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:WW2_Bunker_Museum_(Blindage_Museum_%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_Battle_of_K%C3%B6nigsberg_Museum)_Kaliningrad,_Russia_2017-10-29_-_42554751730.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/kehribar/L06.jpg",
+  "aspect": 1.0602,
+  "title": "Catherine Palace interior - Amber Room (2).jpg",
+  "creator": "Branson DeCou",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_interior_-_Amber_Room_(2).jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 6,
+  "src": "films/kehribar/L06x1.jpg",
+  "aspect": 1.3333,
+  "title": "Amber frame with florentine mosaic Taste (modern reconstruction) 01 detail.JPG",
+  "creator": "Shakko",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Amber_frame_with_florentine_mosaic_Taste_(modern_reconstruction)_01_detail.JPG",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 7,
+  "src": "films/kehribar/L07.jpg",
+  "aspect": 0.7775,
+  "title": "Andrey Zeest - Amber Room (autochrome).jpg",
+  "creator": "Андрей Андреевич Зеест",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Andrey_Zeest_-_Amber_Room_(autochrome).jpg",
+  "source": "wikimedia",
+  "attribution": false
+ }
+]

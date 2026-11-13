@@ -1,0 +1,842 @@
+{
+ "id": "Tpl-BoardFilm",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "look": "wall",
+ "grade": "sepia",
+ "fadeIn": 0.6,
+ "fadeOut": 2.0,
+ "items": [
+  {
+   "type": "map",
+   "src": "board/piri/map_atl.json",
+   "t_in": -1
+  },
+  {
+   "type": "bigtext",
+   "text": "1929",
+   "x": 22300,
+   "y": -13300,
+   "size": 900,
+   "t_in": {
+    "line": 1,
+    "dt": -0.1
+   },
+   "t_out": {
+    "end": 3,
+    "dt": -0.2
+   },
+   "type_on": 0.4,
+   "bar": "#ffd60a",
+   "color": "#1e1a16"
+  },
+  {
+   "type": "print",
+   "img": "board/piri/p02.jpg",
+   "aspect": 1.4981,
+   "x": 19800,
+   "y": -9900,
+   "w": 3000,
+   "rot": -1.3,
+   "t_in": {
+    "word": [
+     1,
+     "Topkapı"
+    ],
+    "dt": -0.1
+   },
+   "label": "TOPKAPI SARAYI",
+   "label_t": {
+    "word": [
+     1,
+     "Sarayı"
+    ],
+    "dt": 0
+   }
+  },
+  {
+   "type": "marker",
+   "at": {
+    "place": "İstanbul"
+   },
+   "label": "İSTANBUL",
+   "t_in": {
+    "word": [
+     2,
+     "Saray"
+    ],
+    "dt": -0.1
+   },
+   "side": "right"
+  },
+  {
+   "type": "string",
+   "from": {
+    "place": "İstanbul"
+   },
+   "to": [
+    18300,
+    -10000
+   ],
+   "t_in": {
+    "word": [
+     2,
+     "kütüphanede"
+    ],
+    "dt": -0.2
+   },
+   "dur": 0.7
+  },
+  {
+   "type": "print",
+   "img": "board/piri/p01.jpg",
+   "aspect": 0.7496,
+   "x": 19800,
+   "y": -4200,
+   "w": 3000,
+   "rot": 1.1,
+   "t_in": {
+    "word": [
+     3,
+     "dünya"
+    ],
+    "dt": -0.15
+   }
+  },
+  {
+   "type": "bigtext",
+   "text": "CEYLAN DERİSİNDEKİ DÜNYA",
+   "x": 22300,
+   "y": -13300,
+   "size": 640,
+   "t_in": {
+    "end": 3,
+    "dt": 0.35
+   }
+  },
+  {
+   "type": "marker",
+   "at": {
+    "place": "Gelibolu"
+   },
+   "label": "GELİBOLU",
+   "t_in": {
+    "word": [
+     4,
+     "Gelibolu'da"
+    ],
+    "dt": -0.1
+   },
+   "side": "left"
+  },
+  {
+   "type": "string",
+   "from": [
+    18300,
+    -5800
+   ],
+   "to": {
+    "place": "Gelibolu"
+   },
+   "t_in": {
+    "word": [
+     4,
+     "Gelibolu'da"
+    ],
+    "dt": -0.3
+   },
+   "dur": 0.9
+  },
+  {
+   "type": "print",
+   "img": "board/piri/p04.jpg",
+   "aspect": 1.4535,
+   "x": 19800,
+   "y": 2600,
+   "w": 3400,
+   "rot": -1.0,
+   "t_in": {
+    "word": [
+     4,
+     "denizci"
+    ],
+    "dt": -0.1
+   },
+   "label": "KİTAB-I BAHRİYE",
+   "label_t": {
+    "word": [
+     11,
+     "Kitab-ı"
+    ],
+    "dt": -0.1
+   }
+  },
+  {
+   "type": "bigtext",
+   "text": "PİRİ REİS",
+   "x": 24800,
+   "y": -900,
+   "size": 620,
+   "t_in": {
+    "word": [
+     5,
+     "Piri"
+    ],
+    "dt": -0.1
+   }
+  },
+  {
+   "type": "pen",
+   "kind": "underline",
+   "x": 24800,
+   "y": -500,
+   "w": 3400,
+   "t_in": {
+    "word": [
+     5,
+     "Reis"
+    ],
+    "dt": 0.1
+   },
+   "dur": 0.4,
+   "width": 26
+  },
+  {
+   "type": "print",
+   "img": "board/piri/p03.jpg",
+   "aspect": 0.8617,
+   "x": 24800,
+   "y": 2700,
+   "w": 2000,
+   "rot": 2.0,
+   "t_in": {
+    "word": [
+     5,
+     "Kemal"
+    ],
+    "dt": -0.15
+   },
+   "label": "GÖKE",
+   "label_t": {
+    "word": [
+     5,
+     "Kemal"
+    ],
+    "dt": 0.2
+   }
+  },
+  {
+   "type": "route",
+   "from": {
+    "place": "Gelibolu"
+   },
+   "to": {
+    "place": "Cebelitarık"
+   },
+   "t_in": {
+    "word": [
+     6,
+     "Akdeniz'de"
+    ],
+    "dt": -0.4
+   },
+   "dur": 1.4,
+   "bend": -0.12,
+   "width": 46
+  },
+  {
+   "type": "counter",
+   "x": 19800,
+   "y": -1050,
+   "size": 620,
+   "value": 1513,
+   "t_in": {
+    "word": [
+     7,
+     "yılında"
+    ],
+    "dt": -0.9
+   },
+   "dur": 1.0,
+   "caption": "CEYLAN DERİSİ"
+  },
+  {
+   "type": "pen",
+   "kind": "ellipse",
+   "x": 19800,
+   "y": -4200,
+   "w": 3900,
+   "h": 4900,
+   "t_in": {
+    "word": [
+     7,
+     "ceylan"
+    ],
+    "dt": -0.1
+   },
+   "dur": 0.6,
+   "width": 24,
+   "rot": 2
+  },
+  {
+   "type": "counter",
+   "x": 24800,
+   "y": -6200,
+   "size": 680,
+   "value": 20,
+   "t_in": {
+    "word": [
+     8,
+     "yirmi"
+    ],
+    "dt": -0.15
+   },
+   "dur": 0.8,
+   "prefix": "~",
+   "caption": "ESKİ HARİTA"
+  },
+  {
+   "type": "bigtext",
+   "text": "KOLOMB",
+   "x": 24800,
+   "y": -4500,
+   "size": 360,
+   "t_in": {
+    "word": [
+     9,
+     "Kolomb"
+    ],
+    "dt": -0.15
+   }
+  },
+  {
+   "type": "stamp",
+   "text": "KAYIP",
+   "x": 24800,
+   "y": -3700,
+   "size": 330,
+   "rot": -8,
+   "t_in": {
+    "word": [
+     9,
+     "kayıp"
+    ],
+    "dt": -0.1
+   }
+  },
+  {
+   "type": "region",
+   "names": [
+    "Spain",
+    "Portugal"
+   ],
+   "color": "#c0472b",
+   "to_color": "#d9a441",
+   "t_in": {
+    "word": [
+     10,
+     "İspanya"
+    ],
+    "dt": -0.15
+   },
+   "t_change": {
+    "line": 13,
+    "dt": 0
+   }
+  },
+  {
+   "type": "region",
+   "names": [
+    "Morocco",
+    "W. Sahara",
+    "Mauritania",
+    "Senegal"
+   ],
+   "color": "#c0472b",
+   "to_color": "#d9a441",
+   "t_in": {
+    "word": [
+     10,
+     "Afrika"
+    ],
+    "dt": -0.15
+   },
+   "t_change": {
+    "line": 13,
+    "dt": 0
+   }
+  },
+  {
+   "type": "region",
+   "names": [
+    "Brazil"
+   ],
+   "color": "#c0472b",
+   "to_color": "#d9a441",
+   "t_in": {
+    "word": [
+     10,
+     "Güney"
+    ],
+    "dt": -0.15
+   },
+   "t_change": {
+    "line": 13,
+    "dt": 0
+   }
+  },
+  {
+   "type": "counter",
+   "x": 22100,
+   "y": 6400,
+   "size": 360,
+   "value": 1521,
+   "t_in": {
+    "word": [
+     11,
+     "Sekiz"
+    ],
+    "dt": -0.1
+   },
+   "dur": 0.8
+  },
+  {
+   "type": "pen",
+   "kind": "highlight",
+   "x": 18900,
+   "y": 2300,
+   "w": 1900,
+   "t_in": {
+    "word": [
+     12,
+     "koyları"
+    ],
+    "dt": -0.3
+   },
+   "dur": 0.45,
+   "width": 130,
+   "rot": -1.0
+  },
+  {
+   "type": "pen",
+   "kind": "highlight",
+   "x": 19600,
+   "y": 3100,
+   "w": 2200,
+   "t_in": {
+    "word": [
+     12,
+     "limanları"
+    ],
+    "dt": -0.3
+   },
+   "dur": 0.45,
+   "width": 130,
+   "rot": -1.0,
+   "seed": 5
+  },
+  {
+   "type": "bigtext",
+   "text": "1/3",
+   "x": 24800,
+   "y": -8700,
+   "size": 1000,
+   "color": "#d9a441",
+   "t_in": {
+    "word": [
+     13,
+     "üçte"
+    ],
+    "dt": -0.15
+   }
+  },
+  {
+   "type": "stamp",
+   "text": "2/3 KAYIP",
+   "x": 19900,
+   "y": -3300,
+   "size": 300,
+   "rot": 7,
+   "t_in": {
+    "word": [
+     14,
+     "kayıp"
+    ],
+    "dt": -0.1
+   }
+  },
+  {
+   "type": "string",
+   "from": [
+    21300,
+    -4200
+   ],
+   "to": [
+    21300,
+    -9900
+   ],
+   "t_in": {
+    "word": [
+     15,
+     "Topkapı"
+    ],
+    "dt": -0.3
+   },
+   "dur": 0.8,
+   "sag": 0.05
+  }
+ ],
+ "camera": [
+  {
+   "t": 0,
+   "x": 22300,
+   "y": -13200,
+   "zoom": 0.95,
+   "rot": -0.8,
+   "radius": 2600
+  },
+  {
+   "t": {
+    "word": [
+     1,
+     "İstanbul"
+    ],
+    "dt": 0
+   },
+   "x": 22200,
+   "y": -12900,
+   "zoom": 0.85,
+   "rot": -0.6
+  },
+  {
+   "t": {
+    "word": [
+     1,
+     "Topkapı"
+    ],
+    "dt": 0.4
+   },
+   "x": 20400,
+   "y": -10900,
+   "zoom": 0.5,
+   "rot": -0.4
+  },
+  {
+   "t": {
+    "end": 1,
+    "dt": 0.1
+   },
+   "x": 19800,
+   "y": -10000,
+   "zoom": 0.66
+  },
+  {
+   "t": {
+    "word": [
+     2,
+     "kütüphanede"
+    ],
+    "dt": 0.3
+   },
+   "x": 15500,
+   "y": -9700,
+   "zoom": 0.3,
+   "radius": 7000,
+   "strength": 0.3
+  },
+  {
+   "t": {
+    "end": 2,
+    "dt": 0
+   },
+   "x": 17000,
+   "y": -8000,
+   "zoom": 0.33,
+   "rot": 0.2
+  },
+  {
+   "t": {
+    "word": [
+     3,
+     "dünya"
+    ],
+    "dt": 0.4
+   },
+   "x": 19800,
+   "y": -4300,
+   "zoom": 0.62,
+   "rot": 0.6
+  },
+  {
+   "t": {
+    "end": 3,
+    "dt": 0.1
+   },
+   "x": 19800,
+   "y": -4200,
+   "zoom": 0.66,
+   "rot": 0.4
+  },
+  {
+   "t": {
+    "end": 3,
+    "dt": 1.25
+   },
+   "x": 22300,
+   "y": -10500,
+   "zoom": 0.36,
+   "radius": 6000,
+   "strength": 0.4
+  },
+  {
+   "t": {
+    "line": 4,
+    "dt": 0.4
+   },
+   "x": 15000,
+   "y": -6000,
+   "zoom": 0.24,
+   "radius": 9000,
+   "strength": 0.25
+  },
+  {
+   "t": {
+    "word": [
+     4,
+     "denizci"
+    ],
+    "dt": 0.3
+   },
+   "x": 19800,
+   "y": 2400,
+   "zoom": 0.55,
+   "rot": -0.4
+  },
+  {
+   "t": {
+    "line": 5,
+    "dt": 0.4
+   },
+   "x": 24800,
+   "y": -700,
+   "zoom": 0.7,
+   "rot": 0.3
+  },
+  {
+   "t": {
+    "word": [
+     5,
+     "Kemal"
+    ],
+    "dt": 0.3
+   },
+   "x": 24800,
+   "y": 2300,
+   "zoom": 0.62,
+   "rot": 0.6
+  },
+  {
+   "t": {
+    "line": 6,
+    "dt": 0.3
+   },
+   "x": 8000,
+   "y": -8300,
+   "zoom": 0.2,
+   "radius": 9500,
+   "strength": 0.25
+  },
+  {
+   "t": {
+    "end": 6,
+    "dt": 0
+   },
+   "x": 7000,
+   "y": -8300,
+   "zoom": 0.22
+  },
+  {
+   "t": {
+    "line": 7,
+    "dt": 0.3
+   },
+   "x": 19800,
+   "y": -1600,
+   "zoom": 0.6,
+   "rot": -0.4
+  },
+  {
+   "t": {
+    "word": [
+     7,
+     "ceylan"
+    ],
+    "dt": 0.2
+   },
+   "x": 19800,
+   "y": -3800,
+   "zoom": 0.5,
+   "rot": -0.2
+  },
+  {
+   "t": {
+    "line": 8,
+    "dt": 0.3
+   },
+   "x": 24800,
+   "y": -5900,
+   "zoom": 0.62,
+   "rot": 0.3
+  },
+  {
+   "t": {
+    "end": 8,
+    "dt": 0
+   },
+   "x": 24800,
+   "y": -5600,
+   "zoom": 0.66,
+   "rot": 0.4
+  },
+  {
+   "t": {
+    "word": [
+     9,
+     "kayıp"
+    ],
+    "dt": -0.2
+   },
+   "x": 24800,
+   "y": -4000,
+   "zoom": 0.7,
+   "rot": -0.5
+  },
+  {
+   "t": {
+    "end": 9,
+    "dt": 0.1
+   },
+   "x": 24800,
+   "y": -4100,
+   "zoom": 0.74,
+   "rot": -0.6
+  },
+  {
+   "t": {
+    "line": 10,
+    "dt": 0.4
+   },
+   "x": 1500,
+   "y": -2500,
+   "zoom": 0.16,
+   "radius": 16000,
+   "strength": 0.15
+  },
+  {
+   "t": {
+    "end": 10,
+    "dt": 0.2
+   },
+   "x": 0,
+   "y": -1500,
+   "zoom": 0.15
+  },
+  {
+   "t": {
+    "line": 11,
+    "dt": 0.3
+   },
+   "x": 19800,
+   "y": 4300,
+   "zoom": 0.5,
+   "rot": -0.3
+  },
+  {
+   "t": {
+    "end": 11,
+    "dt": 0
+   },
+   "x": 19800,
+   "y": 3800,
+   "zoom": 0.56,
+   "rot": -0.2
+  },
+  {
+   "t": {
+    "word": [
+     12,
+     "koyları"
+    ],
+    "dt": 0
+   },
+   "x": 19300,
+   "y": 2700,
+   "zoom": 0.85,
+   "rot": -0.8
+  },
+  {
+   "t": {
+    "end": 12,
+    "dt": 0.1
+   },
+   "x": 19500,
+   "y": 2800,
+   "zoom": 0.9,
+   "rot": -1.0
+  },
+  {
+   "t": {
+    "line": 13,
+    "dt": 0.3
+   },
+   "x": 22300,
+   "y": -7600,
+   "zoom": 0.4,
+   "rot": 0.3
+  },
+  {
+   "t": {
+    "end": 13,
+    "dt": 0
+   },
+   "x": 22300,
+   "y": -7400,
+   "zoom": 0.42,
+   "rot": 0.2
+  },
+  {
+   "t": {
+    "word": [
+     14,
+     "kayıp"
+    ],
+    "dt": 0.2
+   },
+   "x": 19800,
+   "y": -3800,
+   "zoom": 0.62,
+   "rot": -0.5
+  },
+  {
+   "t": {
+    "line": 15,
+    "dt": 0.4
+   },
+   "x": 17000,
+   "y": -6500,
+   "zoom": 0.25,
+   "radius": 26000,
+   "strength": 0.1
+  },
+  {
+   "t": 63.2,
+   "x": 6500,
+   "y": -3500,
+   "zoom": 0.11,
+   "radius": 40000,
+   "strength": 0.05
+  }
+ ],
+ "credits": "board/piri/CREDITS.md"
+}

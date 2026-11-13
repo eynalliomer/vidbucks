@@ -1,0 +1,771 @@
+{
+ "file": "out/films/kedi.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": null,
+   "msg": "76% of the video is near-still",
+   "fix": "add movement or cut the held moments"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 0.17,
+   "msg": "one-frame pop/flash at 0:00.2",
+   "fix": "remove the stray frame"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 16.233333,
+   "msg": "frozen picture 0:16.2-0:17.9 (1.7 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "dead air",
+   "t": 25.037083,
+   "msg": "silence 0:25.0-0:26.3 (1.2 s)",
+   "fix": "fill with a line, ambience or a cut; dead air loses viewers"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"06 :00\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"Saat\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:03.5: \"06:00\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"Saat altı.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:02.5: \"Saat altı. Kedim, beni uyandırmak\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"Saat altı. Kedim, beni uyandırmak için masadan\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:05.5: \"Saat altı. Kedim, beni uyandırmak için masadan bir bardak\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"00 : 90\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"06:00\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"düşürüyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"Mama kabı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Mama kabı dolu, ama ortası\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:09.5: \"BOŞ!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"Mama kabı dolu, ama ortası görünüyor; demek\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:09.5: \"Mama kabı dolu, ama ortası görünüyor; demek ki boş.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"ÖĞLEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"Öğlen:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"Öğlen: güneşin düştüğü tek\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"Öğlen: güneşin düştüğü tek kareyi kaplıyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"PAHALI YATAK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"KUTU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"Akşam: ona aldığım\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"Akşam: ona aldığım pahalı yatak\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"Akşam: ona aldığım pahalı yatak yerine kargo kutusunu\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"Akşam: ona aldığım pahalı yatak yerine kargo kutusunu seçiyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:20.5: \"CECE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"Gece üçte\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:20.5: \"03:00\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"YARIS!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Gece üçte koridorda nedensiz\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"YARIŞ!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Gece üçte koridorda nedensiz bir yarış.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Ve\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"Ve sabah, hiçbir şey\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"Ve sabah, hiçbir şey olmamış gibi,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:25.5: \"YINE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:25.5: \"Ve sabah, hiçbir şey olmamış gibi, yine o bardak.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 26.266667,
+  "video": 26.266667,
+  "audio": 26.258,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 7.2,
+  "still_share": 0.76
+ },
+ "hook": 8.3,
+ "shots": 15,
+ "cuts_per_min": 36.5,
+ "silences": [
+  [
+   25.0,
+   26.3
+  ]
+ ],
+ "longest_silence": 1.2,
+ "loudness": {
+  "lufs": -16.0,
+  "true_peak_db": -1.5,
+  "lra": 2.7
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "06 :00",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.01,
+    0.92,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "Saat",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.16,
+    0.08,
+    0.05,
+    0.04
+   ]
+  },
+  {
+   "text": "06:00",
+   "start": 1.5,
+   "end": 3.5,
+   "box": [
+    0.06,
+    0.88,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "Saat altı.",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.19,
+    0.11,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "text": "Saat altı. Kedim, beni uyandırmak",
+   "start": 2.5,
+   "end": 2.5,
+   "box": [
+    0.19,
+    0.11,
+    0.35,
+    0.05
+   ]
+  },
+  {
+   "text": "Saat altı. Kedim, beni uyandırmak için masadan",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.19,
+    0.11,
+    0.5,
+    0.05
+   ]
+  },
+  {
+   "text": "Saat altı. Kedim, beni uyandırmak için masadan bir bardak",
+   "start": 4.5,
+   "end": 5.5,
+   "box": [
+    0.19,
+    0.11,
+    0.61,
+    0.05
+   ]
+  },
+  {
+   "text": "00 : 90",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.06,
+    0.88,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "06:00",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.06,
+    0.88,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "düşürüyor.",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.44,
+    0.06,
+    0.12,
+    0.05
+   ]
+  },
+  {
+   "text": "Mama kabı",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.22,
+    0.07,
+    0.12,
+    0.04
+   ]
+  },
+  {
+   "text": "Mama kabı dolu, ama ortası",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.22,
+    0.06,
+    0.29,
+    0.04
+   ]
+  },
+  {
+   "text": "BOŞ!",
+   "start": 8.5,
+   "end": 9.5,
+   "box": [
+    0.75,
+    0.84,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "Mama kabı dolu, ama ortası görünüyor; demek",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.22,
+    0.06,
+    0.49,
+    0.05
+   ]
+  },
+  {
+   "text": "Mama kabı dolu, ama ortası görünüyor; demek ki boş.",
+   "start": 9.5,
+   "end": 9.5,
+   "box": [
+    0.22,
+    0.06,
+    0.57,
+    0.05
+   ]
+  },
+  {
+   "text": "ÖĞLEN",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.06,
+    0.88,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "Öğlen:",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.27,
+    0.07,
+    0.07,
+    0.05
+   ]
+  },
+  {
+   "text": "Öğlen: güneşin düştüğü tek",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.27,
+    0.07,
+    0.3,
+    0.05
+   ]
+  },
+  {
+   "text": "Öğlen: güneşin düştüğü tek kareyi kaplıyor.",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.27,
+    0.07,
+    0.46,
+    0.05
+   ]
+  },
+  {
+   "text": "PAHALI YATAK",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.04,
+    0.89,
+    0.24,
+    0.05
+   ]
+  },
+  {
+   "text": "KUTU",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.54,
+    0.89,
+    0.1,
+    0.05
+   ]
+  },
+  {
+   "text": "Akşam: ona aldığım",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.16,
+    0.07,
+    0.21,
+    0.04
+   ]
+  },
+  {
+   "text": "Akşam: ona aldığım pahalı yatak",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.16,
+    0.07,
+    0.34,
+    0.04
+   ]
+  },
+  {
+   "text": "Akşam: ona aldığım pahalı yatak yerine kargo kutusunu",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.16,
+    0.06,
+    0.58,
+    0.04
+   ]
+  },
+  {
+   "text": "Akşam: ona aldığım pahalı yatak yerine kargo kutusunu seçiyor.",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.16,
+    0.06,
+    0.67,
+    0.05
+   ]
+  },
+  {
+   "text": "CECE",
+   "start": 18.5,
+   "end": 20.5,
+   "box": [
+    0.33,
+    0.64,
+    0.35,
+    0.18
+   ]
+  },
+  {
+   "text": "Gece üçte",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.29,
+    0.06,
+    0.11,
+    0.05
+   ]
+  },
+  {
+   "text": "03:00",
+   "start": 19.5,
+   "end": 20.5,
+   "box": [
+    0.31,
+    0.41,
+    0.39,
+    0.19
+   ]
+  },
+  {
+   "text": "YARIS!",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.24,
+    0.09,
+    0.52,
+    0.24
+   ]
+  },
+  {
+   "text": "Gece üçte koridorda nedensiz",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.29,
+    0.06,
+    0.32,
+    0.05
+   ]
+  },
+  {
+   "text": "YARIŞ!",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.27,
+    0.13,
+    0.47,
+    0.24
+   ]
+  },
+  {
+   "text": "Gece üçte koridorda nedensiz bir yarış.",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.29,
+    0.06,
+    0.42,
+    0.05
+   ]
+  },
+  {
+   "text": "Ve",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.24,
+    0.07,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "Ve sabah, hiçbir şey",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.24,
+    0.06,
+    0.22,
+    0.05
+   ]
+  },
+  {
+   "text": "Ve sabah, hiçbir şey olmamış gibi,",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.24,
+    0.06,
+    0.36,
+    0.05
+   ]
+  },
+  {
+   "text": "YINE",
+   "start": 24.5,
+   "end": 25.5,
+   "box": [
+    0.42,
+    0.53,
+    0.15,
+    0.14
+   ]
+  },
+  {
+   "text": "Ve sabah, hiçbir şey olmamış gibi, yine o bardak.",
+   "start": 24.5,
+   "end": 25.5,
+   "box": [
+    0.24,
+    0.06,
+    0.52,
+    0.05
+   ]
+  }
+ ],
+ "speech_words": 48,
+ "speech_coverage": 0.92,
+ "script": [
+  {
+   "line": "Saat altı. Kedim, beni uyandırmak için masadan bir bardak düşürüyor.",
+   "score": 1.0,
+   "t": 0.0
+  },
+  {
+   "line": "Mama kabı dolu, ama ortası görünüyor; demek ki boş.",
+   "score": 1.0,
+   "t": 5.8
+  },
+  {
+   "line": "Öğlen: güneşin düştüğü tek kareyi kaplıyor.",
+   "score": 1.0,
+   "t": 9.9
+  },
+  {
+   "line": "Akşam: ona aldığım pahalı yatak yerine kargo kutusunu seçiyor.",
+   "score": 0.89,
+   "t": 13.4
+  },
+  {
+   "line": "Gece üçte koridorda nedensiz bir yarış.",
+   "score": 0.83,
+   "t": 18.2
+  },
+  {
+   "line": "Ve sabah, hiçbir şey olmamış gibi, yine o bardak.",
+   "score": 1.0,
+   "t": 21.3
+  }
+ ],
+ "script_adherence": 1.0
+}

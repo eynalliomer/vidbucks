@@ -1,0 +1,189 @@
+{
+ "public_dir": "films/nova",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "dark-keynote",
+   "why": "one launch in one voice: the product scans in, whip moves, huge spoken phrases",
+   "direction": {
+    "camera": "whip",
+    "enter": "scan",
+    "frame": "window",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "unbounded",
+     "text": "inter"
+    },
+    "sound": "digital",
+    "ornament": "hud"
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "The watch lights up full frame; the claim lands in huge type",
+   "data": {
+    "text": "bottom",
+    "from": [
+     0.5,
+     0.5,
+     1.2
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   "media": {
+    "need": false
+   },
+   "picked": {
+    "src": "films/nova/watch_dark.svg",
+    "aspect": 1.6,
+    "title": "Nova S (fictional product, drawn in code)",
+    "creator": "Vidbucks",
+    "license": "original",
+    "source": "procedural"
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 2,
+   "shot": "number",
+   "idea": "Seven slams in: days of battery",
+   "data": {
+    "value": 7,
+    "unit": "gün pil",
+    "mode": "slam"
+   },
+   "media": {
+    "need": false
+   }
+  },
+  {
+   "line": 3,
+   "shot": "diagram",
+   "idea": "The health screen with three pins: heart rhythm, sleep, oxygen",
+   "data": {
+    "callouts": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "label": "Kalp ritmi"
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "label": "Uyku"
+     },
+     {
+      "x": 0.5,
+      "y": 0.58,
+      "label": "Oksijen"
+     }
+    ]
+   },
+   "media": {
+    "need": false
+   },
+   "picked": {
+    "src": "films/nova/watch_health.svg",
+    "aspect": 1.6,
+    "title": "Nova S (fictional product, drawn in code)",
+    "creator": "Vidbucks",
+    "license": "original",
+    "source": "procedural"
+   },
+   "direction": {
+    "caption": "subtitle"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "bigword",
+   "idea": "The case weight stacked in huge type: 32 over the word gram, the number in the accent colour",
+   "data": {
+    "words": [
+     "32",
+     "gram"
+    ],
+    "hot": 0
+   },
+   "media": {
+    "need": false
+   },
+   "direction": {
+    "caption": "subtitle"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "filmstrip",
+   "idea": "The three colours pass through the gate one by one",
+   "media": {
+    "need": false
+   },
+   "picked": {
+    "src": "films/nova/band_night.svg",
+    "aspect": 1.6,
+    "title": "Nova S (fictional product, drawn in code)",
+    "creator": "Vidbucks",
+    "license": "original",
+    "source": "procedural"
+   },
+   "extra": [
+    {
+     "src": "films/nova/band_sand.svg",
+     "aspect": 1.6,
+     "title": "Nova S (fictional product, drawn in code)",
+     "creator": "Vidbucks",
+     "license": "original",
+     "source": "procedural"
+    },
+    {
+     "src": "films/nova/band_ocean.svg",
+     "aspect": 1.6,
+     "title": "Nova S (fictional product, drawn in code)",
+     "creator": "Vidbucks",
+     "license": "original",
+     "source": "procedural"
+    }
+   ],
+   "data": {},
+   "direction": {
+    "caption": "subtitle"
+   }
+  },
+  {
+   "line": 6,
+   "shot": "title",
+   "idea": "The name, letter by letter; pre-orders today",
+   "data": {
+    "title": "Nova S",
+    "size": 220,
+    "mode": "letters"
+   },
+   "media": {
+    "need": false
+   }
+  }
+ ],
+ "note": "Nova S is fictional: every picture is drawn in code (no real product photos, no logos).",
+ "sound": {
+  "mood": "dark",
+  "bpm": 104
+ }
+}

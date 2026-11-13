@@ -1,0 +1,65 @@
+[
+{
+"kind": "snap",
+"t": 0.25,
+"gain": 0.4
+},
+{
+"kind": "snap",
+"t": 4.83,
+"gain": 0.4
+},
+{
+"kind": "swell",
+"t": 6.11,
+"gain": 0.45,
+"dur": 0.9
+},
+{
+"kind": "whoosh",
+"t": 6.41,
+"gain": 0.4
+},
+{
+"kind": "chime",
+"t": 9.49,
+"gain": 0.3
+},
+{
+"kind": "paper",
+"t": 12.77,
+"gain": 0.6,
+"dur": 0.9
+},
+{
+"kind": "slide",
+"t": 13.07,
+"gain": 0.3
+},
+{
+"kind": "slide",
+"t": 17.49,
+"gain": 0.3
+},
+{
+"kind": "thud",
+"t": 17.94,
+"gain": 0.36000000000000004
+},
+{
+"kind": "slide",
+"t": 21.35,
+"gain": 0.3
+},
+{
+"kind": "zip",
+"t": 24.27,
+"gain": 0.55,
+"dur": 0.9
+},
+{
+"kind": "whoosh",
+"t": 24.57,
+"gain": 0.5
+}
+]

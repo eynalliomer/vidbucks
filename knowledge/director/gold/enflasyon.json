@@ -1,0 +1,82 @@
+{
+ "slug": "enflasyon",
+ "topic": "Enflasyon market sepetini nasıl değiştirir?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.",
+  "Buna enflasyon diyoruz: fiyatların genel olarak artması.",
+  "Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar tırmanır.",
+  "Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.",
+  "Maaşlar aynı hızla artmazsa alım gücü düşer.",
+  "Merkez bankaları bu yüzden faizi bir fren gibi kullanır.",
+  "Sepetinize her baktığınızda aslında bir grafik görüyorsunuz."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "dataviz",
+   "ok": [
+    "spreadsheet",
+    "swiss-motion"
+   ],
+   "why": "a data explainer: one clean chart language throughout"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "compare",
+   "ok": [
+    "photo",
+    "split"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "quote"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "split",
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  },
+  {
+   "best": "ratio",
+   "ok": [
+    "compare",
+    "number"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "number",
+    "title"
+   ]
+  }
+ ]
+}

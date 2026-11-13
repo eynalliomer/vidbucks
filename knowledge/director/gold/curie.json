@@ -1,0 +1,100 @@
+{
+ "slug": "curie",
+ "topic": "Marie Curie: iki Nobel",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İki farklı bilim dalında Nobel kazanan ilk ve tek insan.",
+  "Varşova'da doğdu, okumak için Paris'e gitti.",
+  "Eşi Pierre ile birlikte radyoaktiviteyi araştırdı.",
+  "Bin sekiz yüz doksan sekizde polonyum ve radyumu keşfettiler.",
+  "Bin dokuz yüz üçte fizik Nobel'i geldi.",
+  "Bin dokuz yüz on birde kimya Nobel'i.",
+  "Defterleri bugün hâlâ radyoaktif; okumak için koruyucu önlem gerekiyor.",
+  "Onun ışığı hâlâ sönmedi."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "engraving",
+   "ok": [
+    "newsreel",
+    "woodcut"
+   ],
+   "why": "a period biography: engraved portraits and documents"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "oscilloscope-math",
+   "ok": [
+    "neon-tubes",
+    "hologram-hud"
+   ],
+   "why": "the turn: her notebooks still glow - a glowing instrument look"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo",
+    "number"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo",
+    "split"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "timeline",
+   "ok": [
+    "document",
+    "number"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "timeline",
+    "stamp"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  }
+ ]
+}

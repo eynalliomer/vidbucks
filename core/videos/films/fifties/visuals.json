@@ -1,0 +1,414 @@
+{
+ "public_dir": "films/fifties",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "newsreel",
+   "why": "hook: one-second cuts over warm period film, a number on the beat",
+   "direction": {
+    "camera": "kenburns",
+    "enter": "cut",
+    "frame": "bleed",
+    "caption": "none",
+    "treat": "kodak",
+    "texture": "film",
+    "ornament": "grid",
+    "palette": {
+     "bg": "#141312",
+     "fg": "#f1e9da",
+     "accent": "#FFD23F",
+     "dim": "#3a3631"
+    }
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "newsreel",
+   "why": "item one: the station on the old film, one shot shown as a screen on the grid",
+   "transition": {
+    "kind": "cut"
+   },
+   "direction": {
+    "camera": "kenburns",
+    "enter": "cut",
+    "frame": "bleed",
+    "caption": "none",
+    "treat": "kodak",
+    "texture": "film",
+    "ornament": "grid",
+    "palette": {
+     "bg": "#141312",
+     "fg": "#f1e9da",
+     "accent": "#FFD23F",
+     "dim": "#3a3631"
+    }
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    8,
+    9,
+    10
+   ],
+   "style": "newsreel",
+   "why": "item two: colour photos of the places that are left, slower moves, a tape look for the memory",
+   "transition": {
+    "kind": "flash",
+    "dur": 0.3
+   },
+   "direction": {
+    "camera": "kenburns",
+    "enter": "cut",
+    "frame": "bleed",
+    "caption": "none",
+    "treat": "vhs",
+    "texture": "grain",
+    "ornament": "grid",
+    "palette": {
+     "bg": "#141312",
+     "fg": "#f1e9da",
+     "accent": "#FFD23F",
+     "dim": "#3a3631"
+    }
+   }
+  },
+  {
+   "id": "A4",
+   "lines": [
+    11
+   ],
+   "style": "newsreel",
+   "why": "outro: back to the road, the question",
+   "transition": {
+    "kind": "dip",
+    "dur": 0.5
+   },
+   "direction": {
+    "camera": "drift",
+    "enter": "cut",
+    "frame": "bleed",
+    "caption": "none",
+    "treat": "kodak",
+    "texture": "film",
+    "palette": {
+     "bg": "#141312",
+     "fg": "#f1e9da",
+     "accent": "#FFD23F",
+     "dim": "#3a3631"
+    }
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "montage",
+   "idea": "two drive-in screens, the number lands on 'four thousand'",
+   "picked": {
+    "src": "films/fifties/commons/c7.jpg",
+    "aspect": 1.43,
+    "title": "Compton Drive-in screen",
+    "creator": "John Margolies (Library of Congress)",
+    "license": "Public domain"
+   },
+   "extra": [
+    {
+     "src": "films/fifties/commons/c1.jpg",
+     "aspect": 1.44,
+     "title": "Miracle Mile Drive-In marquee lights",
+     "creator": "John Margolies (Library of Congress)",
+     "license": "Public domain"
+    }
+   ],
+   "data": {
+    "cuts": [
+     0,
+     5
+    ]
+   },
+   "pops": [
+    {
+     "text": "4,000+",
+     "word": 7
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "shot": "montage",
+   "idea": "the attendant at the driver's window, then under the hood",
+   "picked": {
+    "src": "films/fifties/clips/way170.mp4",
+    "aspect": 1.333,
+    "in": 1.0,
+    "title": "The Way You Want It",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "extra": [
+    {
+     "src": "films/fifties/clips/way220.mp4",
+     "aspect": 1.333,
+     "in": 0.0,
+     "title": "The Way You Want It",
+     "license": "Public domain (Prelinger Archives)"
+    }
+   ],
+   "data": {
+    "cuts": [
+     0,
+     12
+    ]
+   }
+  },
+  {
+   "line": 3,
+   "shot": "montage",
+   "idea": "a busy main street, then the freeway into town",
+   "picked": {
+    "src": "films/fifties/clips/free805.mp4",
+    "aspect": 1.333,
+    "in": 5.2,
+    "title": "Freedom of the American Road",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "extra": [
+    {
+     "src": "films/fifties/clips/dyn620.mp4",
+     "aspect": 1.333,
+     "in": 5.0,
+     "title": "The Dynamic American City",
+     "license": "Public domain (Prelinger Archives)"
+    }
+   ],
+   "data": {
+    "cuts": [
+     0,
+     5
+    ]
+   }
+  },
+  {
+   "line": 4,
+   "shot": "photo",
+   "idea": "one slow wide shot of the city and its freeway before the bumper",
+   "picked": {
+    "src": "films/fifties/clips/dyn595.mp4",
+    "aspect": 1.333,
+    "in": 0.0,
+    "title": "The Dynamic American City",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "data": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.6,
+     1.12
+    ]
+   },
+   "after": {
+    "title": "Back Then",
+    "sub": "a slow trip through ordinary life"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "montage",
+   "idea": "a car swings into the road, then trucks under the overpass",
+   "tag": "Full-service gas",
+   "picked": {
+    "src": "films/fifties/clips/way045.mp4",
+    "aspect": 1.333,
+    "in": 2.2,
+    "title": "The Way You Want It",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "extra": [
+    {
+     "src": "films/fifties/clips/dyn620.mp4",
+     "aspect": 1.333,
+     "in": 0.0,
+     "title": "The Dynamic American City",
+     "license": "Public domain (Prelinger Archives)"
+    }
+   ],
+   "data": {
+    "cuts": [
+     0,
+     6
+    ]
+   },
+   "pops": [
+    {
+     "text": "BEFORE 1970",
+     "word": 1,
+     "size": 110
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "shot": "photo",
+   "idea": "the hood is up: shown as a small screen on the grid, like a reel being shown",
+   "picked": {
+    "src": "films/fifties/clips/way220.mp4",
+    "aspect": 1.333,
+    "in": 0.0,
+    "title": "The Way You Want It",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "direction": {
+    "frame": "inset"
+   }
+  },
+  {
+   "line": 7,
+   "shot": "photo",
+   "idea": "an ordinary car rolls past a parking lot, nobody comes running",
+   "picked": {
+    "src": "films/fifties/clips/home385.mp4",
+    "aspect": 1.333,
+    "in": 4.2,
+    "title": "Our Home Town: Levittown, Pa.",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "data": {
+    "from": [
+     0.5,
+     0.5,
+     1.05
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.15
+    ]
+   }
+  },
+  {
+   "line": 8,
+   "shot": "montage",
+   "idea": "the NOW SHOWING board, then the neon sign",
+   "tag": "The drive-in",
+   "picked": {
+    "src": "films/fifties/commons/c6.jpg",
+    "aspect": 1.44,
+    "title": "Now showing sign",
+    "creator": "John Margolies (Library of Congress)",
+    "license": "Public domain"
+   },
+   "extra": [
+    {
+     "src": "films/fifties/commons/c0.jpg",
+     "aspect": 0.7,
+     "title": "Airway drive-in sign",
+     "creator": "John Margolies (Library of Congress)",
+     "license": "Public domain"
+    }
+   ],
+   "data": {
+    "cuts": [
+     0,
+     7
+    ]
+   }
+  },
+  {
+   "line": 9,
+   "shot": "detail",
+   "idea": "the rows of speaker posts; the camera dives to the speakers on 'speaker'",
+   "picked": {
+    "src": "films/fifties/commons/c2.jpg",
+    "aspect": 1.44,
+    "title": "Miracle Mile Drive-In speaker posts",
+    "creator": "John Margolies (Library of Congress)",
+    "license": "Public domain"
+   },
+   "data": {
+    "region": [
+     0.3,
+     0.45,
+     0.62,
+     0.8
+    ],
+    "dive_at": 1.6,
+    "mark": "bracket",
+    "label": "window speaker"
+   }
+  },
+  {
+   "line": 10,
+   "shot": "photo",
+   "idea": "the lone screen in an empty field, a slow push: nobody saw the ending",
+   "picked": {
+    "src": "films/fifties/commons/c3.jpg",
+    "aspect": 1.43,
+    "title": "Hettinger Drive-in screen",
+    "creator": "John Margolies (Library of Congress)",
+    "license": "Public domain"
+   },
+   "data": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.42,
+     1.22
+    ]
+   }
+  },
+  {
+   "line": 11,
+   "shot": "photo",
+   "idea": "back on the freeway as the question is asked",
+   "picked": {
+    "src": "films/fifties/clips/dyn595.mp4",
+    "aspect": 1.333,
+    "in": 3.0,
+    "title": "The Dynamic American City",
+    "license": "Public domain (Prelinger Archives)"
+   },
+   "pops": [
+    {
+     "text": "TELL ME IN THE COMMENTS",
+     "word": 8,
+     "size": 64,
+     "pos": [
+      0.5,
+      0.83
+     ]
+    }
+   ],
+   "tag": ""
+  }
+ ],
+ "brand": {
+  "name": "Back Then",
+  "tag": "#D9542B",
+  "pop": "#FFD23F"
+ },
+ "sound": {
+  "mood": "calm",
+  "bpm": 84,
+  "music_db": -15
+ }
+}

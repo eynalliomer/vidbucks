@@ -1,0 +1,62 @@
+{
+ "slug": "sudongusu",
+ "topic": "Su döngüsü",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir yağmur damlası nereden gelir?",
+  "Güneş denizleri ısıtır, su buharlaşır.",
+  "Buhar yükseldikçe soğur ve bulut olur.",
+  "Bulutlar ağırlaşınca yağmur yağar.",
+  "Ve su yine denize döner."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "style": "whiteboard",
+   "ok": [
+    "flat-space-explainer",
+    "blueprint"
+   ],
+   "why": "a classroom process: whiteboard steps"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

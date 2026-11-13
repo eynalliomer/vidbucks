@@ -1,0 +1,64 @@
+{
+ "slug": "film-kedi",
+ "topic": "kedi",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Saat altı. Kedim, beni uyandırmak için masadan bir bardak düşürüyor.",
+  "Mama kabı dolu, ama ortası görünüyor; demek ki boş.",
+  "Öğlen: güneşin düştüğü tek kareyi kaplıyor.",
+  "Akşam: ona aldığım pahalı yatak yerine kargo kutusunu seçiyor.",
+  "Gece üçte koridorda nedensiz bir yarış.",
+  "Ve sabah, hiçbir şey olmamış gibi, yine o bardak."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "silent-film",
+   "ok": [],
+   "why": "one slapstick day: a silent comedy with jump-cut punch-ins, an iris and big intertitles"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "compare",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "stamp",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "Dawn: the cat by the table edge, the camera jumping closer three times",
+  "The bowl: an arrow accuses the bare patch in the middle",
+  "Noon seen through a silent-film iris: one square of sun, fully occupied",
+  "Two framed prints and a VS badge: the costly bed against the cardboard box",
+  "An intertitle that shouts the hour and the race",
+  "The innocent face in a film-strip frame; AGAIN is stamped on it"
+ ],
+ "approved": true
+}

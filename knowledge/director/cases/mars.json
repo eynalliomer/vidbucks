@@ -1,0 +1,54 @@
+{
+ "slug": "mars",
+ "topic": "Mars'ta su",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Mars bugün kuru ve soğuk bir çöl.",
+  "Ama yüzeyinde eski nehir yatakları var.",
+  "Kutuplarında donmuş su bulundu.",
+  "Gelecekte bir üs, bu buzla yaşayabilir."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "hologram-hud",
+   "ok": [
+    "oscilloscope-math",
+    "flat-space-explainer"
+   ],
+   "why": "exploration data: mission HUD"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

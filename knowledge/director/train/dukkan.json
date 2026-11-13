@@ -1,0 +1,54 @@
+{
+ "slug": "dukkan",
+ "topic": "Yeni kahve dükkânımız açılıyor",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Mahallenin köşesinde yeni bir kapı açılıyor.",
+  "Çekirdekleri her sabah kendimiz kavuruyoruz.",
+  "İlk hafta her filtre kahvenin yanında kurabiye bizden.",
+  "Cumartesi saat dokuzda bekliyoruz."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "chalkboard",
+   "ok": [
+    "risograph",
+    "pop-art"
+   ],
+   "why": "a local café: hand-written board"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

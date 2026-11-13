@@ -1,0 +1,54 @@
+{
+ "slug": "moda1920",
+ "topic": "1920'lerin modası",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz yirmiler: etekler kısalıyor.",
+  "Saçlar kısa, şapkalar küçük.",
+  "Caz kulüplerinde boncuklu elbiseler parlıyor.",
+  "Bir on yıl, bir yüzyılın stilini belirliyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "art-deco",
+   "ok": [
+    "silent-film",
+    "kino-montage"
+   ],
+   "why": "the jazz age: art deco"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

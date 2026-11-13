@@ -1,0 +1,301 @@
+{
+ "public_dir": "films/culluk",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2
+   ],
+   "style": "silkscreen-poster",
+   "why": "the take-off and the bird itself: a loud field poster, the camera whips in",
+   "direction": {
+    "camera": "whip",
+    "enter": "tear",
+    "frame": "torn",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "staat",
+     "text": "oswald"
+    },
+    "sound": "poster"
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    3,
+    4
+   ],
+   "style": "flat-space-explainer",
+   "why": "the route: a night navigation chart, calm and wide",
+   "direction": {
+    "camera": "kenburns",
+    "enter": "mask",
+    "frame": "arch",
+    "caption": "karaoke",
+    "fonts": {
+     "display": "rubik",
+     "text": "grotesk"
+    },
+    "sound": "soft"
+   },
+   "transition": {
+    "kind": "zoom",
+    "dur": 0.5
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "blueprint",
+   "why": "inside the body: a technical plate, drifting slowly, typed notes",
+   "direction": {
+    "camera": "drift",
+    "enter": "scan",
+    "frame": "window",
+    "caption": "typewriter",
+    "fonts": {
+     "display": "mono",
+     "text": "mono"
+    },
+    "sound": "paper"
+   },
+   "transition": {
+    "kind": "wipe",
+    "dur": 0.5
+   }
+  },
+  {
+   "id": "A4",
+   "lines": [
+    8
+   ],
+   "style": "silkscreen-poster",
+   "why": "the return closes in the opening poster",
+   "direction": {
+    "camera": "punch",
+    "enter": "slide",
+    "frame": "bleed",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "staat",
+     "text": "oswald"
+    },
+    "sound": "poster"
+   },
+   "transition": {
+    "kind": "push",
+    "dur": 0.45
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "The flock lifting off; the camera whips onto it and the words slam in",
+   "media": {
+    "queries": [
+     "bar-tailed godwit flock flying",
+     "godwits flock flight"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom",
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.2
+    ]
+   },
+   "picked": {
+    "src": "films/culluk/L01.jpg",
+    "aspect": 1.5,
+    "title": "Marbled Godwits and Willets.jpg",
+    "creator": "Mike Baird from Morro Bay, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marbled_Godwits_and_Willets.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed"
+   }
+  },
+  {
+   "line": 2,
+   "shot": "diagram",
+   "idea": "The godwit as a labelled specimen: the barred tail, the long bill",
+   "media": {
+    "queries": [
+     "bar-tailed godwit Limosa lapponica",
+     "bar-tailed godwit portrait"
+    ],
+    "n": 3
+   },
+   "data": {
+    "callouts": [
+     {
+      "x": 0.2,
+      "y": 0.42,
+      "label": "uzun gaga"
+     },
+     {
+      "x": 0.8,
+      "y": 0.5,
+      "label": "çizgili kuyruk"
+     }
+    ]
+   },
+   "picked": {
+    "src": "films/culluk/L02.jpg",
+    "aspect": 1.5,
+    "title": "Limosa lapponica 2 - Taren Point.jpg",
+    "creator": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Limosa_lapponica_2_-_Taren_Point.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 3,
+   "shot": "map",
+   "idea": "The whole Pacific at night; an arc grows from Alaska to New Zealand",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "pac",
+    "stops": [
+     "Alaska",
+     "Yeni Zelanda"
+    ],
+    "look": "night"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "number",
+   "idea": "Thirteen thousand kilometres slams over open ocean seen from above",
+   "media": {
+    "queries": [
+     "Pacific ocean aerial"
+    ],
+    "n": 3
+   },
+   "data": {
+    "value": 13000,
+    "unit": "kilometre, tek seferde",
+    "suffix": " km",
+    "mode": "slam"
+   },
+   "picked": {
+    "src": "films/culluk/L04.jpg",
+    "aspect": 1.3361,
+    "title": "Starr 050208-3932 aerial photograph near Kahoolawe shore (ocean with whales).jpg",
+    "creator": "Forest &amp; Kim Starr",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Starr_050208-3932_aerial_photograph_near_Kahoolawe_shore_(ocean_with_whales).jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 5,
+   "shot": "bigword",
+   "idea": "Fat equals fuel: two words as a formula",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "words": [
+     "yağ =",
+     "yakıt"
+    ],
+    "hot": 1
+   }
+  },
+  {
+   "line": 6,
+   "shot": "compare",
+   "idea": "Before and in flight in two window cards with a VS badge",
+   "media": {
+    "queries": [
+     "godwit feeding",
+     "godwit flying"
+    ],
+    "n": 3
+   },
+   "data": {
+    "left_label": "önce",
+    "right_label": "uçuşta"
+   },
+   "picked": {
+    "src": "films/culluk/L06.jpg",
+    "aspect": 1.5,
+    "title": "Bar-tailed Godwit.jpg",
+    "creator": "Andreas Trepte",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Godwit.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "extra": [
+    {
+     "src": "films/culluk/L06x1.jpg",
+     "aspect": 1.7778,
+     "title": "Dense flock of bar-tailed godwits flying past.jpg",
+     "creator": "Pseudopanax at English Wikipedia",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Dense_flock_of_bar-tailed_godwits_flying_past.jpg",
+     "source": "wikimedia",
+     "attribution": false
+    }
+   ]
+  },
+  {
+   "line": 7,
+   "shot": "ratio",
+   "idea": "Half a ring: almost half the body weight gone on landing",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "fraction": 0.5,
+    "label": "yarısı"
+   }
+  },
+  {
+   "line": 8,
+   "shot": "map",
+   "idea": "The same chart in daylight; the arc drawn back north",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "pac",
+    "stops": [
+     "Yeni Zelanda",
+     "Alaska"
+    ],
+    "look": "paper"
+   }
+  }
+ ],
+ "sound": {
+  "mood": "bright",
+  "bpm": 98
+ }
+}

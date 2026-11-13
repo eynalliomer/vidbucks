@@ -1,0 +1,4132 @@
+{
+ "file": "out/films/enflasyon.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": null,
+   "msg": "86% of the video is near-still",
+   "fix": "add movement or cut the held moments"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 11.533333,
+   "msg": "frozen picture 0:11.5-0:13.2 (1.7 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 16.133333,
+   "msg": "frozen picture 0:16.1-0:18.3 (2.1 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 19.633333,
+   "msg": "frozen picture 0:19.6-0:21.9 (2.3 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 22.233333,
+   "msg": "frozen picture 0:22.2-0:24.6 (2.4 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"Match\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:03.5: \"Geçen yıl\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:03.5: \"Bu yıl\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"€2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"E5\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"Aynı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:01.5: \"£2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:03.5: \"100\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:03.5: \"CEBİNİZDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"Aynı yüz lira, geçen\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:03.5: \"dolu\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:03.5: \"SEPET\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:03.5: \"daha az\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:02.5: \"Aynı yüz lira, geçen yıl daha dolu bir\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:03.5: \"50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:05.5: \"We've price\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:06.5: \"matched\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"hundreds\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"ot products\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"Alci\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"Price\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"Match\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"ARIEL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"62.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"€1.35*\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"€2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"ENFLASYON\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:05.5: \"E5\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"LFAIRY\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"Buna\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"Onfort\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"Lenor\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"5P\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"35\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"E2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:06.5: \"ol products\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"€1.35 *\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"£3 2\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"67\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"Buna enflasyon diyoruz:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:06.5: \"Cnfort\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"£2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"FAIRY\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"Weve pricd\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:07.5: \"Aldi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"£1.35 ×\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:07.5: \"E7\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"Persil\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"Buna enflasyon diyoruz: fiyatların genel\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"5P\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"we ve prico\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"lot products\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"ARIEL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"EAIRY\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"62.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"€1.35 ×\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Emfort\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Buna enflasyon diyoruz: fiyatların genel olarak artması.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"E2.50\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"Ned\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"Para\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:12.5: \"Neden olur?\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:12.5: \"Para çoğalır\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:09.5: \"Para hızla çoğaldığında\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"Maliyet\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"yükselir\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"Para hızla çoğaldığında ya da maliyetler\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:12.5: \"Fiyat tırmanır\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"Para hızla çoğaldığında ya da maliyetler yükseldiğinde\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"tirmanır.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"%10 enflasy\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"Yüzde on\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"%10 enflasyon\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"100 ₺\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:17.5: \"GEÇEN YIL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"Yüzde on enflasyon, yüz\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"107 ₺\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"Yüzde on enflasyon, yüz liralık sepetin\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:17.5: \"BU YIL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:17.5: \"110 ₺\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"Yüzde on enflasyon, yüz liralık sepetin yüz on lira\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:21.5: \"DÜŞÜK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"Maaşlar\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:21.5: \"YÜKSEK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"alım gücü\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Maaşlar aynı hızla\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"alım дüсü\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Maaşlar aynı hızla artmazsa alım\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"alım дücü\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Maaşlar aynı hızla artmazsa alım gücü düşer.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:25.5: \"FAİZ = FREN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:25.5: \"Merkez bankaları bu yüzden faizi bir fren gibi kullanır.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:28.5: \"HOFER KG\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"Xar1-Pocper-Straße 2\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"1:00 Vien 10.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:27.5: \"Favoriten\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"ATU78172747\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"110594 Natir Joghurt 3.6k\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"Deblt\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"HOFER PRELS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"9 Artikel\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:31.5: \"Visa\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"A 10.0% Natto\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:31.5: \"EUR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"20,37 MeSt\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:31.5: \"22.41\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:31.5: \"22,41\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:31.5: \"2,04\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"x3500 633/095/003/|\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"D NOFER Prois Zehlt stch aust\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"Sepetinize\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"oine GRATIS Lieferung slchern!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"Kar1-Popper-Straße 2\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"1100 Wien 10.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"ATU78172745\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"174368 Ziegenkase-Spez.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"329018 Schnitzelsontiment\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"100082 TK Iglo Ofenbackf\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"113828 Ger\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"Forellenfil.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"102225 Roulade 400g\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"166503 BIO OVALTOMATEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"110594 Naturjognurt 3,6%\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"106876 Esi Vollmilch 11\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"110594 Natunjoghurt 3,6x\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"19 A\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"88\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"898\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"888\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"0/Q/NAx:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"*xxxxxxxxxxxxxxxxxxxxx40527\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:29.5: \"Debit\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"VISA CREDIT\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"#xxxxxxxxxxxx2156/25.03.2024/18:00:44/23\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"610290/NAx40527x006700/999100200#\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"Total-EFT EUR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:30.5: \"HOFER PREIS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"A 10.0% Netto\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:31.5: \"20,37 MwSt\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"x3503 633/095/003/002 25 03.24 18:00\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"FUR TEREN EUNKAU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"Sepetinize her baktığınızda\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"Ein Job bei HOFER auch!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"karriere.hoter.at\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"Karl-Popper-Straße 2\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"1100 Mien 10\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"Favoniten\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"174368 21egerkäse-Spez.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:30.5: \"329018 Schnitzelsortiment\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:29.5: \"110594 Naturjoghurt 3,6x\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"110594 Naturjoghurt 3,6X\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"2,19 A\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \".99\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"5.99 А\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"1,99\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"1,99 A\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"39\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"29\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"0,39\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"0/0/NAxxxxx*x1xxxxxx\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"(xxx40527\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:29.5: \"610290/NA×40527×00670D/999100200#\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:29.5: \"A 10,0% Netto\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"Sepetinize her baktığınızda aslında bir\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"Ein Job bei HOFER auchf\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"karriere.hofer.at\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"НОTЕК КG\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:30.5: \"Kar1-Popper-Straße 2\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:30.5: \"1100 Wien 10.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:30.5: \"Favoriten\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"174368 Ziegenkase-Spez.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"100082 TK Iglo Ofenbackf]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"113828 Ger. Forellenfil\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"110594 Naturjoghunt 3,6%\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"106876 Esi Vo11milch 11\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"19\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"99\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"98888\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"0/0/NAx:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"[xxxxxxx*xx*xxxxxxxxxx40527\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"#*xxxxxxxxxxx2156/25.03.2024/18:00:44/23\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:31.5: \"Sepetinize her baktığınızda aslında bir grafik görüyorsunuz.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"er HOFER Preis zahit sich aus!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"Ein Job bei HOFER auch!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"174368 Ziegenkase-Spez\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"100082 TK Iglo Ofenbackf.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:31.5: \"113828 Ger.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"ForelTenfil.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:31.5: \"110594 Naturjoghurt 3,6%\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"106876 Esl Vol1milch 11\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"110594 Naturjoghurt 3,6X\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"39\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"[x*xxxxxxxx***xxxxxxxx40527\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \":**x2156/25.03.2024/18:00:44/23\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"610290/NAx40527x006700/999100200#|\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"A 10.0% Netto\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"Der HOFER Preis zahit sich aust\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"Etn Job bei HOFER auch!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"1100 Wien 10., Favoriten\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"174368 Ziegenkase-Spez.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"329018 Schni tzelsortiment\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"100082 TK Iglo Ofenbackf\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"Forel lenfil.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"106876 Esi Volimilch 11\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"110594 Naturjoghurt 3,6x\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"2,19\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"99\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"89888\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"0,39\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"0/0/NAxx:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"xxxxxXXXXXXXXAXXXXXX4?\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"Debit\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"#xxxx*xxx**xx2156/25.03.2024/18:00:44/23\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"610290/NAx40527x006700/999100200#\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"HOFER PRE1S\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"A 10,0% Netto\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"22\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"41\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"Der HOFER Preis zahit sich aus!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:31.5: \"Ein Job bei HOFER auch!\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 19.3,
+   "msg": "line not spoken as written (71% match): \"Maaşlar aynı hızla artmazsa alım gücü düşer.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 31.533333,
+  "video": 31.533333,
+  "audio": 31.526,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 4.4,
+  "still_share": 0.86
+ },
+ "hook": 7.6,
+ "shots": 10,
+ "cuts_per_min": 17.1,
+ "silences": [],
+ "loudness": {
+  "lufs": -16.0,
+  "true_peak_db": -1.7,
+  "lra": 2.7
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "Match",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.09,
+    0.76,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "Geçen yıl",
+   "start": 0.5,
+   "end": 3.5,
+   "box": [
+    0.1,
+    0.76,
+    0.34,
+    0.13
+   ]
+  },
+  {
+   "text": "Bu yıl",
+   "start": 0.5,
+   "end": 3.5,
+   "box": [
+    0.57,
+    0.77,
+    0.21,
+    0.13
+   ]
+  },
+  {
+   "text": "€2.50",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.66,
+    0.58,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "E5",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.66,
+    0.27,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "Aynı",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.2,
+    0.02,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "£2.50",
+   "start": 0.5,
+   "end": 1.5,
+   "box": [
+    0.92,
+    0.21,
+    0.05,
+    0.04
+   ]
+  },
+  {
+   "text": "100",
+   "start": 1.5,
+   "end": 3.5,
+   "box": [
+    0.29,
+    0.52,
+    0.11,
+    0.07
+   ]
+  },
+  {
+   "text": "CEBİNİZDE",
+   "start": 1.5,
+   "end": 3.5,
+   "box": [
+    0.45,
+    0.55,
+    0.09,
+    0.03
+   ]
+  },
+  {
+   "text": "Aynı yüz lira, geçen",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.22,
+    0.06,
+    0.21,
+    0.05
+   ]
+  },
+  {
+   "text": "dolu",
+   "start": 2.5,
+   "end": 3.5,
+   "box": [
+    0.32,
+    0.34,
+    0.12,
+    0.07
+   ]
+  },
+  {
+   "text": "SEPET",
+   "start": 2.5,
+   "end": 3.5,
+   "box": [
+    0.47,
+    0.38,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "daha az",
+   "start": 2.5,
+   "end": 3.5,
+   "box": [
+    0.56,
+    0.34,
+    0.21,
+    0.08
+   ]
+  },
+  {
+   "text": "Aynı yüz lira, geçen yıl daha dolu bir",
+   "start": 2.5,
+   "end": 2.5,
+   "box": [
+    0.23,
+    0.06,
+    0.38,
+    0.04
+   ]
+  },
+  {
+   "text": "50",
+   "start": 2.5,
+   "end": 3.5,
+   "box": [
+    0.9,
+    0.24,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.23,
+    0.06,
+    0.55,
+    0.04
+   ]
+  },
+  {
+   "text": "We've price",
+   "start": 4.5,
+   "end": 5.5,
+   "box": [
+    0.1,
+    0.89,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "matched",
+   "start": 4.5,
+   "end": 6.5,
+   "box": [
+    0.1,
+    0.87,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "hundreds",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.1,
+    0.85,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "ot products",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.1,
+    0.84,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "Alci",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.11,
+    0.79,
+    0.02,
+    0.01
+   ]
+  },
+  {
+   "text": "Price",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.11,
+    0.77,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "Match",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.11,
+    0.76,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "ARIEL",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.4,
+    0.84,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "62.50",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.61,
+    0.84,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "€1.35*",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.45,
+    0.82,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "€2.50",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.68,
+    0.58,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "ENFLASYON",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.05,
+    0.44,
+    0.48,
+    0.13
+   ]
+  },
+  {
+   "text": "E5",
+   "start": 4.5,
+   "end": 5.5,
+   "box": [
+    0.67,
+    0.27,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "text": "LFAIRY",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.46,
+    0.13,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "Buna",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.21,
+    0.07,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "Onfort",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.85,
+    0.34,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "text": "Lenor",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.81,
+    0.04,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "5P",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.96,
+    0.87,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "35",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.96,
+    0.56,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "text": "E2.50",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.93,
+    0.2,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "ol products",
+   "start": 5.5,
+   "end": 6.5,
+   "box": [
+    0.09,
+    0.84,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "€1.35 *",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.44,
+    0.82,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "£3 2",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.44,
+    0.59,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "67",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.5,
+    0.59,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "Buna enflasyon diyoruz:",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.21,
+    0.07,
+    0.26,
+    0.04
+   ]
+  },
+  {
+   "text": "Cnfort",
+   "start": 5.5,
+   "end": 6.5,
+   "box": [
+    0.84,
+    0.34,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "text": "£2.50",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.92,
+    0.2,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "FAIRY",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.72,
+    0.94,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "text": "Weve pricd",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.07,
+    0.89,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "Aldi",
+   "start": 6.5,
+   "end": 7.5,
+   "box": [
+    0.09,
+    0.79,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "£1.35 ×",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.42,
+    0.82,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "E7",
+   "start": 6.5,
+   "end": 7.5,
+   "box": [
+    0.49,
+    0.59,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "Persil",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.41,
+    0.4,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "Buna enflasyon diyoruz: fiyatların genel",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.21,
+    0.06,
+    0.42,
+    0.05
+   ]
+  },
+  {
+   "text": "5P",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.93,
+    0.87,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "we ve prico",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.06,
+    0.89,
+    0.04,
+    0.01
+   ]
+  },
+  {
+   "text": "lot products",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.06,
+    0.84,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "ARIEL",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.36,
+    0.84,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "EAIRY",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.59,
+    0.92,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "62.50",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.58,
+    0.84,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "€1.35 ×",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.41,
+    0.82,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "Emfort",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.81,
+    0.34,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "text": "Buna enflasyon diyoruz: fiyatların genel olarak artması.",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.21,
+    0.06,
+    0.59,
+    0.05
+   ]
+  },
+  {
+   "text": "E2.50",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.89,
+    0.2,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "Ned",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.07,
+    0.85,
+    0.07,
+    0.05
+   ]
+  },
+  {
+   "text": "Para",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.17,
+    0.12,
+    0.05,
+    0.04
+   ]
+  },
+  {
+   "text": "Neden olur?",
+   "start": 9.5,
+   "end": 12.5,
+   "box": [
+    0.07,
+    0.85,
+    0.2,
+    0.06
+   ]
+  },
+  {
+   "text": "Para çoğalır",
+   "start": 9.5,
+   "end": 12.5,
+   "box": [
+    0.08,
+    0.36,
+    0.18,
+    0.06
+   ]
+  },
+  {
+   "text": "Para hızla çoğaldığında",
+   "start": 9.5,
+   "end": 9.5,
+   "box": [
+    0.17,
+    0.11,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "Maliyet",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.44,
+    0.35,
+    0.12,
+    0.07
+   ]
+  },
+  {
+   "text": "yükselir",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.44,
+    0.29,
+    0.13,
+    0.07
+   ]
+  },
+  {
+   "text": "Para hızla çoğaldığında ya da maliyetler",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.17,
+    0.11,
+    0.43,
+    0.05
+   ]
+  },
+  {
+   "text": "Fiyat tırmanır",
+   "start": 11.5,
+   "end": 12.5,
+   "box": [
+    0.73,
+    0.36,
+    0.2,
+    0.05
+   ]
+  },
+  {
+   "text": "Para hızla çoğaldığında ya da maliyetler yükseldiğinde",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.17,
+    0.11,
+    0.58,
+    0.05
+   ]
+  },
+  {
+   "text": "Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.16,
+    0.1,
+    0.67,
+    0.06
+   ]
+  },
+  {
+   "text": "tirmanır.",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.45,
+    0.07,
+    0.09,
+    0.04
+   ]
+  },
+  {
+   "text": "%10 enflasy",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.07,
+    0.84,
+    0.19,
+    0.06
+   ]
+  },
+  {
+   "text": "Yüzde on",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.16,
+    0.07,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "text": "%10 enflasyon",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.07,
+    0.84,
+    0.23,
+    0.06
+   ]
+  },
+  {
+   "text": "100 ₺",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.26,
+    0.7,
+    0.11,
+    0.07
+   ]
+  },
+  {
+   "text": "GEÇEN YIL",
+   "start": 14.5,
+   "end": 17.5,
+   "box": [
+    0.26,
+    0.19,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "text": "Yüzde on enflasyon, yüz",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.16,
+    0.06,
+    0.26,
+    0.05
+   ]
+  },
+  {
+   "text": "107 ₺",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.6,
+    0.74,
+    0.15,
+    0.08
+   ]
+  },
+  {
+   "text": "Yüzde on enflasyon, yüz liralık sepetin",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.16,
+    0.06,
+    0.41,
+    0.04
+   ]
+  },
+  {
+   "text": "BU YIL",
+   "start": 15.5,
+   "end": 17.5,
+   "box": [
+    0.64,
+    0.2,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "110 ₺",
+   "start": 16.5,
+   "end": 17.5,
+   "box": [
+    0.61,
+    0.75,
+    0.14,
+    0.09
+   ]
+  },
+  {
+   "text": "Yüzde on enflasyon, yüz liralık sepetin yüz on lira",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.15,
+    0.05,
+    0.54,
+    0.07
+   ]
+  },
+  {
+   "text": "Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.15,
+    0.05,
+    0.7,
+    0.07
+   ]
+  },
+  {
+   "text": "DÜŞÜK",
+   "start": 18.5,
+   "end": 21.5,
+   "box": [
+    0.22,
+    0.29,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "Maaşlar",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.26,
+    0.07,
+    0.09,
+    0.04
+   ]
+  },
+  {
+   "text": "YÜKSEK",
+   "start": 18.5,
+   "end": 21.5,
+   "box": [
+    0.74,
+    0.29,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "alım gücü",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.38,
+    0.19,
+    0.24,
+    0.1
+   ]
+  },
+  {
+   "text": "Maaşlar aynı hızla",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.26,
+    0.07,
+    0.19,
+    0.04
+   ]
+  },
+  {
+   "text": "alım дüсü",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.38,
+    0.19,
+    0.24,
+    0.1
+   ]
+  },
+  {
+   "text": "Maaşlar aynı hızla artmazsa alım",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.25,
+    0.07,
+    0.35,
+    0.05
+   ]
+  },
+  {
+   "text": "alım дücü",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.38,
+    0.19,
+    0.24,
+    0.1
+   ]
+  },
+  {
+   "text": "Maaşlar aynı hızla artmazsa alım gücü düşer.",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.25,
+    0.07,
+    0.48,
+    0.05
+   ]
+  },
+  {
+   "text": "FAİZ = FREN",
+   "start": 22.5,
+   "end": 25.5,
+   "box": [
+    0.06,
+    0.88,
+    0.11,
+    0.02
+   ]
+  },
+  {
+   "text": "Merkez bankaları bu yüzden faizi bir fren gibi kullanır.",
+   "start": 22.5,
+   "end": 25.5,
+   "box": [
+    0.06,
+    0.05,
+    0.6,
+    0.05
+   ]
+  },
+  {
+   "text": "HOFER KG",
+   "start": 26.5,
+   "end": 28.5,
+   "box": [
+    0.48,
+    0.75,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "Xar1-Pocper-Straße 2",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.46,
+    0.73,
+    0.08,
+    0.03
+   ]
+  },
+  {
+   "text": "1:00 Vien 10.",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.45,
+    0.72,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "Favoriten",
+   "start": 26.5,
+   "end": 27.5,
+   "box": [
+    0.51,
+    0.72,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "ATU78172747",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.48,
+    0.71,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "110594 Natir Joghurt 3.6k",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.44,
+    0.54,
+    0.09,
+    0.02
+   ]
+  },
+  {
+   "text": "Deblt",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.42,
+    0.5,
+    0.03,
+    0.01
+   ]
+  },
+  {
+   "text": "HOFER PRELS",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.42,
+    0.4,
+    0.09,
+    0.02
+   ]
+  },
+  {
+   "text": "9 Artikel",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.42,
+    0.39,
+    0.04,
+    0.01
+   ]
+  },
+  {
+   "text": "Visa",
+   "start": 26.5,
+   "end": 31.5,
+   "box": [
+    0.42,
+    0.37,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "A 10.0% Natto",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.42,
+    0.34,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "EUR",
+   "start": 26.5,
+   "end": 31.5,
+   "box": [
+    0.5,
+    0.37,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "20,37 MeSt",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.49,
+    0.34,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "22.41",
+   "start": 26.5,
+   "end": 31.5,
+   "box": [
+    0.56,
+    0.46,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "22,41",
+   "start": 26.5,
+   "end": 31.5,
+   "box": [
+    0.55,
+    0.37,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "2,04",
+   "start": 26.5,
+   "end": 31.5,
+   "box": [
+    0.55,
+    0.34,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "x3500 633/095/003/|",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.42,
+    0.18,
+    0.07,
+    0.02
+   ]
+  },
+  {
+   "text": "D NOFER Prois Zehlt stch aust",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.44,
+    0.13,
+    0.12,
+    0.03
+   ]
+  },
+  {
+   "text": "Sepetinize",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.18,
+    0.07,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "text": "oine GRATIS Lieferung slchern!",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.98,
+    0.17,
+    0.02
+   ]
+  },
+  {
+   "text": "Kar1-Popper-Straße 2",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.44,
+    0.92,
+    0.12,
+    0.02
+   ]
+  },
+  {
+   "text": "1100 Wien 10.",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.43,
+    0.9,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "ATU78172745",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.46,
+    0.88,
+    0.06,
+    0.03
+   ]
+  },
+  {
+   "text": "174368 Ziegenkase-Spez.",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.81,
+    0.13,
+    0.03
+   ]
+  },
+  {
+   "text": "329018 Schnitzelsontiment",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.79,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "100082 TK Iglo Ofenbackf",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.41,
+    0.77,
+    0.13,
+    0.03
+   ]
+  },
+  {
+   "text": "113828 Ger",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.41,
+    0.75,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "Forellenfil.",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.48,
+    0.75,
+    0.07,
+    0.02
+   ]
+  },
+  {
+   "text": "102225 Roulade 400g",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.41,
+    0.73,
+    0.1,
+    0.02
+   ]
+  },
+  {
+   "text": "166503 BIO OVALTOMATEN",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.41,
+    0.71,
+    0.12,
+    0.03
+   ]
+  },
+  {
+   "text": "110594 Naturjognurt 3,6%",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.69,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "106876 Esi Vollmilch 11",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.41,
+    0.67,
+    0.12,
+    0.02
+   ]
+  },
+  {
+   "text": "110594 Natunjoghurt 3,6x",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.64,
+    0.13,
+    0.03
+   ]
+  },
+  {
+   "text": "19 A",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.59,
+    0.81,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "88",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.59,
+    0.77,
+    0.01,
+    0.04
+   ]
+  },
+  {
+   "text": "898",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.59,
+    0.71,
+    0.01,
+    0.06
+   ]
+  },
+  {
+   "text": "888",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.59,
+    0.65,
+    0.01,
+    0.06
+   ]
+  },
+  {
+   "text": "0/Q/NAx:",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.39,
+    0.61,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "*xxxxxxxxxxxxxxxxxxxxx40527",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.46,
+    0.61,
+    0.15,
+    0.02
+   ]
+  },
+  {
+   "text": "Debit",
+   "start": 27.5,
+   "end": 29.5,
+   "box": [
+    0.39,
+    0.59,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "VISA CREDIT",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.55,
+    0.59,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "#xxxxxxxxxxxx2156/25.03.2024/18:00:44/23",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.39,
+    0.57,
+    0.22,
+    0.02
+   ]
+  },
+  {
+   "text": "610290/NAx40527x006700/999100200#",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.41,
+    0.55,
+    0.18,
+    0.02
+   ]
+  },
+  {
+   "text": "Total-EFT EUR",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.39,
+    0.53,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "HOFER PREIS",
+   "start": 27.5,
+   "end": 30.5,
+   "box": [
+    0.39,
+    0.44,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "A 10.0% Netto",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.39,
+    0.36,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "20,37 MwSt",
+   "start": 27.5,
+   "end": 31.5,
+   "box": [
+    0.49,
+    0.36,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "x3503 633/095/003/002 25 03.24 18:00",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.39,
+    0.12,
+    0.21,
+    0.02
+   ]
+  },
+  {
+   "text": "FUR TEREN EUNKAU",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.48,
+    0.1,
+    0.1,
+    0.01
+   ]
+  },
+  {
+   "text": "Sepetinize her baktığınızda",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.18,
+    0.07,
+    0.29,
+    0.04
+   ]
+  },
+  {
+   "text": "Ein Job bei HOFER auch!",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.44,
+    0.03,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "karriere.hoter.at",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.45,
+    0.01,
+    0.1,
+    0.02
+   ]
+  },
+  {
+   "text": "Karl-Popper-Straße 2",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.44,
+    0.94,
+    0.12,
+    0.02
+   ]
+  },
+  {
+   "text": "1100 Mien 10",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.43,
+    0.91,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "Favoniten",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.51,
+    0.92,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "174368 21egerkäse-Spez.",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.41,
+    0.83,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "329018 Schnitzelsortiment",
+   "start": 28.5,
+   "end": 30.5,
+   "box": [
+    0.41,
+    0.8,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "110594 Naturjoghurt 3,6x",
+   "start": 28.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.7,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "110594 Naturjoghurt 3,6X",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.41,
+    0.66,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "2,19 A",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.58,
+    0.83,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": ".99",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.59,
+    0.81,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "5.99 А",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.58,
+    0.79,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "1,99",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.58,
+    0.76,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "1,99 A",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.58,
+    0.72,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "39",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.59,
+    0.7,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "29",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.59,
+    0.68,
+    0.02,
+    0.02
+   ]
+  },
+  {
+   "text": "0,39",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.58,
+    0.66,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "0/0/NAxxxxx*x1xxxxxx",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.39,
+    0.61,
+    0.11,
+    0.02
+   ]
+  },
+  {
+   "text": "(xxx40527",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.57,
+    0.62,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "610290/NA×40527×00670D/999100200#",
+   "start": 28.5,
+   "end": 29.5,
+   "box": [
+    0.4,
+    0.55,
+    0.19,
+    0.02
+   ]
+  },
+  {
+   "text": "A 10,0% Netto",
+   "start": 28.5,
+   "end": 29.5,
+   "box": [
+    0.39,
+    0.36,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "Sepetinize her baktığınızda aslında bir",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.18,
+    0.07,
+    0.41,
+    0.05
+   ]
+  },
+  {
+   "text": "Ein Job bei HOFER auchf",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.43,
+    0.02,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "karriere.hofer.at",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.45,
+    0.0,
+    0.11,
+    0.02
+   ]
+  },
+  {
+   "text": "НОTЕК КG",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.47,
+    0.98,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "Kar1-Popper-Straße 2",
+   "start": 29.5,
+   "end": 30.5,
+   "box": [
+    0.44,
+    0.96,
+    0.12,
+    0.02
+   ]
+  },
+  {
+   "text": "1100 Wien 10.",
+   "start": 29.5,
+   "end": 30.5,
+   "box": [
+    0.43,
+    0.93,
+    0.08,
+    0.03
+   ]
+  },
+  {
+   "text": "Favoriten",
+   "start": 29.5,
+   "end": 30.5,
+   "box": [
+    0.51,
+    0.94,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "174368 Ziegenkase-Spez.",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.4,
+    0.84,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "100082 TK Iglo Ofenbackf]",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.79,
+    0.14,
+    0.04
+   ]
+  },
+  {
+   "text": "113828 Ger. Forellenfil",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.77,
+    0.14,
+    0.04
+   ]
+  },
+  {
+   "text": "110594 Naturjoghunt 3,6%",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.71,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "106876 Esi Vo11milch 11",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.69,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "19",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.59,
+    0.84,
+    0.01,
+    0.02
+   ]
+  },
+  {
+   "text": "99",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.59,
+    0.82,
+    0.01,
+    0.02
+   ]
+  },
+  {
+   "text": "98888",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.59,
+    0.67,
+    0.02,
+    0.11
+   ]
+  },
+  {
+   "text": "0/0/NAx:",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.39,
+    0.62,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "[xxxxxxx*xx*xxxxxxxxxx40527",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.46,
+    0.63,
+    0.15,
+    0.02
+   ]
+  },
+  {
+   "text": "#*xxxxxxxxxxx2156/25.03.2024/18:00:44/23",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.39,
+    0.58,
+    0.23,
+    0.03
+   ]
+  },
+  {
+   "text": "Sepetinize her baktığınızda aslında bir grafik görüyorsunuz.",
+   "start": 29.5,
+   "end": 31.5,
+   "box": [
+    0.18,
+    0.07,
+    0.63,
+    0.04
+   ]
+  },
+  {
+   "text": "er HOFER Preis zahit sich aus!",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.41,
+    0.04,
+    0.18,
+    0.02
+   ]
+  },
+  {
+   "text": "Ein Job bei HOFER auch!",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.43,
+    0.01,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "174368 Ziegenkase-Spez",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.4,
+    0.86,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "100082 TK Iglo Ofenbackf.",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.4,
+    0.81,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "113828 Ger.",
+   "start": 30.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.79,
+    0.07,
+    0.02
+   ]
+  },
+  {
+   "text": "ForelTenfil.",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.47,
+    0.79,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "110594 Naturjoghurt 3,6%",
+   "start": 30.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.72,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "106876 Esl Vol1milch 11",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.41,
+    0.7,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "110594 Naturjoghurt 3,6X",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.41,
+    0.68,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "39",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.59,
+    0.68,
+    0.01,
+    0.02
+   ]
+  },
+  {
+   "text": "[x*xxxxxxxx***xxxxxxxx40527",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.46,
+    0.63,
+    0.16,
+    0.02
+   ]
+  },
+  {
+   "text": ":**x2156/25.03.2024/18:00:44/23",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.44,
+    0.59,
+    0.18,
+    0.02
+   ]
+  },
+  {
+   "text": "610290/NAx40527x006700/999100200#|",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.4,
+    0.57,
+    0.2,
+    0.02
+   ]
+  },
+  {
+   "text": "A 10.0% Netto",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.38,
+    0.36,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "Der HOFER Preis zahit sich aust",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.4,
+    0.03,
+    0.2,
+    0.03
+   ]
+  },
+  {
+   "text": "Etn Job bei HOFER auch!",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.43,
+    0.0,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "1100 Wien 10., Favoriten",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.42,
+    0.97,
+    0.16,
+    0.03
+   ]
+  },
+  {
+   "text": "174368 Ziegenkase-Spez.",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.87,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "329018 Schni tzelsortiment",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.85,
+    0.16,
+    0.03
+   ]
+  },
+  {
+   "text": "100082 TK Iglo Ofenbackf",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.83,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "Forel lenfil.",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.47,
+    0.8,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "106876 Esi Volimilch 11",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.71,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "110594 Naturjoghurt 3,6x",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.69,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "2,19",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.59,
+    0.87,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "text": "99",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.6,
+    0.83,
+    0.01,
+    0.02
+   ]
+  },
+  {
+   "text": "89888",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.6,
+    0.71,
+    0.02,
+    0.12
+   ]
+  },
+  {
+   "text": "0,39",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.59,
+    0.69,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "0/0/NAxx:",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.38,
+    0.64,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "text": "xxxxxXXXXXXXXAXXXXXX4?",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.47,
+    0.65,
+    0.15,
+    0.01
+   ]
+  },
+  {
+   "text": "Debit",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.38,
+    0.62,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "#xxxx*xxx**xx2156/25.03.2024/18:00:44/23",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.38,
+    0.6,
+    0.24,
+    0.02
+   ]
+  },
+  {
+   "text": "610290/NAx40527x006700/999100200#",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.58,
+    0.2,
+    0.02
+   ]
+  },
+  {
+   "text": "HOFER PRE1S",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.38,
+    0.46,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "A 10,0% Netto",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.38,
+    0.36,
+    0.08,
+    0.03
+   ]
+  },
+  {
+   "text": "22",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.57,
+    0.46,
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "text": "41",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.6,
+    0.46,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "text": "Der HOFER Preis zahit sich aus!",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.4,
+    0.02,
+    0.2,
+    0.03
+   ]
+  },
+  {
+   "text": "Ein Job bei HOFER auch!",
+   "start": 31.5,
+   "end": 31.5,
+   "box": [
+    0.43,
+    0.0,
+    0.15,
+    0.02
+   ]
+  }
+ ],
+ "speech_words": 59,
+ "speech_coverage": 0.9,
+ "script": [
+  {
+   "line": "Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.",
+   "score": 1.0,
+   "t": 0.0
+  },
+  {
+   "line": "Buna enflasyon diyoruz: fiyatların genel olarak artması.",
+   "score": 1.0,
+   "t": 4.2
+  },
+  {
+   "line": "Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar tırmanır.",
+   "score": 0.89,
+   "t": 8.5
+  },
+  {
+   "line": "Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.",
+   "score": 1.0,
+   "t": 13.2
+  },
+  {
+   "line": "Maaşlar aynı hızla artmazsa alım gücü düşer.",
+   "score": 0.71,
+   "t": 19.3
+  },
+  {
+   "line": "Merkez bankaları bu yüzden faizi bir fren gibi kullanır.",
+   "score": 1.0,
+   "t": 22.6
+  },
+  {
+   "line": "Sepetinize her baktığınızda aslında bir grafik görüyorsunuz.",
+   "score": 1.0,
+   "t": 27.0
+  }
+ ],
+ "script_adherence": 0.86
+}

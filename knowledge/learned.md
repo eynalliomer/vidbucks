@@ -150,3 +150,26 @@ No downloading other channels' videos, no Google Images scraping, only CC0/CC BY
 - The selftest found a real analyser miss: a cut right after a fast pan was not detected (pixel-change spike drowned in motion). Fixed with a colour-distribution jump signal that needs at least one stable side (a zoom/fractal churning on both sides is not a cut). Selftest 8/8.
 - quality_gate on old deliveries: Yavuz v1 (sent to the user) had the picture stop at 8 s while sound ran 80 s (same concat bug as v2); the gate now FAILs that. Fatih final passes text OCR after delogo; its ECU open fails the hook rule (2.4 < 5).
 - How it is handled now: no delivery without quality_gate PASS; analysers re-validated with analysis_selftest after every change.
+- 2026-11-13 · multi-style films · An auto-drafted 11-segment film (cards from the narration, 4 brief photos reused) read as repetitive templates, scattered edits and thin media. · Now every film starts with a hand-written visual treatment (`visuals.json`: one specific idea + layout + media queries per line, styles on story acts with a reason), real media hunted per line with contact sheets (`media_hunt.py`), checked by `visual_check.py`, rendered with `ShotFilm` (14 layouts in each style's skin). Auto drafts are previews only.
+- 2026-11-13 · style director · Trained lexical models (perceptron, rubric+scalars, kNN) did not transfer to unseen topics (<= 61 % acceptable styles; flat learning curve); a fresh agent with a written guide + 20 worked cases scored 83 % acceptable, 100 % shortlist recall blind. · Style decisions are made by the agent from `knowledge/director/GUIDE.md` + similar cases (`director_cases.py similar`); approved films become new cases (`director_cases.py add`); the blind exam measures progress (RESULTS.md).
+
+## 2026-11-13 - ten taught ShotFilm films (production lessons)
+- On-screen words are the SCRIPT's words; Whisper only lends times (it mishears names and writes years as digits). ShotFilm `scriptWords`.
+- `quality_gate.py --lang tr` spells digits out before matching, so "1898'de" = "bin sekiz yüz doksan sekizde" (was a false FAIL).
+- Photo scrim only on the lower third; a 60 % scrim buried every opening photo. First shot gets a pull-back reveal (hook).
+- Maps: the camera fits all stops (not a fixed zoom); a map whose bounds are narrower than the route needs a wider print. `board_map.py` now splits rings at the seam (no world-wide bands).
+- Natural Earth 1:50m cannot show the Bosphorus: city-scale routes need another layout (quote, detail) or a finer map.
+- Stamps on dark skins: normal blend + dark backing, multiply makes them vanish. Number cards never sit on a picture that has its own numbers.
+
+## 2026-11-13 - a style is not a skin (direction grammar)
+- Ten ShotFilm films looked alike: same Ken Burns, same photo arrival, same caption; only colours changed. Rejected by the user.
+- Now: every act has a DIRECTION (camera, enter, frame, caption, fonts, treat, texture, ornament, sound) and every line picks from 25 scenes (11 new: bars, chart, pictos, diagram, steps, board, filmstrip, bigword, typed, versus, gauge). `src/kits/shots/{prims,layouts,info}.tsx`.
+- The pool and its "buildable next" list live in `knowledge/director/CAPABILITIES.md`; GUIDE.md section 5 says how to decide. User examples are illustrations, never mappings.
+- `tools/variety_check.py` refuses neighbouring acts that only change colour and batches where two films share >= 70 % of their direction. Sound palettes per film in `videos/films/audio_all.py`.
+
+## 2026-11-13 - channel study: nostalgia listicle with period footage (US nostalgia channel)
+- What: the format lives on period FOOTAGE (their commercials/TV clips), not photos. Copying that is off limits, so footage now comes from `core/tools/archive_clips.py`: Internet Archive items accepted only from curated collections (prelinger) AND with a PD/CC0/BY/BY-SA licence field AND no "reserved" rights text. Uploader-set licences are not trusted (a Simpsons episode was marked CC0). Prelinger with a licence field is mostly 1940s-60s; 1970s-80s footage is rare, so 80s topics need object photos (Commons), Library of Congress photo sets (e.g. John Margolies "Roadside America", public domain) or the user's approval for AI period scenes.
+- What: `scan` reads single frames over HTTP and `cut` copies only the seconds needed; look at a 1-s sheet of every cut before choosing `in` points (sponsored films hide brand logos and title cards inside 10 s).
+- What: Whisper (faster-whisper) reads a raw numpy array as 16 kHz. Kokoro is 24 kHz: passing it raw stretched every word time by 1.5x. Resample before transcribe (make_narration.py already does; file paths are safe).
+- What: Commons returns HTTP 429 for full-size originals in a burst; ask for `iiurlwidth=1920` (a standard step) and pause between files.
+- How it is handled now: ShotFilm plays clips (`Pic.src` .mp4 + `in`), `montage` cuts on word indices, `tag` chapter pills, `pops` word-timed numbers, `after` bumper card, `brand` corner bug, treatments `vhs`/`kodak`, frame `inset`. Proof: `core/videos/films/fifties` (gate PASS, 16 cuts/min).

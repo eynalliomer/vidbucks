@@ -1,0 +1,896 @@
+{
+ "file": "out/films/culluk.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": null,
+   "msg": "77% of the video is near-still",
+   "fix": "add movement or cut the held moments"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 6.2,
+   "msg": "shots at 0:04.8 and 0:06.2 share the same framing (corr 0.97)",
+   "fix": "change size, angle or lens at the cut (or join them into one take)"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 24.966667,
+   "msg": "frozen picture 0:25.0-0:26.8 (1.8 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "WARN",
+   "check": "dead air",
+   "t": 29.486812,
+   "msg": "silence 0:29.5-0:30.8 (1.3 s)",
+   "fix": "fill with a line, ambience or a cut; dead air loses viewers"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"ALASKA'DA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"HIÇ İNMEYECEK.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"KUYRUĞU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"UZUN GAGA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"ÇİZGİLİ KUYRUK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:08.5: \"ALASKA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:08.5: \"Rotası Pasifik'in üstünden Yeni Zelanda'ya.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"OYENİ ZELANDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:12.5: \"On üç bin kilometreden fazla, tek seferde.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"13.000 km\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"KİLOMETRE, TEK SEFERDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"KILOMETRE,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"TEK SEFERDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"KİLOMETRE, TEK SEFERDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:15.5: \"YAĞ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"YOLCULUKTAN ÖN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:16.5: \"YAKIT\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"YOLCULUKTAN ÖNCE VÜCUDUNUN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"YAĞ l\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"YOLCULUKTAN ÖNCE VÜCUDUNUN BÜYÜK KISMI]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:20.5: \"ÖNCE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:20.5: \"UÇUŞTA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"VS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"SİNDİRİM |\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"SİNDİRİM ORGANLARI KÜ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"vS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"SİNDİRİM ORGANLARI KÜÇÜLÜR, UÇUŞ]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"yarısı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"yarıS1\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"İNDIĞİNDE AĞIRLIL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:24.5: \"yarısı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"İNDİĞİNDE AĞIRLIĞININ NEREDEYSE |\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:24.5: \"İNDİĞİNDE AĞIRLIĞININ NEREDEYSE YARISINI KAYBETMİ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 25.5,
+   "msg": "text in the picture 0:25.5-0:26.5: \"VE BİR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 25.5,
+   "msg": "text in the picture 0:25.5-0:26.5: \"• YENİ ZELANDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"BAHARDA,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"© YENİ ZELANDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:28.5: \"• ALASKA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:29.5: \"• YENİ ZELANDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:30.5: \"GERİ DÖNER.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"•ALASKA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"• ALASKA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"•. YENİ ZELANDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 12.1,
+   "msg": "line not spoken as written (71% match): \"On üç bin kilometreden fazla, tek seferde.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 30.826,
+  "video": 30.766667,
+  "audio": 30.826,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 7.3,
+  "still_share": 0.77
+ },
+ "hook": 15.7,
+ "shots": 17,
+ "cuts_per_min": 31.1,
+ "silences": [
+  [
+   29.5,
+   30.8
+  ]
+ ],
+ "longest_silence": 1.3,
+ "loudness": {
+  "lufs": -16.0,
+  "true_peak_db": -1.8,
+  "lra": 2.9
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "ALASKA'DA",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.0,
+    0.04,
+    0.28,
+    0.12
+   ]
+  },
+  {
+   "text": "HIÇ İNMEYECEK.",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.05,
+    0.06,
+    0.38,
+    0.16
+   ]
+  },
+  {
+   "text": "KUYRUĞU",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.05,
+    0.1,
+    0.22,
+    0.13
+   ]
+  },
+  {
+   "text": "UZUN GAGA",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.71,
+    0.77,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "text": "ÇİZGİLİ KUYRUK",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.71,
+    0.47,
+    0.14,
+    0.06
+   ]
+  },
+  {
+   "text": "ALASKA",
+   "start": 7.5,
+   "end": 8.5,
+   "box": [
+    0.55,
+    0.74,
+    0.09,
+    0.06
+   ]
+  },
+  {
+   "text": "Rotası Pasifik'in üstünden Yeni Zelanda'ya.",
+   "start": 7.5,
+   "end": 8.5,
+   "box": [
+    0.07,
+    0.07,
+    0.47,
+    0.04
+   ]
+  },
+  {
+   "text": "OYENİ ZELANDA",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.45,
+    0.16,
+    0.18,
+    0.05
+   ]
+  },
+  {
+   "text": "On üç bin kilometreden fazla, tek seferde.",
+   "start": 9.5,
+   "end": 12.5,
+   "box": [
+    0.26,
+    0.09,
+    0.48,
+    0.04
+   ]
+  },
+  {
+   "text": "13.000 km",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.02,
+    0.5,
+    0.98,
+    0.28
+   ]
+  },
+  {
+   "text": "KİLOMETRE, TEK SEFERDE",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.35,
+    0.39,
+    0.3,
+    0.04
+   ]
+  },
+  {
+   "text": "KILOMETRE,",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.35,
+    0.4,
+    0.14,
+    0.04
+   ]
+  },
+  {
+   "text": "TEK SEFERDE",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.49,
+    0.4,
+    0.16,
+    0.03
+   ]
+  },
+  {
+   "text": "KİLOMETRE, TEK SEFERDE",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.35,
+    0.39,
+    0.3,
+    0.05
+   ]
+  },
+  {
+   "text": "YAĞ",
+   "start": 13.5,
+   "end": 15.5,
+   "box": [
+    0.03,
+    0.52,
+    0.32,
+    0.26
+   ]
+  },
+  {
+   "text": "YOLCULUKTAN ÖN",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.07,
+    0.08,
+    0.21,
+    0.06
+   ]
+  },
+  {
+   "text": "YAKIT",
+   "start": 15.5,
+   "end": 16.5,
+   "box": [
+    0.04,
+    0.24,
+    0.47,
+    0.23
+   ]
+  },
+  {
+   "text": "YOLCULUKTAN ÖNCE VÜCUDUNUN",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.07,
+    0.08,
+    0.37,
+    0.06
+   ]
+  },
+  {
+   "text": "YAĞ l",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.03,
+    0.52,
+    0.32,
+    0.28
+   ]
+  },
+  {
+   "text": "YOLCULUKTAN ÖNCE VÜCUDUNUN BÜYÜK KISMI]",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.07,
+    0.08,
+    0.53,
+    0.06
+   ]
+  },
+  {
+   "text": "ÖNCE",
+   "start": 18.5,
+   "end": 20.5,
+   "box": [
+    0.04,
+    0.88,
+    0.08,
+    0.06
+   ]
+  },
+  {
+   "text": "UÇUŞTA",
+   "start": 18.5,
+   "end": 20.5,
+   "box": [
+    0.54,
+    0.86,
+    0.13,
+    0.07
+   ]
+  },
+  {
+   "text": "VS",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.49,
+    0.54,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "SİNDİRİM |",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.43,
+    0.08,
+    0.14,
+    0.06
+   ]
+  },
+  {
+   "text": "SİNDİRİM ORGANLARI KÜ",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.35,
+    0.08,
+    0.3,
+    0.05
+   ]
+  },
+  {
+   "text": "vS",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.48,
+    0.54,
+    0.03,
+    0.04
+   ]
+  },
+  {
+   "text": "SİNDİRİM ORGANLARI KÜÇÜLÜR, UÇUŞ]",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.27,
+    0.08,
+    0.45,
+    0.06
+   ]
+  },
+  {
+   "text": "yarısı",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.38,
+    0.48,
+    0.24,
+    0.1
+   ]
+  },
+  {
+   "text": "yarıS1",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.38,
+    0.48,
+    0.24,
+    0.1
+   ]
+  },
+  {
+   "text": "İNDIĞİNDE AĞIRLIL",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.06,
+    0.07,
+    0.23,
+    0.05
+   ]
+  },
+  {
+   "text": "yarısı",
+   "start": 23.5,
+   "end": 24.5,
+   "box": [
+    0.38,
+    0.48,
+    0.24,
+    0.11
+   ]
+  },
+  {
+   "text": "İNDİĞİNDE AĞIRLIĞININ NEREDEYSE |",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.06,
+    0.06,
+    0.45,
+    0.08
+   ]
+  },
+  {
+   "text": "İNDİĞİNDE AĞIRLIĞININ NEREDEYSE YARISINI KAYBETMİ",
+   "start": 24.5,
+   "end": 24.5,
+   "box": [
+    0.06,
+    0.07,
+    0.68,
+    0.05
+   ]
+  },
+  {
+   "text": "VE BİR",
+   "start": 25.5,
+   "end": 26.5,
+   "box": [
+    0.05,
+    0.09,
+    0.15,
+    0.13
+   ]
+  },
+  {
+   "text": "• YENİ ZELANDA",
+   "start": 25.5,
+   "end": 26.5,
+   "box": [
+    0.46,
+    0.15,
+    0.12,
+    0.06
+   ]
+  },
+  {
+   "text": "BAHARDA,",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.05,
+    0.07,
+    0.24,
+    0.13
+   ]
+  },
+  {
+   "text": "© YENİ ZELANDA",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.46,
+    0.16,
+    0.12,
+    0.05
+   ]
+  },
+  {
+   "text": "• ALASKA",
+   "start": 28.5,
+   "end": 28.5,
+   "box": [
+    0.52,
+    0.79,
+    0.09,
+    0.04
+   ]
+  },
+  {
+   "text": "• YENİ ZELANDA",
+   "start": 28.5,
+   "end": 29.5,
+   "box": [
+    0.46,
+    0.17,
+    0.12,
+    0.04
+   ]
+  },
+  {
+   "text": "GERİ DÖNER.",
+   "start": 29.5,
+   "end": 30.5,
+   "box": [
+    0.05,
+    0.08,
+    0.3,
+    0.13
+   ]
+  },
+  {
+   "text": "•ALASKA",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.52,
+    0.8,
+    0.08,
+    0.05
+   ]
+  },
+  {
+   "text": "• ALASKA",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.52,
+    0.8,
+    0.08,
+    0.04
+   ]
+  },
+  {
+   "text": "•. YENİ ZELANDA",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.45,
+    0.16,
+    0.12,
+    0.04
+   ]
+  }
+ ],
+ "speech_words": 54,
+ "speech_coverage": 0.93,
+ "script": [
+  {
+   "line": "Alaska'da bir kuş havalanıyor ve on bir gün boyunca hiç inmeyecek.",
+   "score": 1.0,
+   "t": 0.1
+  },
+  {
+   "line": "Kuyruğu çizgili bir çamurçulluğu.",
+   "score": 0.75,
+   "t": 6.0
+  },
+  {
+   "line": "Rotası Pasifik'in üstünden Yeni Zelanda'ya.",
+   "score": 1.0,
+   "t": 8.9
+  },
+  {
+   "line": "On üç bin kilometreden fazla, tek seferde.",
+   "score": 0.71,
+   "t": 12.1
+  },
+  {
+   "line": "Yolculuktan önce vücudunun büyük kısmı yağa dönüşür.",
+   "score": 0.86,
+   "t": 17.1
+  },
+  {
+   "line": "Sindirim organları küçülür, uçuşa yer açılır.",
+   "score": 0.83,
+   "t": 21.5
+  },
+  {
+   "line": "İndiğinde ağırlığının neredeyse yarısını kaybetmiştir.",
+   "score": 1.0,
+   "t": 25.2
+  },
+  {
+   "line": "Ve bir sonraki baharda, aynı yolu geri döner.",
+   "score": 1.0,
+   "t": 28.1
+  }
+ ],
+ "script_adherence": 0.88
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "film-deprem",
+ "topic": "deprem",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Deprem anı saniyelerdir; hazırlık ise bugün yapılır.",
+  "Çantanızda en az üç günlük su olsun.",
+  "Bozulmayan yiyecekler ve bir el feneri.",
+  "Bir düdük: sesiniz yetmediğinde sizi o duyurur.",
+  "İlk yardım seti ve düzenli kullandığınız ilaçlar.",
+  "Kimlik fotokopileri ve biraz nakit.",
+  "Çantayı kapının yanında tutun, ailece buluşma noktanızı belirleyin."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "pictogram-motion",
+   "ok": [],
+   "why": "one public checklist in one voice: a locked camera, round frames, the spoken word lights up; every item is its own graphic"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "pictos",
+   "ok": []
+  },
+  {
+   "best": "list",
+   "ok": []
+  },
+  {
+   "best": "title",
+   "ok": []
+  },
+  {
+   "best": "collage",
+   "ok": []
+  },
+  {
+   "best": "diagram",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "Two words that say when: preparation, today",
+  "Three water drops fill one by one: three days of water",
+  "Two ticked boxes: food that keeps, a torch",
+  "The whistle gets a card of its own, wiped in",
+  "Pill organisers in round frames beside the first aid supplies",
+  "The zip bag with two pins: ID copies, some cash",
+  "The assembly-area sign in a window card: where the family meets"
+ ],
+ "approved": true
+}

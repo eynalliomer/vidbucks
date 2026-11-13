@@ -1,0 +1,191 @@
+{
+ "public_dir": "films/deprem",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "pictogram-motion",
+   "why": "one public checklist in one voice: a locked camera, round frames, the spoken word lights up; every item is its own graphic",
+   "direction": {
+    "camera": "locked",
+    "enter": "slide",
+    "frame": "circle",
+    "caption": "karaoke",
+    "fonts": {
+     "display": "rubik",
+     "text": "rubik"
+    },
+    "sound": "soft"
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "bigword",
+   "idea": "Two words that say when: preparation, today",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "words": [
+     "Hazırlık",
+     "bugün"
+    ],
+    "hot": 1
+   }
+  },
+  {
+   "line": 2,
+   "shot": "pictos",
+   "idea": "Three water drops fill one by one: three days of water",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "total": 3,
+    "filled": 3,
+    "icon": "drop",
+    "label": "gün su",
+    "heading": "Su"
+   }
+  },
+  {
+   "line": 3,
+   "shot": "list",
+   "idea": "Two ticked boxes: food that keeps, a torch",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "items": [
+     "Bozulmayan yiyecek",
+     "El feneri"
+    ],
+    "bullet": "check"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "title",
+   "idea": "The whistle gets a card of its own, wiped in",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "title": "Düdük",
+    "size": 220,
+    "mode": "mask"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "collage",
+   "idea": "Pill organisers in round frames beside the first aid supplies",
+   "media": {
+    "queries": [
+     "first aid kit",
+     "pill organizer box"
+    ],
+    "n": 3
+   },
+   "picked": {
+    "src": "films/deprem/L05.jpg",
+    "aspect": 1.3333,
+    "title": "Pill box with pills.JPG",
+    "creator": "Dvortygirl",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pill_box_with_pills.JPG",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "extra": [
+    {
+     "src": "films/deprem/L05x1.jpg",
+     "aspect": 1.3333,
+     "title": "Pilulier semainier.JPG",
+     "creator": "User:Stephane8888 (Stephane8888 Wiktionnaire)",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Pilulier_semainier.JPG",
+     "source": "wikimedia",
+     "attribution": true
+    }
+   ],
+   "data": {}
+  },
+  {
+   "line": 6,
+   "shot": "diagram",
+   "idea": "The zip bag with two pins: ID copies, some cash",
+   "media": {
+    "queries": [
+     "documents zip bag",
+     "cash banknotes envelope"
+    ],
+    "n": 3
+   },
+   "data": {
+    "callouts": [
+     {
+      "x": 0.4,
+      "y": 0.35,
+      "label": "Kimlik fotokopileri"
+     },
+     {
+      "x": 0.6,
+      "y": 0.65,
+      "label": "Biraz nakit"
+     }
+    ]
+   },
+   "picked": {
+    "src": "films/deprem/L06.jpg",
+    "aspect": 1.3333,
+    "title": "Druckverschlussbeutel.jpg",
+    "creator": "Corneille",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Druckverschlussbeutel.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "window"
+   }
+  },
+  {
+   "line": 7,
+   "shot": "photo",
+   "idea": "The assembly-area sign in a window card: where the family meets",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "kicker": "buluşma noktası"
+   },
+   "picked": {
+    "src": "films/deprem/assembly.svg",
+    "aspect": 1.6,
+    "title": "assembly area sign (drawn in code)",
+    "creator": "Vidbucks",
+    "license": "original",
+    "source": "procedural"
+   },
+   "direction": {
+    "frame": "window",
+    "enter": "drop"
+   }
+  }
+ ],
+ "sound": {
+  "mood": "calm",
+  "bpm": 86
+ }
+}

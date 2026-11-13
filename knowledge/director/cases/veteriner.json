@@ -1,0 +1,54 @@
+{
+ "slug": "veteriner",
+ "topic": "Köpeğimin veteriner korkusu",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Arabaya biniyoruz: kuyruk sallanıyor.",
+  "Yolu tanıyor: kuyruk duruyor.",
+  "Klinik kapısı: dört pati frene basıyor.",
+  "Aşı bitti: hiçbir şey olmamış gibi ödül bekliyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "pop-art",
+   "ok": [
+    "silent-film",
+    "risograph"
+   ],
+   "why": "a comic sketch: bold pop panels"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  }
+ ]
+}

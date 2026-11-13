@@ -1,0 +1,6 @@
+{"topic": "Piri Reis haritası (1513)", "tone": "documentary", "format": "auto",
+ "places": {"İstanbul": [41.01, 28.98], "Gelibolu": [40.41, 26.67], "Akdeniz": [36.0, 18.0], "İspanya": [40.2, -3.7], "Afrika": [12.0, -10.0], "Amerika": [-10.0, -52.0]},
+ "images": [{"src": "board/piri/p02.jpg", "aspect": 1.4981, "keywords": ["topkapı", "saray"], "label": "TOPKAPI SARAYI"},
+            {"src": "board/piri/p01.jpg", "aspect": 0.7496, "keywords": ["harita", "deri"]},
+            {"src": "board/piri/p03.jpg", "aspect": 0.8617, "keywords": ["kemal reis", "gemiler"], "label": "GÖKE"},
+            {"src": "board/piri/p04.jpg", "aspect": 1.4535, "keywords": ["kitab", "akdeniz"], "label": "KİTAB-I BAHRİYE"}]}

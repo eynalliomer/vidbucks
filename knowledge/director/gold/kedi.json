@@ -1,0 +1,70 @@
+{
+ "slug": "kedi",
+ "topic": "Kedimin bir günü",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Saat altı. Kedim, beni uyandırmak için masadan bir bardak düşürüyor.",
+  "Mama kabı dolu, ama ortası görünüyor; demek ki boş.",
+  "Öğlen: güneşin düştüğü tek kareyi kaplıyor.",
+  "Akşam: ona aldığım pahalı yatak yerine kargo kutusunu seçiyor.",
+  "Gece üçte koridorda nedensiz bir yarış.",
+  "Ve sabah, hiçbir şey olmamış gibi, yine o bardak."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "silent-film",
+   "ok": [
+    "pop-art",
+    "whiteboard"
+   ],
+   "why": "a slapstick day: one silent-comedy look, intertitles for the jokes"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "stamp"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

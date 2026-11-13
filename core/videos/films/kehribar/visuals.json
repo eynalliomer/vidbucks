@@ -1,0 +1,310 @@
+{
+ "public_dir": "films/kehribar",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2
+   ],
+   "style": "spy-titles",
+   "why": "a cold open in 1941: whip pans, slabs of type",
+   "direction": {
+    "camera": "whip",
+    "enter": "slide",
+    "frame": "bleed",
+    "caption": "kinetic",
+    "fonts": {
+     "display": "bebas",
+     "text": "oswald"
+    },
+    "sound": "thriller"
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    3,
+    4
+   ],
+   "style": "woodcut",
+   "why": "the eighteenth-century gift and the wartime route: old ink on torn paper",
+   "direction": {
+    "camera": "locked",
+    "enter": "tear",
+    "frame": "torn",
+    "caption": "lower",
+    "fonts": {
+     "display": "abril",
+     "text": "serif"
+    },
+    "sound": "paper"
+   },
+   "transition": {
+    "kind": "dip",
+    "dur": 0.6
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "halftone-dossier",
+   "why": "the open case file: polaroids dropped on a desk, typed notes, a board that ends on a question",
+   "direction": {
+    "camera": "kenburns",
+    "enter": "drop",
+    "frame": "polaroid",
+    "caption": "typewriter",
+    "fonts": {
+     "display": "elite",
+     "text": "courier"
+    },
+    "sound": "thriller"
+   },
+   "transition": {
+    "kind": "knife",
+    "dur": 0.4
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "photo",
+   "idea": "The amber room; the year slams over it",
+   "media": {
+    "queries": [
+     "Amber Room 1931 photograph",
+     "Catherine Palace Amber Room historic photo"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "bottom",
+    "kicker": "1941",
+    "from": [
+     0.5,
+     0.5,
+     1.2
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   "picked": {
+    "src": "films/kehribar/L01.jpg",
+    "aspect": 1.0625,
+    "title": "Catherine Palace interior - Amber Room (1).jpg",
+    "creator": "Branson DeCou",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_interior_-_Amber_Room_(1).jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 2,
+   "shot": "detail",
+   "idea": "A dive into one amber panel, bracketed and named",
+   "media": {
+    "queries": [
+     "Amber Room panel detail",
+     "Amber Room Catherine Palace"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.35,
+     0.3,
+     0.65,
+     0.6
+    ],
+    "label": "kehribar",
+    "mark": "bracket"
+   },
+   "picked": {
+    "src": "films/kehribar/L02.jpg",
+    "aspect": 0.75,
+    "title": "8463. Amber room of the Catherine Palace.jpg",
+    "creator": "GAlexandrova",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:8463._Amber_room_of_the_Catherine_Palace.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 3,
+   "shot": "document",
+   "idea": "The tsar's portrait as a torn print; a box closes on the face of the gift's receiver",
+   "media": {
+    "queries": [
+     "Peter the Great portrait",
+     "Peter I of Russia portrait"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.3,
+     0.06,
+     0.75,
+     0.42
+    ],
+    "mark": "box"
+   },
+   "picked": {
+    "src": "films/kehribar/L03.jpg",
+    "aspect": 0.8955,
+    "title": "Pieter van der Werff - Portrait of Peter the Great - WGA25542.jpg",
+    "creator": "Pieter van der Werff",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pieter_van_der_Werff_-_Portrait_of_Peter_the_Great_-_WGA25542.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 4,
+   "shot": "map",
+   "idea": "An inked Baltic; the route to Königsberg",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "baltic",
+    "stops": [
+     "Sankt Petersburg",
+     "Königsberg"
+    ],
+    "look": "ink"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "stamp",
+   "idea": "A polaroid of a bunker; NO TRACE stamped on it",
+   "media": {
+    "queries": [
+     "Königsberg 1945 ruins",
+     "Königsberg castle ruins"
+    ],
+    "n": 3
+   },
+   "data": {
+    "text": "İZ YOK",
+    "y": 0.38
+   },
+   "picked": {
+    "src": "films/kehribar/L05.jpg",
+    "aspect": 1.3333,
+    "title": "WW2 Bunker Museum (Blindage Museum Музей Бункер Battle of Königsberg Museum) Kaliningrad, Russia 2017-10-29 - 42554751730.jpg",
+    "creator": "ftrc",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WW2_Bunker_Museum_(Blindage_Museum_%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_Battle_of_K%C3%B6nigsberg_Museum)_Kaliningrad,_Russia_2017-10-29_-_42554751730.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   }
+  },
+  {
+   "line": 6,
+   "shot": "compare",
+   "idea": "Two polaroids: 1931 and today, the copy",
+   "media": {
+    "queries": [
+     "Amber Room reconstruction",
+     "Amber Room 1931"
+    ],
+    "n": 3
+   },
+   "data": {
+    "left_label": "1931",
+    "right_label": "bugün"
+   },
+   "picked": {
+    "src": "films/kehribar/L06.jpg",
+    "aspect": 1.0602,
+    "title": "Catherine Palace interior - Amber Room (2).jpg",
+    "creator": "Branson DeCou",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_interior_-_Amber_Room_(2).jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "extra": [
+    {
+     "src": "films/kehribar/L06x1.jpg",
+     "aspect": 1.3333,
+     "title": "Amber frame with florentine mosaic Taste (modern reconstruction) 01 detail.JPG",
+     "creator": "Shakko",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Amber_frame_with_florentine_mosaic_Taste_(modern_reconstruction)_01_detail.JPG",
+     "source": "wikimedia",
+     "attribution": true
+    }
+   ]
+  },
+  {
+   "line": 7,
+   "shot": "board",
+   "idea": "The desk at the end: the room's pictures pinned together, the last note a question mark",
+   "media": {
+    "queries": [
+     "Amber Room Catherine Palace interior"
+    ],
+    "n": 3
+   },
+   "data": {
+    "surface": "desk",
+    "notes": [
+     "1941",
+     "Königsberg",
+     "?"
+    ]
+   },
+   "picked": {
+    "src": "films/kehribar/L07.jpg",
+    "aspect": 0.7775,
+    "title": "Andrey Zeest - Amber Room (autochrome).jpg",
+    "creator": "Андрей Андреевич Зеест",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrey_Zeest_-_Amber_Room_(autochrome).jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "extra": [
+    {
+     "src": "films/kehribar/L01.jpg",
+     "aspect": 1.0625,
+     "title": "Catherine Palace interior - Amber Room (1).jpg",
+     "creator": "Branson DeCou",
+     "license": "Public domain",
+     "page": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_interior_-_Amber_Room_(1).jpg",
+     "source": "wikimedia",
+     "attribution": false
+    },
+    {
+     "src": "films/kehribar/L05.jpg",
+     "aspect": 1.3333,
+     "title": "WW2 Bunker Museum (Blindage Museum Музей Бункер Battle of Königsberg Museum) Kaliningrad, Russia 2017-10-29 - 42554751730.jpg",
+     "creator": "ftrc",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:WW2_Bunker_Museum_(Blindage_Museum_%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_Battle_of_K%C3%B6nigsberg_Museum)_Kaliningrad,_Russia_2017-10-29_-_42554751730.jpg",
+     "source": "wikimedia",
+     "attribution": true
+    }
+   ]
+  }
+ ],
+ "sound": {
+  "mood": "dark",
+  "bpm": 78
+ }
+}

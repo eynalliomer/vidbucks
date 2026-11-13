@@ -1,0 +1,232 @@
+{
+ "duration": 63.232,
+ "styles_used": [
+  "visual-investigation"
+ ],
+ "switch_cost": 0.45,
+ "min_seg": 6.0,
+ "format": "auto",
+ "locked_style": null,
+ "segments": [
+  {
+   "id": "s01",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "start": 0.0,
+   "end": 63.232,
+   "style": "visual-investigation",
+   "name": "Visual Investigation",
+   "renderer": "board",
+   "preset": {
+    "look": "charcoal",
+    "grade": "natural"
+   },
+   "readiness": "native",
+   "transition": null,
+   "content": {
+    "number": 10.500000000000002,
+    "document": 10.0,
+    "place": 9.2,
+    "person": 6.000000000000001
+   },
+   "runners_up": [
+    "caption-news",
+    "news-package"
+   ],
+   "reason": "content number, document, place, person -> Visual Investigation (native)"
+  }
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "start": 0.9,
+   "end": 5.013,
+   "text": "Bin dokuz yüz yirmi dokuz. İstanbul, Topkapı Sarayı.",
+   "features": {
+    "history": 1.5,
+    "year": 1.5,
+    "number": 1.9,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4,
+    "title": 0.8
+   }
+  },
+  {
+   "id": 2,
+   "start": 5.463,
+   "end": 9.594,
+   "text": "Saray müzeye dönüşürken, kütüphanede katlanmış bir deri bulunur.",
+   "features": {
+    "history": 1.0,
+    "document": 1.0
+   }
+  },
+  {
+   "id": 3,
+   "start": 10.044,
+   "end": 13.201,
+   "text": "Üzerinde, dört yüz yıllık bir dünya haritası vardır.",
+   "features": {
+    "document": 1.0,
+    "number": 1.6
+   }
+  },
+  {
+   "id": 4,
+   "start": 14.201,
+   "end": 18.442,
+   "text": "Dört yüz on altı yıl önce, Gelibolu'da bir denizci kalemi eline alır.",
+   "features": {
+    "process": 1.0,
+    "nature": 1.0,
+    "number": 1.9,
+    "place": 2.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 5,
+   "start": 18.892,
+   "end": 22.606,
+   "text": "Adı Piri Reis. Amcası, ünlü kaptan Kemal Reis.",
+   "features": {
+    "person": 3.4
+   }
+  },
+  {
+   "id": 6,
+   "start": 23.056,
+   "end": 26.264,
+   "text": "Gençliği, amcasının gemilerinde, Akdeniz'de geçer.",
+   "features": {
+    "person": 1.0,
+    "place": 2.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 7,
+   "start": 26.714,
+   "end": 30.268,
+   "text": "Haritayı bin beş yüz on üç yılında, ceylan derisine çizer.",
+   "features": {
+    "document": 2.0,
+    "list": 1.0,
+    "year": 1.5,
+    "history": 0.5,
+    "number": 2.5
+   }
+  },
+  {
+   "id": 8,
+   "start": 31.268,
+   "end": 34.987,
+   "text": "Kenarına, yaklaşık yirmi eski haritayı birleştirdiğini yazar.",
+   "features": {
+    "document": 1.0,
+    "quote": 1.0,
+    "number": 1.3
+   }
+  },
+  {
+   "id": 9,
+   "start": 35.437,
+   "end": 38.946,
+   "text": "Bunlardan biri, bugün kayıp olan bir Kolomb haritasıdır.",
+   "features": {
+    "closing": 1.0,
+    "emotion": 1.0,
+    "mystery": 1.0,
+    "document": 1.0
+   }
+  },
+  {
+   "id": 10,
+   "start": 39.396,
+   "end": 43.01,
+   "text": "Haritada İspanya, Afrika kıyısı ve Güney Amerika görünür.",
+   "features": {
+    "document": 1.0,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4
+   }
+  },
+  {
+   "id": 11,
+   "start": 44.01,
+   "end": 48.099,
+   "text": "Sekiz yıl sonra denizciler için bir kitap yazar: Kitab-ı Bahriye.",
+   "features": {
+    "process": 1.0,
+    "nature": 1.0,
+    "document": 1.0,
+    "quote": 1.6,
+    "person": 0.4
+   }
+  },
+  {
+   "id": 12,
+   "start": 48.549,
+   "end": 51.711,
+   "text": "Akdeniz'in koyları ve limanları, tek tek çizilidir.",
+   "features": {
+    "place": 1.2,
+    "map": 0.8
+   }
+  },
+  {
+   "id": 13,
+   "start": 52.161,
+   "end": 55.218,
+   "text": "Bugün haritanın yalnızca üçte biri elimizde.",
+   "features": {
+    "closing": 1.0,
+    "document": 1.0,
+    "emotion": 1.0,
+    "number": 1.3
+   }
+  },
+  {
+   "id": 14,
+   "start": 55.668,
+   "end": 56.924,
+   "text": "Gerisi hâlâ kayıp.",
+   "features": {
+    "closing": 1.0,
+    "emotion": 1.0,
+    "mystery": 1.0
+   }
+  },
+  {
+   "id": 15,
+   "start": 57.374,
+   "end": 60.232,
+   "text": "Ve o deri, hâlâ Topkapı Sarayı'nda saklanıyor.",
+   "features": {
+    "document": 1.0,
+    "closing": 2.0,
+    "history": 1.0,
+    "place": 1.2,
+    "map": 0.8,
+    "person": 0.4
+   }
+  }
+ ]
+}

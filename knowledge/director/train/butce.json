@@ -1,0 +1,54 @@
+{
+ "slug": "butce",
+ "topic": "Haftalık bütçe nasıl yapılır?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Önce bir haftalık gelirinizi yazın.",
+  "Sabit giderleri çıkarın: kira, fatura, ulaşım.",
+  "Kalanı üç kutuya bölün: ihtiyaç, istek, birikim.",
+  "Hafta sonunda tabloya bakın ve düzeltin."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "spreadsheet",
+   "ok": [
+    "dataviz",
+    "whiteboard"
+   ],
+   "why": "a money process: a sheet"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "number",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "number"
+   ]
+  },
+  {
+   "best": "ratio",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "number"
+   ]
+  }
+ ]
+}

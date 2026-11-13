@@ -1,0 +1,855 @@
+{
+ "file": "out/films/petek.mp4",
+ "checks": [
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:02.5: \"Bir arı kovanının içine bakın: her yer altıgen.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:04.5: \"NEDEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:04.5: \"Peki neden kare ya da daire değil?\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"ALTIGEN?\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:06.5: \"DAiRE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:06.5: \"ALTIGEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:06.5: \"vS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"DAİRELER YAN YANA GELİNCE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"DAİRELER YAN YANA GELİNCE ARALARINDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"AYNI ALAN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"KARELER\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"AYNIALAN İÇİN DUVAR UZUNLUĞU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:12.5: \"ÜÇGEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"KARELER BOŞLUK BIRAKMAZ,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:12.5: \"4,6\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:12.5: \"AYNI ALAN İÇİN DUVAR UZUNLUĞU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:12.5: \"KARE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:09.5: \"KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"ALTIGEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"3,7\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI ALANI EN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI ALANI EN KISA DUVARLA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"BU DA DAHA AZ BAL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"danha er mum\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"daha az\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"BÙ DA DAHA AZ BAL MUMU DEMEK.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"KANIT • THOMAS HALES\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"Matematikçl\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"1999\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"BAZIARAŞTIRMALA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"ISINAN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:19.5: \"ISINAN MUM\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"ISINAN MUM,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"İTER®\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:22.5: \"DOĞA,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"DOĞA, EN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:25.5: \"DOĞA, EN AZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 26.5,
+   "msg": "text in the picture 0:26.5-0:26.5: \"MALZEMEYLE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:28.5: \"MALZEMEYLE EN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 29.5,
+   "msg": "text in the picture 0:29.5-0:29.5: \"MALZEMEYLE EN ÇOK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 30.5,
+   "msg": "text in the picture 0:30.5-0:30.5: \"ALANI (\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 31.5,
+   "msg": "text in the picture 0:31.5-0:32.5: \"ALANI SEÇER.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 33.133333,
+  "video": 33.133333,
+  "audio": 33.127,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 8.9,
+  "still_share": 0.7
+ },
+ "hook": 17.8,
+ "shots": 17,
+ "cuts_per_min": 32.6,
+ "silences": [],
+ "loudness": {
+  "lufs": -16.0,
+  "true_peak_db": -1.5,
+  "lra": 2.5
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "Bir arı kovanının içine bakın: her yer altıgen.",
+   "start": 0.5,
+   "end": 2.5,
+   "box": [
+    0.03,
+    0.02,
+    0.56,
+    0.06
+   ]
+  },
+  {
+   "text": "NEDEN",
+   "start": 3.5,
+   "end": 4.5,
+   "box": [
+    0.33,
+    0.51,
+    0.35,
+    0.15
+   ]
+  },
+  {
+   "text": "Peki neden kare ya da daire değil?",
+   "start": 3.5,
+   "end": 4.5,
+   "box": [
+    0.07,
+    0.07,
+    0.4,
+    0.05
+   ]
+  },
+  {
+   "text": "ALTIGEN?",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.24,
+    0.33,
+    0.52,
+    0.16
+   ]
+  },
+  {
+   "text": "DAiRE",
+   "start": 5.5,
+   "end": 6.5,
+   "box": [
+    0.04,
+    0.88,
+    0.1,
+    0.06
+   ]
+  },
+  {
+   "text": "ALTIGEN",
+   "start": 5.5,
+   "end": 6.5,
+   "box": [
+    0.54,
+    0.88,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "text": "vS",
+   "start": 5.5,
+   "end": 6.5,
+   "box": [
+    0.49,
+    0.54,
+    0.02,
+    0.03
+   ]
+  },
+  {
+   "text": "DAİRELER YAN YANA GELİNCE",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.19,
+    0.08,
+    0.31,
+    0.05
+   ]
+  },
+  {
+   "text": "DAİRELER YAN YANA GELİNCE ARALARINDA",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.19,
+    0.08,
+    0.45,
+    0.05
+   ]
+  },
+  {
+   "text": "AYNI ALAN",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.07,
+    0.86,
+    0.18,
+    0.05
+   ]
+  },
+  {
+   "text": "KARELER",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.06,
+    0.07,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "text": "AYNIALAN İÇİN DUVAR UZUNLUĞU",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.07,
+    0.84,
+    0.58,
+    0.08
+   ]
+  },
+  {
+   "text": "ÜÇGEN",
+   "start": 8.5,
+   "end": 12.5,
+   "box": [
+    0.15,
+    0.66,
+    0.12,
+    0.06
+   ]
+  },
+  {
+   "text": "KARELER BOŞLUK BIRAKMAZ,",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.06,
+    0.06,
+    0.32,
+    0.05
+   ]
+  },
+  {
+   "text": "4,6",
+   "start": 8.5,
+   "end": 12.5,
+   "box": [
+    0.76,
+    0.64,
+    0.06,
+    0.07
+   ]
+  },
+  {
+   "text": "AYNI ALAN İÇİN DUVAR UZUNLUĞU",
+   "start": 9.5,
+   "end": 12.5,
+   "box": [
+    0.07,
+    0.83,
+    0.58,
+    0.09
+   ]
+  },
+  {
+   "text": "KARE",
+   "start": 9.5,
+   "end": 12.5,
+   "box": [
+    0.19,
+    0.5,
+    0.09,
+    0.05
+   ]
+  },
+  {
+   "text": "KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN",
+   "start": 9.5,
+   "end": 9.5,
+   "box": [
+    0.06,
+    0.06,
+    0.46,
+    0.05
+   ]
+  },
+  {
+   "text": "ALTIGEN",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.13,
+    0.34,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "text": "KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.06,
+    0.06,
+    0.51,
+    0.05
+   ]
+  },
+  {
+   "text": "3,7",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.68,
+    0.3,
+    0.06,
+    0.07
+   ]
+  },
+  {
+   "text": "KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI ALANI EN",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.06,
+    0.06,
+    0.62,
+    0.05
+   ]
+  },
+  {
+   "text": "KARELER BOŞLUK BIRAKMAZ, AMA ALTIGEN AYNI ALANI EN KISA DUVARLA",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.06,
+    0.06,
+    0.78,
+    0.05
+   ]
+  },
+  {
+   "text": "BU DA DAHA AZ BAL",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.06,
+    0.07,
+    0.22,
+    0.07
+   ]
+  },
+  {
+   "text": "danha er mum",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.62,
+    0.47,
+    0.25,
+    0.22
+   ]
+  },
+  {
+   "text": "daha az",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.63,
+    0.5,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "text": "BÙ DA DAHA AZ BAL MUMU DEMEK.",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.06,
+    0.06,
+    0.38,
+    0.07
+   ]
+  },
+  {
+   "text": "KANIT • THOMAS HALES",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.23,
+    0.75,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "Matematikçl",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.23,
+    0.65,
+    0.17,
+    0.05
+   ]
+  },
+  {
+   "text": "1999",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.73,
+    0.27,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "BAZIARAŞTIRMALA",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.25,
+    0.18,
+    0.74,
+    0.13
+   ]
+  },
+  {
+   "text": "ISINAN",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.05,
+    0.21,
+    0.27,
+    0.11
+   ]
+  },
+  {
+   "text": "ISINAN MUM",
+   "start": 18.5,
+   "end": 19.5,
+   "box": [
+    0.75,
+    0.83,
+    0.15,
+    0.06
+   ]
+  },
+  {
+   "text": "ISINAN MUM,",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.05,
+    0.16,
+    0.52,
+    0.17
+   ]
+  },
+  {
+   "text": "İTER®",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.05,
+    0.03,
+    0.23,
+    0.15
+   ]
+  },
+  {
+   "text": "DOĞA,",
+   "start": 20.5,
+   "end": 22.5,
+   "box": [
+    0.06,
+    0.04,
+    0.26,
+    0.18
+   ]
+  },
+  {
+   "text": "DOĞA, EN",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.05,
+    0.04,
+    0.37,
+    0.17
+   ]
+  },
+  {
+   "text": "DOĞA, EN AZ",
+   "start": 24.5,
+   "end": 25.5,
+   "box": [
+    0.05,
+    0.04,
+    0.49,
+    0.19
+   ]
+  },
+  {
+   "text": "MALZEMEYLE",
+   "start": 26.5,
+   "end": 26.5,
+   "box": [
+    0.05,
+    0.08,
+    0.53,
+    0.13
+   ]
+  },
+  {
+   "text": "MALZEMEYLE EN",
+   "start": 27.5,
+   "end": 28.5,
+   "box": [
+    0.06,
+    0.09,
+    0.64,
+    0.11
+   ]
+  },
+  {
+   "text": "MALZEMEYLE EN ÇOK",
+   "start": 29.5,
+   "end": 29.5,
+   "box": [
+    0.06,
+    0.07,
+    0.82,
+    0.13
+   ]
+  },
+  {
+   "text": "ALANI (",
+   "start": 30.5,
+   "end": 30.5,
+   "box": [
+    0.05,
+    0.09,
+    0.26,
+    0.1
+   ]
+  },
+  {
+   "text": "ALANI SEÇER.",
+   "start": 31.5,
+   "end": 32.5,
+   "box": [
+    0.05,
+    0.07,
+    0.54,
+    0.13
+   ]
+  }
+ ],
+ "speech_words": 65,
+ "speech_coverage": 0.94,
+ "script": [
+  {
+   "line": "Bir arı kovanının içine bakın: her yer altıgen.",
+   "score": 0.88,
+   "t": 0.0
+  },
+  {
+   "line": "Peki neden kare ya da daire değil?",
+   "score": 1.0,
+   "t": 3.8
+  },
+  {
+   "line": "Daireler yan yana gelince aralarında boşluk kalır.",
+   "score": 1.0,
+   "t": 6.6
+  },
+  {
+   "line": "Kareler boşluk bırakmaz, ama altıgen aynı alanı en kısa duvarla çevirir.",
+   "score": 1.0,
+   "t": 10.1
+  },
+  {
+   "line": "Bu da daha az bal mumu demek.",
+   "score": 1.0,
+   "t": 15.2
+  },
+  {
+   "line": "Matematikçi Thomas Hales bunu bin dokuz yüz doksan dokuzda kanıtladı.",
+   "score": 1.0,
+   "t": 17.9
+  },
+  {
+   "line": "Bazı araştırmalara göre ısınan mum, hücreleri kendiliğinden bu şekle iter.",
+   "score": 0.8,
+   "t": 24.7
+  },
+  {
+   "line": "Doğa, en az malzemeyle en çok alanı seçer.",
+   "score": 1.0,
+   "t": 30.5
+  }
+ ],
+ "script_adherence": 1.0
+}

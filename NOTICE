@@ -26,3 +26,10 @@ are synthesised on the user's machine (no samples) and belong to whoever generat
 REFERENCE VIDEOS
 Vidbucks analyses public metadata/captions and measures files the user supplies; it does not download or redistribute other
 people's videos. The user is responsible for the rights to any file they provide.
+
+THIRD-PARTY DOCUMENTS (not under the MIT licence)
+third_party/lemo-opuscar/ holds an unmodified copy of the style documents of Lemo-Opuscar
+(https://github.com/lemomo-ai/lemo-opuscar), (c) 2026 Lemomo (LemoLab). The Markdown documents are licensed
+CC BY-NC 4.0 (non-commercial; commercial use needs Lemomo's permission); style.json files are MIT. See
+third_party/lemo-opuscar/README.md for the exact terms and what was left out. Vidbucks' own code is MIT and
+contains no Lemo-Opuscar code.

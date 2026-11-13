@@ -1,0 +1,72 @@
+{
+ "slug": "titanik",
+ "topic": "Titanik'in son gecesi",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz on iki, Nisan. Batmaz denen bir gemi Atlantik'te.",
+  "Gece yarısına doğru gözcü bir buz dağı görüyor.",
+  "Gemi iki saat kırk dakika içinde batıyor.",
+  "Neden bu kadar hızlı? Perçinler ve bölmeler sorgulandı.",
+  "Filikalar yolcuların yarısına bile yetmiyordu."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "newsreel",
+   "ok": [
+    "silent-film",
+    "halftone-dossier"
+   ],
+   "why": "1912 disaster as period news"
+  },
+  {
+   "lines": [
+    4,
+    5
+   ],
+   "style": "halftone-dossier",
+   "ok": [
+    "spy-titles",
+    "newsreel"
+   ],
+   "why": "the inquiry: investigation dossier"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "ratio",
+   "ok": [
+    "number"
+   ]
+  }
+ ]
+}

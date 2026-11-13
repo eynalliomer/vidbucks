@@ -1,0 +1,311 @@
+{
+ "public_dir": "films/curie",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2
+   ],
+   "style": "art-deco",
+   "why": "Paris of the 1890s: an ornamental title and an inked map",
+   "direction": {
+    "camera": "drift",
+    "enter": "mask",
+    "frame": "arch",
+    "caption": "lower",
+    "fonts": {
+     "display": "abril",
+     "text": "cormorant"
+    },
+    "sound": "soft"
+   }
+  },
+  {
+   "id": "A2",
+   "lines": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "newsreel",
+   "why": "the working years and the prizes as newsreel: hand-held, projected, film strip",
+   "direction": {
+    "camera": "handheld",
+    "enter": "projector",
+    "frame": "strip",
+    "caption": "lower",
+    "fonts": {
+     "display": "anton",
+     "text": "courier"
+    },
+    "sound": "archive",
+    "texture": "film"
+   },
+   "transition": {
+    "kind": "flash",
+    "dur": 0.35
+   }
+  },
+  {
+   "id": "A3",
+   "lines": [
+    7,
+    8
+   ],
+   "style": "oscilloscope-math",
+   "why": "the radiation that outlived her: a dark tube glow, typed readings",
+   "direction": {
+    "camera": "locked",
+    "enter": "glitch",
+    "frame": "crt",
+    "caption": "typewriter",
+    "fonts": {
+     "display": "mono",
+     "text": "mono"
+    },
+    "sound": "digital"
+   },
+   "transition": {
+    "kind": "dip",
+    "dur": 0.6
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "title",
+   "idea": "Her name set letter by letter in a deco frame",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "title": "Marie Curie",
+    "size": 190,
+    "mode": "letters"
+   }
+  },
+  {
+   "line": 2,
+   "shot": "map",
+   "idea": "An inked map: an arc from Warsaw to Paris",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "map": "eu",
+    "stops": [
+     "Varşova",
+     "Paris"
+    ],
+    "look": "ink"
+   }
+  },
+  {
+   "line": 3,
+   "shot": "photo",
+   "idea": "Marie and Pierre in the laboratory, in a strip of film",
+   "media": {
+    "queries": [
+     "Pierre and Marie Curie laboratory",
+     "Marie Curie Pierre Curie"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "laboratuvar"
+   },
+   "picked": {
+    "src": "films/curie/L03.jpg",
+    "aspect": 1.2427,
+    "title": "Pierre and Marie Curie.jpg",
+    "creator": "Unknown photographer",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 4,
+   "shot": "timeline",
+   "idea": "A vertical timeline; the playhead falls to 1898",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "years": [
+     1891,
+     1898,
+     1903,
+     1911
+    ],
+    "current": 1898,
+    "labels": [
+     "Paris",
+     "polonyum · radyum",
+     "fizik",
+     "kimya"
+    ],
+    "axis": "y"
+   },
+   "picked": {
+    "src": "films/curie/L03.jpg",
+    "aspect": 1.2427,
+    "title": "Pierre and Marie Curie.jpg",
+    "creator": "Unknown photographer",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 5,
+   "shot": "bigword",
+   "idea": "1903 and PHYSICS across her portrait",
+   "media": {
+    "queries": [
+     "Marie Curie 1903 portrait",
+     "Marie Curie portrait"
+    ],
+    "n": 3
+   },
+   "data": {
+    "words": [
+     "1903",
+     "Fizik"
+    ],
+    "hot": 0
+   },
+   "picked": {
+    "src": "films/curie/L05.jpg",
+    "aspect": 0.798,
+    "title": "Marie-Curie-Nobel-portrait-600.jpg",
+    "creator": "unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marie-Curie-Nobel-portrait-600.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "direction": {
+    "frame": "bleed",
+    "camera": "kenburns"
+   }
+  },
+  {
+   "line": 6,
+   "shot": "document",
+   "idea": "The chemistry diploma; the year underlined in red",
+   "media": {
+    "queries": [
+     "Marie Curie Nobel diploma",
+     "Nobel diploma Curie 1911"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.1,
+     0.6,
+     0.9,
+     0.8
+    ],
+    "mark": "underline"
+   },
+   "picked": {
+    "src": "films/curie/L06.jpg",
+    "aspect": 1.4727,
+    "title": "Marie Skłodowska-Curie's Nobel Prize in Chemistry 1911.jpg",
+    "creator": "Nobel Foundation, diploma by Sofia Gisberg[1]",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marie_Sk%C5%82odowska-Curie%27s_Nobel_Prize_in_Chemistry_1911.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 7,
+   "shot": "detail",
+   "idea": "Her notebook on a tube screen; brackets close on it: still radioactive",
+   "media": {
+    "queries": [
+     "Marie Curie notebook",
+     "Marie Curie laboratory notebook"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.2,
+     0.25,
+     0.8,
+     0.6
+    ],
+    "label": "hâlâ radyoaktif",
+    "mark": "bracket"
+   },
+   "picked": {
+    "src": "films/curie/L07.jpg",
+    "aspect": 0.6723,
+    "title": "Marie Curies notebook Wellcome L0066919.jpg",
+    "creator": "unknown",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marie_Curies_notebook_Wellcome_L0066919.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "frame": "bleed",
+    "treat": "cold",
+    "enter": "scan"
+   }
+  },
+  {
+   "line": 8,
+   "shot": "photo",
+   "idea": "The late portrait developing inside a round glow, the last words huge",
+   "media": {
+    "queries": [
+     "Marie Curie portrait 1920",
+     "Marie Curie c1920"
+    ],
+    "n": 3
+   },
+   "data": {
+    "from": [
+     0.5,
+     0.35,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.15
+    ]
+   },
+   "picked": {
+    "src": "films/curie/L08.jpg",
+    "aspect": 0.7359,
+    "title": "Marie Curie c. 1920s.jpg",
+    "creator": "Henri Manuel",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   },
+   "direction": {
+    "frame": "circle",
+    "enter": "develop",
+    "camera": "kenburns",
+    "caption": "subtitle"
+   }
+  }
+ ],
+ "sound": {
+  "mood": "calm",
+  "bpm": 70
+ }
+}

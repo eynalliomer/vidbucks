@@ -1,0 +1,97 @@
+{
+ "duration": 63.232,
+ "lead": 0.9,
+ "lines": [
+  {
+   "id": 1,
+   "text": "Bin dokuz yüz yirmi dokuz. İstanbul, Topkapı Sarayı.",
+   "start": 0.9,
+   "end": 5.013
+  },
+  {
+   "id": 2,
+   "text": "Saray müzeye dönüşürken, kütüphanede katlanmış bir deri bulunur.",
+   "start": 5.463,
+   "end": 9.594
+  },
+  {
+   "id": 3,
+   "text": "Üzerinde, dört yüz yıllık bir dünya haritası vardır.",
+   "start": 10.044,
+   "end": 13.201
+  },
+  {
+   "id": 4,
+   "text": "Dört yüz on altı yıl önce, Gelibolu'da bir denizci kalemi eline alır.",
+   "start": 14.201,
+   "end": 18.442
+  },
+  {
+   "id": 5,
+   "text": "Adı Piri Reis. Amcası, ünlü kaptan Kemal Reis.",
+   "start": 18.892,
+   "end": 22.606
+  },
+  {
+   "id": 6,
+   "text": "Gençliği, amcasının gemilerinde, Akdeniz'de geçer.",
+   "start": 23.056,
+   "end": 26.264
+  },
+  {
+   "id": 7,
+   "text": "Haritayı bin beş yüz on üç yılında, ceylan derisine çizer.",
+   "start": 26.714,
+   "end": 30.268
+  },
+  {
+   "id": 8,
+   "text": "Kenarına, yaklaşık yirmi eski haritayı birleştirdiğini yazar.",
+   "start": 31.268,
+   "end": 34.987
+  },
+  {
+   "id": 9,
+   "text": "Bunlardan biri, bugün kayıp olan bir Kolomb haritasıdır.",
+   "start": 35.437,
+   "end": 38.946
+  },
+  {
+   "id": 10,
+   "text": "Haritada İspanya, Afrika kıyısı ve Güney Amerika görünür.",
+   "start": 39.396,
+   "end": 43.01
+  },
+  {
+   "id": 11,
+   "text": "Sekiz yıl sonra denizciler için bir kitap yazar: Kitab-ı Bahriye.",
+   "start": 44.01,
+   "end": 48.099
+  },
+  {
+   "id": 12,
+   "text": "Akdeniz'in koyları ve limanları, tek tek çizilidir.",
+   "start": 48.549,
+   "end": 51.711
+  },
+  {
+   "id": 13,
+   "text": "Bugün haritanın yalnızca üçte biri elimizde.",
+   "start": 52.161,
+   "end": 55.218
+  },
+  {
+   "id": 14,
+   "text": "Gerisi hâlâ kayıp.",
+   "start": 55.668,
+   "end": 56.924
+  },
+  {
+   "id": 15,
+   "text": "Ve o deri, hâlâ Topkapı Sarayı'nda saklanıyor.",
+   "start": 57.374,
+   "end": 60.232
+  }
+ ],
+ "lang": "tr"
+}

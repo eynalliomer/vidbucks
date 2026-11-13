@@ -1,0 +1,54 @@
+{
+ "slug": "kira",
+ "topic": "Kiralar neden bu kadar arttı?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İki yıl önceki kirayla bugün aynı evi bulmak zor.",
+  "Yüzde elli artış, beş bin liralık kiranın yedi bin beş yüz olması demek.",
+  "Konut arzı yavaş, talep hızlı büyüyor.",
+  "Gelirler aynı hızda artmayınca kiranın payı büyüyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "dataviz",
+   "ok": [
+    "spreadsheet",
+    "swiss-motion"
+   ],
+   "why": "a data story: charts"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "compare",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "ratio",
+   "ok": [
+    "number"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "lale",
+ "topic": "Lale Devri",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "On sekizinci yüzyılın başında İstanbul'da bir zevk çağı başlar.",
+  "Saray bahçelerinde lale sergileri düzenlenir.",
+  "Matbaa, bin yedi yüz yirmi yedide İbrahim Müteferrika ile gelir.",
+  "Dönem bin yedi yüz otuzda bir isyanla kapanır."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "engraving",
+   "ok": [
+    "woodcut",
+    "art-deco"
+   ],
+   "why": "an early-modern court: engraved chronicle"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "collage"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "timeline"
+   ]
+  }
+ ]
+}

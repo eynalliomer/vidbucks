@@ -1,0 +1,381 @@
+{
+ "duration": 37.169,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "İstanbul'un siluetinde yedi yüz yıllık bir kule durur.",
+   "start": 0.4,
+   "end": 3.62,
+   "words": [
+    [
+     "İstanbul",
+     0.4,
+     0.9
+    ],
+    [
+     "'un",
+     0.9,
+     1.22
+    ],
+    [
+     "silüetinde",
+     1.22,
+     1.86
+    ],
+    [
+     "700",
+     1.86,
+     2.12
+    ],
+    [
+     "yıllık",
+     2.12,
+     2.72
+    ],
+    [
+     "bir",
+     2.72,
+     2.9
+    ],
+    [
+     "kule",
+     2.9,
+     3.22
+    ],
+    [
+     "durur.",
+     3.22,
+     3.62
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Galata Kulesi, bin üç yüz kırk sekizde Cenevizliler tarafından tamamlandı.",
+   "start": 4.32,
+   "end": 9.08,
+   "words": [
+    [
+     "Galata",
+     4.32,
+     4.78
+    ],
+    [
+     "kulesi",
+     4.78,
+     5.34
+    ],
+    [
+     "1348'de",
+     5.34,
+     6.88
+    ],
+    [
+     "cenevizliler",
+     6.88,
+     7.62
+    ],
+    [
+     "tarafından",
+     7.62,
+     8.18
+    ],
+    [
+     "tamamlandı.",
+     8.18,
+     9.08
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Adı o zamanlar İsa Kulesi'ydi.",
+   "start": 9.8,
+   "end": 11.8,
+   "words": [
+    [
+     "Adı",
+     9.8,
+     10.16
+    ],
+    [
+     "o",
+     10.16,
+     10.3
+    ],
+    [
+     "zamanlar",
+     10.3,
+     10.84
+    ],
+    [
+     "ise",
+     10.84,
+     11.04
+    ],
+    [
+     "kulesiydi.",
+     11.04,
+     11.8
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Osmanlı döneminde yangın gözetleme kulesi oldu.",
+   "start": 12.62,
+   "end": 15.52,
+   "words": [
+    [
+     "Osmanlı",
+     12.62,
+     13.26
+    ],
+    [
+     "döneminde",
+     13.26,
+     13.76
+    ],
+    [
+     "yandın",
+     13.76,
+     14.16
+    ],
+    [
+     "gözetleme",
+     14.16,
+     14.82
+    ],
+    [
+     "kulesi",
+     14.82,
+     15.36
+    ],
+    [
+     "oldu.",
+     15.36,
+     15.52
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Rivayete göre on yedinci yüzyılda Hezarfen Ahmet Çelebi buradan Üsküdar'a uçtu.",
+   "start": 16.36,
+   "end": 20.92,
+   "words": [
+    [
+     "Hivayete",
+     16.36,
+     16.96
+    ],
+    [
+     "göre",
+     16.96,
+     17.22
+    ],
+    [
+     "17.",
+     17.22,
+     17.64
+    ],
+    [
+     "yüzyılda",
+     18.0,
+     18.48
+    ],
+    [
+     "Hezarfen,",
+     18.48,
+     19.0
+    ],
+    [
+     "Ahmet",
+     19.22,
+     19.48
+    ],
+    [
+     "Çelebi",
+     19.48,
+     19.88
+    ],
+    [
+     "buradan",
+     19.88,
+     20.18
+    ],
+    [
+     "Üsküdar",
+     20.18,
+     20.84
+    ],
+    [
+     "'a",
+     20.84,
+     20.92
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Kule, yüzyıllar içinde yangın ve depremlerden sonra yeniden yapıldı.",
+   "start": 20.92,
+   "end": 24.98,
+   "words": [
+    [
+     "uçtu.",
+     20.92,
+     21.34
+    ],
+    [
+     "Kuley",
+     22.1,
+     22.52
+    ],
+    [
+     "100",
+     22.52,
+     22.68
+    ],
+    [
+     "yıllar",
+     22.68,
+     22.98
+    ],
+    [
+     "içinde",
+     22.98,
+     23.24
+    ],
+    [
+     "yandın",
+     23.24,
+     23.8
+    ],
+    [
+     "ve",
+     23.8,
+     23.92
+    ],
+    [
+     "depremlerden",
+     23.92,
+     24.76
+    ],
+    [
+     "sonra",
+     24.76,
+     24.98
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Bugün yaklaşık altmış yedi metre yüksekliğiyle şehrin simgelerinden biri.",
+   "start": 24.98,
+   "end": 31.08,
+   "words": [
+    [
+     "yeniden",
+     24.98,
+     25.58
+    ],
+    [
+     "yapıldı.",
+     25.58,
+     26.04
+    ],
+    [
+     "Bugün",
+     26.74,
+     27.18
+    ],
+    [
+     "yaklaşık",
+     27.18,
+     27.9
+    ],
+    [
+     "67",
+     27.9,
+     28.3
+    ],
+    [
+     "metre",
+     28.3,
+     28.84
+    ],
+    [
+     "yüksekliğiyle",
+     28.84,
+     29.78
+    ],
+    [
+     "şehir",
+     29.78,
+     30.22
+    ],
+    [
+     "sinyelerinden",
+     30.22,
+     31.08
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Ve hâlâ, Haliç'e yukarıdan bakan aynı pencereler orada.",
+   "start": 31.08,
+   "end": 35.66,
+   "words": [
+    [
+     "biri.",
+     31.08,
+     31.42
+    ],
+    [
+     "Ve",
+     32.22,
+     32.5
+    ],
+    [
+     "hala",
+     32.5,
+     32.9
+    ],
+    [
+     "halçe",
+     32.9,
+     33.34
+    ],
+    [
+     "yukarıdan",
+     33.34,
+     33.86
+    ],
+    [
+     "bakan",
+     33.86,
+     34.3
+    ],
+    [
+     "aynı",
+     34.3,
+     34.58
+    ],
+    [
+     "pencereler",
+     34.58,
+     35.3
+    ],
+    [
+     "oradı.",
+     35.3,
+     35.66
+    ]
+   ]
+  }
+ ]
+}

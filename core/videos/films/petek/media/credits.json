@@ -1,0 +1,90 @@
+[
+ {
+  "line": 1,
+  "src": "films/petek/L01.jpg",
+  "aspect": 1.6194,
+  "title": "Comb Through The Comb (42318182).jpeg",
+  "creator": "Faldrian",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Comb_Through_The_Comb_(42318182).jpeg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 3,
+  "src": "films/petek/L03.jpg",
+  "aspect": 1.5047,
+  "title": "Oaxaca de Juárez, 25.jpg",
+  "creator": "LBM1948",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Oaxaca_de_Ju%C3%A1rez,_25.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 3,
+  "src": "films/petek/L03x1.jpg",
+  "aspect": 1.0,
+  "title": "Circle Packing of Uniform 7 Krotenheerdt 2 Tiling.png",
+  "creator": "Harry Princeton",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Circle_Packing_of_Uniform_7_Krotenheerdt_2_Tiling.png",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 4,
+  "src": "films/petek/L04.jpg",
+  "aspect": 1.8569,
+  "title": "Wax foundation - Flickr - conall...jpg",
+  "creator": "Conall from Downpatrick, Northern Ireland",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wax_foundation_-_Flickr_-_conall...jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 5,
+  "src": "films/petek/L05.jpg",
+  "aspect": 1.5,
+  "title": "Mittelwand 15a.jpg",
+  "creator": "Waugsberg",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mittelwand_15a.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/petek/L06.jpg",
+  "aspect": 1.3333,
+  "title": "Hexagonal floor tiles.jpg",
+  "creator": "Epolk",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hexagonal_floor_tiles.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 7,
+  "src": "films/petek/L07.jpg",
+  "aspect": 1.5,
+  "title": "Bee comb at our home.jpg",
+  "creator": "Oshadhi Jayasena",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bee_comb_at_our_home.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 8,
+  "src": "films/petek/L08.jpg",
+  "aspect": 1.5035,
+  "title": "Carly-Art - Wild bee hive (by-sa).jpg",
+  "creator": "Carly &amp; Art",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Carly-Art_-_Wild_bee_hive_(by-sa).jpg",
+  "source": "wikimedia",
+  "attribution": true
+ }
+]

@@ -1,0 +1,673 @@
+{
+ "file": "out/films/kahve.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": null,
+   "msg": "76% of the video is near-still",
+   "fix": "add movement or cut the held moments"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 18.666666666666668,
+   "msg": "shots at 0:18.5 and 0:18.7 share the same framing (corr 0.90)",
+   "fix": "change size, angle or lens at the cut (or join them into one take)"
+  },
+  {
+   "severity": "WARN",
+   "check": "repeats",
+   "t": 5.8,
+   "msg": "frozen picture 0:05.8-0:08.2 (2.4 s)",
+   "fix": "a frozen end frame reads as a stall; trim or animate"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"Kırk\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"Kırk yıl hatırı olan bir\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:02.5: \"Kırk yıl hatırı olan bir fincan için önce\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"Kırk yıl hatırı olan bir fincan için önce cezve.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:07.5: \"1 tatlı kaşığı kahve\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"Fincan baçına\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:07.5: \"1 fincan soğuk su\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"Fincan başına bir tatlı kaşığı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:07.5: \"Fincan başına bir tatlı kaşığı kahve ve bir\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"fincan soğuk su.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"Şekeri\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:09.5: \"Şekeri şimdi ekleyin;\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:11.5: \"Şekeri şimdi ekleyin; sonra karıştırılmaz.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:13.5: \"KISIK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:12.5: \"Kısık ateşte,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 12.5,
+   "msg": "text in the picture 0:12.5-0:13.5: \"HARLI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"kısık ateş\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"Kısık ateşte, acele etmeden.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"Köpük\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"Köpük kabarmaya\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:17.5: \"Köpük kabarmaya başlayınca biraz\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"fincanlara\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"fincanlara paylaştırın.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Kalanını bir kez\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"KÖPÜK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Kalanını bir kez daha kabartıp\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Kalanını bir kez daha kabartıp üstüne dökün.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:25.5: \"SERVİS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:25.5: \"afiyet olsun\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"Yanında\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"Yanında bir bardak suyla\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:25.5: \"Yanında bir bardak suyla servis edin.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 26.0,
+  "video": 26.0,
+  "audio": 25.984,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 7.9,
+  "still_share": 0.76
+ },
+ "hook": 17.8,
+ "shots": 10,
+ "cuts_per_min": 23.1,
+ "silences": [],
+ "loudness": {
+  "lufs": -16.1,
+  "true_peak_db": -1.9,
+  "lra": 2.7
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "Kırk",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.02,
+    0.06,
+    0.07,
+    0.07
+   ]
+  },
+  {
+   "text": "Kırk yıl hatırı olan bir",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.06,
+    0.09,
+    0.31,
+    0.07
+   ]
+  },
+  {
+   "text": "Kırk yıl hatırı olan bir fincan için önce",
+   "start": 2.5,
+   "end": 2.5,
+   "box": [
+    0.06,
+    0.09,
+    0.53,
+    0.07
+   ]
+  },
+  {
+   "text": "Kırk yıl hatırı olan bir fincan için önce cezve.",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.06,
+    0.09,
+    0.62,
+    0.07
+   ]
+  },
+  {
+   "text": "1 tatlı kaşığı kahve",
+   "start": 4.5,
+   "end": 7.5,
+   "box": [
+    0.13,
+    0.71,
+    0.26,
+    0.07
+   ]
+  },
+  {
+   "text": "Fincan baçına",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.07,
+    0.14,
+    0.15,
+    0.05
+   ]
+  },
+  {
+   "text": "1 fincan soğuk su",
+   "start": 5.5,
+   "end": 7.5,
+   "box": [
+    0.12,
+    0.58,
+    0.24,
+    0.07
+   ]
+  },
+  {
+   "text": "Fincan başına bir tatlı kaşığı",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.07,
+    0.14,
+    0.3,
+    0.05
+   ]
+  },
+  {
+   "text": "Fincan başına bir tatlı kaşığı kahve ve bir",
+   "start": 6.5,
+   "end": 7.5,
+   "box": [
+    0.07,
+    0.14,
+    0.43,
+    0.05
+   ]
+  },
+  {
+   "text": "fincan soğuk su.",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.07,
+    0.07,
+    0.16,
+    0.05
+   ]
+  },
+  {
+   "text": "Şekeri",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.07,
+    0.08,
+    0.07,
+    0.06
+   ]
+  },
+  {
+   "text": "Şekeri şimdi ekleyin;",
+   "start": 9.5,
+   "end": 9.5,
+   "box": [
+    0.08,
+    0.08,
+    0.2,
+    0.06
+   ]
+  },
+  {
+   "text": "Şekeri şimdi ekleyin; sonra karıştırılmaz.",
+   "start": 11.5,
+   "end": 11.5,
+   "box": [
+    0.08,
+    0.08,
+    0.4,
+    0.06
+   ]
+  },
+  {
+   "text": "KISIK",
+   "start": 12.5,
+   "end": 13.5,
+   "box": [
+    0.22,
+    0.29,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "Kısık ateşte,",
+   "start": 12.5,
+   "end": 12.5,
+   "box": [
+    0.36,
+    0.06,
+    0.13,
+    0.06
+   ]
+  },
+  {
+   "text": "HARLI",
+   "start": 12.5,
+   "end": 13.5,
+   "box": [
+    0.74,
+    0.29,
+    0.04,
+    0.02
+   ]
+  },
+  {
+   "text": "kısık ateş",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.42,
+    0.19,
+    0.17,
+    0.09
+   ]
+  },
+  {
+   "text": "Kısık ateşte, acele etmeden.",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.37,
+    0.07,
+    0.28,
+    0.05
+   ]
+  },
+  {
+   "text": "Köpük",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.57,
+    0.61,
+    0.07,
+    0.06
+   ]
+  },
+  {
+   "text": "Köpük kabarmaya",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.57,
+    0.61,
+    0.19,
+    0.06
+   ]
+  },
+  {
+   "text": "Köpük kabarmaya başlayınca biraz",
+   "start": 16.5,
+   "end": 17.5,
+   "box": [
+    0.57,
+    0.61,
+    0.36,
+    0.06
+   ]
+  },
+  {
+   "text": "fincanlara",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.57,
+    0.56,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "text": "fincanlara paylaştırın.",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.57,
+    0.55,
+    0.23,
+    0.06
+   ]
+  },
+  {
+   "text": "Kalanını bir kez",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.07,
+    0.08,
+    0.17,
+    0.05
+   ]
+  },
+  {
+   "text": "KÖPÜK",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.75,
+    0.84,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "Kalanını bir kez daha kabartıp",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.07,
+    0.08,
+    0.33,
+    0.06
+   ]
+  },
+  {
+   "text": "Kalanını bir kez daha kabartıp üstüne dökün.",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.07,
+    0.08,
+    0.48,
+    0.06
+   ]
+  },
+  {
+   "text": "SERVİS",
+   "start": 22.5,
+   "end": 25.5,
+   "box": [
+    0.06,
+    0.88,
+    0.06,
+    0.03
+   ]
+  },
+  {
+   "text": "afiyet olsun",
+   "start": 22.5,
+   "end": 25.5,
+   "box": [
+    0.45,
+    0.21,
+    0.1,
+    0.05
+   ]
+  },
+  {
+   "text": "Yanında",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.32,
+    0.05,
+    0.09,
+    0.05
+   ]
+  },
+  {
+   "text": "Yanında bir bardak suyla",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.32,
+    0.05,
+    0.26,
+    0.06
+   ]
+  },
+  {
+   "text": "Yanında bir bardak suyla servis edin.",
+   "start": 24.5,
+   "end": 25.5,
+   "box": [
+    0.32,
+    0.05,
+    0.38,
+    0.05
+   ]
+  }
+ ],
+ "speech_words": 48,
+ "speech_coverage": 0.96,
+ "script": [
+  {
+   "line": "Kırk yıl hatırı olan bir fincan için önce cezve.",
+   "score": 1.0,
+   "t": 0.0
+  },
+  {
+   "line": "Fincan başına bir tatlı kaşığı kahve ve bir fincan soğuk su.",
+   "score": 1.0,
+   "t": 4.0
+  },
+  {
+   "line": "Şekeri şimdi ekleyin; sonra karıştırılmaz.",
+   "score": 1.0,
+   "t": 8.2
+  },
+  {
+   "line": "Kısık ateşte, acele etmeden.",
+   "score": 1.0,
+   "t": 11.8
+  },
+  {
+   "line": "Köpük kabarmaya başlayınca biraz fincanlara paylaştırın.",
+   "score": 1.0,
+   "t": 14.4
+  },
+  {
+   "line": "Kalanını bir kez daha kabartıp üstüne dökün.",
+   "score": 1.0,
+   "t": 18.6
+  },
+  {
+   "line": "Yanında bir bardak suyla servis edin.",
+   "score": 1.0,
+   "t": 22.2
+  }
+ ],
+ "script_adherence": 1.0
+}

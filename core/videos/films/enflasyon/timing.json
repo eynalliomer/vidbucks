@@ -1,0 +1,358 @@
+{
+ "duration": 31.533,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Aynı yüz lira, geçen yıl daha dolu bir sepet alıyordu.",
+   "start": 0.4,
+   "end": 3.5,
+   "words": [
+    [
+     "Aynı",
+     0.4,
+     0.76
+    ],
+    [
+     "100",
+     0.76,
+     1.02
+    ],
+    [
+     "lira",
+     1.02,
+     1.22
+    ],
+    [
+     "geçen",
+     1.22,
+     1.7
+    ],
+    [
+     "yıl",
+     1.7,
+     1.88
+    ],
+    [
+     "daha",
+     1.88,
+     2.12
+    ],
+    [
+     "dolu",
+     2.12,
+     2.4
+    ],
+    [
+     "bir",
+     2.4,
+     2.58
+    ],
+    [
+     "sepet",
+     2.58,
+     2.92
+    ],
+    [
+     "alıyordu.",
+     2.92,
+     3.5
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Buna enflasyon diyoruz: fiyatların genel olarak artması.",
+   "start": 4.2,
+   "end": 7.66,
+   "words": [
+    [
+     "Buna",
+     4.2,
+     4.52
+    ],
+    [
+     "enflasyon",
+     4.52,
+     5.24
+    ],
+    [
+     "diyoruz,",
+     5.24,
+     5.74
+    ],
+    [
+     "fiyatların",
+     5.94,
+     6.42
+    ],
+    [
+     "genel",
+     6.42,
+     6.82
+    ],
+    [
+     "olarak",
+     6.82,
+     7.08
+    ],
+    [
+     "artması.",
+     7.08,
+     7.66
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Para hızla çoğaldığında ya da maliyetler yükseldiğinde fiyatlar tırmanır.",
+   "start": 8.46,
+   "end": 12.66,
+   "words": [
+    [
+     "Para",
+     8.46,
+     8.76
+    ],
+    [
+     "hızlı",
+     8.76,
+     9.22
+    ],
+    [
+     "çoğaldığında",
+     9.22,
+     9.86
+    ],
+    [
+     "ya",
+     9.86,
+     10.04
+    ],
+    [
+     "da",
+     10.04,
+     10.2
+    ],
+    [
+     "maliyetler",
+     10.2,
+     10.8
+    ],
+    [
+     "yükseldiğinde",
+     10.8,
+     11.54
+    ],
+    [
+     "fiyatlar",
+     11.54,
+     12.14
+    ],
+    [
+     "tırmanır.",
+     12.14,
+     12.66
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Yüzde on enflasyon, yüz liralık sepetin yüz on lira olması demek.",
+   "start": 13.38,
+   "end": 17.62,
+   "words": [
+    [
+     "Yüzde",
+     13.38,
+     13.88
+    ],
+    [
+     "10",
+     13.88,
+     14.08
+    ],
+    [
+     "enflasyon,",
+     14.08,
+     14.94
+    ],
+    [
+     "100",
+     15.08,
+     15.28
+    ],
+    [
+     "liralık",
+     15.28,
+     15.66
+    ],
+    [
+     "sepetin",
+     15.66,
+     16.16
+    ],
+    [
+     "110",
+     16.16,
+     16.46
+    ],
+    [
+     "lira",
+     16.46,
+     16.88
+    ],
+    [
+     "olması",
+     16.88,
+     17.26
+    ],
+    [
+     "demek.",
+     17.26,
+     17.62
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Maaşlar aynı hızla artmazsa alım gücü düşer.",
+   "start": 18.46,
+   "end": 21.32,
+   "words": [
+    [
+     "Maaşlar",
+     18.46,
+     18.98
+    ],
+    [
+     "aynı",
+     18.98,
+     19.28
+    ],
+    [
+     "hızla",
+     19.28,
+     19.74
+    ],
+    [
+     "artması",
+     19.74,
+     20.12
+    ],
+    [
+     "alırım",
+     20.12,
+     20.6
+    ],
+    [
+     "gücü",
+     20.6,
+     20.92
+    ],
+    [
+     "düşer.",
+     20.92,
+     21.32
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Merkez bankaları bu yüzden faizi bir fren gibi kullanır.",
+   "start": 22.12,
+   "end": 25.38,
+   "words": [
+    [
+     "Merkez",
+     22.12,
+     22.6
+    ],
+    [
+     "bankaları",
+     22.6,
+     23.14
+    ],
+    [
+     "bu",
+     23.14,
+     23.36
+    ],
+    [
+     "yüzden",
+     23.36,
+     23.64
+    ],
+    [
+     "faizi",
+     23.64,
+     24.14
+    ],
+    [
+     "bir",
+     24.14,
+     24.34
+    ],
+    [
+     "flen",
+     24.34,
+     24.64
+    ],
+    [
+     "gibi",
+     24.64,
+     24.82
+    ],
+    [
+     "kullanır.",
+     24.82,
+     25.38
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Sepetinize her baktığınızda aslında bir grafik görüyorsunuz.",
+   "start": 26.1,
+   "end": 30.0,
+   "words": [
+    [
+     "Sepetinizi",
+     26.1,
+     26.9
+    ],
+    [
+     "her",
+     26.9,
+     27.18
+    ],
+    [
+     "baktığınızda",
+     27.18,
+     27.98
+    ],
+    [
+     "aslında",
+     27.98,
+     28.38
+    ],
+    [
+     "bir",
+     28.38,
+     28.68
+    ],
+    [
+     "grafik",
+     28.68,
+     29.1
+    ],
+    [
+     "görüyorsunuz.",
+     29.1,
+     30.0
+    ]
+   ]
+  }
+ ]
+}

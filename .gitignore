@@ -40,3 +40,55 @@ flow-bridge/briefs/*
 # old copies and build artefacts
 flow-bridge 2/
 *.zip
+
+# repo-study test films (research, not product)
+core/videos/cinematic-test/
+core/videos/cine-piri-reis/
+core/videos/kit-e2e/
+core/videos/lemo-bee-dance/
+core/videos/stick-cold-battery/
+
+# per-film media (licensed copies, regenerable with media_hunt.py) and mixes
+core/public/films/**/*.jpg
+core/public/films/**/*.m4a
+core/videos/films/*/media/cands/
+core/videos/films/**/*.wav
+core/videos/films/**/*.mp4
+core/videos/shots-piri/media/cands/
+
+# generated / licensed media in kit and film folders (regenerable: media_hunt.py, archive_clips.py, fetch-stock.mjs, renders)
+core/public/films/**/*.mp4
+core/public/films/**/*.png
+core/public/films/**/*.wav
+core/public/board/**/*.jpg
+core/public/board/**/*.png
+core/public/board/**/*.mp4
+core/public/board/**/*.wav
+core/public/board/**/*.m4a
+core/public/layers/**/*.jpg
+core/public/layers/**/*.png
+core/public/layers/**/*.mp4
+core/public/layers/**/*.wav
+core/public/layers/**/*.m4a
+core/public/multi/**/*.jpg
+core/public/multi/**/*.png
+core/public/multi/**/*.mp4
+core/public/multi/**/*.wav
+core/public/multi/**/*.m4a
+core/public/shots/**/*.jpg
+core/public/shots/**/*.png
+core/public/shots/**/*.mp4
+core/public/shots/**/*.wav
+core/public/shots/**/*.m4a
+core/public/swiss/**/*.jpg
+core/public/swiss/**/*.png
+core/public/swiss/**/*.mp4
+core/public/swiss/**/*.wav
+core/public/swiss/**/*.m4a
+core/videos/films/**/*.jpg
+core/videos/films/**/*.m4a
+core/videos/shots-piri/**/*.jpg
+core/videos/shots-piri/**/*.png
+core/videos/shots-piri/**/*.wav
+core/videos/shots-piri/**/*.mp4
+core/videos/shots-piri/**/*.m4a

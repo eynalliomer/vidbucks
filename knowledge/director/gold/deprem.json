@@ -1,0 +1,98 @@
+{
+ "slug": "deprem",
+ "topic": "Deprem çantasında olması gerekenler",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Deprem anı saniyelerdir; hazırlık ise bugün yapılır.",
+  "Çantanızda en az üç günlük su olsun.",
+  "Bozulmayan yiyecekler ve bir el feneri.",
+  "Bir düdük: sesiniz yetmediğinde sizi o duyurur.",
+  "İlk yardım seti ve düzenli kullandığınız ilaçlar.",
+  "Kimlik fotokopileri ve biraz nakit.",
+  "Çantayı kapının yanında tutun, ailece buluşma noktanızı belirleyin."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1
+   ],
+   "style": "caption-news",
+   "ok": [
+    "news-package"
+   ],
+   "why": "the warning as a news bulletin"
+  },
+  {
+   "lines": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "pictogram-motion",
+   "ok": [
+    "swiss-motion",
+    "whiteboard"
+   ],
+   "why": "the kit: clear pictograms, one item per beat"
+  },
+  {
+   "lines": [
+    7
+   ],
+   "style": "caption-news",
+   "ok": [
+    "news-package"
+   ],
+   "why": "bookend: the bulletin's call to action"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo",
+    "stamp"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "collage"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo",
+    "title"
+   ]
+  }
+ ]
+}

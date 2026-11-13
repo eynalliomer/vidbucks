@@ -1,0 +1,68 @@
+[
+ {
+  "line": 1,
+  "src": "films/galata/L01.jpg",
+  "aspect": 0.9524,
+  "title": "Galata Tower from the Golden Horn.JPG",
+  "creator": "Khateeb88",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_from_the_Golden_Horn.JPG",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 3,
+  "src": "films/galata/L03.jpg",
+  "aspect": 1.3751,
+  "title": "Galata Bridge, Constantinople LCCN2016820955.jpg",
+  "creator": "National Photo Company Collection",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Galata_Bridge,_Constantinople_LCCN2016820955.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 4,
+  "src": "films/galata/L04.jpg",
+  "aspect": 0.5626,
+  "title": "Galata Tower - Turkey - Istanbul City - Tourist attractions - Monument 03.jpg",
+  "creator": "Mostafameraji",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Galata_Tower_-_Turkey_-_Istanbul_City_-_Tourist_attractions_-_Monument_03.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/galata/L06.jpg",
+  "aspect": 1.4556,
+  "title": "Галатская башня в лунном свете.jpg",
+  "creator": "Ivan Aivazovsky",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%B0%D0%BB%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%D0%B2_%D0%BB%D1%83%D0%BD%D0%BD%D0%BE%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D0%B5.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 6,
+  "src": "films/galata/L06x1.jpg",
+  "aspect": 0.727,
+  "title": "La tour de Galata à Constantinople - btv1b69336955.jpg",
+  "creator": "Agence Rol. Agence photographique (commanditaire)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:La_tour_de_Galata_%C3%A0_Constantinople_-_btv1b69336955.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 8,
+  "src": "films/galata/L08.jpg",
+  "aspect": 1.1073,
+  "title": "View of Topkapı Palace from the Galata Tower, Istanbul, Turkey 001.jpg",
+  "creator": "Moonik",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_Topkap%C4%B1_Palace_from_the_Galata_Tower,_Istanbul,_Turkey_001.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ }
+]

@@ -1,0 +1,92 @@
+{
+ "slug": "film-curie",
+ "topic": "curie",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İki farklı bilim dalında Nobel kazanan ilk ve tek insan.",
+  "Varşova'da doğdu, okumak için Paris'e gitti.",
+  "Eşi Pierre ile birlikte radyoaktiviteyi araştırdı.",
+  "Bin sekiz yüz doksan sekizde polonyum ve radyumu keşfettiler.",
+  "Bin dokuz yüz üçte fizik Nobel'i geldi.",
+  "Bin dokuz yüz on birde kimya Nobel'i.",
+  "Defterleri bugün hâlâ radyoaktif; okumak için koruyucu önlem gerekiyor.",
+  "Onun ışığı hâlâ sönmedi."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "art-deco",
+   "ok": [],
+   "why": "Paris of the 1890s: an ornamental title and an inked map"
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "newsreel",
+   "ok": [],
+   "why": "the working years and the prizes as newsreel: hand-held, projected, film strip"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "oscilloscope-math",
+   "ok": [],
+   "why": "the radiation that outlived her: a dark tube glow, typed readings"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "timeline",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "document",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "photo",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "Her name set letter by letter in a deco frame",
+  "An inked map: an arc from Warsaw to Paris",
+  "Marie and Pierre in the laboratory, in a strip of film",
+  "A vertical timeline; the playhead falls to 1898",
+  "1903 and PHYSICS across her portrait",
+  "The chemistry diploma; the year underlined in red",
+  "Her notebook on a tube screen; brackets close on it: still radioactive",
+  "The late portrait developing inside a round glow, the last words huge"
+ ],
+ "approved": true
+}

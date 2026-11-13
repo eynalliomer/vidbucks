@@ -159,15 +159,27 @@
 
   // Characters (image generation, no video credits). Stages are split so the service worker can do the
   // trusted input in between: open -> [type description, click submit] -> wait ready -> rename -> Done.
+  // The Characters nav button: old UI had it inside flow-project-nav-list with a text label; the Nov 2026 UI shows an
+  // icon-only rail (icon "accessibility_new", hidden label "Karakterler") elsewhere in the page.
+  const charsNav = () => byText(UI.charactersTab, document, "flow-project-nav-list button")
+    || [...document.querySelectorAll("button")].find((b) => /accessibility_new/.test(b.textContent) || norm(b.textContent).includes(norm(UI.charactersTab)));
+  const onNewCharPage = () => /\/character\/?$/.test(location.pathname);
+  const charBox = () => document.querySelector("flow-character-prompt-box [contenteditable=true]")
+    || (/\/character/.test(location.pathname) ? document.querySelector("[contenteditable=true]") : null);
   async function charOpen() {
-    const nav = byText(UI.charactersTab, document, "flow-project-nav-list button");
-    if (nav) await press(nav);
-    await sleep(1200);
-    const nu = await waitFor(() => deepestByText(UI.newCharacter), 8000);
-    if (!nu) throw new Error("New character tile not found");
-    await press(nu);
+    if (!onNewCharPage()) {
+      const nav = charsNav();
+      if (nav) await press(nav);
+      await sleep(1200);
+      // Nov 2026 UI: the nav button opens the "Yeni karakter" page directly when the project has no characters.
+      if (!(await waitFor(() => onNewCharPage() && charBox(), 2500))) {
+        const nu = await waitFor(() => deepestByText(UI.newCharacter), 8000);
+        if (!nu) throw new Error("New character tile not found");
+        await press(nu);
+      }
+    }
     await waitFor(() => /\/character/.test(location.pathname), 8000);
-    const box = await waitFor(() => document.querySelector("flow-character-prompt-box [contenteditable=true]"), 8000);
+    const box = await waitFor(charBox, 8000);
     if (!box) throw new Error("character prompt box not found");
     await press(box);
     await sendInput("clear");
@@ -203,7 +215,7 @@
       return ok ? { ok: true } : { ok: false, error: "character page did not open" };
     },
     chars_list: async () => { // names of all characters, read from the Characters view (All media only shows a window of the grid)
-      const nav = byText(UI.charactersTab, document, "flow-project-nav-list button");
+      const nav = charsNav();
       if (nav) await press(nav);
       await sleep(2000);
       return { ok: true, tiles: tileSummary().filter((t) => t.kind === "character") };

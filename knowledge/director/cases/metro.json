@@ -1,0 +1,54 @@
+{
+ "slug": "metro",
+ "topic": "Metro haritası nasıl tasarlanır?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Gerçek mesafeleri unutun.",
+  "Hatlar sadece yatay, dikey ve kırk beş derece gider.",
+  "Her hattın tek bir rengi vardır.",
+  "Amaç: istasyonu bir bakışta bulmak."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "transit-map",
+   "ok": [
+    "swiss-motion",
+    "pictogram-motion"
+   ],
+   "why": "design of a diagram: transit map"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "compare"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "map"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "title"
+   ]
+  }
+ ]
+}

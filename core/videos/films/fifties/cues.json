@@ -1,0 +1,131 @@
+[
+{
+"kind": "shutter",
+"t": 0.15,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 2.83,
+"gain": 0.36000000000000004
+},
+{
+"kind": "impact",
+"t": 3.25,
+"gain": 0.45
+},
+{
+"kind": "shutter",
+"t": 5.995,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 9.795,
+"gain": 0.36000000000000004
+},
+{
+"kind": "shutter",
+"t": 13.14,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 14.98,
+"gain": 0.36000000000000004
+},
+{
+"kind": "shutter",
+"t": 18.235,
+"gain": 0.4
+},
+{
+"kind": "swell",
+"t": 24.11,
+"gain": 0.5,
+"dur": 2.0
+},
+{
+"kind": "projector",
+"t": 26.76,
+"gain": 0.5,
+"dur": 0.9
+},
+{
+"kind": "shutter",
+"t": 27.06,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 30.12,
+"gain": 0.36000000000000004
+},
+{
+"kind": "impact",
+"t": 27.18,
+"gain": 0.45
+},
+{
+"kind": "whoosh",
+"t": 27.41,
+"gain": 0.35
+},
+{
+"kind": "shutter",
+"t": 32.655,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 39.575,
+"gain": 0.4
+},
+{
+"kind": "projector",
+"t": 43.695,
+"gain": 0.5,
+"dur": 0.9
+},
+{
+"kind": "shutter",
+"t": 43.995,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 46.275,
+"gain": 0.36000000000000004
+},
+{
+"kind": "whoosh",
+"t": 44.345,
+"gain": 0.35
+},
+{
+"kind": "shutter",
+"t": 49.14,
+"gain": 0.4
+},
+{
+"kind": "shutter",
+"t": 55.81,
+"gain": 0.4
+},
+{
+"kind": "projector",
+"t": 61.405,
+"gain": 0.5,
+"dur": 0.9
+},
+{
+"kind": "shutter",
+"t": 61.705,
+"gain": 0.4
+},
+{
+"kind": "impact",
+"t": 63.705,
+"gain": 0.45
+}
+]

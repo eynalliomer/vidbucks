@@ -1,0 +1,99 @@
+{
+ "slug": "film-culluk",
+ "topic": "culluk",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Alaska'da bir kuş havalanıyor ve on bir gün boyunca hiç inmeyecek.",
+  "Kuyruğu çizgili bir çamurçulluğu.",
+  "Rotası Pasifik'in üstünden Yeni Zelanda'ya.",
+  "On üç bin kilometreden fazla, tek seferde.",
+  "Yolculuktan önce vücudunun büyük kısmı yağa dönüşür.",
+  "Sindirim organları küçülür, uçuşa yer açılır.",
+  "İndiğinde ağırlığının neredeyse yarısını kaybetmiştir.",
+  "Ve bir sonraki baharda, aynı yolu geri döner."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "silkscreen-poster",
+   "ok": [],
+   "why": "the take-off and the bird itself: a loud field poster, the camera whips in"
+  },
+  {
+   "lines": [
+    3,
+    4
+   ],
+   "style": "flat-space-explainer",
+   "ok": [],
+   "why": "the route: a night navigation chart, calm and wide"
+  },
+  {
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "blueprint",
+   "ok": [],
+   "why": "inside the body: a technical plate, drifting slowly, typed notes"
+  },
+  {
+   "lines": [
+    8
+   ],
+   "style": "silkscreen-poster",
+   "ok": [],
+   "why": "the return closes in the opening poster"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "diagram",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  },
+  {
+   "best": "number",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "compare",
+   "ok": []
+  },
+  {
+   "best": "ratio",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "The flock lifting off; the camera whips onto it and the words slam in",
+  "The godwit as a labelled specimen: the barred tail, the long bill",
+  "The whole Pacific at night; an arc grows from Alaska to New Zealand",
+  "Thirteen thousand kilometres slams over open ocean seen from above",
+  "Fat equals fuel: two words as a formula",
+  "Before and in flight in two window cards with a VS badge",
+  "Half a ring: almost half the body weight gone on landing",
+  "The same chart in daylight; the arc drawn back north"
+ ],
+ "approved": true
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#dfe7e1"/><rect x="0" y="760" width="1600" height="240" fill="#8fb08f"/>
+<rect x="785" y="430" width="30" height="420" fill="#6d7378"/>
+<rect x="430" y="90" width="740" height="420" rx="28" fill="#0b8a3e" stroke="#fff" stroke-width="16"/>
+<g fill="#fff"><circle cx="700" cy="215" r="34"/><rect x="672" y="255" width="56" height="120" rx="20"/>
+<circle cx="800" cy="200" r="38"/><rect x="768" y="245" width="64" height="135" rx="22"/>
+<circle cx="900" cy="215" r="34"/><rect x="872" y="255" width="56" height="120" rx="20"/></g>
+<path d="M610 410 L990 410" stroke="#fff" stroke-width="12"/>
+<text x="800" y="478" text-anchor="middle" font-family="Helvetica, Arial" font-weight="700" font-size="58" fill="#fff" letter-spacing="4">TOPLANMA ALANI</text>
+</svg>

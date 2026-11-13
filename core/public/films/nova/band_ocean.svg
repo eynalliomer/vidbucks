@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#2997FF" stop-opacity=".28"/><stop offset="1" stop-color="#05070b" stop-opacity="0"/></radialGradient>
+<linearGradient id="case" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b616b"/><stop offset=".5" stop-color="#2a2f37"/><stop offset="1" stop-color="#0e1116"/></linearGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".35" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="1600" height="1000" fill="#05070b"/><rect width="1600" height="1000" fill="url(#g)"/>
+<g transform="rotate(0 800.0 500.0)">
+<rect x="670.0" y="-20.0" width="260" height="300" rx="60" fill="#1f6f8b"/><rect x="670.0" y="720.0" width="260" height="300" rx="60" fill="#1f6f8b"/>
+<rect x="610.0" y="270.0" width="380" height="460" rx="96" fill="url(#case)"/>
+<rect x="988.0" y="430.0" width="22" height="90" rx="10" fill="#3a4049"/>
+<rect x="635.0" y="295.0" width="330" height="410" rx="78" fill="#020305"/>
+<g transform="translate(635.0 295.0)"><text x="165" y="190" text-anchor="middle" font-family="Helvetica, Arial" font-weight="600" font-size="96" fill="#F5F5F7">09:41</text><text x="165" y="250" text-anchor="middle" font-family="Helvetica, Arial" font-weight="500" font-size="30" fill="#86868B">Pzt 13 Kas</text><circle cx="165" cy="320" r="26" fill="none" stroke="#2997FF" stroke-width="7"/></g>
+<rect x="635.0" y="295.0" width="330" height="410" rx="78" fill="url(#sh)"/></g>
+<text x="800.0" y="940" text-anchor="middle" font-family="Helvetica, Arial" font-size="34" fill="#86868B" letter-spacing="6">OKYANUS</text>
+</svg>

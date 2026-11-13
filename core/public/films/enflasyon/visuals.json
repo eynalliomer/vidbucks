@@ -1,0 +1,205 @@
+{
+ "public_dir": "films/enflasyon",
+ "acts": [
+  {
+   "id": "A1",
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "dataviz",
+   "why": "one explanation in one voice: a locked camera, every line a different graphic that carries the fact",
+   "direction": {
+    "camera": "locked",
+    "enter": "mask",
+    "frame": "window",
+    "caption": "subtitle",
+    "fonts": {
+     "display": "grotesk",
+     "text": "inter"
+    }
+   }
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "shot": "versus",
+   "idea": "The same hundred lira in two columns: last year a full basket, this year less",
+   "data": {
+    "left": "Geçen yıl",
+    "right": "Bu yıl",
+    "rows": [
+     [
+      "cebinizde",
+      "100 ₺",
+      "100 ₺"
+     ],
+     [
+      "sepet",
+      "dolu",
+      "daha az"
+     ]
+    ]
+   },
+   "picked": {
+    "src": "films/enflasyon/L01.jpg",
+    "aspect": 1.3333,
+    "title": "Covid - P1630413.jpg",
+    "creator": "citytransportinfo",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Covid_-_P1630413.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 2,
+   "shot": "bigword",
+   "idea": "The word itself, huge, over a supermarket shelf",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "words": [
+     "Enflasyon"
+    ]
+   },
+   "direction": {
+    "camera": "drift"
+   },
+   "picked": {
+    "src": "films/enflasyon/L01.jpg",
+    "aspect": 1.3333,
+    "title": "Covid - P1630413.jpg",
+    "creator": "citytransportinfo",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Covid_-_P1630413.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  },
+  {
+   "line": 3,
+   "shot": "steps",
+   "idea": "Cause and effect as three stations joined by a travelling line",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "items": [
+     "Para çoğalır",
+     "Maliyet yükselir",
+     "Fiyat tırmanır"
+    ],
+    "heading": "Neden olur?"
+   }
+  },
+  {
+   "line": 4,
+   "shot": "bars",
+   "idea": "Two bars: the basket at 100 and at 110 lira",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "items": [
+     {
+      "label": "geçen yıl",
+      "value": 100
+     },
+     {
+      "label": "bu yıl",
+      "value": 110
+     }
+    ],
+    "unit": "₺",
+    "orient": "v",
+    "heading": "%10 enflasyon"
+   }
+  },
+  {
+   "line": 5,
+   "shot": "gauge",
+   "idea": "A dial for purchasing power; the needle settles low",
+   "media": {
+    "need": false
+   },
+   "data": {
+    "value": 0.28,
+    "label": "alım gücü",
+    "low": "düşük",
+    "high": "yüksek"
+   }
+  },
+  {
+   "line": 6,
+   "shot": "photo",
+   "idea": "The central bank tower in a window card; the brake",
+   "media": {
+    "queries": [
+     "Central Bank of the Republic of Turkey building",
+     "central bank building"
+    ],
+    "n": 3
+   },
+   "data": {
+    "kicker": "faiz = fren"
+   },
+   "picked": {
+    "src": "films/enflasyon/L06.jpg",
+    "aspect": 1.4988,
+    "title": "European Central Bank - building under construction - Frankfurt - Germany - 14.jpg",
+    "creator": "Norbert Nagel",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:European_Central_Bank_-_building_under_construction_-_Frankfurt_-_Germany_-_14.jpg",
+    "source": "wikimedia",
+    "attribution": true
+   },
+   "direction": {
+    "caption": "karaoke"
+   }
+  },
+  {
+   "line": 7,
+   "shot": "document",
+   "idea": "A real receipt; a box closes around the totals: the graph in your hand",
+   "media": {
+    "queries": [
+     "supermarket receipt",
+     "grocery receipt"
+    ],
+    "n": 3
+   },
+   "data": {
+    "region": [
+     0.1,
+     0.62,
+     0.9,
+     0.78
+    ],
+    "mark": "box"
+   },
+   "picked": {
+    "src": "films/enflasyon/L07.jpg",
+    "aspect": 0.75,
+    "title": "Grocery Store Receipt in Vienna.jpg",
+    "creator": "Grandmaster Huon",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Grocery_Store_Receipt_in_Vienna.jpg",
+    "source": "wikimedia",
+    "attribution": false
+   }
+  }
+ ],
+ "sound": {
+  "palette": "digital",
+  "mood": "dark",
+  "bpm": 92
+ }
+}

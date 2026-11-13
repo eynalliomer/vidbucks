@@ -1,0 +1,79 @@
+{
+ "slug": "kahve",
+ "topic": "Türk kahvesi nasıl pişirilir?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Kırk yıl hatırı olan bir fincan için önce cezve.",
+  "Fincan başına bir tatlı kaşığı kahve ve bir fincan soğuk su.",
+  "Şekeri şimdi ekleyin; sonra karıştırılmaz.",
+  "Kısık ateşte, acele etmeden.",
+  "Köpük kabarmaya başlayınca biraz fincanlara paylaştırın.",
+  "Kalanını bir kez daha kabartıp üstüne dökün.",
+  "Yanında bir bardak suyla servis edin."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "style": "chalkboard",
+   "ok": [
+    "whiteboard",
+    "risograph"
+   ],
+   "why": "a recipe from the café board: one hand-written look"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "list",
+   "ok": [
+    "number"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "photo",
+    "quote"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  }
+ ]
+}

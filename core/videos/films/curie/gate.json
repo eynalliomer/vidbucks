@@ -1,0 +1,2322 @@
+{
+ "file": "out/films/curie.mp4",
+ "checks": [
+  {
+   "severity": "WARN",
+   "check": "life",
+   "t": 23.933333333333334,
+   "msg": "static shot 0:23.9-0:31.1 (7.2 s): nothing changes",
+   "fix": "give it an action or a camera move, or cut it shorter"
+  },
+  {
+   "severity": "WARN",
+   "check": "dead air",
+   "t": 29.897958,
+   "msg": "silence 0:29.9-0:31.1 (1.2 s)",
+   "fix": "fill with a line, ambience or a cut; dead air loses viewers"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"MARIE CURİE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"ікİ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:02.5: \"MARIE CURIE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"İKİ FARKLI BİLİM DALINDA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:02.5: \"İKİ FARKLI BİLİM DALINDA NOBEL KAZANAN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"MARİE CURIE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"İKİ FARKLI BİLİM DALINDA NOBEL KAZANAN İLK VE TEK İNSAN.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"VARŞOVADA DOGDU, OKUMAK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"VARȘOVA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"PARİS (\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"VARŞOVADA DOĞDU, OKUMAK İÇİN PARİSE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:08.5: \"LABORATUVAR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"EŞİ PİERRE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"EȘİ PİERRE İLE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:16.5: \"1891\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:13.5: \"1898\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:18.5: \"1903\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"• 1911\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"BİN SEKİZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:15.5: \"PARİS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:15.5: \"POLONYUM • RADYUM\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:13.5: \"FİZİK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:12.5: \"KİMYA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:12.5: \"1911\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:12.5: \"BİN SEKİZ YÜZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"• 1911\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"KIMYA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:16.5: \"BİN SEKİZ YÜZ DOKSAN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"• 1898\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"FİzİK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:16.5: \"1911\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:16.5: \"KİMYA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:16.5: \"SEKİZDE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:14.5: \"POLONZUM\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"•1898\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"FİZİKR\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"POLONYUM VE RADYUMU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 15.5,
+   "msg": "text in the picture 0:15.5-0:15.5: \"TKEŞFETTİLER.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"PARIS\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"• 1898\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"POLONYUM - RADYUM\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"FİZİK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"POLONZUM VE RADYUMU\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"KEŞFETTİLER.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:17.5: \"BİN DOKUZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"FIZIK\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 18.5,
+   "msg": "text in the picture 0:18.5-0:18.5: \"BİN DOKUZ YÜZ ÜÇTE FİZİK NOBEL'İ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:21.5: \"KUNGLIGA SVENSKA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:21.5: \"VETENSKAPS-AKADEMIEN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"har pid silt sammantride den 7*\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"November 19m i enlighermed fo-\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"reskriftema i der af\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"ALFRED NOBEL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"den 27 November1805 upprittade\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:21.5: \"testamente beslutat att ófoerlámna\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"der.pris.som innevarande ar bort\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"sifves át den/som har giort den\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Diktigaote kemiska upptäckt eller\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"forbattrins till\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"BİN\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"DOKUZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:21.5: \"MARIE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"SKIODOWSKA CURIE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"sásom eit cricinnande for den for•\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"banst hon inlagt om kemieny utoece\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"lins senom upptickten af grundăm.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"nena mdium och polonium-genom\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"kzamakteriserandet afmdium och dey.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"isolerande i metallisler tillstánd samt.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Senom sina undersökningar angäende\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"detta marklica gnundámnes föreningar:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"Stockholm. den 10 December 19i\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"unngi. Vee. Flicedo pot\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"In. Aunnilliur\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 19.5,
+   "msg": "text in the picture 0:19.5-0:19.5: \"KungiVer Flinia selorvteran\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"har pid sitt sammanträde den 7*\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"November 19m1 i enlighermed fo.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"reskriftemna i der af\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"ALFRED NOBELI\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"den 27 November1805 upprättade\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"der prs som innevarande år bort.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"gifves åtden /som har gjort den\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Dilihgaste kemiska upptäckt eller\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"forbattring/ till sss\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"BİN DOKUZ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"SKLODOWSKA CURIE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"sásom eit erlinnande för den för-\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Ganst hon inlagt om kemieny utocck\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"ling senom upptäckten af grundám-\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"nena radium och polonium/genom\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"karakteriserandet af mdium och des\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:21.5: \"isolerande i metalliskt tillstánd samt\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"senom sina undersökningar angaende\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"detta markliga grundámnes föreningar:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"tockholm. den 10 December 19m.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Nungi. Vet. Flieadis ppeses\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"Chn. Aunnilliur\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 20.5,
+   "msg": "text in the picture 0:20.5-0:20.5: \"KungiVet Flitta seltrererare.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"November 1911 i enlighermed fo.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"reskrifterna i der af\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"den 27 November 1805 upprättade\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"der pris som innevarande år bort\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"gifves åt den/som har gjort den\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"viktigaste kemiska upptáckt eller\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"forbáttring• till ss\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"sásom elt erkánnande för den för•\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"tjänst hon inlagt om kemieny utpeck\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"ling senom upptäckten af grundám.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"karakteriserandet af radium och dess\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Senom sina undersökningar angäende\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"detta márkliga grundämnes föreningar:\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Stockholm. den 10 December 19m\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"lungi. Vet. Flieadis preser\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"Chn. Auninillius\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"KungiVer Flitia selerererare.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 21.5,
+   "msg": "text in the picture 0:21.5-0:21.5: \"BİN DOKUZ YÜZ ON BİRDE KİMYA\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 22.5,
+   "msg": "text in the picture 0:22.5-0:22.5: \"Defterleri bugün h\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"DYOAKTİE\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 23.5,
+   "msg": "text in the picture 0:23.5-0:23.5: \"Defterleri bugün hålå radyoaktif; okumak için koru]\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 24.5,
+   "msg": "text in the picture 0:24.5-0:24.5: \"Onun\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 25.5,
+   "msg": "text in the picture 0:25.5-0:26.5: \"Onun ışığı\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 27.5,
+   "msg": "text in the picture 0:27.5-0:27.5: \"Onun ışığı hâlâ\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 28.5,
+   "msg": "text in the picture 0:28.5-0:30.5: \"Onun ışığı hâlâ sönmedi.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 9.0,
+   "msg": "line not spoken as written (67% match): \"Eşi Pierre ile birlikte radyoaktiviteyi araştırdı.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 31.125,
+  "video": 31.1,
+  "audio": 31.125,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 6.9,
+  "still_share": 0.74
+ },
+ "hook": 3.9,
+ "shots": 12,
+ "cuts_per_min": 23.1,
+ "silences": [
+  [
+   29.9,
+   31.1
+  ]
+ ],
+ "longest_silence": 1.2,
+ "loudness": {
+  "lufs": -16.1,
+  "true_peak_db": -1.9,
+  "lra": 2.3
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "MARIE CURİE",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.11,
+    0.47,
+    0.78,
+    0.24
+   ]
+  },
+  {
+   "text": "ікİ",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    0.12,
+    0.29,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "text": "MARIE CURIE",
+   "start": 1.5,
+   "end": 2.5,
+   "box": [
+    0.16,
+    0.5,
+    0.69,
+    0.18
+   ]
+  },
+  {
+   "text": "İKİ FARKLI BİLİM DALINDA",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.17,
+    0.31,
+    0.28,
+    0.04
+   ]
+  },
+  {
+   "text": "İKİ FARKLI BİLİM DALINDA NOBEL KAZANAN",
+   "start": 2.5,
+   "end": 2.5,
+   "box": [
+    0.17,
+    0.3,
+    0.46,
+    0.04
+   ]
+  },
+  {
+   "text": "MARİE CURIE",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.15,
+    0.49,
+    0.71,
+    0.19
+   ]
+  },
+  {
+   "text": "İKİ FARKLI BİLİM DALINDA NOBEL KAZANAN İLK VE TEK İNSAN.",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.16,
+    0.3,
+    0.68,
+    0.04
+   ]
+  },
+  {
+   "text": "VARŞOVADA DOGDU, OKUMAK",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.07,
+    0.07,
+    0.32,
+    0.04
+   ]
+  },
+  {
+   "text": "VARȘOVA",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.82,
+    0.63,
+    0.1,
+    0.05
+   ]
+  },
+  {
+   "text": "PARİS (",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.11,
+    0.33,
+    0.08,
+    0.04
+   ]
+  },
+  {
+   "text": "VARŞOVADA DOĞDU, OKUMAK İÇİN PARİSE",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.07,
+    0.06,
+    0.46,
+    0.08
+   ]
+  },
+  {
+   "text": "LABORATUVAR",
+   "start": 7.5,
+   "end": 8.5,
+   "box": [
+    0.06,
+    0.88,
+    0.11,
+    0.02
+   ]
+  },
+  {
+   "text": "EŞİ PİERRE",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.15,
+    0.05,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "text": "EȘİ PİERRE İLE",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.15,
+    0.05,
+    0.2,
+    0.05
+   ]
+  },
+  {
+   "text": "1891",
+   "start": 10.5,
+   "end": 16.5,
+   "box": [
+    0.22,
+    0.81,
+    0.06,
+    0.06
+   ]
+  },
+  {
+   "text": "1898",
+   "start": 10.5,
+   "end": 13.5,
+   "box": [
+    0.21,
+    0.61,
+    0.07,
+    0.06
+   ]
+  },
+  {
+   "text": "1903",
+   "start": 10.5,
+   "end": 18.5,
+   "box": [
+    0.21,
+    0.41,
+    0.07,
+    0.06
+   ]
+  },
+  {
+   "text": "• 1911",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.19,
+    0.19,
+    0.08,
+    0.08
+   ]
+  },
+  {
+   "text": "BİN SEKİZ",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.08,
+    0.13,
+    0.13,
+    0.05
+   ]
+  },
+  {
+   "text": "PARİS",
+   "start": 10.5,
+   "end": 15.5,
+   "box": [
+    0.3,
+    0.83,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "POLONYUM • RADYUM",
+   "start": 10.5,
+   "end": 15.5,
+   "box": [
+    0.3,
+    0.63,
+    0.13,
+    0.02
+   ]
+  },
+  {
+   "text": "FİZİK",
+   "start": 10.5,
+   "end": 13.5,
+   "box": [
+    0.3,
+    0.42,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "KİMYA",
+   "start": 10.5,
+   "end": 12.5,
+   "box": [
+    0.3,
+    0.22,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "1911",
+   "start": 11.5,
+   "end": 12.5,
+   "box": [
+    0.21,
+    0.21,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "BİN SEKİZ YÜZ",
+   "start": 11.5,
+   "end": 12.5,
+   "box": [
+    0.08,
+    0.13,
+    0.19,
+    0.04
+   ]
+  },
+  {
+   "text": "• 1911",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.19,
+    0.18,
+    0.09,
+    0.08
+   ]
+  },
+  {
+   "text": "KIMYA",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.31,
+    0.21,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "BİN SEKİZ YÜZ DOKSAN",
+   "start": 13.5,
+   "end": 16.5,
+   "box": [
+    0.08,
+    0.13,
+    0.29,
+    0.04
+   ]
+  },
+  {
+   "text": "• 1898",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.18,
+    0.6,
+    0.17,
+    0.11
+   ]
+  },
+  {
+   "text": "FİzİK",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.31,
+    0.42,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "1911",
+   "start": 14.5,
+   "end": 16.5,
+   "box": [
+    0.21,
+    0.2,
+    0.06,
+    0.05
+   ]
+  },
+  {
+   "text": "KİMYA",
+   "start": 14.5,
+   "end": 16.5,
+   "box": [
+    0.31,
+    0.21,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "text": "SEKİZDE",
+   "start": 14.5,
+   "end": 16.5,
+   "box": [
+    0.37,
+    0.13,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "text": "POLONZUM",
+   "start": 14.5,
+   "end": 14.5,
+   "box": [
+    0.08,
+    0.08,
+    0.11,
+    0.03
+   ]
+  },
+  {
+   "text": "•1898",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.18,
+    0.6,
+    0.17,
+    0.12
+   ]
+  },
+  {
+   "text": "FİZİKR",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.31,
+    0.41,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "POLONYUM VE RADYUMU",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.08,
+    0.09,
+    0.27,
+    0.03
+   ]
+  },
+  {
+   "text": "TKEŞFETTİLER.",
+   "start": 15.5,
+   "end": 15.5,
+   "box": [
+    0.35,
+    0.08,
+    0.18,
+    0.04
+   ]
+  },
+  {
+   "text": "PARIS",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.31,
+    0.85,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "• 1898",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.18,
+    0.61,
+    0.17,
+    0.11
+   ]
+  },
+  {
+   "text": "POLONYUM - RADYUM",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.38,
+    0.64,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "FİZİK",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.31,
+    0.41,
+    0.05,
+    0.03
+   ]
+  },
+  {
+   "text": "POLONZUM VE RADYUMU",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.08,
+    0.08,
+    0.27,
+    0.03
+   ]
+  },
+  {
+   "text": "KEŞFETTİLER.",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.35,
+    0.08,
+    0.18,
+    0.05
+   ]
+  },
+  {
+   "text": "BİN DOKUZ",
+   "start": 17.5,
+   "end": 17.5,
+   "box": [
+    0.07,
+    0.09,
+    0.13,
+    0.04
+   ]
+  },
+  {
+   "text": "FIZIK",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.36,
+    0.23,
+    0.29,
+    0.25
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZ ÜÇTE FİZİK NOBEL'İ",
+   "start": 18.5,
+   "end": 18.5,
+   "box": [
+    0.07,
+    0.08,
+    0.45,
+    0.05
+   ]
+  },
+  {
+   "text": "KUNGLIGA SVENSKA",
+   "start": 19.5,
+   "end": 21.5,
+   "box": [
+    0.21,
+    0.73,
+    0.2,
+    0.04
+   ]
+  },
+  {
+   "text": "VETENSKAPS-AKADEMIEN",
+   "start": 19.5,
+   "end": 21.5,
+   "box": [
+    0.2,
+    0.69,
+    0.21,
+    0.04
+   ]
+  },
+  {
+   "text": "har pid silt sammantride den 7*",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.6,
+    0.19,
+    0.02
+   ]
+  },
+  {
+   "text": "November 19m i enlighermed fo-",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.21,
+    0.57,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "reskriftema i der af",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.55,
+    0.11,
+    0.02
+   ]
+  },
+  {
+   "text": "ALFRED NOBEL",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.5,
+    0.16,
+    0.03
+   ]
+  },
+  {
+   "text": "den 27 November1805 upprittade",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.44,
+    0.18,
+    0.03
+   ]
+  },
+  {
+   "text": "testamente beslutat att ófoerlámna",
+   "start": 19.5,
+   "end": 21.5,
+   "box": [
+    0.22,
+    0.42,
+    0.18,
+    0.02
+   ]
+  },
+  {
+   "text": "der.pris.som innevarande ar bort",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.39,
+    0.18,
+    0.02
+   ]
+  },
+  {
+   "text": "sifves át den/som har giort den",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.36,
+    0.18,
+    0.03
+   ]
+  },
+  {
+   "text": "Diktigaote kemiska upptäckt eller",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.34,
+    0.18,
+    0.03
+   ]
+  },
+  {
+   "text": "forbattrins till",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.22,
+    0.31,
+    0.09,
+    0.02
+   ]
+  },
+  {
+   "text": "BİN",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.07,
+    0.09,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "text": "DOKUZ",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.13,
+    0.09,
+    0.07,
+    0.03
+   ]
+  },
+  {
+   "text": "MARIE",
+   "start": 19.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.72,
+    0.08,
+    0.03
+   ]
+  },
+  {
+   "text": "SKIODOWSKA CURIE",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.59,
+    0.68,
+    0.21,
+    0.04
+   ]
+  },
+  {
+   "text": "sásom eit cricinnande for den for•",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.64,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "banst hon inlagt om kemieny utoece",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.61,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "lins senom upptickten af grundăm.",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.59,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "nena mdium och polonium-genom",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.56,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "kzamakteriserandet afmdium och dey.",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.53,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "isolerande i metallisler tillstánd samt.",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.5,
+    0.18,
+    0.03
+   ]
+  },
+  {
+   "text": "Senom sina undersökningar angäende",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.48,
+    0.19,
+    0.02
+   ]
+  },
+  {
+   "text": "detta marklica gnundámnes föreningar:",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.61,
+    0.45,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "Stockholm. den 10 December 19i",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.6,
+    0.43,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "text": "unngi. Vee. Flicedo pot",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.65,
+    0.37,
+    0.08,
+    0.02
+   ]
+  },
+  {
+   "text": "In. Aunnilliur",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.69,
+    0.3,
+    0.1,
+    0.03
+   ]
+  },
+  {
+   "text": "KungiVer Flinia selorvteran",
+   "start": 19.5,
+   "end": 19.5,
+   "box": [
+    0.68,
+    0.29,
+    0.1,
+    0.01
+   ]
+  },
+  {
+   "text": "har pid sitt sammanträde den 7*",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.12,
+    0.7,
+    0.25,
+    0.03
+   ]
+  },
+  {
+   "text": "November 19m1 i enlighermed fo.",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.66,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "reskriftemna i der af",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.63,
+    0.15,
+    0.03
+   ]
+  },
+  {
+   "text": "ALFRED NOBELI",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.14,
+    0.56,
+    0.2,
+    0.04
+   ]
+  },
+  {
+   "text": "den 27 November1805 upprättade",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.49,
+    0.24,
+    0.04
+   ]
+  },
+  {
+   "text": "der prs som innevarande år bort.",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.41,
+    0.24,
+    0.04
+   ]
+  },
+  {
+   "text": "gifves åtden /som har gjort den",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.13,
+    0.38,
+    0.24,
+    0.03
+   ]
+  },
+  {
+   "text": "Dilihgaste kemiska upptäckt eller",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.33,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "forbattring/ till sss",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.12,
+    0.31,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "BİN DOKUZ",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.07,
+    0.09,
+    0.12,
+    0.04
+   ]
+  },
+  {
+   "text": "SKLODOWSKA CURIE",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.62,
+    0.81,
+    0.28,
+    0.05
+   ]
+  },
+  {
+   "text": "sásom eit erlinnande för den för-",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.64,
+    0.76,
+    0.25,
+    0.03
+   ]
+  },
+  {
+   "text": "Ganst hon inlagt om kemieny utocck",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.64,
+    0.71,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "ling senom upptäckten af grundám-",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.65,
+    0.67,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "nena radium och polonium/genom",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.64,
+    0.64,
+    0.25,
+    0.03
+   ]
+  },
+  {
+   "text": "karakteriserandet af mdium och des",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.64,
+    0.6,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "isolerande i metalliskt tillstánd samt",
+   "start": 20.5,
+   "end": 21.5,
+   "box": [
+    0.64,
+    0.57,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "senom sina undersökningar angaende",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.64,
+    0.53,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "detta markliga grundámnes föreningar:",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.64,
+    0.5,
+    0.26,
+    0.03
+   ]
+  },
+  {
+   "text": "tockholm. den 10 December 19m.",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.66,
+    0.46,
+    0.24,
+    0.04
+   ]
+  },
+  {
+   "text": "Nungi. Vet. Flieadis ppeses",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.7,
+    0.38,
+    0.12,
+    0.03
+   ]
+  },
+  {
+   "text": "Chn. Aunnilliur",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.75,
+    0.29,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "text": "KungiVet Flitta seltrererare.",
+   "start": 20.5,
+   "end": 20.5,
+   "box": [
+    0.75,
+    0.28,
+    0.14,
+    0.02
+   ]
+  },
+  {
+   "text": "November 1911 i enlighermed fo.",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.68,
+    0.26,
+    0.04
+   ]
+  },
+  {
+   "text": "reskrifterna i der af",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.65,
+    0.16,
+    0.03
+   ]
+  },
+  {
+   "text": "den 27 November 1805 upprättade",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.11,
+    0.49,
+    0.25,
+    0.05
+   ]
+  },
+  {
+   "text": "der pris som innevarande år bort",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.41,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "gifves åt den/som har gjort den",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.39,
+    0.25,
+    0.03
+   ]
+  },
+  {
+   "text": "viktigaste kemiska upptáckt eller",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.33,
+    0.26,
+    0.05
+   ]
+  },
+  {
+   "text": "forbáttring• till ss",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.1,
+    0.31,
+    0.14,
+    0.03
+   ]
+  },
+  {
+   "text": "sásom elt erkánnande för den för•",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.78,
+    0.26,
+    0.04
+   ]
+  },
+  {
+   "text": "tjänst hon inlagt om kemieny utpeck",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.73,
+    0.26,
+    0.05
+   ]
+  },
+  {
+   "text": "ling senom upptäckten af grundám.",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.69,
+    0.26,
+    0.04
+   ]
+  },
+  {
+   "text": "karakteriserandet af radium och dess",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.62,
+    0.26,
+    0.04
+   ]
+  },
+  {
+   "text": "Senom sina undersökningar angäende",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.54,
+    0.27,
+    0.03
+   ]
+  },
+  {
+   "text": "detta márkliga grundämnes föreningar:",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.65,
+    0.5,
+    0.27,
+    0.04
+   ]
+  },
+  {
+   "text": "Stockholm. den 10 December 19m",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.66,
+    0.47,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "lungi. Vet. Flieadis preser",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.72,
+    0.39,
+    0.12,
+    0.02
+   ]
+  },
+  {
+   "text": "Chn. Auninillius",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.76,
+    0.29,
+    0.14,
+    0.04
+   ]
+  },
+  {
+   "text": "KungiVer Flitia selerererare.",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.76,
+    0.28,
+    0.15,
+    0.02
+   ]
+  },
+  {
+   "text": "BİN DOKUZ YÜZ ON BİRDE KİMYA",
+   "start": 21.5,
+   "end": 21.5,
+   "box": [
+    0.07,
+    0.09,
+    0.38,
+    0.04
+   ]
+  },
+  {
+   "text": "Defterleri bugün h",
+   "start": 22.5,
+   "end": 22.5,
+   "box": [
+    0.07,
+    0.07,
+    0.27,
+    0.06
+   ]
+  },
+  {
+   "text": "DYOAKTİE",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.71,
+    0.75,
+    0.11,
+    0.05
+   ]
+  },
+  {
+   "text": "Defterleri bugün hålå radyoaktif; okumak için koru]",
+   "start": 23.5,
+   "end": 23.5,
+   "box": [
+    0.07,
+    0.08,
+    0.73,
+    0.07
+   ]
+  },
+  {
+   "text": "Onun",
+   "start": 24.5,
+   "end": 24.5,
+   "box": [
+    0.37,
+    0.07,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "Onun ışığı",
+   "start": 25.5,
+   "end": 26.5,
+   "box": [
+    0.37,
+    0.07,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "text": "Onun ışığı hâlâ",
+   "start": 27.5,
+   "end": 27.5,
+   "box": [
+    0.37,
+    0.07,
+    0.16,
+    0.04
+   ]
+  },
+  {
+   "text": "Onun ışığı hâlâ sönmedi.",
+   "start": 28.5,
+   "end": 30.5,
+   "box": [
+    0.37,
+    0.06,
+    0.26,
+    0.05
+   ]
+  }
+ ],
+ "speech_words": 50,
+ "speech_coverage": 0.84,
+ "script": [
+  {
+   "line": "İki farklı bilim dalında Nobel kazanan ilk ve tek insan.",
+   "score": 0.9,
+   "t": 0.1
+  },
+  {
+   "line": "Varşova'da doğdu, okumak için Paris'e gitti.",
+   "score": 0.88,
+   "t": 5.4
+  },
+  {
+   "line": "Eşi Pierre ile birlikte radyoaktiviteyi araştırdı.",
+   "score": 0.67,
+   "t": 9.0
+  },
+  {
+   "line": "Bin sekiz yüz doksan sekizde polonyum ve radyumu keşfettiler.",
+   "score": 0.89,
+   "t": 14.0
+  },
+  {
+   "line": "Bin dokuz yüz üçte fizik Nobel'i geldi.",
+   "score": 1.0,
+   "t": 20.6
+  },
+  {
+   "line": "Bin dokuz yüz on birde kimya Nobel'i.",
+   "score": 1.0,
+   "t": 25.1
+  },
+  {
+   "line": "Defterleri bugün hâlâ radyoaktif; okumak için koruyucu önlem gerekiyor.",
+   "score": 0.78,
+   "t": null
+  },
+  {
+   "line": "Onun ışığı hâlâ sönmedi.",
+   "score": 0.75,
+   "t": null
+  }
+ ],
+ "script_adherence": 0.88
+}

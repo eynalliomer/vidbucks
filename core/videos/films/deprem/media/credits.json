@@ -1,0 +1,46 @@
+[
+ {
+  "line": 2,
+  "src": "films/deprem/L02.jpg",
+  "aspect": 1.3763,
+  "title": "FEMA - 35596 - Bottled water prepared for Iowa flood relief.jpg",
+  "creator": "Patsy Lynch",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:FEMA_-_35596_-_Bottled_water_prepared_for_Iowa_flood_relief.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 5,
+  "src": "films/deprem/L05.jpg",
+  "aspect": 1.3333,
+  "title": "Pill box with pills.JPG",
+  "creator": "Dvortygirl",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pill_box_with_pills.JPG",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 5,
+  "src": "films/deprem/L05x1.jpg",
+  "aspect": 1.3333,
+  "title": "Pilulier semainier.JPG",
+  "creator": "User:Stephane8888 (Stephane8888 Wiktionnaire)",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Pilulier_semainier.JPG",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/deprem/L06.jpg",
+  "aspect": 1.3333,
+  "title": "Druckverschlussbeutel.jpg",
+  "creator": "Corneille",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Druckverschlussbeutel.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ }
+]

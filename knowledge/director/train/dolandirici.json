@@ -1,0 +1,71 @@
+{
+ "slug": "dolandirici",
+ "topic": "Telefon dolandırıcılığı nasıl işler?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Dikkat: bankanızdan aradığını söyleyen biri şifre istiyorsa kapatın.",
+  "Bu yöntem her yıl binlerce kişiyi mağdur ediyor.",
+  "Önce güven kurarlar, adınızı ve son işlemlerinizi söylerler.",
+  "Sonra acele ettirirler: hesabınız tehlikede derler.",
+  "Gerçek banka şifrenizi asla telefonda sormaz."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "caption-news",
+   "ok": [
+    "news-package"
+   ],
+   "why": "a public warning: bulletin"
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5
+   ],
+   "style": "halftone-dossier",
+   "ok": [
+    "spy-titles",
+    "caption-news"
+   ],
+   "why": "how the scam works: dossier"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "stamp"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "quote",
+   "ok": [
+    "title"
+   ]
+  }
+ ]
+}

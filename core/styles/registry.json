@@ -1,0 +1,2593 @@
+[
+ {
+  "id": "archive-lighttable",
+  "name": "Archive Light Table",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.315,
+   "mystery": 0.24499999999999997,
+   "place": 0.21,
+   "data": 0.21,
+   "document": 1,
+   "history": 1,
+   "year": 0.8
+  },
+  "uses": [
+   "Brand history",
+   "Archive stories",
+   "Museums"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/archive-lighttable/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "wall",
+   "grade": "bw"
+  },
+  "readiness": "native"
+ },
+ {
+  "id": "art-deco",
+  "name": "Art Deco",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": true,
+  "suits": {
+   "number": 0.35,
+   "list": 0.27999999999999997,
+   "title": 1,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "money": 0.6,
+   "history": 0.5
+  },
+  "uses": [
+   "Luxury & hospitality",
+   "Galas",
+   "Invitations"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/art-deco/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "art-deco",
+  "readiness": "native"
+ },
+ {
+  "id": "ascii-crt",
+  "name": "CRT ASCII Terminal",
+  "category": "Film & Tape",
+  "family": "film",
+  "dark": true,
+  "suits": {
+   "history": 0.24499999999999997,
+   "mystery": 0.27999999999999997,
+   "tech": 1,
+   "story": 0.175,
+   "data": 0.6
+  },
+  "uses": [
+   "Developer tools",
+   "Sci-fi",
+   "Tech brands"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/ascii-crt/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "ascii-crt",
+  "readiness": "native"
+ },
+ {
+  "id": "assembly-line-diagram",
+  "name": "Assembly-Line Diagram",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "How a process works",
+   "Biology and medicine",
+   "Supply chains and pipelines"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/assembly-line-diagram/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "backrooms",
+  "name": "Liminal Found Footage",
+  "category": "Film & Tape",
+  "family": "film",
+  "dark": true,
+  "suits": {
+   "history": 0.7,
+   "mystery": 0.8,
+   "tech": 0.4,
+   "story": 0.5
+  },
+  "uses": [
+   "Horror",
+   "Mystery & ARG",
+   "Game teasers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/backrooms/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "bauhaus-shapes",
+  "name": "Bauhaus Shapes",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": false,
+  "suits": {
+   "number": 0.35,
+   "list": 0.27999999999999997,
+   "title": 0.6,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "process": 0.5
+  },
+  "uses": [
+   "Finance and economics explainers",
+   "Mechanisms and principles",
+   "Titles and chapter cards"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/bauhaus-shapes/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "bauhaus-shapes",
+  "readiness": "native"
+ },
+ {
+  "id": "blueprint",
+  "name": "Blueprint",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": true,
+  "suits": {
+   "process": 0.9,
+   "tech": 0.9,
+   "science": 0.27999999999999997,
+   "product": 0.7
+  },
+  "uses": [
+   "Engineering",
+   "Hardware launches",
+   "Tech explainers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/blueprint/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "blueprint",
+  "readiness": "skin"
+ },
+ {
+  "id": "brick-toy",
+  "name": "Brick Toy",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.9,
+   "place": 0.7,
+   "process": 0.6
+  },
+  "uses": [
+   "Toys & kids",
+   "Product builds",
+   "Space"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/brick-toy/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "briefing-board",
+  "name": "Engineering Briefing Board",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": false,
+  "suits": {
+   "science": 0.315,
+   "mystery": 0.24499999999999997,
+   "place": 0.21,
+   "data": 0.21,
+   "document": 0.175,
+   "process": 0.8,
+   "tech": 0.6,
+   "list": 0.6
+  },
+  "uses": [
+   "Engineering",
+   "Option comparisons",
+   "Briefings"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/briefing-board/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "studio",
+   "grade": "natural"
+  },
+  "readiness": "native"
+ },
+ {
+  "id": "caption-news",
+  "name": "Caption News",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": true,
+  "suits": {
+   "history": 0.35,
+   "document": 0.27999999999999997,
+   "place": 0.4,
+   "person": 0.21,
+   "quote": 0.175,
+   "warning": 1,
+   "number": 0.6
+  },
+  "uses": [
+   "Social news",
+   "Report explainers",
+   "Data shorts"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/caption-news/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "caption-news",
+  "readiness": "native"
+ },
+ {
+  "id": "cel-anime-80s",
+  "name": "80s Cel Anime",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1.0,
+   "story": 0.8,
+   "person": 0.7
+  },
+  "uses": [
+   "Music videos",
+   "Game trailers",
+   "Nostalgia"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/cel-anime-80s/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "chalkboard",
+  "name": "Chalkboard",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": true,
+  "suits": {
+   "process": 0.8,
+   "science": 0.8,
+   "list": 0.24499999999999997,
+   "comparison": 0.175,
+   "number": 0.5
+  },
+  "uses": [
+   "Word origins",
+   "Myth-busting",
+   "Lessons"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/chalkboard/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "chalkboard",
+  "readiness": "skin"
+ },
+ {
+  "id": "circuit-board",
+  "name": "Circuit Board",
+  "category": "Light & Lines",
+  "family": "light",
+  "dark": true,
+  "suits": {
+   "tech": 1,
+   "science": 0.24499999999999997,
+   "mystery": 0.21,
+   "emotion": 0.13999999999999999,
+   "process": 0.6
+  },
+  "uses": [
+   "Energy",
+   "Supply chains",
+   "Devices"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/circuit-board/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "circuit-board",
+  "readiness": "skin"
+ },
+ {
+  "id": "city-symphony",
+  "name": "City Symphony",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": false,
+  "suits": {
+   "history": 1.0,
+   "document": 0.8,
+   "place": 0.6,
+   "person": 0.6,
+   "quote": 0.5
+  },
+  "uses": [
+   "City films",
+   "Music montages",
+   "Openers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/city-symphony/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "colored-pencil",
+  "name": "Colored-Pencil Science Illustration",
+  "category": "Painting & Illustration",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "emotion": 1.0,
+   "nature": 0.8,
+   "story": 0.8,
+   "person": 0.4
+  },
+  "uses": [
+   "Natural-science cutaways",
+   "Picture-book explainers",
+   "Hidden structures and processes"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/colored-pencil/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "comic-history",
+  "name": "Comic History Cartoon",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1.0,
+   "story": 0.8,
+   "person": 0.7
+  },
+  "uses": [
+   "Territorial changes in history",
+   "Light explainers on geopolitics",
+   "Market share and turf-war stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/comic-history/STYLE.md",
+  "needs": [
+   "image-generation"
+  ],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "countdown",
+  "name": "Live Countdown Split-screen",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": false,
+  "suits": {
+   "history": 0.35,
+   "document": 0.27999999999999997,
+   "place": 0.21,
+   "person": 0.21,
+   "quote": 0.175,
+   "number": 1,
+   "warning": 0.8
+  },
+  "uses": [
+   "Launches",
+   "Countdowns",
+   "Live events"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/countdown/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "crayon-book",
+  "name": "Crayon Picture Book",
+  "category": "Painting & Illustration",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "emotion": 1.0,
+   "nature": 0.8,
+   "story": 0.8,
+   "person": 0.4
+  },
+  "uses": [
+   "Picture books",
+   "Bedtime stories",
+   "Kids' learning"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/crayon-book/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "crayon-world",
+  "name": "Crayon World 3D",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.9,
+   "place": 0.7,
+   "process": 0.6
+  },
+  "uses": [
+   "Short stories",
+   "Tributes",
+   "Journeys"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/crayon-world/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "dark-documentary",
+  "name": "Radar Sweep Documentary",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.315,
+   "mystery": 1,
+   "place": 0.6,
+   "data": 0.21,
+   "document": 0.175,
+   "warning": 0.8
+  },
+  "uses": [
+   "History of science and engineering",
+   "Archaeology, sites and reconstructions",
+   "Astronomy, deep space and survey"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/dark-documentary/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "night",
+   "grade": "natural"
+  },
+  "readiness": "skin"
+ },
+ {
+  "id": "dark-keynote",
+  "name": "Dark Tech Keynote",
+  "category": "Screens & Interfaces",
+  "family": "screen",
+  "dark": true,
+  "suits": {
+   "tech": 0.9,
+   "product": 1,
+   "data": 0.24499999999999997,
+   "number": 0.6
+  },
+  "uses": [
+   "Product launches",
+   "SaaS",
+   "Keynotes"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/dark-keynote/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "dark-keynote",
+  "readiness": "native"
+ },
+ {
+  "id": "data-physical",
+  "name": "Data Physicalization",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 1.0,
+   "number": 0.9,
+   "place": 0.8,
+   "comparison": 0.8,
+   "map": 0.9,
+   "percent": 0.8
+  },
+  "uses": [
+   "Annual reports",
+   "Investor decks",
+   "Energy data"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/data-physical/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "dataviz",
+  "name": "Data Storytelling",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 1,
+   "number": 1,
+   "place": 0.27999999999999997,
+   "comparison": 0.9,
+   "map": 0.315,
+   "percent": 1
+  },
+  "uses": [
+   "Data journalism",
+   "Reports",
+   "Climate & science"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/dataviz/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "dataviz",
+  "readiness": "skin"
+ },
+ {
+  "id": "desktop-flythrough",
+  "name": "Tabletop App Flythrough",
+  "category": "Screens & Interfaces",
+  "family": "screen",
+  "dark": false,
+  "suits": {
+   "tech": 1.0,
+   "product": 0.9,
+   "data": 0.7,
+   "number": 0.5
+  },
+  "uses": [
+   "App explainers",
+   "Workflows",
+   "Products"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/desktop-flythrough/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "double-exposure",
+  "name": "Double Exposure",
+  "category": "Film & Tape",
+  "family": "film",
+  "dark": true,
+  "suits": {
+   "history": 0.7,
+   "mystery": 0.8,
+   "tech": 0.4,
+   "story": 0.5
+  },
+  "uses": [
+   "Brand and city films",
+   "Documentary and series openings",
+   "Music video intros"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/double-exposure/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "engraving",
+  "name": "Copperplate Engraving",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.9,
+   "document": 0.24499999999999997,
+   "quote": 0.7,
+   "title": 0.175,
+   "science": 0.5
+  },
+  "uses": [
+   "Museum labels",
+   "Science explainers",
+   "Brand heritage"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/engraving/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "engraving",
+  "readiness": "skin"
+ },
+ {
+  "id": "firefly-pointillism",
+  "name": "Firefly Pointillism",
+  "category": "Light & Lines",
+  "family": "light",
+  "dark": true,
+  "suits": {
+   "tech": 0.7,
+   "science": 0.7,
+   "mystery": 0.6,
+   "emotion": 0.4
+  },
+  "uses": [
+   "Picture-book stories",
+   "Many becoming one",
+   "Night and nature lyric"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/firefly-pointillism/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "flat-space-explainer",
+  "name": "Scale Zoom Explainer",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": true,
+  "suits": {
+   "number": 0.9,
+   "list": 0.27999999999999997,
+   "title": 0.315,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "science": 0.8,
+   "comparison": 0.9
+  },
+  "uses": [
+   "Science explainers",
+   "Scale and size",
+   "Classroom"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/flat-space-explainer/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "flat-space-explainer",
+  "readiness": "skin"
+ },
+ {
+  "id": "flow-field",
+  "name": "Flow-field Wind Lines",
+  "category": "Light & Lines",
+  "family": "light",
+  "dark": true,
+  "suits": {
+   "tech": 0.7,
+   "science": 0.7,
+   "mystery": 0.6,
+   "emotion": 0.4
+  },
+  "uses": [
+   "Storms, monsoons and other weather",
+   "Ocean currents and river floods",
+   "Any flow measured against a threshold"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/flow-field/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "game-show",
+  "name": "Rhythm Game Show",
+  "category": "Games",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 0.8,
+   "list": 0.6,
+   "process": 0.5,
+   "story": 0.6
+  },
+  "uses": [
+   "Tech timelines",
+   "Year in review",
+   "Variety shows"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/game-show/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "gilded-illumination",
+  "name": "Gilded Illumination",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 1,
+   "story": 0.315,
+   "nature": 0.21,
+   "emotion": 0.175,
+   "quote": 0.8
+  },
+  "uses": [
+   "Fables and picture-book stories",
+   "Holiday and festival shorts",
+   "Brand and origin stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/gilded-illumination/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "glass-product",
+  "name": "Glass Product Render",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 1,
+   "place": 0.24499999999999997,
+   "process": 0.21
+  },
+  "uses": [
+   "Product launches",
+   "Consumer tech",
+   "Beauty"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/glass-product/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "halftone-dossier",
+  "name": "Halftone Dossier",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.27999999999999997,
+   "document": 1,
+   "quote": 0.24499999999999997,
+   "title": 0.175,
+   "mystery": 0.8,
+   "person": 0.6
+  },
+  "uses": [
+   "Humour",
+   "Pet content",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/halftone-dossier/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "halftone-dossier",
+  "readiness": "skin"
+ },
+ {
+  "id": "hardcore-info",
+  "name": "Line-Art Cutaway",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "Hardware explainers",
+   "Product engineering",
+   "Science education"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/hardcore-info/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "hd-2d",
+  "name": "2.5D Pixel Art",
+  "category": "Games",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 0.8,
+   "list": 0.6,
+   "process": 0.5,
+   "story": 0.6
+  },
+  "uses": [
+   "Game trailers",
+   "Fantasy",
+   "Story films"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/hd-2d/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "hologram-hud",
+  "name": "Sci-fi Hologram HUD",
+  "category": "Screens & Interfaces",
+  "family": "screen",
+  "dark": true,
+  "suits": {
+   "tech": 1,
+   "product": 0.315,
+   "data": 0.8,
+   "number": 0.175,
+   "science": 0.6
+  },
+  "uses": [
+   "Spec walkthroughs",
+   "Launch videos",
+   "Trade shows"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/hologram-hud/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "hologram-hud",
+  "readiness": "skin"
+ },
+ {
+  "id": "impasto",
+  "name": "Impasto Oil Painting",
+  "category": "Painting & Illustration",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "emotion": 1,
+   "nature": 0.27999999999999997,
+   "story": 0.27999999999999997,
+   "person": 0.7
+  },
+  "uses": [
+   "Music videos",
+   "Art & culture",
+   "Emotional ads"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/impasto/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "ink-wash",
+  "name": "Chinese Ink Wash",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": true,
+  "suits": {
+   "history": 0.6,
+   "story": 0.315,
+   "nature": 1,
+   "emotion": 0.8
+  },
+  "uses": [
+   "Wuxia",
+   "Cultural brands",
+   "Poetry"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/ink-wash/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "instruction-manual",
+  "name": "Instruction Manual Art",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "Assembly and set-up guides",
+   "Safety instructions",
+   "Product onboarding"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/instruction-manual/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "ipad-sketch",
+  "name": "Tablet Sketch Explainer",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "science": 0.7,
+   "list": 0.7,
+   "comparison": 0.5
+  },
+  "uses": [
+   "Food & drink explainers",
+   "Craft and how-to",
+   "Lifestyle science"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/ipad-sketch/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "iso-infographic",
+  "name": "Isometric Infographic",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "Process explainers",
+   "Supply chains",
+   "Annual reports"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/iso-infographic/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "isometric-picture-book",
+  "name": "Isometric People Scene",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.9,
+   "place": 0.7,
+   "process": 0.6
+  },
+  "uses": [
+   "Everyday rules",
+   "Queues",
+   "Comparisons"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/isometric-picture-book/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "kino-montage",
+  "name": "Constructivist Montage",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.27999999999999997,
+   "place": 0.21,
+   "person": 0.6,
+   "quote": 0.175,
+   "title": 0.6
+  },
+  "uses": [
+   "Industry histories",
+   "Milestones",
+   "Collective effort"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/kino-montage/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "kino-montage",
+  "readiness": "skin"
+ },
+ {
+  "id": "lidar-survey",
+  "name": "LiDAR Survey",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.7,
+   "mystery": 0.24499999999999997,
+   "place": 0.9,
+   "data": 0.21,
+   "document": 0.175,
+   "history": 0.5
+  },
+  "uses": [
+   "Heritage",
+   "Environment",
+   "Site surveys"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/lidar-survey/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "lowpoly-island",
+  "name": "Low-poly Isometric Island",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.315,
+   "place": 0.8,
+   "process": 0.21,
+   "nature": 0.6
+  },
+  "uses": [
+   "Game trailers",
+   "World building",
+   "Calm content"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/lowpoly-island/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "manga-panels",
+  "name": "Manga Panels",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1.0,
+   "story": 0.8,
+   "person": 0.7
+  },
+  "uses": [
+   "Music videos",
+   "Product launches",
+   "Anime openings"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/manga-panels/STYLE.md",
+  "needs": [
+   "image-generation"
+  ],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "map-explainer",
+  "name": "3D Map Explainer",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 0.35,
+   "number": 0.315,
+   "place": 1,
+   "comparison": 0.27999999999999997,
+   "map": 1,
+   "percent": 0.27999999999999997
+  },
+  "uses": [
+   "News and geopolitics",
+   "Energy, trade and shipping",
+   "Rivers, borders and terrain"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/map-explainer/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "paper",
+   "grade": "natural"
+  },
+  "readiness": "skin"
+ },
+ {
+  "id": "marker-paper",
+  "name": "Marker on Paper",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "science": 0.7,
+   "list": 0.7,
+   "comparison": 0.5
+  },
+  "uses": [
+   "Worked problems",
+   "Science explainers",
+   "Lessons"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/marker-paper/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "memphis-diorama",
+  "name": "Memphis Diorama",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.9,
+   "place": 0.7,
+   "process": 0.6
+  },
+  "uses": [
+   "Web heroes",
+   "Ambient loops",
+   "Seasons"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/memphis-diorama/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "microgame",
+  "name": "Microgame Frenzy",
+  "category": "Games",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 0.8,
+   "list": 0.6,
+   "process": 0.5,
+   "story": 0.6
+  },
+  "uses": [
+   "Game trailers",
+   "Onboarding",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/microgame/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "microscope",
+  "name": "Under the Microscope",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": false,
+  "suits": {
+   "science": 1,
+   "mystery": 0.24499999999999997,
+   "place": 0.21,
+   "data": 0.21,
+   "document": 0.175,
+   "nature": 0.8
+  },
+  "uses": [
+   "Biomedicine",
+   "Materials science",
+   "Skincare science"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/microscope/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "midcentury-toon",
+  "name": "Mid-century Cartoon",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1.0,
+   "story": 0.8,
+   "person": 0.7
+  },
+  "uses": [
+   "Set-up guides",
+   "Help centres",
+   "How-to"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/midcentury-toon/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "paper"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "neon-tubes",
+  "name": "Neon Tubes",
+  "category": "Light & Lines",
+  "family": "light",
+  "dark": true,
+  "suits": {
+   "tech": 0.24499999999999997,
+   "science": 0.24499999999999997,
+   "mystery": 0.21,
+   "emotion": 0.7,
+   "story": 0.7,
+   "place": 0.5
+  },
+  "uses": [
+   "Shop openings and mascot stories",
+   "Nightlife and city-pop music videos",
+   "City and festival night idents"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/neon-tubes/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "neon-tubes",
+  "readiness": "skin"
+ },
+ {
+  "id": "news-package",
+  "name": "Broadcast News Package",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": true,
+  "suits": {
+   "history": 0.35,
+   "document": 0.27999999999999997,
+   "place": 0.5,
+   "person": 0.6,
+   "quote": 0.175,
+   "warning": 0.8
+  },
+  "uses": [
+   "News round-ups",
+   "Bulletins",
+   "Market updates"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/news-package/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "news-package",
+  "readiness": "native"
+ },
+ {
+  "id": "newsreel",
+  "name": "1920s Newsreel",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": true,
+  "suits": {
+   "history": 1,
+   "document": 0.27999999999999997,
+   "place": 0.21,
+   "person": 0.21,
+   "quote": 0.175,
+   "year": 0.9
+  },
+  "uses": [
+   "History stories",
+   "Fads & eras",
+   "Anniversaries"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/newsreel/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "newsreel",
+  "readiness": "native"
+ },
+ {
+  "id": "one-bit-dither",
+  "name": "1-bit Dither",
+  "category": "Screens & Interfaces",
+  "family": "screen",
+  "dark": true,
+  "suits": {
+   "tech": 0.8,
+   "product": 0.315,
+   "data": 0.24499999999999997,
+   "number": 0.175
+  },
+  "uses": [
+   "History told through a chain of media",
+   "Printing, scanning and signals",
+   "Night scenes and space"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/one-bit-dither/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "one-bit-dither",
+  "readiness": "skin"
+ },
+ {
+  "id": "one-line",
+  "name": "One-line Drawing",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "science": 0.7,
+   "list": 0.7,
+   "comparison": 0.5
+  },
+  "uses": [
+   "Brand stories",
+   "Life milestones",
+   "Minimal ads"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/one-line/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "oscilloscope-math",
+  "name": "Oscilloscope Math",
+  "category": "Light & Lines",
+  "family": "light",
+  "dark": true,
+  "suits": {
+   "tech": 0.24499999999999997,
+   "science": 1,
+   "mystery": 0.21,
+   "emotion": 0.13999999999999999,
+   "data": 0.7
+  },
+  "uses": [
+   "Maths and physics lessons",
+   "Signals and electronics",
+   "Science explainers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/oscilloscope-math/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "oscilloscope-math",
+  "readiness": "skin"
+ },
+ {
+  "id": "paper-lantern",
+  "name": "Paper-cut Lightbox",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "story": 0.9,
+   "nature": 0.6,
+   "emotion": 0.5
+  },
+  "uses": [
+   "Journeys and travel",
+   "Farewells and anniversaries",
+   "Places and their stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/paper-lantern/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "paper-popup",
+  "name": "Paper Pop-up Book",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.315,
+   "place": 0.6,
+   "process": 0.21,
+   "story": 0.9
+  },
+  "uses": [
+   "Children's books",
+   "Game trailers",
+   "Story films"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/paper-popup/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "papercut-red",
+  "name": "Red Paper-cut",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "story": 0.9,
+   "nature": 0.6,
+   "emotion": 0.5
+  },
+  "uses": [
+   "Lunar New Year",
+   "Festive greetings",
+   "Folk tales"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/papercut-red/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "paper"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "pen-plotter",
+  "name": "Pen Plotter",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "Maps and terrain",
+   "Measurements and records",
+   "Generative and data drawings"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/pen-plotter/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "paper"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "pictogram-motion",
+  "name": "Pictogram Motion",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": false,
+  "suits": {
+   "number": 1.0,
+   "list": 0.8,
+   "title": 0.9,
+   "data": 0.6,
+   "product": 0.5,
+   "year": 0.6
+  },
+  "uses": [
+   "Public services and city stories",
+   "Brand and event identity films",
+   "Explainers told through signs and objects"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/pictogram-motion/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "pictogram-motion",
+  "readiness": "native"
+ },
+ {
+  "id": "pip-simulation",
+  "name": "Blob Simulation",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 1.0,
+   "number": 0.9,
+   "place": 0.8,
+   "comparison": 0.8,
+   "map": 0.9,
+   "percent": 0.8
+  },
+  "uses": [
+   "Evolution and natural selection",
+   "Game theory and agent-based models",
+   "Epidemics, queues and markets"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/pip-simulation/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "pixel-rpg",
+  "name": "16-bit Pixel RPG",
+  "category": "Games",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 0.8,
+   "list": 0.21,
+   "process": 0.5,
+   "story": 0.8
+  },
+  "uses": [
+   "Game trailers",
+   "Recaps",
+   "Nostalgia"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/pixel-rpg/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "pop-art",
+  "name": "Pop Art",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.27999999999999997,
+   "document": 0.24499999999999997,
+   "quote": 0.24499999999999997,
+   "title": 0.175,
+   "product": 0.8,
+   "humor": 0.6,
+   "money": 0.6
+  },
+  "uses": [
+   "Everyday-object explainers",
+   "Brand and product posters",
+   "Small data stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/pop-art/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "pop-art",
+  "readiness": "native"
+ },
+ {
+  "id": "precise-mechanism",
+  "name": "Color-Coded Mechanism",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "How machines work",
+   "Product and engineering explainers",
+   "Science teaching"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/precise-mechanism/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "printed-long-take",
+  "name": "Scratchboard Long Take",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.7,
+   "quote": 0.7,
+   "title": 0.5
+  },
+  "uses": [
+   "Journeys",
+   "Wildlife",
+   "Landscapes"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/printed-long-take/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "risograph",
+  "name": "Risograph Print",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.7,
+   "quote": 0.7,
+   "title": 0.5
+  },
+  "uses": [
+   "Indie brands",
+   "Zines",
+   "Lifestyle"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/risograph/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "risograph",
+  "readiness": "native"
+ },
+ {
+  "id": "rubber-hose",
+  "name": "1930s Rubber Hose Cartoon",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1,
+   "story": 0.27999999999999997,
+   "person": 0.24499999999999997
+  },
+  "uses": [
+   "Food & drink",
+   "Retro ads",
+   "Kids"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/rubber-hose/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "satellite-briefing",
+  "name": "Satellite Briefing",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.315,
+   "mystery": 0.24499999999999997,
+   "place": 1,
+   "data": 0.21,
+   "document": 0.175,
+   "map": 1,
+   "nature": 0.6
+  },
+  "uses": [
+   "Climate",
+   "News explainers",
+   "Geography"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/satellite-briefing/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "night",
+   "grade": "natural"
+  },
+  "readiness": "skin"
+ },
+ {
+  "id": "scifi-toon",
+  "name": "Sci-Fi Sitcom Toon",
+  "category": "Cartoons",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "humor": 1.0,
+   "story": 0.8,
+   "person": 0.7
+  },
+  "uses": [
+   "Comedy",
+   "Tech brands",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/scifi-toon/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "scratch-film",
+  "name": "Scratch Film",
+  "category": "Film & Tape",
+  "family": "film",
+  "dark": true,
+  "suits": {
+   "history": 0.7,
+   "mystery": 0.8,
+   "tech": 0.4,
+   "story": 0.5
+  },
+  "uses": [
+   "Things that happen in the dark",
+   "One mark to a whole system",
+   "Small adventures told in light and shadow"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/scratch-film/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "security-xray",
+  "name": "Security X-ray",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.315,
+   "mystery": 0.8,
+   "place": 0.21,
+   "data": 0.21,
+   "document": 0.175,
+   "product": 0.6
+  },
+  "uses": [
+   "Airport and customs screening",
+   "Parcel and cargo inspection",
+   "Product internals"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/security-xray/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "shadow-puppet",
+  "name": "Shadow Puppetry",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 0.7,
+   "story": 1,
+   "nature": 0.21,
+   "emotion": 0.175
+  },
+  "uses": [
+   "Myths & folklore",
+   "Heritage",
+   "Festivals"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/shadow-puppet/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "paper"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "silent-film",
+  "name": "1920s Silent Film",
+  "category": "Film & Tape",
+  "family": "film",
+  "dark": true,
+  "suits": {
+   "history": 1,
+   "mystery": 0.27999999999999997,
+   "tech": 0.13999999999999999,
+   "story": 0.6,
+   "humor": 0.7,
+   "quote": 0.6
+  },
+  "uses": [
+   "Comedy",
+   "Retro brands",
+   "Silent storytelling"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/silent-film/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "silent-film",
+  "readiness": "native"
+ },
+ {
+  "id": "silhouette-rhythm",
+  "name": "Silhouette Rhythm",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": true,
+  "suits": {
+   "number": 1.0,
+   "list": 0.8,
+   "title": 0.9,
+   "data": 0.6,
+   "product": 0.5,
+   "year": 0.6
+  },
+  "uses": [
+   "Music videos",
+   "Sports and team films",
+   "Nature and festival openers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/silhouette-rhythm/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "tv"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "silkscreen-poster",
+  "name": "Silkscreen Travel Poster",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.7,
+   "quote": 0.7,
+   "title": 0.5
+  },
+  "uses": [
+   "Destination guides",
+   "Tourism",
+   "Event posters"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/silkscreen-poster/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "silkscreen-poster",
+  "readiness": "native"
+ },
+ {
+  "id": "sketchnote",
+  "name": "Sketchnote",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "science": 0.7,
+   "list": 0.7,
+   "comparison": 0.5
+  },
+  "uses": [
+   "Lecture notes",
+   "Science explainers",
+   "One-page summaries"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/sketchnote/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "paper"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "spreadsheet",
+  "name": "Spreadsheet Film",
+  "category": "Screens & Interfaces",
+  "family": "screen",
+  "dark": false,
+  "suits": {
+   "tech": 0.35,
+   "product": 0.315,
+   "data": 0.9,
+   "number": 0.8,
+   "money": 0.9
+  },
+  "uses": [
+   "Data literacy",
+   "Finance & costs",
+   "Analytics explainers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/spreadsheet/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "spreadsheet",
+  "readiness": "skin"
+ },
+ {
+  "id": "spy-titles",
+  "name": "60s Spy Title Sequence",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": true,
+  "suits": {
+   "number": 0.35,
+   "list": 0.27999999999999997,
+   "title": 1,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "mystery": 1
+  },
+  "uses": [
+   "Title sequences",
+   "Event openers",
+   "Trailers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/spy-titles/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "spy-titles",
+  "readiness": "native"
+ },
+ {
+  "id": "stained-glass",
+  "name": "Stained Glass",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "story": 1,
+   "nature": 0.21,
+   "emotion": 0.6
+  },
+  "uses": [
+   "Legends",
+   "Heritage",
+   "Holiday stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/stained-glass/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "stick-explainer",
+  "name": "Stick-figure Explainer",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 0.8,
+   "science": 0.24499999999999997,
+   "list": 0.24499999999999997,
+   "comparison": 0.175,
+   "person": 0.6,
+   "humor": 0.6
+  },
+  "uses": [
+   "Science explainers",
+   "Networks & social ideas",
+   "Data comparisons"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/stick-explainer/STYLE.md",
+  "needs": [],
+  "renderer": "layers",
+  "preset": {
+   "look": "grid"
+  },
+  "readiness": "author"
+ },
+ {
+  "id": "swiss-motion",
+  "name": "Swiss Motion Graphics",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": false,
+  "suits": {
+   "number": 0.9,
+   "list": 0.7,
+   "title": 0.315,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "process": 0.6
+  },
+  "uses": [
+   "Brand identity",
+   "Events",
+   "Design education"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/swiss-motion/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "swiss-motion",
+  "readiness": "native"
+ },
+ {
+  "id": "teardown",
+  "name": "Exploded Teardown",
+  "category": "Line Diagrams",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1.0,
+   "tech": 0.8,
+   "science": 0.8,
+   "product": 0.7
+  },
+  "uses": [
+   "Hardware launches",
+   "Product pages",
+   "Spec explainers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/teardown/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "telestrator",
+  "name": "Sports Telestrator",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": false,
+  "suits": {
+   "history": 1.0,
+   "document": 0.8,
+   "place": 0.6,
+   "person": 0.6,
+   "quote": 0.5
+  },
+  "uses": [
+   "Sports analysis",
+   "Match recaps",
+   "Coaching"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/telestrator/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "text-flash-cuts",
+  "name": "Text Flash Cuts",
+  "category": "Graphic & Type",
+  "family": "graphic",
+  "dark": true,
+  "suits": {
+   "number": 0.35,
+   "list": 0.27999999999999997,
+   "title": 1,
+   "data": 0.21,
+   "product": 0.175,
+   "year": 0.21,
+   "emotion": 0.6
+  },
+  "uses": [
+   "Suspense & drama trailers",
+   "Title sequences",
+   "Manifesto films"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/text-flash-cuts/STYLE.md",
+  "needs": [
+   "image-generation"
+  ],
+  "renderer": "type",
+  "preset": "text-flash-cuts",
+  "readiness": "native"
+ },
+ {
+  "id": "thermal-camera",
+  "name": "Thermal Camera",
+  "category": "Instruments & Evidence",
+  "family": "evidence",
+  "dark": true,
+  "suits": {
+   "science": 0.8,
+   "mystery": 0.5,
+   "place": 0.21,
+   "data": 0.21,
+   "document": 0.175,
+   "nature": 0.6
+  },
+  "uses": [
+   "Building and energy inspection",
+   "Wildlife at night",
+   "Machines and electrics"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/thermal-camera/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "tilt-shift",
+  "name": "Tilt-Shift Miniature",
+  "category": "3D & Miniature",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "product": 0.315,
+   "place": 0.9,
+   "process": 0.6
+  },
+  "uses": [
+   "City promos",
+   "Real estate",
+   "Transport"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/tilt-shift/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "transit-map",
+  "name": "Transit Map",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 0.35,
+   "number": 0.315,
+   "place": 0.7,
+   "comparison": 0.27999999999999997,
+   "map": 0.315,
+   "percent": 0.27999999999999997,
+   "process": 0.7,
+   "list": 0.6
+  },
+  "uses": [
+   "Transport",
+   "Growth over time",
+   "Networks"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/transit-map/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "transit-map",
+  "readiness": "skin"
+ },
+ {
+  "id": "ukiyoe",
+  "name": "Ukiyo-e",
+  "category": "Traditional Crafts",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "story": 0.315,
+   "nature": 0.9,
+   "emotion": 0.175
+  },
+  "uses": [
+   "Travel",
+   "Japanese culture",
+   "Poetry"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/ukiyoe/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "urban-sketch",
+  "name": "Urban Sketch · Pen & Wash",
+  "category": "Painting & Illustration",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "emotion": 1.0,
+   "nature": 0.8,
+   "story": 0.8,
+   "person": 0.4
+  },
+  "uses": [
+   "City & travel",
+   "Architecture",
+   "Lifestyle brands"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/urban-sketch/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "vintage-collage",
+  "name": "Vintage Engraving Collage",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.7,
+   "quote": 0.7,
+   "title": 0.5
+  },
+  "uses": [
+   "The history of an object",
+   "Magazine-style explainers on ideas and society",
+   "Archive and collecting stories"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/vintage-collage/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "paper",
+   "grade": "sepia"
+  },
+  "readiness": "skin"
+ },
+ {
+  "id": "visual-investigation",
+  "name": "Visual Investigation",
+  "category": "Edit & Documentary",
+  "family": "documentary",
+  "dark": true,
+  "suits": {
+   "history": 0.35,
+   "document": 0.8,
+   "place": 0.8,
+   "person": 0.21,
+   "quote": 0.175,
+   "mystery": 1
+  },
+  "uses": [
+   "Reconstructions",
+   "Fact-checks",
+   "Incident reports"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/visual-investigation/STYLE.md",
+  "needs": [],
+  "renderer": "board",
+  "preset": {
+   "look": "charcoal",
+   "grade": "natural"
+  },
+  "readiness": "native"
+ },
+ {
+  "id": "watercolor",
+  "name": "Watercolor Brush",
+  "category": "Painting & Illustration",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "emotion": 1,
+   "nature": 1,
+   "story": 0.27999999999999997,
+   "person": 0.13999999999999999
+  },
+  "uses": [
+   "Nature documentary",
+   "Travel",
+   "Science explainers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/watercolor/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "white-model",
+  "name": "Projection-Mapped Model",
+  "category": "Data & Maps",
+  "family": "data",
+  "dark": false,
+  "suits": {
+   "data": 1.0,
+   "number": 0.9,
+   "place": 0.8,
+   "comparison": 0.8,
+   "map": 0.9,
+   "percent": 0.8
+  },
+  "uses": [
+   "Urban planning",
+   "Exhibitions",
+   "City data"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/white-model/STYLE.md",
+  "needs": [],
+  "renderer": null,
+  "preset": null,
+  "readiness": "build"
+ },
+ {
+  "id": "whiteboard",
+  "name": "Whiteboard Explainer",
+  "category": "Sketch & Board",
+  "family": "illustration",
+  "dark": false,
+  "suits": {
+   "process": 1,
+   "science": 0.24499999999999997,
+   "list": 0.8,
+   "comparison": 0.175
+  },
+  "uses": [
+   "Explainers",
+   "Online courses",
+   "Science"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/whiteboard/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "whiteboard",
+  "readiness": "skin"
+ },
+ {
+  "id": "woodcut",
+  "name": "Woodcut Print",
+  "category": "Print & Printmaking",
+  "family": "print",
+  "dark": false,
+  "suits": {
+   "history": 0.8,
+   "document": 0.24499999999999997,
+   "quote": 0.24499999999999997,
+   "title": 0.175,
+   "story": 0.6
+  },
+  "uses": [
+   "Folk tales",
+   "Craft brands",
+   "Book trailers"
+  ],
+  "source": "lemo-opuscar (CC BY-NC 4.0 docs)",
+  "style_doc": "third_party/lemo-opuscar/styles/woodcut/STYLE.md",
+  "needs": [],
+  "renderer": "type",
+  "preset": "woodcut",
+  "readiness": "skin"
+ },
+ {
+  "id": "kinetic-type",
+  "name": "Kinetic Typography (Tpl-KineticType)",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": true,
+  "suits": {
+   "title": 1,
+   "emotion": 0.7,
+   "number": 0.6
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ },
+ {
+  "id": "object-story",
+  "name": "Object Story (Tpl-ObjectStory)",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": false,
+  "suits": {
+   "product": 0.8,
+   "story": 0.7,
+   "emotion": 0.6
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ },
+ {
+  "id": "icon-story",
+  "name": "Icon Story (Tpl-IconStory)",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": true,
+  "suits": {
+   "process": 0.8,
+   "list": 0.7,
+   "product": 0.6
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ },
+ {
+  "id": "particle-bloom",
+  "name": "Particle Bloom (Tpl-ParticleBloom)",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": true,
+  "suits": {
+   "tech": 0.8,
+   "science": 0.7,
+   "emotion": 0.5
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ },
+ {
+  "id": "stickman-longform",
+  "name": "Stickman long-form engine",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": false,
+  "suits": {
+   "story": 0.8,
+   "process": 0.7,
+   "humor": 0.7
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ },
+ {
+  "id": "geomap-europe",
+  "name": "GeoMap documentary (Europe)",
+  "category": "Vidbucks templates",
+  "family": "vidbucks",
+  "dark": false,
+  "suits": {
+   "place": 1,
+   "map": 1,
+   "history": 0.8
+  },
+  "uses": [],
+  "source": "vidbucks",
+  "renderer": null,
+  "preset": null,
+  "readiness": "config"
+ }
+]

@@ -1,0 +1,600 @@
+{
+ "file": "out/films/nova.mp4",
+ "checks": [
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:02.5: \"09:41\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:02.5: \"Pzt 13 Kas\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 0.5,
+   "msg": "text in the picture 0:00.5-0:00.5: \"Bileğinizdeki\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"Bileğinizdeki saat\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 1.5,
+   "msg": "text in the picture 0:01.5-0:01.5: \"artık\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 2.5,
+   "msg": "text in the picture 0:02.5-0:02.5: \"sizi dinliyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 3.5,
+   "msg": "text in the picture 0:03.5-0:03.5: \"Nova S,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:04.5: \"_gün\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 4.5,
+   "msg": "text in the picture 0:04.5-0:05.5: \"GÜN PİL\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 5.5,
+   "msg": "text in the picture 0:05.5-0:05.5: \"geliyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 6.5,
+   "msg": "text in the picture 0:06.5-0:06.5: \"Kalp ritmi,\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Kalp ritmi\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"72Уpm\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Uyku 7s 40d\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"SpO, %98\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 7.5,
+   "msg": "text in the picture 0:07.5-0:07.5: \"Kalp ritmi, uyku ve oksijen\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:10.5: \"32\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 8.5,
+   "msg": "text in the picture 0:08.5-0:08.5: \"Kasası\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:10.5: \"GRAM\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 9.5,
+   "msg": "text in the picture 0:09.5-0:09.5: \"Kasası yalnızca\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 10.5,
+   "msg": "text in the picture 0:10.5-0:10.5: \"Kasası yalnızca otuz iki\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:12.5: \"Üç\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:13.5: \"09:41\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 11.5,
+   "msg": "text in the picture 0:11.5-0:13.5: \"Pzt 13 Kas\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 13.5,
+   "msg": "text in the picture 0:13.5-0:13.5: \"Üç renk: gece, kum\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:18.5: \"Nova S\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 14.5,
+   "msg": "text in the picture 0:14.5-0:15.5: \"Ön\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 16.5,
+   "msg": "text in the picture 0:16.5-0:16.5: \"Ön siparişler bugün\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "INFO",
+   "check": "text",
+   "t": 17.5,
+   "msg": "text in the picture 0:17.5-0:18.5: \"Ön siparişler bugün başlıyor.\"",
+   "fix": "blur it (ffmpeg delogo on the box) or regenerate with 'no writing or letters anywhere'"
+  },
+  {
+   "severity": "WARN",
+   "check": "script",
+   "t": 3.4,
+   "msg": "line not spoken as written (57% match): \"Nova S, yedi gün süren pille geliyor.\"",
+   "fix": "regenerate that clip or accept the change knowingly"
+  }
+ ],
+ "human_must_check": [
+  "voice tone and timing (the gate cannot hear)",
+  "lip sync on talking shots",
+  "does each joke land (watch, do not read)",
+  "character consistency between shots (face, costume)"
+ ],
+ "streams": {
+  "format": 18.9,
+  "video": 18.9,
+  "audio": 18.891,
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "has_audio": true
+ },
+ "life": {
+  "mean_change": 5.9,
+  "still_share": 0.6
+ },
+ "hook": 9.0,
+ "shots": 18,
+ "cuts_per_min": 54.0,
+ "silences": [],
+ "loudness": {
+  "lufs": -16.0,
+  "true_peak_db": -1.5,
+  "lra": 3.0
+ },
+ "ocr": "Apple Vision",
+ "burned_text": [
+  {
+   "text": "09:41",
+   "start": 0.5,
+   "end": 2.5,
+   "box": [
+    0.39,
+    0.51,
+    0.21,
+    0.12
+   ]
+  },
+  {
+   "text": "Pzt 13 Kas",
+   "start": 0.5,
+   "end": 2.5,
+   "box": [
+    0.44,
+    0.42,
+    0.13,
+    0.04
+   ]
+  },
+  {
+   "text": "Bileğinizdeki",
+   "start": 0.5,
+   "end": 0.5,
+   "box": [
+    -0.0,
+    0.14,
+    0.62,
+    0.22
+   ]
+  },
+  {
+   "text": "Bileğinizdeki saat",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.05,
+    0.19,
+    0.81,
+    0.21
+   ]
+  },
+  {
+   "text": "artık",
+   "start": 1.5,
+   "end": 1.5,
+   "box": [
+    0.05,
+    0.02,
+    0.24,
+    0.12
+   ]
+  },
+  {
+   "text": "sizi dinliyor.",
+   "start": 2.5,
+   "end": 2.5,
+   "box": [
+    0.05,
+    0.06,
+    0.53,
+    0.16
+   ]
+  },
+  {
+   "text": "Nova S,",
+   "start": 3.5,
+   "end": 3.5,
+   "box": [
+    0.01,
+    0.0,
+    0.38,
+    0.14
+   ]
+  },
+  {
+   "text": "_gün",
+   "start": 4.5,
+   "end": 4.5,
+   "box": [
+    0.01,
+    0.02,
+    0.22,
+    0.21
+   ]
+  },
+  {
+   "text": "GÜN PİL",
+   "start": 4.5,
+   "end": 5.5,
+   "box": [
+    0.45,
+    0.4,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "text": "geliyor.",
+   "start": 5.5,
+   "end": 5.5,
+   "box": [
+    0.05,
+    0.06,
+    0.33,
+    0.14
+   ]
+  },
+  {
+   "text": "Kalp ritmi,",
+   "start": 6.5,
+   "end": 6.5,
+   "box": [
+    0.29,
+    0.06,
+    0.11,
+    0.05
+   ]
+  },
+  {
+   "text": "Kalp ritmi",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.71,
+    0.75,
+    0.15,
+    0.05
+   ]
+  },
+  {
+   "text": "72Уpm",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.33,
+    0.49,
+    0.06,
+    0.04
+   ]
+  },
+  {
+   "text": "Uyku 7s 40d",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.32,
+    0.46,
+    0.07,
+    0.02
+   ]
+  },
+  {
+   "text": "SpO, %98",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.33,
+    0.41,
+    0.06,
+    0.03
+   ]
+  },
+  {
+   "text": "Kalp ritmi, uyku ve oksijen",
+   "start": 7.5,
+   "end": 7.5,
+   "box": [
+    0.29,
+    0.06,
+    0.28,
+    0.05
+   ]
+  },
+  {
+   "text": "32",
+   "start": 8.5,
+   "end": 10.5,
+   "box": [
+    0.32,
+    0.47,
+    0.36,
+    0.34
+   ]
+  },
+  {
+   "text": "Kasası",
+   "start": 8.5,
+   "end": 8.5,
+   "box": [
+    0.34,
+    0.07,
+    0.07,
+    0.04
+   ]
+  },
+  {
+   "text": "GRAM",
+   "start": 9.5,
+   "end": 10.5,
+   "box": [
+    0.12,
+    0.19,
+    0.77,
+    0.29
+   ]
+  },
+  {
+   "text": "Kasası yalnızca",
+   "start": 9.5,
+   "end": 9.5,
+   "box": [
+    0.34,
+    0.07,
+    0.16,
+    0.04
+   ]
+  },
+  {
+   "text": "Kasası yalnızca otuz iki",
+   "start": 10.5,
+   "end": 10.5,
+   "box": [
+    0.34,
+    0.07,
+    0.25,
+    0.04
+   ]
+  },
+  {
+   "text": "Üç",
+   "start": 11.5,
+   "end": 12.5,
+   "box": [
+    0.33,
+    0.07,
+    0.03,
+    0.06
+   ]
+  },
+  {
+   "text": "09:41",
+   "start": 11.5,
+   "end": 13.5,
+   "box": [
+    0.45,
+    0.55,
+    0.09,
+    0.06
+   ]
+  },
+  {
+   "text": "Pzt 13 Kas",
+   "start": 11.5,
+   "end": 13.5,
+   "box": [
+    0.46,
+    0.51,
+    0.06,
+    0.02
+   ]
+  },
+  {
+   "text": "Üç renk: gece, kum",
+   "start": 13.5,
+   "end": 13.5,
+   "box": [
+    0.33,
+    0.07,
+    0.21,
+    0.05
+   ]
+  },
+  {
+   "text": "Nova S",
+   "start": 14.5,
+   "end": 18.5,
+   "box": [
+    0.23,
+    0.45,
+    0.55,
+    0.22
+   ]
+  },
+  {
+   "text": "Ön",
+   "start": 14.5,
+   "end": 15.5,
+   "box": [
+    0.35,
+    0.3,
+    0.04,
+    0.05
+   ]
+  },
+  {
+   "text": "Ön siparişler bugün",
+   "start": 16.5,
+   "end": 16.5,
+   "box": [
+    0.35,
+    0.3,
+    0.21,
+    0.05
+   ]
+  },
+  {
+   "text": "Ön siparişler bugün başlıyor.",
+   "start": 17.5,
+   "end": 18.5,
+   "box": [
+    0.35,
+    0.29,
+    0.3,
+    0.06
+   ]
+  }
+ ],
+ "speech_words": 32,
+ "speech_coverage": 0.94,
+ "script": [
+  {
+   "line": "Bileğinizdeki saat artık sizi dinliyor.",
+   "score": 1.0,
+   "t": 0.0
+  },
+  {
+   "line": "Nova S, yedi gün süren pille geliyor.",
+   "score": 0.57,
+   "t": 3.4
+  },
+  {
+   "line": "Kalp ritmi, uyku ve oksijen tek ekranda.",
+   "score": 1.0,
+   "t": 6.3
+  },
+  {
+   "line": "Kasası yalnızca otuz iki gram.",
+   "score": 1.0,
+   "t": 9.8
+  },
+  {
+   "line": "Üç renk: gece, kum ve okyanus.",
+   "score": 1.0,
+   "t": 13.0
+  },
+  {
+   "line": "Ön siparişler bugün başlıyor.",
+   "score": 1.0,
+   "t": 15.8
+  }
+ ],
+ "script_adherence": 0.83
+}

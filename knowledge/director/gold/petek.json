@@ -1,0 +1,113 @@
+{
+ "slug": "petek",
+ "topic": "Arılar neden altıgen petek yapar?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir arı kovanının içine bakın: her yer altıgen.",
+  "Peki neden kare ya da daire değil?",
+  "Daireler yan yana gelince aralarında boşluk kalır.",
+  "Kareler boşluk bırakmaz, ama altıgen aynı alanı en kısa duvarla çevirir.",
+  "Bu da daha az bal mumu demek.",
+  "Matematikçi Thomas Hales bunu bin dokuz yüz doksan dokuzda kanıtladı.",
+  "Bazı araştırmalara göre ısınan mum, hücreleri kendiliğinden bu şekle iter.",
+  "Doğa, en az malzemeyle en çok alanı seçer."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "flat-space-explainer",
+   "ok": [
+    "pop-art",
+    "risograph"
+   ],
+   "why": "hook: a bright question card"
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "blueprint",
+   "ok": [
+    "chalkboard",
+    "oscilloscope-math"
+   ],
+   "why": "the geometry proof: technical drawing"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "risograph",
+   "ok": [
+    "flat-space-explainer",
+    "silkscreen-poster"
+   ],
+   "why": "back to nature, warm printed close"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "quote",
+    "compare"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "detail",
+    "ratio"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "ratio",
+    "number"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio",
+    "stamp"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "timeline",
+    "quote"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo",
+    "split"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "title",
+    "split"
+   ]
+  }
+ ]
+}

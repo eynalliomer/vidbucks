@@ -175,8 +175,17 @@ async function runJob(job) {
     const need = async (cmd) => { const r = await ask(cmd); if (!r.ok) throw new Error(`${cmd}: ${r.error}`); return r; };
     const started = async () => /\/character\/[0-9a-f-]{20,}/.test((await ask("path")).path);
     let ok = false;
+    // Opening "Yeni karakter" from the Characters grid can reload the page (Nov 2026 UI), which drops the content
+    // script's answer: use a short timeout and ask once more; the fresh content script finds the new-character page.
+    const openChar = async () => {
+      for (let k = 0; k < 2; k++) {
+        try { const r = await sendToTab(tab.id, { cmd: "char_open" }, 25000); if (r.ok) return r; if (k) throw new Error(`char_open: ${r.error}`); }
+        catch (err) { if (k) throw err; }
+        await new Promise((res) => setTimeout(res, 3000));
+      }
+    };
     for (let attempt = 0; attempt < 3 && !ok; attempt++) {
-      await need("char_open");
+      await openChar();
       await new Promise((res) => setTimeout(res, 1500 + attempt * 1500)); // let the editor finish initialising
       await realType(tab.id, description);
       await new Promise((res) => setTimeout(res, 800));

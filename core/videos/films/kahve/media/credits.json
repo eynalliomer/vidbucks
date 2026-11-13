@@ -1,0 +1,68 @@
+[
+ {
+  "line": 1,
+  "src": "films/kahve/L01.jpg",
+  "aspect": 1.5,
+  "title": "Cezve coffee pot in a small coffee shop on the side of the road..jpg",
+  "creator": "Michael Plutchok",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cezve_coffee_pot_in_a_small_coffee_shop_on_the_side_of_the_road..jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 3,
+  "src": "films/kahve/L03.jpg",
+  "aspect": 1.3333,
+  "title": "Paper coffee cups and sugar cubes in cafeteria.jpg",
+  "creator": "Santeri Viinamäki",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Paper_coffee_cups_and_sugar_cubes_in_cafeteria.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 4,
+  "src": "films/kahve/L04.jpg",
+  "aspect": 1.3333,
+  "title": "Blue flame is typical for a well adjusted biogas flame (5363272595).jpg",
+  "creator": "SuSanA Secretariat",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Blue_flame_is_typical_for_a_well_adjusted_biogas_flame_(5363272595).jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 5,
+  "src": "films/kahve/L05.jpg",
+  "aspect": 0.9871,
+  "title": "Bakırcezve-fincan.jpg",
+  "creator": "Eaeeae",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bak%C4%B1rcezve-fincan.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/kahve/L06.jpg",
+  "aspect": 1.3333,
+  "title": "ONE MORE CUP OF COFFEE (VALLEY BELOW) (1264568795).jpg",
+  "creator": "Amy March from Ankara, Turkey",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ONE_MORE_CUP_OF_COFFEE_(VALLEY_BELOW)_(1264568795).jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 7,
+  "src": "films/kahve/L07.jpg",
+  "aspect": 1.4601,
+  "title": "Turkish coffee in Istanbul.jpg",
+  "creator": "Tema",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_Istanbul.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ }
+]

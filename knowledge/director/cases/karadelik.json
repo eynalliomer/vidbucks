@@ -1,0 +1,62 @@
+{
+ "slug": "karadelik",
+ "topic": "Kara deliklerin sesi",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İki kara delik, ışık hızına yakın birbirinin etrafında dönüyor.",
+  "Birleştikleri an uzay-zaman titriyor.",
+  "Bu dalgalar milyar yıl sonra Dünya'daki dedektörlere ulaştı.",
+  "İki bin on beşte ilk kez ölçüldü.",
+  "Ses değil ama sese çevrilebilen bir sinyal."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "style": "oscilloscope-math",
+   "ok": [
+    "hologram-hud",
+    "flat-space-explainer"
+   ],
+   "why": "a measured wave: instrument glow"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "timeline"
+   ]
+  },
+  {
+   "best": "timeline",
+   "ok": [
+    "number"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

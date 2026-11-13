@@ -1,0 +1,62 @@
+{
+ "slug": "bitcoin",
+ "topic": "Bitcoin nedir?",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bankası olmayan bir para düşünün.",
+  "Her işlem, binlerce bilgisayardaki ortak bir deftere yazılır.",
+  "Bu deftere blok zinciri denir.",
+  "Kimse tek başına geçmişi değiştiremez.",
+  "Toplam arz yirmi bir milyonla sınırlı."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "style": "ascii-crt",
+   "ok": [
+    "circuit-board",
+    "hologram-hud"
+   ],
+   "why": "a code-native subject: terminal look throughout"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "document",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  }
+ ]
+}

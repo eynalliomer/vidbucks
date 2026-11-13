@@ -1,0 +1,64 @@
+{
+ "slug": "film-nova",
+ "topic": "nova",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bileğinizdeki saat artık sizi dinliyor.",
+  "Nova S, yedi gün süren pille geliyor.",
+  "Kalp ritmi, uyku ve oksijen tek ekranda.",
+  "Kasası yalnızca otuz iki gram.",
+  "Üç renk: gece, kum ve okyanus.",
+  "Ön siparişler bugün başlıyor."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "style": "dark-keynote",
+   "ok": [],
+   "why": "one launch in one voice: the product scans in, whip moves, huge spoken phrases"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "number",
+   "ok": []
+  },
+  {
+   "best": "diagram",
+   "ok": []
+  },
+  {
+   "best": "bigword",
+   "ok": []
+  },
+  {
+   "best": "filmstrip",
+   "ok": []
+  },
+  {
+   "best": "title",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "The watch lights up full frame; the claim lands in huge type",
+  "Seven slams in: days of battery",
+  "The health screen with three pins: heart rhythm, sleep, oxygen",
+  "The case weight stacked in huge type: 32 over the word gram, the number in the accent colour",
+  "The three colours pass through the gate one by one",
+  "The name, letter by letter; pre-orders today"
+ ],
+ "approved": true
+}

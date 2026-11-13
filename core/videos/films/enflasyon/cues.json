@@ -1,0 +1,37 @@
+[
+{
+"kind": "snap",
+"t": 0.25,
+"gain": 0.4
+},
+{
+"kind": "impact",
+"t": 4.05,
+"gain": 0.4
+},
+{
+"kind": "blip",
+"t": 8.31,
+"gain": 0.4
+},
+{
+"kind": "blipup",
+"t": 13.23,
+"gain": 0.4
+},
+{
+"kind": "riser",
+"t": 18.31,
+"gain": 0.35
+},
+{
+"kind": "blip",
+"t": 21.97,
+"gain": 0.35
+},
+{
+"kind": "blip",
+"t": 25.95,
+"gain": 0.35
+}
+]

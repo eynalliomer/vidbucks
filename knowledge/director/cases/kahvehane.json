@@ -1,0 +1,53 @@
+{
+ "slug": "kahvehane",
+ "topic": "Osmanlı'da kahvehaneler",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "On altıncı yüzyılda İstanbul'da ilk kahvehaneler açılır.",
+  "İnsanlar burada haber konuşur, tavla oynar.",
+  "Meddahlar hikâye anlatır.",
+  "Bazı padişahlar onları tehlikeli bulup kapattırır."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "woodcut",
+   "ok": [
+    "engraving"
+   ],
+   "why": "early-modern street life: woodcut"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "timeline",
+   "ok": [
+    "title"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "collage"
+   ]
+  },
+  {
+   "best": "quote",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "stamp",
+   "ok": [
+    "document"
+   ]
+  }
+ ]
+}

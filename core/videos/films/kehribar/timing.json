@@ -1,0 +1,293 @@
+{
+ "duration": 30.53,
+ "lead": 0.4,
+ "lang": "tr",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Bin dokuz yüz kırk bir. Bir saray odası parça parça sökülüyor.",
+   "start": 0.4,
+   "end": 4.98,
+   "words": [
+    [
+     "1941.",
+     0.4,
+     1.24
+    ],
+    [
+     "Bir",
+     2.46,
+     2.7
+    ],
+    [
+     "saray",
+     2.7,
+     3.08
+    ],
+    [
+     "odası",
+     3.08,
+     3.44
+    ],
+    [
+     "parça",
+     3.44,
+     3.88
+    ],
+    [
+     "parça",
+     3.88,
+     4.32
+    ],
+    [
+     "sökülüyor,",
+     4.32,
+     4.98
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Duvarları tamamen kehribardan: Kehribar Oda.",
+   "start": 5.74,
+   "end": 8.6,
+   "words": [
+    [
+     "duvarları",
+     5.74,
+     6.38
+    ],
+    [
+     "tamamen",
+     6.38,
+     6.96
+    ],
+    [
+     "kehribardan",
+     6.96,
+     7.58
+    ],
+    [
+     "kehribar",
+     7.58,
+     8.3
+    ],
+    [
+     "oda.",
+     8.3,
+     8.6
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "text": "On sekizinci yüzyılda Prusya kralı onu Rus Çarı Büyük Petro'ya hediye etmişti.",
+   "start": 9.46,
+   "end": 13.46,
+   "words": [
+    [
+     "18.",
+     9.46,
+     9.9
+    ],
+    [
+     "yüzyılda",
+     10.32,
+     10.84
+    ],
+    [
+     "Prusya",
+     10.84,
+     11.2
+    ],
+    [
+     "kralı",
+     11.2,
+     11.54
+    ],
+    [
+     "Onur",
+     11.54,
+     11.8
+    ],
+    [
+     "Rusçarı",
+     11.8,
+     12.24
+    ],
+    [
+     "büyük",
+     12.24,
+     12.5
+    ],
+    [
+     "Petro",
+     12.5,
+     12.98
+    ],
+    [
+     "'ya",
+     12.98,
+     13.1
+    ],
+    [
+     "hediye",
+     13.1,
+     13.46
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "text": "İkinci Dünya Savaşı'nda Alman askerleri odayı Königsberg'e taşıdı.",
+   "start": 13.46,
+   "end": 17.78,
+   "words": [
+    [
+     "etmişti.",
+     13.46,
+     14.02
+    ],
+    [
+     "2.",
+     14.88,
+     15.12
+    ],
+    [
+     "Dünya",
+     15.32,
+     15.68
+    ],
+    [
+     "Savaşı",
+     15.68,
+     16.12
+    ],
+    [
+     "'nda",
+     16.12,
+     16.28
+    ],
+    [
+     "Alman",
+     16.28,
+     16.62
+    ],
+    [
+     "askerleri",
+     16.62,
+     17.36
+    ],
+    [
+     "odayı",
+     17.36,
+     17.78
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Bin dokuz yüz kırk beşten sonra iz kayboldu.",
+   "start": 17.78,
+   "end": 22.58,
+   "words": [
+    [
+     "Königsberge",
+     17.78,
+     18.5
+    ],
+    [
+     "taşıdı.",
+     18.5,
+     19.04
+    ],
+    [
+     "1945'den",
+     20.42,
+     21.34
+    ],
+    [
+     "sonra",
+     21.34,
+     21.58
+    ],
+    [
+     "İskayboldu.",
+     21.58,
+     22.58
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Bugün sarayda gördüğünüz oda, sonradan yapılmış bir kopya.",
+   "start": 23.28,
+   "end": 26.9,
+   "words": [
+    [
+     "Bugün",
+     23.28,
+     23.56
+    ],
+    [
+     "sarayda",
+     23.56,
+     24.16
+    ],
+    [
+     "gördüğünüz",
+     24.16,
+     24.76
+    ],
+    [
+     "oda",
+     24.76,
+     25.1
+    ],
+    [
+     "sonradan",
+     25.1,
+     25.78
+    ],
+    [
+     "yapılmış",
+     25.78,
+     26.26
+    ],
+    [
+     "bir",
+     26.26,
+     26.42
+    ],
+    [
+     "kopya.",
+     26.42,
+     26.9
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Orijinali hâlâ kayıp.",
+   "start": 27.82,
+   "end": 29.14,
+   "words": [
+    [
+     "Orijinalde",
+     27.82,
+     28.48
+    ],
+    [
+     "hala",
+     28.48,
+     28.76
+    ],
+    [
+     "kayıp.",
+     28.76,
+     29.14
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "slug": "film-kehribar",
+ "topic": "kehribar",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bin dokuz yüz kırk bir. Bir saray odası parça parça sökülüyor.",
+  "Duvarları tamamen kehribardan: Kehribar Oda.",
+  "On sekizinci yüzyılda Prusya kralı onu Rus Çarı Büyük Petro'ya hediye etmişti.",
+  "İkinci Dünya Savaşı'nda Alman askerleri odayı Königsberg'e taşıdı.",
+  "Bin dokuz yüz kırk beşten sonra iz kayboldu.",
+  "Bugün sarayda gördüğünüz oda, sonradan yapılmış bir kopya.",
+  "Orijinali hâlâ kayıp."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "style": "spy-titles",
+   "ok": [],
+   "why": "a cold open in 1941: whip pans, slabs of type"
+  },
+  {
+   "lines": [
+    3,
+    4
+   ],
+   "style": "woodcut",
+   "ok": [],
+   "why": "the eighteenth-century gift and the wartime route: old ink on torn paper"
+  },
+  {
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "halftone-dossier",
+   "ok": [],
+   "why": "the open case file: polaroids dropped on a desk, typed notes, a board that ends on a question"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": []
+  },
+  {
+   "best": "detail",
+   "ok": []
+  },
+  {
+   "best": "document",
+   "ok": []
+  },
+  {
+   "best": "map",
+   "ok": []
+  },
+  {
+   "best": "stamp",
+   "ok": []
+  },
+  {
+   "best": "compare",
+   "ok": []
+  },
+  {
+   "best": "board",
+   "ok": []
+  }
+ ],
+ "ideas": [
+  "The amber room; the year slams over it",
+  "A dive into one amber panel, bracketed and named",
+  "The tsar's portrait as a torn print; a box closes on the face of the gift's receiver",
+  "An inked Baltic; the route to Königsberg",
+  "A polaroid of a bunker; NO TRACE stamped on it",
+  "Two polaroids: 1931 and today, the copy",
+  "The desk at the end: the room's pictures pinned together, the last note a question mark"
+ ],
+ "approved": true
+}

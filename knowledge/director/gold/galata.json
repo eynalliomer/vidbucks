@@ -1,0 +1,112 @@
+{
+ "slug": "galata",
+ "topic": "Galata Kulesi'nin 700 yılı",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "İstanbul'un siluetinde yedi yüz yıllık bir kule durur.",
+  "Galata Kulesi, bin üç yüz kırk sekizde Cenevizliler tarafından tamamlandı.",
+  "Adı o zamanlar İsa Kulesi'ydi.",
+  "Osmanlı döneminde yangın gözetleme kulesi oldu.",
+  "Rivayete göre on yedinci yüzyılda Hezarfen Ahmet Çelebi buradan Üsküdar'a uçtu.",
+  "Kule, yüzyıllar içinde yangın ve depremlerden sonra yeniden yapıldı.",
+  "Bugün yaklaşık altmış yedi metre yüksekliğiyle şehrin simgelerinden biri.",
+  "Ve hâlâ, Haliç'e yukarıdan bakan aynı pencereler orada."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "style": "engraving",
+   "ok": [
+    "woodcut",
+    "silkscreen-poster"
+   ],
+   "why": "medieval origin: engraved chronicle look"
+  },
+  {
+   "lines": [
+    4,
+    5,
+    6
+   ],
+   "style": "silent-film",
+   "ok": [
+    "newsreel",
+    "engraving"
+   ],
+   "why": "Ottoman fire watch and the flight legend: a playful period film"
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "style": "silkscreen-poster",
+   "ok": [
+    "dark-keynote",
+    "engraving"
+   ],
+   "why": "today: the tower as an icon, travel-poster look"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "timeline",
+   "ok": [
+    "number",
+    "document"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "document",
+    "quote"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "detail",
+    "split"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "stamp",
+    "photo"
+   ]
+  },
+  {
+   "best": "collage",
+   "ok": [
+    "timeline",
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio",
+    "photo"
+   ]
+  },
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  }
+ ]
+}

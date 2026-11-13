@@ -1,0 +1,105 @@
+{
+ "slug": "culluk",
+ "topic": "Çamurçulluğunun 13.000 km'lik uçuşu",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Alaska'da bir kuş havalanıyor ve on bir gün boyunca hiç inmeyecek.",
+  "Kuyruğu çizgili bir çamurçulluğu.",
+  "Rotası Pasifik'in üstünden Yeni Zelanda'ya.",
+  "On üç bin kilometreden fazla, tek seferde.",
+  "Yolculuktan önce vücudunun büyük kısmı yağa dönüşür.",
+  "Sindirim organları küçülür, uçuşa yer açılır.",
+  "İndiğinde ağırlığının neredeyse yarısını kaybetmiştir.",
+  "Ve bir sonraki baharda, aynı yolu geri döner."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "silkscreen-poster",
+   "ok": [
+    "transit-map",
+    "risograph"
+   ],
+   "why": "the journey: a travel-poster voyage"
+  },
+  {
+   "lines": [
+    5,
+    6,
+    7
+   ],
+   "style": "flat-space-explainer",
+   "ok": [
+    "blueprint",
+    "dataviz"
+   ],
+   "why": "inside the body: a clear science explainer"
+  },
+  {
+   "lines": [
+    8
+   ],
+   "style": "silkscreen-poster",
+   "ok": [
+    "risograph"
+   ],
+   "why": "bookend: the voyage poster returns"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "split"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "map"
+   ]
+  },
+  {
+   "best": "ratio",
+   "ok": [
+    "compare"
+   ]
+  },
+  {
+   "best": "compare",
+   "ok": [
+    "list"
+   ]
+  },
+  {
+   "best": "number",
+   "ok": [
+    "ratio"
+   ]
+  },
+  {
+   "best": "map",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "mektup",
+ "topic": "Eski aşk mektupları",
+ "lang": "tr",
+ "format": "auto",
+ "lines": [
+  "Bir çekmecede, kurdeleyle bağlanmış mektuplar.",
+  "Her biri aynı satırla başlıyor: Sevgili.",
+  "Mürekkep solmuş, ama kelimeler hâlâ sıcak.",
+  "Bazı duygular kâğıttan daha uzun yaşar."
+ ],
+ "acts": [
+  {
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "style": "neon-tubes",
+   "ok": [
+    "risograph"
+   ],
+   "why": "a tender night mood: glowing handwriting"
+  }
+ ],
+ "layouts": [
+  {
+   "best": "photo",
+   "ok": [
+    "detail"
+   ]
+  },
+  {
+   "best": "quote",
+   "ok": [
+    "document"
+   ]
+  },
+  {
+   "best": "detail",
+   "ok": [
+    "photo"
+   ]
+  },
+  {
+   "best": "title",
+   "ok": [
+    "photo"
+   ]
+  }
+ ]
+}

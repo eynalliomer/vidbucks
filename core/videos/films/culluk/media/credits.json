@@ -1,0 +1,57 @@
+[
+ {
+  "line": 1,
+  "src": "films/culluk/L01.jpg",
+  "aspect": 1.5,
+  "title": "Marbled Godwits and Willets.jpg",
+  "creator": "Mike Baird from Morro Bay, USA",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Marbled_Godwits_and_Willets.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 2,
+  "src": "films/culluk/L02.jpg",
+  "aspect": 1.5,
+  "title": "Limosa lapponica 2 - Taren Point.jpg",
+  "creator": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Limosa_lapponica_2_-_Taren_Point.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 4,
+  "src": "films/culluk/L04.jpg",
+  "aspect": 1.3361,
+  "title": "Starr 050208-3932 aerial photograph near Kahoolawe shore (ocean with whales).jpg",
+  "creator": "Forest &amp; Kim Starr",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Starr_050208-3932_aerial_photograph_near_Kahoolawe_shore_(ocean_with_whales).jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/culluk/L06.jpg",
+  "aspect": 1.5,
+  "title": "Bar-tailed Godwit.jpg",
+  "creator": "Andreas Trepte",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Godwit.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 6,
+  "src": "films/culluk/L06x1.jpg",
+  "aspect": 1.7778,
+  "title": "Dense flock of bar-tailed godwits flying past.jpg",
+  "creator": "Pseudopanax at English Wikipedia",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Dense_flock_of_bar-tailed_godwits_flying_past.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ }
+]

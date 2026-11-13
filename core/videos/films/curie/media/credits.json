@@ -1,0 +1,57 @@
+[
+ {
+  "line": 3,
+  "src": "films/curie/L03.jpg",
+  "aspect": 1.2427,
+  "title": "Pierre and Marie Curie.jpg",
+  "creator": "Unknown photographer",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 5,
+  "src": "films/curie/L05.jpg",
+  "aspect": 0.798,
+  "title": "Marie-Curie-Nobel-portrait-600.jpg",
+  "creator": "unknown",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Marie-Curie-Nobel-portrait-600.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 6,
+  "src": "films/curie/L06.jpg",
+  "aspect": 1.4727,
+  "title": "Marie Skłodowska-Curie's Nobel Prize in Chemistry 1911.jpg",
+  "creator": "Nobel Foundation, diploma by Sofia Gisberg[1]",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Marie_Sk%C5%82odowska-Curie%27s_Nobel_Prize_in_Chemistry_1911.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ },
+ {
+  "line": 7,
+  "src": "films/curie/L07.jpg",
+  "aspect": 0.6723,
+  "title": "Marie Curies notebook Wellcome L0066919.jpg",
+  "creator": "unknown",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Marie_Curies_notebook_Wellcome_L0066919.jpg",
+  "source": "wikimedia",
+  "attribution": true
+ },
+ {
+  "line": 8,
+  "src": "films/curie/L08.jpg",
+  "aspect": 0.7359,
+  "title": "Marie Curie c. 1920s.jpg",
+  "creator": "Henri Manuel",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg",
+  "source": "wikimedia",
+  "attribution": false
+ }
+]
