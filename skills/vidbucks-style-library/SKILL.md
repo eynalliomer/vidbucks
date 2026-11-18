@@ -36,7 +36,7 @@ Measured on 10 unseen topics (blind fresh agent): 83 % acceptable styles, 100 % 
 (`knowledge/director/RESULTS.md`). Watch the known misses: keep a one-line hook or closing act when the story has one.
 
 ## 1. Let the content decide the style(s) - no fixed count
-The catalogue is `core/styles/registry.json` (104 styles: the 98 style prompts in `third_party/lemo-opuscar/styles/`
+The catalogue is `core/styles/registry.json` (115 styles: the 98 style prompts in `third_party/lemo-opuscar/styles/`
 (CC BY-NC 4.0, © Lemomo - read as direction, never paste their text into deliverables) plus Vidbucks' own templates).
 Each entry says what content it suits, its look family, and how it renders today: `native` (its own kit/preset),
 `skin` (a related kit in its palette/type/texture, flagged as an approximation), `author` (LayerScene art you write),
