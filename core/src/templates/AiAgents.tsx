@@ -1,13 +1,17 @@
 // "AI agents don't just chat" - 16:9 explainer in the style of an AI-tool Short: off-white ground, one floating UI card (rebuilt as vectors),
 // word-synced captions with italic-serif keywords, neo-brutal step badges with an orange offset shadow, small stickers, comment CTA.
 // Caption/scene times come from the voice-over word times (public/videos/ai-agents/words.json, shifted by VO_AT).
-import React from "react";
-import { AbsoluteFill, interpolate, spring, useCurrentFrame } from "remotion";
+// The words file is a generated asset (public/videos/ is git-ignored), so it is fetched at render time instead of imported:
+// a fresh clone without it still type-checks and bundles, and this composition shows a "missing assets" frame.
+import React, { useEffect, useMemo, useState } from "react";
+import { AbsoluteFill, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame } from "remotion";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 import { loadFont as loadSerif } from "@remotion/google-fonts/InstrumentSerif";
 import { loadFont as loadMono } from "@remotion/google-fonts/JetBrainsMono";
 import { AudioLayer, CL, EASE } from "./kit";
-import WORDS from "../../public/videos/ai-agents/words.json";
+
+type Word = { w: string; start: number; end: number };
+const WORDS_FILE = "videos/ai-agents/words.json";
 
 const { fontFamily: SANS } = loadInter("normal", { weights: ["400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
 const { fontFamily: SERIF } = loadSerif("italic", { weights: ["400"], subsets: ["latin"] });
@@ -17,20 +21,50 @@ const C = { bg: "#F3F1EE", ink: "#111111", orange: "#E8803A", card: "#141414", c
 export const VO_AT = 0.25;
 export const AI_AGENTS_SEC = 15;
 const KEY = new Set(["chat", "work", "plan", "tools", "results", "guide"]);
-const W_ = (WORDS as { w: string; start: number; end: number }[]).map((x) => ({ ...x, start: x.start + VO_AT, end: x.end + VO_AT }));
-const at = (i: number) => W_[i].start;
+const buildTimeline = (words: Word[]) => {
+  const W_ = words.map((x) => ({ ...x, start: x.start + VO_AT, end: x.end + VO_AT }));
+  const at = (i: number) => W_[i].start;
 
-// scene starts keyed to words: They(5) First(7) Then(12) On(21) Want(30) Comment(34)
-const SC = { work: at(5) - 0.1, plan: at(7) - 0.12, tools: at(12) - 0.12, check: at(21) - 0.12, want: at(30) - 0.1, cta: at(34) - 0.15 };
+  // scene starts keyed to words: They(5) First(7) Then(12) On(21) Want(30) Comment(34)
+  const SC = { work: at(5) - 0.1, plan: at(7) - 0.12, tools: at(12) - 0.12, check: at(21) - 0.12, want: at(30) - 0.1, cta: at(34) - 0.15 };
 
-// caption chunks: <= 2 words, break after punctuation
-const CHUNKS = (() => {
+  // caption chunks: <= 2 words, break after punctuation
   const out: { words: string[]; from: number }[] = []; let cur: string[] = [], from = 0;
   W_.forEach((w, i) => { if (!cur.length) from = w.start; cur.push(w.w); if (/[.,?!]$/.test(w.w) || cur.length === 2 || i === W_.length - 1) { out.push({ words: cur, from }); cur = []; } });
-  return out.map((c, i) => ({ ...c, to: i < out.length - 1 ? out[i + 1].from : AI_AGENTS_SEC }));
-})();
+  const CHUNKS = out.map((c, i) => ({ ...c, to: i < out.length - 1 ? out[i + 1].from : AI_AGENTS_SEC }));
+  return { at, SC, CHUNKS };
+};
+
+// Loads the word times once per render; null while loading, "missing" when the generated file is not there.
+const useWords = (): Word[] | null | "missing" => {
+  const [words, setWords] = useState<Word[] | null | "missing">(null);
+  const [handle] = useState(() => delayRender("ai-agents words.json"));
+  useEffect(() => {
+    fetch(staticFile(WORDS_FILE))
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((w: Word[]) => setWords(Array.isArray(w) && w.length > 34 ? w : "missing"))
+      .catch(() => setWords("missing"))
+      .finally(() => continueRender(handle));
+  }, [handle]);
+  return words;
+};
 
 export const AiAgents: React.FC = () => {
+  const words = useWords();
+  if (words === null) return null;
+  if (words === "missing") {
+    return (
+      <AbsoluteFill style={{ background: C.bg, color: C.ink, fontFamily: SANS, alignItems: "center", justifyContent: "center", textAlign: "center", fontSize: 44 }}>
+        <div>AiAgents: generated assets missing</div>
+        <div style={{ fontFamily: MONO, fontSize: 28, color: C.grey, marginTop: 24 }}>public/{WORDS_FILE}</div>
+      </AbsoluteFill>
+    );
+  }
+  return <AiAgentsScene words={words} />;
+};
+
+const AiAgentsScene: React.FC<{ words: Word[] }> = ({ words }) => {
+  const { at, SC, CHUNKS } = useMemo(() => buildTimeline(words), [words]);
   const f = useCurrentFrame(); const fps = 30, W = 1920, H = 1080, t = f / fps; const cx = W / 2;
   const sp = (from: number, damping = 14) => spring({ frame: f - Math.round(from * fps), fps, config: { damping, stiffness: 160, mass: 0.7 } });
   const ease = (a: number, b: number, e = EASE.out) => interpolate(t, [a, b], [0, 1], { ...CL, easing: e });
